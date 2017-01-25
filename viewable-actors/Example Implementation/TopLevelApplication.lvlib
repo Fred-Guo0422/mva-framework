@@ -4,5 +4,8 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">352354304</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
+	<Item Name="Message Overrides" Type="Folder">
+		<Item Name="Test Dialog Return Msg.lvclass" Type="LVClass" URL="../TopLevelApplication Messages/Test Dialog Return Msg/Test Dialog Return Msg.lvclass"/>
+	</Item>
 	<Item Name="TopLevelApplication.lvclass" Type="LVClass" URL="../TopLevelApplication/TopLevelApplication.lvclass"/>
 </Library>

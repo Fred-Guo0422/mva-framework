@@ -14,6 +14,7 @@
 	<Item Name="Messages" Type="Folder">
 		<Item Name="Defer Panel Updates Msg.lvclass" Type="LVClass" URL="../IViewable Messages/Defer Panel Updates Msg/Defer Panel Updates Msg.lvclass"/>
 		<Item Name="Insert View Msg.lvclass" Type="LVClass" URL="../IViewable Messages/Insert View Msg/Insert View Msg.lvclass"/>
+		<Item Name="Launch Dialog Box Msg.lvclass" Type="LVClass" URL="../IViewable Messages/Launch Dialog Box Msg/Launch Dialog Box Msg.lvclass"/>
 		<Item Name="Resize Panel to Pane Msg.lvclass" Type="LVClass" URL="../IViewable Messages/Resize Panel to Pane Msg/Resize Panel to Pane Msg.lvclass"/>
 		<Item Name="Resume Panel Updates Msg.lvclass" Type="LVClass" URL="../IViewable Messages/Resume Panel Updates Msg/Resume Panel Updates Msg.lvclass"/>
 		<Item Name="Set Cursor Busy Msg.lvclass" Type="LVClass" URL="../IViewable Messages/Set Cursor Busy Msg/Set Cursor Busy Msg.lvclass"/>

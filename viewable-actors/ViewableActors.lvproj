@@ -19,11 +19,16 @@
 			<Item Name="IViewable.lvlib" Type="Library" URL="../IViewable/IViewable.lvlib"/>
 			<Item Name="IViewManager.lvlib" Type="Library" URL="../IViewManager/IViewManager.lvlib"/>
 			<Item Name="IModel.lvlib" Type="Library" URL="../IModel/IModel.lvlib"/>
+			<Item Name="IDialogBox.lvlib" Type="Library" URL="../IDialogBox/IDialogBox.lvlib"/>
 		</Item>
 		<Item Name="View Managers" Type="Folder">
 			<Item Name="LeftListboxViewManager.lvlib" Type="Library" URL="../ViewManager Implementations/LeftListboxViewManager/LeftListboxViewManager.lvlib"/>
 			<Item Name="QuadViewManager.lvlib" Type="Library" URL="../ViewManager Implementations/QuadViewManager/QuadViewManager.lvlib"/>
 			<Item Name="TabbedViewManager.lvlib" Type="Library" URL="../ViewManager Implementations/TabbedViewManager/TabbedViewManager.lvlib"/>
+		</Item>
+		<Item Name="Dialog Boxes" Type="Folder">
+			<Item Name="OneButtonDialogBox.lvlib" Type="Library" URL="../Dialog Box Implementations/OneButtonDialogBox/OneButtonDialogBox.lvlib"/>
+			<Item Name="TwoButtonDialogBox.lvlib" Type="Library" URL="../Dialog Box Implementations/TwoButtonDialogBox/TwoButtonDialogBox.lvlib"/>
 		</Item>
 		<Item Name="Assembler Launcher.vi" Type="VI" URL="../Assembler Launcher.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
