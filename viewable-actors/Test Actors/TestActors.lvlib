@@ -5,6 +5,6 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Item Name="ButtonPanel.lvclass" Type="LVClass" URL="../ButtonPanel/ButtonPanel.lvclass"/>
 	<Item Name="NumericCounter.lvclass" Type="LVClass" URL="../NumericCounter/NumericCounter.lvclass"/>
-	<Item Name="NumericInputs.lvclass" Type="LVClass" URL="../NumericInputs/NumericInputs.lvclass"/>
 	<Item Name="RandomDataChart.lvclass" Type="LVClass" URL="../RandomDataChart/RandomDataChart.lvclass"/>
+	<Item Name="ValueInputs.lvclass" Type="LVClass" URL="../ValueInputs/ValueInputs.lvclass"/>
 </Library>

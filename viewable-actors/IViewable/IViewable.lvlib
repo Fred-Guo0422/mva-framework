@@ -8,6 +8,8 @@
 		<Item Name="Abstract Broadcast Data Msg.lvclass" Type="LVClass" URL="../IViewable Messages/Abstract Broadcast Data Msg/Abstract Broadcast Data Msg.lvclass"/>
 		<Item Name="Broadcast Boolean Msg.lvclass" Type="LVClass" URL="../IViewable Messages/Broadcast Boolean Msg/Broadcast Boolean Msg.lvclass"/>
 		<Item Name="Broadcast DBL Msg.lvclass" Type="LVClass" URL="../IViewable Messages/Broadcast DBL Msg/Broadcast DBL Msg.lvclass"/>
+		<Item Name="Broadcast I32 Msg.lvclass" Type="LVClass" URL="../IViewable Messages/Broadcast I32 Msg/Broadcast I32 Msg.lvclass"/>
+		<Item Name="Broadcast String Msg.lvclass" Type="LVClass" URL="../IViewable Messages/Broadcast String Msg/Broadcast String Msg.lvclass"/>
 	</Item>
 	<Item Name="Messages" Type="Folder">
 		<Item Name="Defer Panel Updates Msg.lvclass" Type="LVClass" URL="../IViewable Messages/Defer Panel Updates Msg/Defer Panel Updates Msg.lvclass"/>
