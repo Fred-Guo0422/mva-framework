@@ -4,5 +4,5 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">352354304</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
-	<Item Name="AbstractAutoRegistration.lvclass" Type="LVClass" URL="../AbstractAutoRegistration/AbstractAutoRegistration.lvclass"/>
+	<Item Name="AutoRegistration.lvclass" Type="LVClass" URL="../AutoRegistration/AutoRegistration.lvclass"/>
 </Library>

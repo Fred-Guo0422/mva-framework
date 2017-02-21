@@ -21,6 +21,7 @@
 			<Item Name="IModel.lvlib" Type="Library" URL="../IModel/IModel.lvlib"/>
 			<Item Name="IDialogBox.lvlib" Type="Library" URL="../IDialogBox/IDialogBox.lvlib"/>
 			<Item Name="AutoRegistration.lvlib" Type="Library" URL="../AutoRegistration/AutoRegistration.lvlib"/>
+			<Item Name="ActorAutoRegistration.lvlib" Type="Library" URL="../AutoRegistration/ActorAutoRegistration.lvlib"/>
 		</Item>
 		<Item Name="View Managers" Type="Folder">
 			<Item Name="LeftListboxViewManager.lvlib" Type="Library" URL="../ViewManager Implementations/LeftListboxViewManager/LeftListboxViewManager.lvlib"/>
