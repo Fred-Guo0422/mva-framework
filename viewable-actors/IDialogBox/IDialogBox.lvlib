@@ -7,9 +7,5 @@
 	<Item Name="Abstract Messages" Type="Folder">
 		<Item Name="Abstract Dialog Return Msg.lvclass" Type="LVClass" URL="../IDialogBox Abstract Messages/Abstract Dialog Return Msg/Abstract Dialog Return Msg.lvclass"/>
 	</Item>
-	<Item Name="Messages" Type="Folder">
-		<Item Name="Handle Button Press Msg.lvclass" Type="LVClass" URL="../IDialogBox Messages/Handle Button Press Msg/Handle Button Press Msg.lvclass"/>
-		<Item Name="Handle Panel Close Msg.lvclass" Type="LVClass" URL="../IDialogBox Messages/Handle Panel Close Msg/Handle Panel Close Msg.lvclass"/>
-	</Item>
 	<Item Name="IDialogBox.lvclass" Type="LVClass" URL="../IDialogBox/IDialogBox.lvclass"/>
 </Library>
