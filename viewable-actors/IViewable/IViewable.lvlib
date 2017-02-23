@@ -13,6 +13,7 @@
 		<Item Name="Set Cursor Busy Msg.lvclass" Type="LVClass" URL="../IViewable Messages/Set Cursor Busy Msg/Set Cursor Busy Msg.lvclass"/>
 		<Item Name="Set Cursor Unbusy Msg.lvclass" Type="LVClass" URL="../IViewable Messages/Set Cursor Unbusy Msg/Set Cursor Unbusy Msg.lvclass"/>
 		<Item Name="Set Panes to Origins Msg.lvclass" Type="LVClass" URL="../IViewable Messages/Set Panes to Origins Msg/Set Panes to Origins Msg.lvclass"/>
+		<Item Name="Show View Msg.lvclass" Type="LVClass" URL="../IViewable Messages/Show View Msg/Show View Msg.lvclass"/>
 	</Item>
 	<Item Name="IViewable.lvclass" Type="LVClass" URL="../IViewable/IViewable.lvclass"/>
 </Library>
