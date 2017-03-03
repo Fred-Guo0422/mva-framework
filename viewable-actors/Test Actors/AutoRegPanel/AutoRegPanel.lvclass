@@ -36,13 +36,4 @@
 		<Property Name="NI.ClassItem.State" Type="Int">1350574608</Property>
 		<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
 	</Item>
-	<Item Name="Receive Boolean Value Msg.vi" Type="VI" URL="../Receive Boolean Value Msg.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'.!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!%*!=!!?!!!H%&amp;2F=X2"9X2P=H-O&lt;(:M;7)5186U&lt;V*F:V"B&lt;G6M,GRW9WRB=X-!%%&amp;V&gt;'^3:7&gt;197ZF&lt;#"0&gt;81!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!4E"Q!"Y!!$5&lt;17.U&lt;X*"&gt;82P5G6H;8.U=G&amp;U;7^O,GRW&lt;'FC&amp;U*P&lt;WRF97Z797RV:5VT:SZM&gt;G.M98.T!!^#&lt;W^M:7&amp;O6G&amp;M&gt;76.=W=!1%"Q!"Y!!#=16'6T&gt;%&amp;D&gt;'^S=SZM&gt;GRJ9B2"&gt;82P5G6H5'&amp;O:7QO&lt;(:D&lt;'&amp;T=Q!0186U&lt;V*F:V"B&lt;G6M)%FO!&amp;1!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!1!"Q!)!Q!!?!!!$1A!!!!!!!!!!!!!D1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!")!!!#3!!!!!!%!#1!!!!!</Property>
-		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
-		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
-		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
-		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1351361040</Property>
-	</Item>
 </LVClass>

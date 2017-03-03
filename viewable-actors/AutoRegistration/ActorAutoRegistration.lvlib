@@ -4,17 +4,11 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">352354304</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
-	<Item Name="Event Data Messages" Type="Folder">
+	<Item Name="Event Messages" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="EventDataMessage.lvclass" Type="LVClass" URL="../ActorAutoRegistration Messages/EventDataMessage/EventDataMessage.lvclass"/>
-		<Item Name="DBLValueMsg.lvclass" Type="LVClass" URL="../ActorAutoRegistration Messages/DBLValueMsg/DBLValueMsg.lvclass"/>
-		<Item Name="I32ValueMsg.lvclass" Type="LVClass" URL="../ActorAutoRegistration Messages/I32ValueMsg/I32ValueMsg.lvclass"/>
-		<Item Name="BooleanValueMsg.lvclass" Type="LVClass" URL="../ActorAutoRegistration Messages/BooleanValueMsg/BooleanValueMsg.lvclass"/>
 		<Item Name="PanelCloseMsg.lvclass" Type="LVClass" URL="../ActorAutoRegistration Messages/PanelCloseMsg/PanelCloseMsg.lvclass"/>
-		<Item Name="SGLValueMsg.lvclass" Type="LVClass" URL="../ActorAutoRegistration Messages/SGLValueMsg/SGLValueMsg.lvclass"/>
-		<Item Name="U32ValueMsg.lvclass" Type="LVClass" URL="../ActorAutoRegistration Messages/U32ValueMsg/U32ValueMsg.lvclass"/>
-		<Item Name="StringValueMsg.lvclass" Type="LVClass" URL="../ActorAutoRegistration Messages/StringValueMsg/StringValueMsg.lvclass"/>
-		<Item Name="VariantValueMsg.lvclass" Type="LVClass" URL="../ActorAutoRegistration Messages/VariantValueMsg/VariantValueMsg.lvclass"/>
+		<Item Name="ValueChangeMsg.lvclass" Type="LVClass" URL="../ActorAutoRegistration Messages/ValueChangeMsg/ValueChangeMsg.lvclass"/>
 	</Item>
 	<Item Name="ActorAutoRegistration.lvclass" Type="LVClass" URL="../ActorAutoRegistration/ActorAutoRegistration.lvclass"/>
 	<Item Name="AutoEventActor.lvclass" Type="LVClass" URL="../AutoEventActor/AutoEventActor.lvclass"/>
