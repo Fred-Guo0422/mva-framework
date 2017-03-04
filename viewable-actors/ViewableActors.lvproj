@@ -24,6 +24,7 @@
 			<Item Name="ActorAutoRegistration.lvlib" Type="Library" URL="../AutoRegistration/ActorAutoRegistration.lvlib"/>
 			<Item Name="Mediator.lvlib" Type="Library" URL="../Mediator/Mediator.lvlib"/>
 			<Item Name="IModel.lvlib" Type="Library" URL="../IModel/IModel.lvlib"/>
+			<Item Name="Observer.lvlib" Type="Library" URL="../Observer/Observer.lvlib"/>
 		</Item>
 		<Item Name="View Managers" Type="Folder">
 			<Item Name="LeftListboxViewManager.lvlib" Type="Library" URL="../ViewManager Implementations/LeftListboxViewManager/LeftListboxViewManager.lvlib"/>

@@ -4,8 +4,15 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">352354304</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
+	<Item Name="Topic Messages" Type="Folder">
+		<Item Name="Add Topic Subscriber Msg.lvclass" Type="LVClass" URL="../Topic Messages/Add Topic Subscriber Msg/Add Topic Subscriber Msg.lvclass"/>
+		<Item Name="Notify Subscribers Msg.lvclass" Type="LVClass" URL="../Topic Messages/Notify Subscribers Msg/Notify Subscribers Msg.lvclass"/>
+		<Item Name="Remove Topic Subscriber Msg.lvclass" Type="LVClass" URL="../Topic Messages/Remove Topic Subscriber Msg/Remove Topic Subscriber Msg.lvclass"/>
+	</Item>
 	<Item Name="Transport" Type="Folder">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="ITransport.lvclass" Type="LVClass" URL="../Transport/ITransport/ITransport.lvclass"/>
+		<Item Name="ActorMessage.lvclass" Type="LVClass" URL="../Transport/ActorMessage/ActorMessage.lvclass"/>
 		<Item Name="TerminalBinding.lvclass" Type="LVClass" URL="../Transport/TerminalBinding/TerminalBinding.lvclass"/>
 	</Item>
 	<Item Name="IPayload.lvclass" Type="LVClass" URL="../Payload/IPayload/IPayload.lvclass"/>
