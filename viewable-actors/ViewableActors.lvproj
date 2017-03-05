@@ -13,18 +13,20 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Example Implementation" Type="Folder">
 			<Item Name="TestActors.lvlib" Type="Library" URL="../Test Actors/TestActors.lvlib"/>
-			<Item Name="TopLevelApplication.lvlib" Type="Library" URL="../Example Implementation/TopLevelApplication.lvlib"/>
+			<Item Name="TopLevelApplication.lvlib" Type="Library" URL="../Test Actors/TopLevelApplication.lvlib"/>
 		</Item>
 		<Item Name="Framework" Type="Folder">
+			<Item Name="AbstractMessages.lvlib" Type="Library" URL="../AbstractMessages/AbstractMessages.lvlib"/>
 			<Item Name="IViewable.lvlib" Type="Library" URL="../IViewable/IViewable.lvlib"/>
 			<Item Name="IViewManager.lvlib" Type="Library" URL="../IViewManager/IViewManager.lvlib"/>
 			<Item Name="IController.lvlib" Type="Library" URL="../IController/IController.lvlib"/>
 			<Item Name="IDialogBox.lvlib" Type="Library" URL="../IDialogBox/IDialogBox.lvlib"/>
+			<Item Name="IMediator.lvlib" Type="Library" URL="../IMediator/IMediator.lvlib"/>
 			<Item Name="AutoRegistration.lvlib" Type="Library" URL="../AutoRegistration/AutoRegistration.lvlib"/>
 			<Item Name="ActorAutoRegistration.lvlib" Type="Library" URL="../AutoRegistration/ActorAutoRegistration.lvlib"/>
 			<Item Name="Mediator.lvlib" Type="Library" URL="../Mediator/Mediator.lvlib"/>
 			<Item Name="IModel.lvlib" Type="Library" URL="../IModel/IModel.lvlib"/>
-			<Item Name="Observer.lvlib" Type="Library" URL="../Observer/Observer.lvlib"/>
+			<Item Name="IObserver.lvlib" Type="Library" URL="../IObserver/IObserver.lvlib"/>
 		</Item>
 		<Item Name="View Managers" Type="Folder">
 			<Item Name="LeftListboxViewManager.lvlib" Type="Library" URL="../ViewManager Implementations/LeftListboxViewManager/LeftListboxViewManager.lvlib"/>

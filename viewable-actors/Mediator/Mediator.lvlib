@@ -14,8 +14,8 @@
 		<Item Name="ITransport.lvclass" Type="LVClass" URL="../Transport/ITransport/ITransport.lvclass"/>
 		<Item Name="ActorMessage.lvclass" Type="LVClass" URL="../Transport/ActorMessage/ActorMessage.lvclass"/>
 		<Item Name="TerminalBinding.lvclass" Type="LVClass" URL="../Transport/TerminalBinding/TerminalBinding.lvclass"/>
+		<Item Name="TerminalReference.lvclass" Type="LVClass" URL="../Transport/TerminalReference/TerminalReference.lvclass"/>
 	</Item>
-	<Item Name="IPayload.lvclass" Type="LVClass" URL="../Payload/IPayload/IPayload.lvclass"/>
 	<Item Name="Mediator.lvclass" Type="LVClass" URL="../Mediator/Mediator.lvclass"/>
 	<Item Name="Topic.lvclass" Type="LVClass" URL="../Topic/Topic.lvclass"/>
 	<Item Name="TopicLookupTable.lvclass" Type="LVClass" URL="../TopicLookupTable/TopicLookupTable.lvclass"/>
