@@ -9,5 +9,6 @@
 		<Item Name="Subscribe Msg.lvclass" Type="LVClass" URL="../IMediator Messages/Subscribe Msg/Subscribe Msg.lvclass"/>
 	</Item>
 	<Item Name="IMediator.lvclass" Type="LVClass" URL="../IMediator/IMediator.lvclass"/>
+	<Item Name="ITransport.lvclass" Type="LVClass" URL="../ITransport/ITransport.lvclass"/>
 	<Item Name="SubscriptionRequest.lvclass" Type="LVClass" URL="../SubscriptionRequest/SubscriptionRequest.lvclass"/>
 </Library>
