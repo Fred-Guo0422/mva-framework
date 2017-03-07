@@ -77,6 +77,16 @@
 			<Property Name="NI.ClassItem.State" Type="Int">1082130960</Property>
 			<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
 		</Item>
+		<Item Name="Pre Launch Init.vi" Type="VI" URL="../Pre Launch Init.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%&gt;!!!!#!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!%"!=!!?!!!H%5F$&lt;WZU=G^M&lt;'6S,GRW&lt;'FC%UF$&lt;WZU=G^M&lt;'6S,GRW9WRB=X-!$UF$&lt;WZU=G^M&lt;'6S)'^V&gt;!"!1(!!(A!!*R&amp;*1W^O&gt;(*P&lt;'RF=CZM&gt;GRJ9B.*1W^O&gt;(*P&lt;'RF=CZM&gt;G.M98.T!!Z*1W^O&gt;(*P&lt;'RF=C"J&lt;A!!6!$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!1!"!!%!!9$!!"Y!!!*!!!!!!!!!!!!!!#.#Q!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*)!!!!!!1!(!!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">16777344</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">3</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">34082832</Property>
+			<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
+		</Item>
 	</Item>
 	<Item Name="ViewManager" Type="Folder">
 		<Item Name="Populate Subpanels.vi" Type="VI" URL="../Populate Subpanels.vi">
