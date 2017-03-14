@@ -30,7 +30,16 @@
 	<Item Name="Publish Msg.ctl" Type="Class Private Data" URL="Publish Msg.ctl">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
-	<Item Name="Send Publish.vi" Type="VI" URL="../Send Publish.vi">
+	<Item Name="Send Direct Publish.vi" Type="VI" URL="../Send Direct Publish.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)V!!!!$1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!&amp;"!=!!?!!!Q&amp;5&amp;D&gt;'^S)%:S97VF&gt;W^S;SZM&gt;GRJ9BB.:8.T97&gt;F)%6O=86F&gt;76S,GRW9WRB=X-!!"6.:72J982P=C"&amp;&lt;H&amp;V:86F=C"P&gt;81!*E"5!!9@5(6C&lt;'FT;#"5;7VF)#B6=W5A1X6S=G6O&gt;#"5;7VF+1#"!0%!!!!!!!!!!R6"9X2P=C"'=G&amp;N:8&gt;P=GMO&lt;(:M;7)9476T=W&amp;H:3"&amp;&lt;H&amp;V:86F=CZM&gt;G.M98.T&amp;%VF=X.B:W5A5(*J&lt;X*J&gt;(EO9X2M!$6!&amp;A!$!URP&gt;Q:/&lt;X*N97Q%3'FH;!!:476T=W&amp;H:3"1=GFP=GFU?3!I4G^S&lt;7&amp;M+1!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!"2!5Q^%982B)(2P)&amp;"V9GRJ=WA!&amp;%!Q`````QJ5&lt;X"J9S"/97VF!!"-1(!!(A!!-"6"9X2P=C"'=G&amp;N:8&gt;P=GMO&lt;(:M;7)9476T=W&amp;H:3"&amp;&lt;H&amp;V:86F=CZM&gt;G.M98.T!!!1476E;7&amp;U&lt;X)A27ZR:86F=A!!91$Q!!Q!!Q!%!!1!"1!%!!1!"A!(!!A!#1!+!!M$!!"Y!!!.#!!!!!!!!!!!!!!.#Q!!!!!!!!!!!!!+!!!!#!!!!!I!!!!1!!!#%!!!!"!!!!U!!!!-!!!!!!!!!!!!!!%!$!!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">34082832</Property>
+	</Item>
+	<Item Name="Send Pre-Addressed Publish.vi" Type="VI" URL="../Send Pre-Addressed Publish.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!':!!!!$!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!&amp;"!=!!?!!!Q&amp;5&amp;D&gt;'^S)%:S97VF&gt;W^S;SZM&gt;GRJ9BB.:8.T97&gt;F)%6O=86F&gt;76S,GRW9WRB=X-!!"2.:8.T97&gt;F)%6O=86F&gt;76S)'^V&gt;!!!*E"5!!9@5(6C&lt;'FT;#"5;7VF)#B6=W5A1X6S=G6O&gt;#"5;7VF+1!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!"2!5Q^%982B)(2P)&amp;"V9GRJ=WA!&amp;%!Q`````QJ5&lt;X"J9S"/97VF!!!_1(!!(A!!*1^*476E;7&amp;U&lt;X)O&lt;(:M;7)45(6C&lt;'FT;#".=W=O&lt;(:D&lt;'&amp;T=Q!05(6C&lt;'FT;#".:8.T97&gt;F!&amp;1!]!!-!!-!"!!%!!5!"!!%!!9!"!!(!!A!#1!+!Q!!?!!!$1A!!!!!!!!!!!!!#1!!!!!!!!!!!!!!#A!!!!!!!!!+!!!!%!!!!B!!!!!1!!!!!!%!#Q!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
