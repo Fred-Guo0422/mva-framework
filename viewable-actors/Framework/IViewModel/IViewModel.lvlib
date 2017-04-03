@@ -5,7 +5,7 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Item Name="Messages" Type="Folder">
-		<Item Name="Launch Model Msg.lvclass" Type="LVClass" URL="../IController Messages/Launch Model Msg/Launch Model Msg.lvclass"/>
+		<Item Name="Launch Model Msg.lvclass" Type="LVClass" URL="../IViewModel Messages/Launch Model Msg/Launch Model Msg.lvclass"/>
 	</Item>
-	<Item Name="IController.lvclass" Type="LVClass" URL="../IController/IController.lvclass"/>
+	<Item Name="IViewModel.lvclass" Type="LVClass" URL="../IViewModel/IViewModel.lvclass"/>
 </Library>

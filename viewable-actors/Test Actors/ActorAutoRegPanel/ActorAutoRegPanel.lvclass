@@ -36,4 +36,13 @@
 		<Property Name="NI.ClassItem.State" Type="Int">1082130960</Property>
 		<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
 	</Item>
+	<Item Name="Resize Panel to Pane.vi" Type="VI" URL="../Resize Panel to Pane.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'V!!!!$A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!%R!=!!?!!!M%&amp;2F=X2"9X2P=H-O&lt;(:M;7):17.U&lt;X*"&gt;82P5G6H5'&amp;O:7QO&lt;(:D&lt;'&amp;T=Q!!&amp;5&amp;D&gt;'^S186U&lt;V*F:V"B&lt;G6M)%^V&gt;!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!!N!!A!%4'6G&gt;!!!#5!#!!.5&lt;X!!#U!#!!63;7&gt;I&gt;!!.1!)!"E*P&gt;(2P&lt;1!!.!$R!!!!!!!!!!%24&amp;:3:7.U6(FQ:52F:CZD&gt;'Q!'E"1!!1!"Q!)!!E!#A&gt;/:8&gt;#&lt;G2T!%R!=!!?!!!M%&amp;2F=X2"9X2P=H-O&lt;(:M;7):17.U&lt;X*"&gt;82P5G6H5'&amp;O:7QO&lt;(:D&lt;'&amp;T=Q!!&amp;%&amp;D&gt;'^S186U&lt;V*F:V"B&lt;G6M)%FO!!"5!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!M!$!-!!(A!!!U)!!!!!!!!!!!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!1!!!!E!!!!!!"!!U!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1342972432</Property>
+	</Item>
 </LVClass>

@@ -18,7 +18,7 @@
 		<Item Name="Framework" Type="Folder">
 			<Item Name="AbstractMessages.lvlib" Type="Library" URL="../Framework/AbstractMessages/AbstractMessages.lvlib"/>
 			<Item Name="IModel.lvlib" Type="Library" URL="../Framework/IModel/IModel.lvlib"/>
-			<Item Name="IController.lvlib" Type="Library" URL="../Framework/IController/IController.lvlib"/>
+			<Item Name="IViewModel.lvlib" Type="Library" URL="../Framework/IViewModel/IViewModel.lvlib"/>
 			<Item Name="IViewable.lvlib" Type="Library" URL="../Framework/IViewable/IViewable.lvlib"/>
 			<Item Name="IViewManager.lvlib" Type="Library" URL="../Framework/IViewManager/IViewManager.lvlib"/>
 			<Item Name="IDialogBox.lvlib" Type="Library" URL="../Framework/IDialogBox/IDialogBox.lvlib"/>
