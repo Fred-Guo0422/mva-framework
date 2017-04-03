@@ -2,7 +2,9 @@
 <LVClass LVVersion="15008000">
 	<Property Name="NI.Lib.ContainingLib" Type="Str">IModel.lvlib</Property>
 	<Property Name="NI.Lib.ContainingLibPath" Type="Str">../../IModel.lvlib</Property>
-	<Property Name="NI.Lib.Description" Type="Str">Models exist to implement business logic. They should send no messages directly to Controllers or Views because doing so tightly couples them to those classes.</Property>
+	<Property Name="NI.Lib.Description" Type="Str">Models exist to implement business logic. They should send no Actor messages directly to ViewModels or Viewables because doing so tightly couples them to those classes.
+
+Model data that must be used/observed by Viewables (or reacted to by ViewModel) should be published through the data mediator.</Property>
 	<Property Name="NI.Lib.FriendGUID" Type="Str">8f7ac9a6-5ca8-4bbf-bb36-0f68c7ae0aa0</Property>
 	<Property Name="NI.Lib.HelpPath" Type="Str"></Property>
 	<Property Name="NI.Lib.Icon" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)Q!!!*Q(C=\&gt;7R&lt;2N"%)8B2]/"!!='Y1)MM)6JA3WQB7G"+:WRB7G",&lt;#&amp;VQ*&lt;9/$)'@XP?C!T%(QS9-%+N+?6DG`P:D`O,5\3&lt;!`32^W7WK=`NL];`VXS^PTY;L&lt;&lt;88RX1OPR/^?,RZ@KP]3X^0W?(6^I?G`P\@_WQ_)G@@5^O^*Y%&gt;&amp;.,XL31W/KG]F.&lt;H+4G^TE26\E26\E26\E3:\E3:\E3:\E12\E12\E12\E]S!8O=B&amp;$MF-&lt;C9S25U"=T%5G6`'9TT'9TR]F0%9D`%9D`&amp;QC9T(?)T(?)S(WW1]RG-]RG-]F*I3TY-=D`&amp;18I7H]"3?QF.YG&amp;+&amp;JQ!5ER7&amp;CS)Q6!Q7*Y7H]"1?4F6Y#E`B+4S&amp;BW%6HM*4?!J0Y?'7O3IV.?-ARU-:*:\%EXA34_+BN"*0YEE]C3@R-*U34_**%-G%38%)3GZ+,EA_**\%QR]FHM34?"*0YG&amp;I0K'=+T-UYS$(%XA#4_!*0)'(%AI]A3@Q"*\!1VE&amp;HM!4?!*0Y'%K":\!%XA#3$!JUSMI&amp;NQ98"1%A9?@O6NC0K7;EJC(V*N8P3H6GUW^C&gt;3&lt;1`X1V1^4`:$5C[^?606CK2&gt;"`?85;$6'09H[ZH'BLPS_U-`U%`V)X^.X^#V^1V_07``RB&gt;@L6:@,2?@T7;@43=@D5@P^8LP&gt;4NPN6JP.2OPV_OEV]-DR^%,Y^6Y[=$\\Z__LQ]/8V?((VW_TD`/2^@AL`3^^!_^'@&gt;"^8&gt;&lt;I*XM8:4)!!!!!</Property>
