@@ -12,7 +12,7 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Example Implementation" Type="Folder">
-			<Item Name="TestActors.lvlib" Type="Library" URL="../Test Actors/TestActors.lvlib"/>
+			<Item Name="TestViewables.lvlib" Type="Library" URL="../Test Actors/TestViewables.lvlib"/>
 			<Item Name="TopLevelApplication.lvlib" Type="Library" URL="../Test Actors/TopLevelApplication.lvlib"/>
 		</Item>
 		<Item Name="Framework" Type="Folder">
