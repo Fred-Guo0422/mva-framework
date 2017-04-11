@@ -5,7 +5,7 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Item Name="ActorAutoRegPanel.lvclass" Type="LVClass" URL="../ActorAutoRegPanel/ActorAutoRegPanel.lvclass"/>
 	<Item Name="AutoRegPanel.lvclass" Type="LVClass" URL="../AutoRegPanel/AutoRegPanel.lvclass"/>
-	<Item Name="MultiSubscriber.lvclass" Type="LVClass" URL="../ButtonPanel/MultiSubscriber.lvclass"/>
+	<Item Name="MultiSubscriber.lvclass" Type="LVClass" URL="../MultiSubscriber/MultiSubscriber.lvclass"/>
 	<Item Name="NumericCounter.lvclass" Type="LVClass" URL="../NumericCounter/NumericCounter.lvclass"/>
 	<Item Name="RandomDataChart.lvclass" Type="LVClass" URL="../RandomDataChart/RandomDataChart.lvclass"/>
 	<Item Name="UpdateChart Msg.lvclass" Type="LVClass" URL="../MultiSubscriber Messages/Notification Msg/UpdateChart Msg.lvclass"/>

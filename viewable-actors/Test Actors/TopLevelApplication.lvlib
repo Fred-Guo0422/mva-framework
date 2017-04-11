@@ -8,5 +8,5 @@
 		<Item Name="Test Dialog Return Msg.lvclass" Type="LVClass" URL="../ConcreteModel Messages/Test Dialog Return Msg/Test Dialog Return Msg.lvclass"/>
 	</Item>
 	<Item Name="ConcreteModel.lvclass" Type="LVClass" URL="../ConcreteModel/ConcreteModel.lvclass"/>
-	<Item Name="ConcreteViewModel.lvclass" Type="LVClass" URL="../ConcreteController/ConcreteViewModel.lvclass"/>
+	<Item Name="ConcreteViewModel.lvclass" Type="LVClass" URL="../ConcreteViewModel/ConcreteViewModel.lvclass"/>
 </Library>
