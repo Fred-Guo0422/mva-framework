@@ -5,15 +5,16 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Item Name="Messages" Type="Folder">
+		<Item Name="Close View Msg.lvclass" Type="LVClass" URL="../IViewable Messages/Close View Msg/Close View Msg.lvclass"/>
 		<Item Name="Defer Panel Updates Msg.lvclass" Type="LVClass" URL="../IViewable Messages/Defer Panel Updates Msg/Defer Panel Updates Msg.lvclass"/>
 		<Item Name="Insert View Msg.lvclass" Type="LVClass" URL="../IViewable Messages/Insert View Msg/Insert View Msg.lvclass"/>
 		<Item Name="Launch Dialog Box Msg.lvclass" Type="LVClass" URL="../IViewable Messages/Launch Dialog Box Msg/Launch Dialog Box Msg.lvclass"/>
+		<Item Name="Open View Msg.lvclass" Type="LVClass" URL="../IViewable Messages/Open View Msg/Open View Msg.lvclass"/>
 		<Item Name="Resize Panel to Pane Msg.lvclass" Type="LVClass" URL="../IViewable Messages/Resize Panel to Pane Msg/Resize Panel to Pane Msg.lvclass"/>
 		<Item Name="Resume Panel Updates Msg.lvclass" Type="LVClass" URL="../IViewable Messages/Resume Panel Updates Msg/Resume Panel Updates Msg.lvclass"/>
 		<Item Name="Set Cursor Busy Msg.lvclass" Type="LVClass" URL="../IViewable Messages/Set Cursor Busy Msg/Set Cursor Busy Msg.lvclass"/>
 		<Item Name="Set Cursor Unbusy Msg.lvclass" Type="LVClass" URL="../IViewable Messages/Set Cursor Unbusy Msg/Set Cursor Unbusy Msg.lvclass"/>
 		<Item Name="Set Panes to Origins Msg.lvclass" Type="LVClass" URL="../IViewable Messages/Set Panes to Origins Msg/Set Panes to Origins Msg.lvclass"/>
-		<Item Name="Show View Msg.lvclass" Type="LVClass" URL="../IViewable Messages/Show View Msg/Show View Msg.lvclass"/>
 	</Item>
 	<Item Name="IViewable.lvclass" Type="LVClass" URL="../IViewable/IViewable.lvclass"/>
 </Library>

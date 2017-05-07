@@ -11,6 +11,7 @@
 		<Item Name="ValueChangeMsg.lvclass" Type="LVClass" URL="../ActorAutoRegistration Messages/ValueChangeMsg/ValueChangeMsg.lvclass"/>
 		<Item Name="ControlMouseUpMsg.lvclass" Type="LVClass" URL="../ActorAutoRegistration Messages/ControlMouseUpMsg/ControlMouseUpMsg.lvclass"/>
 		<Item Name="ControlMouseDownMsg.lvclass" Type="LVClass" URL="../ActorAutoRegistration Messages/ControlMouseDownMsg/ControlMouseDownMsg.lvclass"/>
+		<Item Name="UserMenuSelectionMsg.lvclass" Type="LVClass" URL="../ActorAutoRegistration Messages/UserMenuSelectionMsg/UserMenuSelectionMsg.lvclass"/>
 	</Item>
 	<Item Name="ActorAutoRegistration.lvclass" Type="LVClass" URL="../ActorAutoRegistration/ActorAutoRegistration.lvclass"/>
 	<Item Name="AutoEventActor.lvclass" Type="LVClass" URL="../AutoEventActor/AutoEventActor.lvclass"/>

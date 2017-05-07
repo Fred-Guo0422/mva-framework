@@ -16,6 +16,7 @@
 			<Item Name="TopLevelApplication.lvlib" Type="Library" URL="../Test Actors/TopLevelApplication.lvlib"/>
 		</Item>
 		<Item Name="Framework" Type="Folder">
+			<Item Name="MVVM Errors Readme.txt" Type="Document" URL="../Framework/MVVM Errors Readme.txt"/>
 			<Item Name="AbstractMessages.lvlib" Type="Library" URL="../Framework/AbstractMessages/AbstractMessages.lvlib"/>
 			<Item Name="IModel.lvlib" Type="Library" URL="../Framework/IModel/IModel.lvlib"/>
 			<Item Name="IViewModel.lvlib" Type="Library" URL="../Framework/IViewModel/IViewModel.lvlib"/>
