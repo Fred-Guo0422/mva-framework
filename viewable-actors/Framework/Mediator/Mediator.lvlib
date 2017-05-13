@@ -20,6 +20,7 @@
 		<Item Name="Notification Msg.lvclass" Type="LVClass" URL="../Transport Messages/Notification Msg/Notification Msg.lvclass"/>
 	</Item>
 	<Item Name="Mediator.lvclass" Type="LVClass" URL="../Mediator/Mediator.lvclass"/>
+	<Item Name="MediatorBusMonitor.lvclass" Type="LVClass" URL="../MediatorBusMonitor/MediatorBusMonitor.lvclass"/>
 	<Item Name="Topic.lvclass" Type="LVClass" URL="../Topic/Topic.lvclass"/>
 	<Item Name="TopicLookupTable.lvclass" Type="LVClass" URL="../TopicLookupTable/TopicLookupTable.lvclass"/>
 </Library>
