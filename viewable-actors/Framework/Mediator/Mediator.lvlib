@@ -4,6 +4,9 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">352354304</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
+	<Item Name="SubscriptionPolicy" Type="Folder">
+		<Item Name="ValueChangeSubscription.lvclass" Type="LVClass" URL="../SubscriptionPolicy/ValueChangeSubscription/ValueChangeSubscription.lvclass"/>
+	</Item>
 	<Item Name="Topic Messages" Type="Folder">
 		<Item Name="Add Topic Subscriber Msg.lvclass" Type="LVClass" URL="../Topic Messages/Add Topic Subscriber Msg/Add Topic Subscriber Msg.lvclass"/>
 		<Item Name="Notify Subscribers Msg.lvclass" Type="LVClass" URL="../Topic Messages/Notify Subscribers Msg/Notify Subscribers Msg.lvclass"/>
