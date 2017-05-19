@@ -18,6 +18,8 @@
 		<Item Name="TerminalBinding.lvclass" Type="LVClass" URL="../Transport/TerminalBinding/TerminalBinding.lvclass"/>
 		<Item Name="TerminalReference.lvclass" Type="LVClass" URL="../Transport/TerminalReference/TerminalReference.lvclass"/>
 		<Item Name="BooleanTextBinding.lvclass" Type="LVClass" URL="../Transport/BooleanTextBinding/BooleanTextBinding.lvclass"/>
+		<Item Name="QueueTransport.lvclass" Type="LVClass" URL="../Transport/QueueTransport/QueueTransport.lvclass"/>
+		<Item Name="EventTransport.lvclass" Type="LVClass" URL="../Transport/EventTransport/EventTransport.lvclass"/>
 	</Item>
 	<Item Name="Transport Messages" Type="Folder">
 		<Item Name="Notification Msg.lvclass" Type="LVClass" URL="../Transport Messages/Notification Msg/Notification Msg.lvclass"/>

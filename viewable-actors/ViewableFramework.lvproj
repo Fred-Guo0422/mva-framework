@@ -34,22 +34,29 @@
 			<Item Name="OneButtonDialogBox.lvlib" Type="Library" URL="../Dialog Box Implementations/OneButtonDialogBox/OneButtonDialogBox.lvlib"/>
 			<Item Name="TwoButtonDialogBox.lvlib" Type="Library" URL="../Dialog Box Implementations/TwoButtonDialogBox/TwoButtonDialogBox.lvlib"/>
 		</Item>
-		<Item Name="Unit Test" Type="Folder">
-			<Item Name="TestTransport.lvclass" Type="LVClass" URL="../Unit Test/TestTransport/TestTransport.lvclass"/>
-			<Item Name="TestIViewModel.lvclass" Type="LVClass" URL="../Unit Test/TestIViewModel/TestIViewModel/TestIViewModel.lvclass"/>
-			<Item Name="TestObservableData.lvclass" Type="LVClass" URL="../Unit Test/TestObservableData/TestObservableData.lvclass"/>
-			<Item Name="MockModel.lvlib" Type="Library" URL="../Unit Test/MockModel/MockModel/MockModel.lvlib"/>
-			<Item Name="LeakyViewModel.lvlib" Type="Library" URL="../Unit Test/LeakyViewModel/LeakyViewModel.lvlib"/>
-			<Item Name="Unit Test Readme.txt" Type="Document" URL="../Unit Test/Unit Test Readme.txt"/>
-		</Item>
-		<Item Name="Integration Test" Type="Folder">
-			<Item Name="TestViewables.lvlib" Type="Library" URL="../Integration Test/TestViewables.lvlib"/>
-			<Item Name="TopLevelApplication.lvlib" Type="Library" URL="../Integration Test/TopLevelApplication.lvlib"/>
-			<Item Name="Integration Test Launcher.vi" Type="VI" URL="../Integration Test/Integration Test Launcher.vi"/>
-			<Item Name="Integration Test Readme.txt" Type="Document" URL="../Integration Test/Integration Test Readme.txt"/>
-		</Item>
-		<Item Name="Performance Test" Type="Folder">
-			<Item Name="Performance Test Readme.txt" Type="Document" URL="../Performance Test/Performance Test Readme.txt"/>
+		<Item Name="Test" Type="Folder">
+			<Item Name="Test Doubles" Type="Folder">
+				<Item Name="Test Doubles Readme.txt" Type="Document" URL="../Test/Doubles/Test Doubles Readme.txt"/>
+				<Item Name="TestModels.lvlib" Type="Library" URL="../Test/Doubles/TestModels.lvlib"/>
+				<Item Name="LeakyViewModel.lvlib" Type="Library" URL="../Test/Doubles/LeakyViewModel/LeakyViewModel.lvlib"/>
+			</Item>
+			<Item Name="Unit Test" Type="Folder">
+				<Item Name="Unit Test Readme.txt" Type="Document" URL="../Test/Unit Test/Unit Test Readme.txt"/>
+				<Item Name="TestTransport.lvclass" Type="LVClass" URL="../Test/Unit Test/TestTransport/TestTransport.lvclass"/>
+				<Item Name="TestIViewModel.lvclass" Type="LVClass" URL="../Test/Unit Test/TestIViewModel/TestIViewModel/TestIViewModel.lvclass"/>
+				<Item Name="TestObservableData.lvclass" Type="LVClass" URL="../Test/Unit Test/TestObservableData/TestObservableData.lvclass"/>
+			</Item>
+			<Item Name="Integration Test" Type="Folder">
+				<Item Name="Integration Test Readme.txt" Type="Document" URL="../Test/Integration Test/Integration Test Readme.txt"/>
+				<Item Name="TestViewables.lvlib" Type="Library" URL="../Test/Integration Test/TestViewables.lvlib"/>
+				<Item Name="TopLevelApplication.lvlib" Type="Library" URL="../Test/Integration Test/TopLevelApplication.lvlib"/>
+				<Item Name="Integration Test Launcher.vi" Type="VI" URL="../Test/Integration Test/Integration Test Launcher.vi"/>
+			</Item>
+			<Item Name="Performance Test" Type="Folder">
+				<Item Name="Performance Test Readme.txt" Type="Document" URL="../Test/Performance Test/Performance Test Readme.txt"/>
+				<Item Name="TestPublishRate.lvclass" Type="LVClass" URL="../Test/Performance Test/TestPublishRate/TestPublishRate.lvclass"/>
+				<Item Name="TestManyPublications.lvclass" Type="LVClass" URL="../Test/Performance Test/TestManyPublications/TestManyPublications.lvclass"/>
+			</Item>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -346,8 +353,12 @@
 				<Item Name="Build Path - File Names Array - path__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Build Path - File Names Array - path__ogtk__jki_vi_tester.vi"/>
 				<Item Name="Build Path - File Names and Paths Arrays - path__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Build Path - File Names and Paths Arrays - path__ogtk__jki_vi_tester.vi"/>
 				<Item Name="Get LV Class Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Path.vi"/>
+				<Item Name="usereventprio.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/usereventprio.ctl"/>
+				<Item Name="High Resolution Relative Seconds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/High Resolution Relative Seconds.vi"/>
+				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 			</Item>
 			<Item Name="AF Debug.lvlib" Type="Library" URL="/&lt;resource&gt;/AFDebug/AF Debug.lvlib"/>
+			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
