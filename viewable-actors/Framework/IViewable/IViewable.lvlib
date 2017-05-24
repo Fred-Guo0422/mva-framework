@@ -17,4 +17,5 @@
 		<Item Name="Set Panes to Origins Msg.lvclass" Type="LVClass" URL="../IViewable Messages/Set Panes to Origins Msg/Set Panes to Origins Msg.lvclass"/>
 	</Item>
 	<Item Name="IViewable.lvclass" Type="LVClass" URL="../IViewable/IViewable.lvclass"/>
+	<Item Name="ProtectedSubpanel.lvclass" Type="LVClass" URL="../ProtectedSubpanel/ProtectedSubpanel.lvclass"/>
 </Library>
