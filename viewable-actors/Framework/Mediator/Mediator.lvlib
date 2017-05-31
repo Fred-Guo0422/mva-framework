@@ -5,6 +5,7 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Item Name="SubscriptionPolicy" Type="Folder">
+		<Item Name="OneShotSubscription.lvclass" Type="LVClass" URL="../SubscriptionPolicy/OneShotSubscription/OneShotSubscription.lvclass"/>
 		<Item Name="ValueChangeSubscription.lvclass" Type="LVClass" URL="../SubscriptionPolicy/ValueChangeSubscription/ValueChangeSubscription.lvclass"/>
 	</Item>
 	<Item Name="Topic Messages" Type="Folder">

@@ -26,8 +26,17 @@
 	<Item Name="QueueTransport.ctl" Type="Class Private Data" URL="QueueTransport.ctl">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
+	<Item Name="Dequeue Transport Element.vi" Type="VI" URL="../Dequeue Transport Element.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'N!!!!$A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!%%!B#H2J&lt;76E)'^V&gt;$]!!!J!5Q2%982B!!!91&amp;1!"B"1&gt;7*M;7.B&gt;'FP&lt;C"5;7VF!!!31&amp;!!!A!&amp;!!9(27RF&lt;76O&gt;!"%1(!!(A!!*QZ.:72J982P=CZM&gt;GRJ9B:2&gt;76V:62S97ZT='^S&gt;#ZM&gt;G.M98.T!"*2&gt;76V:62S97ZT='^S&gt;#"P&gt;81!!!1!!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!"F!!Q!36'FN:7^V&gt;#"*&lt;C"N=S!I,4%J!!"#1(!!(A!!*QZ.:72J982P=CZM&gt;GRJ9B:2&gt;76V:62S97ZT='^S&gt;#ZM&gt;G.M98.T!"&amp;2&gt;76V:62S97ZT='^S&gt;#"J&lt;A"B!0!!$!!$!!1!"Q!)!!E!#1!*!!E!#A!,!!E!$!-!!(A!!!U)!!!*!!!!#1!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!A!!!!!!!!!%!!!$1!!!!Q!!!!!!!!!!!!!!1!.!!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
+	</Item>
 	<Item Name="New Queue Transport.vi" Type="VI" URL="../New Queue Transport.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;A!!!!$!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!!J!5Q2%982B!!!91&amp;1!"B"1&gt;7*M;7.B&gt;'FP&lt;C"5;7VF!!!?1&amp;!!!A!&amp;!!93586F&gt;75A27RF&lt;76O&gt;#"5?8"F!!!;1(!!%A!"!!=/5G6T='^O=W5A586F&gt;75!!%2!=!!?!!!H$EVF:'FB&gt;'^S,GRW&lt;'FC&amp;F&amp;V:86F6(*B&lt;H.Q&lt;X*U,GRW9WRB=X-!%F&amp;V:86F6(*B&lt;H.Q&lt;X*U)%^V&gt;!!!*5!$!"Z.98AA586F&gt;75A5WF[:3!I,4%M)(6O&lt;'FN;82F:#E!!&amp;1!]!!-!!-!"!!)!!E!"!!%!!1!"!!%!!1!#A!%!A!!?!!!#1!!!!!!!!!*!!!!#1!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!%!#Q!!!!!</Property>
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%'!!!!#!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!%2!=!!?!!!H$EVF:'FB&gt;'^S,GRW&lt;'FC&amp;F&amp;V:86F6(*B&lt;H.Q&lt;X*U,GRW9WRB=X-!%F&amp;V:86F6(*B&lt;H.Q&lt;X*U)%^V&gt;!!!*5!$!"Z.98AA586F&gt;75A5WF[:3!I,4%M)(6O&lt;'FN;82F:#E!!&amp;1!]!!-!!-!"!!%!!5!"!!%!!1!"!!%!!1!"A!%!A!!?!!!#1!!!!!!!!!!!!!!#1!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!%!"Q!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
@@ -43,5 +52,14 @@
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1342713872</Property>
+	</Item>
+	<Item Name="Close Transport.vi" Type="VI" URL="../Close Transport.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$`!!!!#!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!1E"Q!"Y!!#=/476E;7&amp;U&lt;X)O&lt;(:M;7)7586F&gt;765=G&amp;O=X"P=H1O&lt;(:D&lt;'&amp;T=Q!2586F&gt;765=G&amp;O=X"P=H1A;7Y!6!$Q!!Q!!Q!%!!1!"!!%!!1!"!!%!!5!"!!%!!9#!!"Y!!!.#!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!*!!!!!!!1!(!!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1107821056</Property>
 	</Item>
 </LVClass>
