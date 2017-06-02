@@ -47,15 +47,6 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
 	</Item>
-	<Item Name="List All Topics.vi" Type="VI" URL="../List All Topics.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$N!!!!"A!%!!!!$E!Q`````Q2/97VF!!!=1%!!!P``````````!!%+6'^Q;7-A4'FT&gt;!!!2E"Q!"Y!!#E/476E;7&amp;U&lt;X)O&lt;(:M;7)96'^Q;7.-&lt;W^L&gt;8"597*M:3ZM&gt;G.M98.T!".5&lt;X"J9URP&lt;WNV=&amp;2B9GRF)'FO!"V!=!!A!!%!!Q!16'^Q;7.-&lt;W^L&gt;8"597*M:1!!6!$Q!!Q!!!!!!!)!!!!!!!!!!!!!!!!!!!!!!!1$!!"Y!!!!!!!!!!!!!!E!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"!!!!!!!1!&amp;!!!!!!</Property>
-		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
-		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
-		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1342972432</Property>
-	</Item>
 	<Item Name="Open Topic Lookup Table Reference.vi" Type="VI" URL="../Open Topic Lookup Table Reference.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%K!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!%:!=!!?!!!J$EVF:'FB&gt;'^S,GRW&lt;'FC'&amp;2P='FD4'^P;X6Q6'&amp;C&lt;'5O&lt;(:D&lt;'&amp;T=Q!46'^Q;7.-&lt;W^L&gt;8"597*M:3"J&lt;A!H1(!!)!!"!!5!'F2P='FD4'^P;X6Q6'&amp;C&lt;'5A5G6G:8*F&lt;G.F!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!&amp;1!]!!-!!-!"!!%!!9!"!!%!!1!"!!(!!1!"!!&amp;!A!!?!!!$1A!!!!!!!!!!!!!#1!!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!!+!!!!!!%!#!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>

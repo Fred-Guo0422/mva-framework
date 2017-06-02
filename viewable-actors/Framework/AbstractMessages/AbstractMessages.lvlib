@@ -4,5 +4,6 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">352354304</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
+	<Item Name="BinaryDecisionMsg.lvclass" Type="LVClass" URL="../BinaryDecisionMsg/BinaryDecisionMsg.lvclass"/>
 	<Item Name="PreAddressedMsg.lvclass" Type="LVClass" URL="../PreAddressedMsg/PreAddressedMsg.lvclass"/>
 </Library>
