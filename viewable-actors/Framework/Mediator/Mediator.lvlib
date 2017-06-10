@@ -6,6 +6,7 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Item Name="SubscriptionPolicy" Type="Folder">
 		<Item Name="OneShotSubscription.lvclass" Type="LVClass" URL="../SubscriptionPolicy/OneShotSubscription/OneShotSubscription.lvclass"/>
+		<Item Name="TriggeredSubscription.lvclass" Type="LVClass" URL="../SubscriptionPolicy/TriggeredSubscription/TriggeredSubscription.lvclass"/>
 		<Item Name="ValueChangeSubscription.lvclass" Type="LVClass" URL="../SubscriptionPolicy/ValueChangeSubscription/ValueChangeSubscription.lvclass"/>
 	</Item>
 	<Item Name="Topic Messages" Type="Folder">

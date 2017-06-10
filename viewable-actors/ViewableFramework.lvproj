@@ -45,6 +45,7 @@
 				<Item Name="TestTransport.lvclass" Type="LVClass" URL="../Test/Unit Test/TestTransport/TestTransport.lvclass"/>
 				<Item Name="TestIViewModel.lvclass" Type="LVClass" URL="../Test/Unit Test/TestIViewModel/TestIViewModel/TestIViewModel.lvclass"/>
 				<Item Name="TestObservableData.lvclass" Type="LVClass" URL="../Test/Unit Test/TestObservableData/TestObservableData.lvclass"/>
+				<Item Name="TestSubscriptionPolicy.lvclass" Type="LVClass" URL="../Test/Unit Test/TestSubscriptionPolicy/TestSubscriptionPolicy.lvclass"/>
 			</Item>
 			<Item Name="Integration Test" Type="Folder">
 				<Item Name="Integration Test Readme.txt" Type="Document" URL="../Test/Integration Test/Integration Test Readme.txt"/>
@@ -58,6 +59,7 @@
 				<Item Name="TestManyPublications.lvclass" Type="LVClass" URL="../Test/Performance Test/TestManyPublications/TestManyPublications.lvclass"/>
 			</Item>
 		</Item>
+		<Item Name="Trigger Condition.ctl" Type="VI" URL="../Framework/Mediator/SubscriptionPolicy/TriggeredSubscription/Trigger Condition.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Actor Framework.lvlib" Type="Library" URL="/&lt;vilib&gt;/ActorFramework/Actor Framework.lvlib"/>
