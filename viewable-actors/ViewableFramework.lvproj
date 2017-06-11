@@ -14,16 +14,18 @@
 		<Item Name="Framework" Type="Folder">
 			<Item Name="MVVM Errors Readme.txt" Type="Document" URL="../Framework/MVVM Errors Readme.txt"/>
 			<Item Name="AbstractMessages.lvlib" Type="Library" URL="../Framework/AbstractMessages/AbstractMessages.lvlib"/>
+			<Item Name="IObserver.lvlib" Type="Library" URL="../Framework/IObserver/IObserver.lvlib"/>
 			<Item Name="IModel.lvlib" Type="Library" URL="../Framework/IModel/IModel.lvlib"/>
-			<Item Name="IViewModel.lvlib" Type="Library" URL="../Framework/IViewModel/IViewModel.lvlib"/>
 			<Item Name="IViewable.lvlib" Type="Library" URL="../Framework/IViewable/IViewable.lvlib"/>
 			<Item Name="IViewManager.lvlib" Type="Library" URL="../Framework/IViewManager/IViewManager.lvlib"/>
+			<Item Name="IViewModel.lvlib" Type="Library" URL="../Framework/IViewModel/IViewModel.lvlib"/>
 			<Item Name="IDialogBox.lvlib" Type="Library" URL="../Framework/IDialogBox/IDialogBox.lvlib"/>
 			<Item Name="IMediator.lvlib" Type="Library" URL="../Framework/IMediator/IMediator.lvlib"/>
 			<Item Name="AutoRegistration.lvlib" Type="Library" URL="../Framework/AutoRegistration/AutoRegistration.lvlib"/>
 			<Item Name="ActorAutoRegistration.lvlib" Type="Library" URL="../Framework/AutoRegistration/ActorAutoRegistration.lvlib"/>
 			<Item Name="Mediator.lvlib" Type="Library" URL="../Framework/Mediator/Mediator.lvlib"/>
-			<Item Name="IObserver.lvlib" Type="Library" URL="../Framework/IObserver/IObserver.lvlib"/>
+			<Item Name="SubscriptionPolicy.lvlib" Type="Library" URL="../Framework/SubscriptionPolicy/SubscriptionPolicy.lvlib"/>
+			<Item Name="Transport.lvlib" Type="Library" URL="../Framework/Transport/Transport.lvlib"/>
 		</Item>
 		<Item Name="View Managers" Type="Folder">
 			<Item Name="LeftListboxViewManager.lvlib" Type="Library" URL="../ViewManager Implementations/LeftListboxViewManager/LeftListboxViewManager.lvlib"/>
@@ -59,7 +61,6 @@
 				<Item Name="TestManyPublications.lvclass" Type="LVClass" URL="../Test/Performance Test/TestManyPublications/TestManyPublications.lvclass"/>
 			</Item>
 		</Item>
-		<Item Name="Trigger Condition.ctl" Type="VI" URL="../Framework/Mediator/SubscriptionPolicy/TriggeredSubscription/Trigger Condition.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Actor Framework.lvlib" Type="Library" URL="/&lt;vilib&gt;/ActorFramework/Actor Framework.lvlib"/>

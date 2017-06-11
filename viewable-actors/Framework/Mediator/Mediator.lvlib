@@ -4,27 +4,10 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">352354304</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
-	<Item Name="SubscriptionPolicy" Type="Folder">
-		<Item Name="OneShotSubscription.lvclass" Type="LVClass" URL="../SubscriptionPolicy/OneShotSubscription/OneShotSubscription.lvclass"/>
-		<Item Name="TriggeredSubscription.lvclass" Type="LVClass" URL="../SubscriptionPolicy/TriggeredSubscription/TriggeredSubscription.lvclass"/>
-		<Item Name="ValueChangeSubscription.lvclass" Type="LVClass" URL="../SubscriptionPolicy/ValueChangeSubscription/ValueChangeSubscription.lvclass"/>
-	</Item>
 	<Item Name="Topic Messages" Type="Folder">
 		<Item Name="Add Topic Subscriber Msg.lvclass" Type="LVClass" URL="../Topic Messages/Add Topic Subscriber Msg/Add Topic Subscriber Msg.lvclass"/>
 		<Item Name="Notify Subscribers Msg.lvclass" Type="LVClass" URL="../Topic Messages/Notify Subscribers Msg/Notify Subscribers Msg.lvclass"/>
 		<Item Name="Remove Topic Subscriber Msg.lvclass" Type="LVClass" URL="../Topic Messages/Remove Topic Subscriber Msg/Remove Topic Subscriber Msg.lvclass"/>
-	</Item>
-	<Item Name="Transport" Type="Folder">
-		<Property Name="NI.SortType" Type="Int">3</Property>
-		<Item Name="ActorMessage.lvclass" Type="LVClass" URL="../Transport/ActorMessage/ActorMessage.lvclass"/>
-		<Item Name="TerminalBinding.lvclass" Type="LVClass" URL="../Transport/TerminalBinding/TerminalBinding.lvclass"/>
-		<Item Name="TerminalReference.lvclass" Type="LVClass" URL="../Transport/TerminalReference/TerminalReference.lvclass"/>
-		<Item Name="BooleanTextBinding.lvclass" Type="LVClass" URL="../Transport/BooleanTextBinding/BooleanTextBinding.lvclass"/>
-		<Item Name="QueueTransport.lvclass" Type="LVClass" URL="../Transport/QueueTransport/QueueTransport.lvclass"/>
-		<Item Name="EventTransport.lvclass" Type="LVClass" URL="../Transport/EventTransport/EventTransport.lvclass"/>
-	</Item>
-	<Item Name="Transport Messages" Type="Folder">
-		<Item Name="Notification Msg.lvclass" Type="LVClass" URL="../Transport Messages/Notification Msg/Notification Msg.lvclass"/>
 	</Item>
 	<Item Name="Mediator.lvclass" Type="LVClass" URL="../Mediator/Mediator.lvclass"/>
 	<Item Name="MediatorBusMonitor.lvclass" Type="LVClass" URL="../MediatorBusMonitor/MediatorBusMonitor.lvclass"/>
