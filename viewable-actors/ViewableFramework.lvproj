@@ -19,13 +19,13 @@
 			<Item Name="IViewable.lvlib" Type="Library" URL="../Framework/IViewable/IViewable.lvlib"/>
 			<Item Name="IViewManager.lvlib" Type="Library" URL="../Framework/IViewManager/IViewManager.lvlib"/>
 			<Item Name="IViewModel.lvlib" Type="Library" URL="../Framework/IViewModel/IViewModel.lvlib"/>
-			<Item Name="IDialogBox.lvlib" Type="Library" URL="../Framework/IDialogBox/IDialogBox.lvlib"/>
 			<Item Name="IMediator.lvlib" Type="Library" URL="../Framework/IMediator/IMediator.lvlib"/>
+			<Item Name="IDialogBox.lvlib" Type="Library" URL="../Framework/IDialogBox/IDialogBox.lvlib"/>
+			<Item Name="SubscriptionPolicy.lvlib" Type="Library" URL="../Framework/SubscriptionPolicy/SubscriptionPolicy.lvlib"/>
+			<Item Name="Transport.lvlib" Type="Library" URL="../Framework/Transport/Transport.lvlib"/>
 			<Item Name="AutoRegistration.lvlib" Type="Library" URL="../Framework/AutoRegistration/AutoRegistration.lvlib"/>
 			<Item Name="ActorAutoRegistration.lvlib" Type="Library" URL="../Framework/AutoRegistration/ActorAutoRegistration.lvlib"/>
 			<Item Name="Mediator.lvlib" Type="Library" URL="../Framework/Mediator/Mediator.lvlib"/>
-			<Item Name="SubscriptionPolicy.lvlib" Type="Library" URL="../Framework/SubscriptionPolicy/SubscriptionPolicy.lvlib"/>
-			<Item Name="Transport.lvlib" Type="Library" URL="../Framework/Transport/Transport.lvlib"/>
 		</Item>
 		<Item Name="View Managers" Type="Folder">
 			<Item Name="LeftListboxViewManager.lvlib" Type="Library" URL="../ViewManager Implementations/LeftListboxViewManager/LeftListboxViewManager.lvlib"/>
