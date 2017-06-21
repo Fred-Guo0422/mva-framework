@@ -12,6 +12,9 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Framework" Type="Folder">
+			<Item Name="Components" Type="Folder">
+				<Item Name="TimedAverageBuffer.lvlib" Type="Library" URL="../Framework/Components/TimedAverageBuffer/TimedAverageBuffer.lvlib"/>
+			</Item>
 			<Item Name="MVVM Errors Readme.txt" Type="Document" URL="../Framework/MVVM Errors Readme.txt"/>
 			<Item Name="AbstractMessages.lvlib" Type="Library" URL="../Framework/AbstractMessages/AbstractMessages.lvlib"/>
 			<Item Name="IObserver.lvlib" Type="Library" URL="../Framework/IObserver/IObserver.lvlib"/>
