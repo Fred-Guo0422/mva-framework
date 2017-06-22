@@ -38,6 +38,7 @@
 		<Item Name="Dialog Boxes" Type="Folder">
 			<Item Name="OneButtonDialogBox.lvlib" Type="Library" URL="../Dialog Box Implementations/OneButtonDialogBox/OneButtonDialogBox.lvlib"/>
 			<Item Name="TwoButtonDialogBox.lvlib" Type="Library" URL="../Dialog Box Implementations/TwoButtonDialogBox/TwoButtonDialogBox.lvlib"/>
+			<Item Name="KeypadDialogBox.lvlib" Type="Library" URL="../Dialog Box Implementations/KeypadDialogBox/KeypadDialogBox.lvlib"/>
 		</Item>
 		<Item Name="Test" Type="Folder">
 			<Item Name="Test Doubles" Type="Folder">
