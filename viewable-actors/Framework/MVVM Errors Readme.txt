@@ -5,4 +5,4 @@ Code	Description
 516004	Send Synchronous Message timed out before receiving a reply.
 
 517001	The boolean text update failed because BooleanTextBinding class does not support binding data of type "%s".
-517002	The listbox update failed because MCListboxItemNamesBinding class does not support array dimension %d of type "%s".
+517002	The listbox update failed because MCListboxItemNamesBinding class does not support the bound data type (type "%s", dimension=%d, element type"%s").
