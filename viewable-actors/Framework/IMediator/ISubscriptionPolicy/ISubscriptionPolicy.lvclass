@@ -90,7 +90,7 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">276832272</Property>
 	</Item>
-	<Item Name="Open Subscription Policy Reference.vi" Type="VI" URL="../Open Subscription Policy Reference.vi">
+	<Item Name="Open Subscription Policy.vi" Type="VI" URL="../Open Subscription Policy.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(E!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!%R!=!!?!!!N$UF.:72J982P=CZM&gt;GRJ9BN*5X6C=W.S;8"U;7^O5'^M;7.Z,GRW9WRB=X-!&amp;6.V9H.D=GFQ&gt;'FP&lt;F"P&lt;'FD?3"J&lt;A"Z!0%!!!!!!!!!!Q^*476E;7&amp;U&lt;X)O&lt;(:M;7)&lt;36.V9H.D=GFQ&gt;'FP&lt;F"P&lt;'FD?3ZM&gt;G.M98.T)5F4&gt;7*T9X*J=(2J&lt;WZ1&lt;WRJ9XEA5G6G:8*F&lt;G.F,G.U&lt;!!D1(!!)!!"!!5!%V.V9H.D=GFQ&gt;'FP&lt;C"1&lt;WRJ9XE!/%"Q!"Y!!#1035VF:'FB&gt;'^S,GRW&lt;'FC%EF5=G&amp;O=X"P=H1O&lt;(:D&lt;'&amp;T=Q!!#62S97ZT='^S&gt;!"+1(!!(A!!,1^*476E;7&amp;U&lt;X)O&lt;(:M;7)&lt;36.V9H.D=GFQ&gt;'FP&lt;F"P&lt;'FD?3ZM&gt;G.M98.T!"*4&gt;7*T9X*J=(2J&lt;WZ1&lt;WRJ9XE!!&amp;1!]!!-!!-!"!!%!!9!"!!%!!1!"!!%!!1!"Q!)!A!!?!!!#1!!!!!!!!!!!!!!#1!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"!!!!!#!!!!!!%!#1!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
