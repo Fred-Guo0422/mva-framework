@@ -10,6 +10,7 @@
 	</Item>
 	<Item Name="BooleanTextBinding.lvclass" Type="LVClass" URL="../BooleanTextBinding/BooleanTextBinding.lvclass"/>
 	<Item Name="EventTransport.lvclass" Type="LVClass" URL="../EventTransport/EventTransport.lvclass"/>
+	<Item Name="MCListboxItemNamesBinding.lvclass" Type="LVClass" URL="../MCListboxItemNamesBinding/MCListboxItemNamesBinding.lvclass"/>
 	<Item Name="QueueTransport.lvclass" Type="LVClass" URL="../QueueTransport/QueueTransport.lvclass"/>
 	<Item Name="StreamToDisk.lvclass" Type="LVClass" URL="../StreamToDisk/StreamToDisk.lvclass"/>
 	<Item Name="TerminalBinding.lvclass" Type="LVClass" URL="../TerminalBinding/TerminalBinding.lvclass"/>
