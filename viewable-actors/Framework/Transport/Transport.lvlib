@@ -6,7 +6,7 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Item Name="ActorMessage" Type="Folder">
 		<Item Name="ActorMessage.lvclass" Type="LVClass" URL="../ActorMessage/ActorMessage.lvclass"/>
-		<Item Name="Notification Msg.lvclass" Type="LVClass" URL="../Transport Messages/Notification Msg/Notification Msg.lvclass"/>
+		<Item Name="Notification Msg.lvclass" Type="LVClass" URL="../ActorMessage/Notification Msg/Notification Msg.lvclass"/>
 	</Item>
 	<Item Name="BooleanTextBinding.lvclass" Type="LVClass" URL="../BooleanTextBinding/BooleanTextBinding.lvclass"/>
 	<Item Name="EventTransport.lvclass" Type="LVClass" URL="../EventTransport/EventTransport.lvclass"/>

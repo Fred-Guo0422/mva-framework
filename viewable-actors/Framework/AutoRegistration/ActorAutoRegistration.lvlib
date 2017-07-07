@@ -4,7 +4,7 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">352354304</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
-	<Item Name="Event Messages" Type="Folder">
+	<Item Name="Auto-Event Messages" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="EventDataMessage.lvclass" Type="LVClass" URL="../ActorAutoRegistration Messages/EventDataMessage/EventDataMessage.lvclass"/>
 		<Item Name="PanelCloseMsg.lvclass" Type="LVClass" URL="../ActorAutoRegistration Messages/PanelCloseMsg/PanelCloseMsg.lvclass"/>

@@ -4,7 +4,11 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">352354304</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
+	<Item Name="ActorDataBinding" Type="Folder">
+		<Item Name="ActorDataBinding.lvclass" Type="LVClass" URL="../ActorDataBinding/ActorDataBinding.lvclass"/>
+	</Item>
 	<Item Name="Messages" Type="Folder">
+		<Item Name="Observe Data Msg.lvclass" Type="LVClass" URL="../IObserver Messages/Observe Data Msg/Observe Data Msg.lvclass"/>
 		<Item Name="Subscribe Msg.lvclass" Type="LVClass" URL="../IObserver Messages/Subscribe Msg/Subscribe Msg.lvclass"/>
 	</Item>
 	<Item Name="IObserver.lvclass" Type="LVClass" URL="../IObserver/IObserver.lvclass"/>
