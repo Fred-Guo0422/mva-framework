@@ -14,6 +14,11 @@
 		<Item Name="Framework" Type="Folder">
 			<Item Name="Components" Type="Folder">
 				<Item Name="TimedAverageBuffer.lvlib" Type="Library" URL="../Framework/Components/TimedAverageBuffer/TimedAverageBuffer.lvlib"/>
+				<Item Name="TreeExtensions.lvlib" Type="Library" URL="../Framework/Components/TreeExtensions/TreeExtensions.lvlib"/>
+				<Item Name="ListboxExtensions.lvlib" Type="Library" URL="../Framework/Components/ListboxExtensions/ListboxExtensions.lvlib"/>
+				<Item Name="StringList.lvlib" Type="Library" URL="../Framework/Components/StringList/StringList.lvlib"/>
+				<Item Name="CurrentValueTable.lvlib" Type="Library" URL="../Framework/Components/CurrentValueTable/CurrentValueTable.lvlib"/>
+				<Item Name="VariantExtensions.lvlib" Type="Library" URL="../Framework/Components/VariantExtensions/VariantExtensions.lvlib"/>
 			</Item>
 			<Item Name="MVVM Errors Readme.txt" Type="Document" URL="../Framework/MVVM Errors Readme.txt"/>
 			<Item Name="AbstractMessages.lvlib" Type="Library" URL="../Framework/AbstractMessages/AbstractMessages.lvlib"/>
@@ -58,7 +63,6 @@
 				<Item Name="Integration Test Readme.txt" Type="Document" URL="../Test/Integration Test/Integration Test Readme.txt"/>
 				<Item Name="TestViewables.lvlib" Type="Library" URL="../Test/Integration Test/TestViewables.lvlib"/>
 				<Item Name="TopLevelApplication.lvlib" Type="Library" URL="../Test/Integration Test/TopLevelApplication.lvlib"/>
-				<Item Name="Integration Test Launcher.vi" Type="VI" URL="../Test/Integration Test/Integration Test Launcher.vi"/>
 			</Item>
 			<Item Name="Performance Test" Type="Folder">
 				<Item Name="Performance Test Readme.txt" Type="Document" URL="../Test/Performance Test/Performance Test Readme.txt"/>
@@ -66,6 +70,7 @@
 				<Item Name="TestManyPublications.lvclass" Type="LVClass" URL="../Test/Performance Test/TestManyPublications/TestManyPublications.lvclass"/>
 			</Item>
 		</Item>
+		<Item Name="Integration Test Launcher.vi" Type="VI" URL="../Test/Integration Test/Integration Test Launcher.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Actor Framework.lvlib" Type="Library" URL="/&lt;vilib&gt;/ActorFramework/Actor Framework.lvlib"/>
@@ -432,6 +437,9 @@
 				<Item Name="panelstate.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/panelstate.ctl"/>
 				<Item Name="sizeaction.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/sizeaction.ctl"/>
 				<Item Name="TDMS - File Viewer.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/TDMS - File Viewer.vi"/>
+				<Item Name="LVRowAndColumnTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRowAndColumnTypeDef.ctl"/>
+				<Item Name="Time-Delayed Send Message Core.vi" Type="VI" URL="/&lt;vilib&gt;/ActorFramework/Time-Delayed Send Message/Time-Delayed Send Message Core.vi"/>
+				<Item Name="Time-Delayed Send Message.vi" Type="VI" URL="/&lt;vilib&gt;/ActorFramework/Time-Delayed Send Message/Time-Delayed Send Message.vi"/>
 			</Item>
 			<Item Name="AF Debug.lvlib" Type="Library" URL="/&lt;resource&gt;/AFDebug/AF Debug.lvlib"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
