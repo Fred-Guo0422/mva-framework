@@ -58,6 +58,81 @@ Model data that must be used/observed by Viewables (or reacted to by ViewModel) 
 			<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
 		</Item>
 	</Item>
+	<Item Name="Request Synchronous Data (Typed)" Type="Folder">
+		<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
+		<Item Name="Request Synchronous Data (Boolean).vi" Type="VI" URL="../Request Synchronous Data (Boolean).vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!')!!!!$Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!%%!B#H2J&lt;76E)'^V&gt;$]!!"2!)1Z%982B)#B#&lt;W^M:7&amp;O+1!!"!!!!"B!6!!'%&amp;"V9GRJ9W&amp;U;7^O)&amp;2J&lt;75!!"Z!)2B*:WZP=G5A5'&amp;T&gt;#"6='2B&gt;'6T0S!I2CE!!"F!!Q!36'FN:7^V&gt;#"*&lt;C"N=S!I,4%J!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!"2!)1Z5?8"F)#B#&lt;W^M:7&amp;O+1!!&amp;%!Q`````QJ5&lt;X"J9S"/97VF!!!Q1(!!(A!!(1R*47^E:7QO&lt;(:M;7)/35VP:'6M,GRW9WRB=X-!#5F.&lt;W2F&lt;#"*&lt;A"5!0!!$!!$!!1!"1!'!!=!"A!)!!E!#A!,!!Q!$1-!!(A!!!U)!!!*!!!!#1!!!!!!!!!*!!!!!!!!!!A!!!!)!!!!#A!!!"!!!!)1!!!!%!!!!!!"!!Y!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">3</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1082130960</Property>
+		</Item>
+		<Item Name="Request Synchronous Data (DBL).vi" Type="VI" URL="../Request Synchronous Data (DBL).vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'#!!!!$Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!%%!B#H2J&lt;76E)'^V&gt;$]!!"&amp;!#A!+2'&amp;U93!I2%*-+1!!"!!!!"B!6!!'%&amp;"V9GRJ9W&amp;U;7^O)&amp;2J&lt;75!!"Z!)2B*:WZP=G5A5'&amp;T&gt;#"6='2B&gt;'6T0S!I2CE!!"F!!Q!36'FN:7^V&gt;#"*&lt;C"N=S!I,4%J!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!"&amp;!#A!+6(FQ:3!I2%*-+1!!&amp;%!Q`````QJ5&lt;X"J9S"/97VF!!!Q1(!!(A!!(1R*47^E:7QO&lt;(:M;7)/35VP:'6M,GRW9WRB=X-!#5F.&lt;W2F&lt;#"*&lt;A"5!0!!$!!$!!1!"1!'!!=!"A!)!!E!#A!,!!Q!$1-!!(A!!!U)!!!*!!!!#1!!!!!!!!!*!!!!!!!!!!A!!!!)!!!!#A!!!"!!!!)1!!!!%!!!!!!"!!Y!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">3</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1082130960</Property>
+		</Item>
+		<Item Name="Request Synchronous Data (I32).vi" Type="VI" URL="../Request Synchronous Data (I32).vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'#!!!!$Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!%%!B#H2J&lt;76E)'^V&gt;$]!!"&amp;!!Q!+2'&amp;U93!I34-S+1!!"!!!!"B!6!!'%&amp;"V9GRJ9W&amp;U;7^O)&amp;2J&lt;75!!"Z!)2B*:WZP=G5A5'&amp;T&gt;#"6='2B&gt;'6T0S!I2CE!!"F!!Q!36'FN:7^V&gt;#"*&lt;C"N=S!I,4%J!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!"&amp;!!Q!+6(FQ:3!I34-S+1!!&amp;%!Q`````QJ5&lt;X"J9S"/97VF!!!Q1(!!(A!!(1R*47^E:7QO&lt;(:M;7)/35VP:'6M,GRW9WRB=X-!#5F.&lt;W2F&lt;#"*&lt;A"5!0!!$!!$!!1!"1!'!!=!"A!)!!E!#A!,!!Q!$1-!!(A!!!U)!!!*!!!!#1!!!!!!!!!*!!!!!!!!!!A!!!!)!!!!#A!!!"!!!!)1!!!!%!!!!!!"!!Y!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">3</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1082130960</Property>
+		</Item>
+		<Item Name="Request Synchronous Data (Path).vi" Type="VI" URL="../Request Synchronous Data (Path).vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!')!!!!$Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!%%!B#H2J&lt;76E)'^V&gt;$]!!"2!-P````],2'&amp;U93!I5'&amp;U;#E!"!!!!"B!6!!'%&amp;"V9GRJ9W&amp;U;7^O)&amp;2J&lt;75!!"Z!)2B*:WZP=G5A5'&amp;T&gt;#"6='2B&gt;'6T0S!I2CE!!"F!!Q!36'FN:7^V&gt;#"*&lt;C"N=S!I,4%J!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!"2!-P````],6(FQ:3!I5'&amp;U;#E!&amp;%!Q`````QJ5&lt;X"J9S"/97VF!!!Q1(!!(A!!(1R*47^E:7QO&lt;(:M;7)/35VP:'6M,GRW9WRB=X-!#5F.&lt;W2F&lt;#"*&lt;A"5!0!!$!!$!!1!"1!'!!=!"A!)!!E!#A!,!!Q!$1-!!(A!!!U)!!!*!!!!#1!!!!!!!!!*!!!!!!!!!!A!!!!)!!!!#A!!!"!!!!)1!!!!%!!!!!!"!!Y!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">3</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1082130960</Property>
+		</Item>
+		<Item Name="Request Synchronous Data (String).vi" Type="VI" URL="../Request Synchronous Data (String).vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'-!!!!$Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!%%!B#H2J&lt;76E)'^V&gt;$]!!":!-0````].2'&amp;U93!I5X2S;7ZH+1!%!!!!'%"5!!915(6C&lt;'FD982J&lt;WYA6'FN:1!!(E!B'%FH&lt;G^S:3"198.U)&amp;6Q:'&amp;U:8-`)#B'+1!!'5!$!"*5;7VF&lt;X6U)%FO)'VT)#AN-3E!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!&amp;E!Q`````QV5?8"F)#B4&gt;(*J&lt;G=J!"2!-0````]+6'^Q;7-A4G&amp;N:1!!-%"Q!"Y!!"U-35VP:'6M,GRW&lt;'FC$EF.&lt;W2F&lt;#ZM&gt;G.M98.T!!F*47^E:7QA37Y!6!$Q!!Q!!Q!%!!5!"A!(!!9!#!!*!!I!#Q!-!!U$!!"Y!!!.#!!!#1!!!!E!!!!!!!!!#1!!!!!!!!!)!!!!#!!!!!I!!!)1!!!#%!!!!"!!!!!!!1!/!!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">3</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1082130960</Property>
+		</Item>
+		<Item Name="Request Synchronous Data (Timestamp).vi" Type="VI" URL="../Request Synchronous Data (Timestamp).vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'1!!!!$Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!%%!B#H2J&lt;76E)'^V&gt;$]!!"B!6!!'%%2B&gt;'%A+&amp;2J&lt;76T&gt;'&amp;N=#E!!!1!!!!91&amp;1!"B"1&gt;7*M;7.B&gt;'FP&lt;C"5;7VF!!!?1#%937&gt;O&lt;X*F)&amp;"B=X1A68"E982F=T]A+%9J!!!:1!-!%F2J&lt;76P&gt;81A37YA&lt;8-A+#UR+1!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!91&amp;1!"B"5?8"F)#B5;7VF=X2B&lt;8!J!!!51$$`````#F2P='FD)%ZB&lt;75!!$"!=!!?!!!&gt;$%F.&lt;W2F&lt;#ZM&gt;GRJ9AZ*47^E:7QO&lt;(:D&lt;'&amp;T=Q!*35VP:'6M)%FO!&amp;1!]!!-!!-!"!!&amp;!!9!"Q!'!!A!#1!+!!M!$!!.!Q!!?!!!$1A!!!E!!!!*!!!!!!!!!!E!!!!!!!!!#!!!!!A!!!!+!!!!%!!!!B!!!!!1!!!!!!%!$A!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">3</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1082130960</Property>
+		</Item>
+		<Item Name="Request Synchronous Data (U32).vi" Type="VI" URL="../Request Synchronous Data (U32).vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'#!!!!$Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!%%!B#H2J&lt;76E)'^V&gt;$]!!"&amp;!"Q!+2'&amp;U93!I64-S+1!!"!!!!"B!6!!'%&amp;"V9GRJ9W&amp;U;7^O)&amp;2J&lt;75!!"Z!)2B*:WZP=G5A5'&amp;T&gt;#"6='2B&gt;'6T0S!I2CE!!"F!!Q!36'FN:7^V&gt;#"*&lt;C"N=S!I,4%J!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!"&amp;!"Q!+6(FQ:3!I64-S+1!!&amp;%!Q`````QJ5&lt;X"J9S"/97VF!!!Q1(!!(A!!(1R*47^E:7QO&lt;(:M;7)/35VP:'6M,GRW9WRB=X-!#5F.&lt;W2F&lt;#"*&lt;A"5!0!!$!!$!!1!"1!'!!=!"A!)!!E!#A!,!!Q!$1-!!(A!!!U)!!!*!!!!#1!!!!!!!!!*!!!!!!!!!!A!!!!)!!!!#A!!!"!!!!)1!!!!%!!!!!!"!!Y!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">3</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1082130960</Property>
+		</Item>
+		<Item Name="Request Synchronous Data (Variant).vi" Type="VI" URL="../Request Synchronous Data (Variant).vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;U!!!!$Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!%%!B#H2J&lt;76E)'^V&gt;$]!!!J!5Q2%982B!!!%!!!!'%"5!!915(6C&lt;'FD982J&lt;WYA6'FN:1!!(E!B'%FH&lt;G^S:3"198.U)&amp;6Q:'&amp;U:8-`)#B'+1!!'5!$!"*5;7VF&lt;X6U)%FO)'VT)#AN-3E!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!#E"4"&amp;2Z='5!!"2!-0````]+6'^Q;7-A4G&amp;N:1!!-%"Q!"Y!!"U-35VP:'6M,GRW&lt;'FC$EF.&lt;W2F&lt;#ZM&gt;G.M98.T!!F*47^E:7QA37Y!6!$Q!!Q!!Q!%!!5!"A!(!!9!#!!*!!I!#Q!-!!U$!!"Y!!!.#!!!#1!!!!E!!!!!!!!!#1!!!!!!!!!)!!!!#!!!!!I!!!!1!!!#%!!!!"!!!!!!!1!/!!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">3</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1082130960</Property>
+		</Item>
+	</Item>
 	<Item Name="Publish Model Data.vi" Type="VI" URL="../Publish Model Data.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;5!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$*!=!!?!!!&gt;$%F.&lt;W2F&lt;#ZM&gt;GRJ9AZ*47^E:7QO&lt;(:D&lt;'&amp;T=Q!+35VP:'6M)'^V&gt;!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!51&amp;-02'&amp;U93"U&lt;S"1&gt;7*M;8.I!"2!-0````]+2'&amp;U&gt;7UA4G&amp;N:1!!-%"Q!"Y!!"U-35VP:'6M,GRW&lt;'FC$EF.&lt;W2F&lt;#ZM&gt;G.M98.T!!F*47^E:7QA;7Y!91$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"Q!)!!E$!!"Y!!!.#!!!!!!!!!!!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!1!!!#%!!!!"!!!!U!!!!-!!!!!!!!!!!!!!%!#A!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -68,17 +143,7 @@ Model data that must be used/observed by Viewables (or reacted to by ViewModel) 
 		<Property Name="NI.ClassItem.State" Type="Int">268967952</Property>
 		<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
 	</Item>
-	<Item Name="Request Data (Synchronous).vi" Type="VI" URL="../Request Data (Synchronous).vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'G!!!!%!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!%%!B#H2J&lt;76E)'^V&gt;$]!!!J!5Q2%982B!!!S1(!!(A!!(1R*47^E:7QO&lt;(:M;7)/35VP:'6M,GRW9WRB=X-!#EF.&lt;W2F&lt;#"0&gt;81!!"B!6!!'%&amp;"V9GRJ9W&amp;U;7^O)&amp;2J&lt;75!!!1!!!!?1#%937&gt;O&lt;X*F)&amp;"B=X1A68"E982F=T]A+%9J!!!:1!-!%F2J&lt;76P&gt;81A37YA&lt;8-A+#UR+1!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!+1&amp;-%6(FQ:1!!&amp;%!Q`````QJ5&lt;X"J9S"/97VF!!!Q1(!!(A!!(1R*47^E:7QO&lt;(:M;7)/35VP:'6M,GRW9WRB=X-!#5F.&lt;W2F&lt;#"*&lt;A"5!0!!$!!$!!1!"1!'!!=!#!!*!!I!#Q!-!!U!$A-!!(A!!!U)!!!*!!!!#1!!!)U,!!!*!!!!!!!!!!A!!!!)!!!!#A!!!"!!!!)1!!!!E!!!!!!"!!]!!!!!</Property>
-		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
-		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
-		<Property Name="NI.ClassItem.MethodScope" Type="UInt">3</Property>
-		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1107825168</Property>
-		<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
-	</Item>
-	<Item Name="Request Message (Asynchronous).vi" Type="VI" URL="../Request Message (Asynchronous).vi">
+	<Item Name="Request Asynchronous Message.vi" Type="VI" URL="../Request Asynchronous Message.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*H!!!!$A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$*!=!!?!!!&gt;$%F.&lt;W2F&lt;#ZM&gt;GRJ9AZ*47^E:7QO&lt;(:D&lt;'&amp;T=Q!+35VP:'6M)'^V&gt;!!!A1$R!!!!!!!!!!-617.U&lt;X)A2H*B&lt;76X&lt;X*L,GRW&lt;'FC'%VF=X.B:W5A27ZR&gt;76V:8)O&lt;(:D&lt;'&amp;T=R2.:8.T97&gt;F)&amp;"S;7^S;82Z,G.U&lt;!!V1"9!!Q.-&lt;X='4G^S&lt;7&amp;M"%BJ:WA!'&amp;*F&gt;(6S&lt;C"1=GFP=GFU?3!I4G^S&lt;7&amp;M+1!!3E"Q!"Y!!#U035VF:'FB&gt;'^S,GRW&lt;'FC'UF4&gt;7*T9X*J=(2J&lt;WZ1&lt;WRJ9XEO&lt;(:D&lt;'&amp;T=Q!35X6C=W.S;8"U;7^O5'^M;7.Z!!"/1(!!(A!!+A^5=G&amp;O=X"P=H1O&lt;(:M;7)94G^U;7:J9W&amp;U;7^O)%VT:SZM&gt;G.M98.T!!!92'6T;8*F:#"/&lt;X2J:GFD982J&lt;WYA48.H!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!!Z!5QF%982B)&amp;2Z='5!&amp;%!Q`````QJ5&lt;X"J9S"/97VF!!!Q1(!!(A!!(1R*47^E:7QO&lt;(:M;7)/35VP:'6M,GRW9WRB=X-!#5F.&lt;W2F&lt;#"J&lt;A"B!0!!$!!$!!1!"!!&amp;!!1!"A!(!!A!#1!+!!M!$!-!!(A!!!U)!!!!!!!!!!!!!!U,!!!!!!!!#!!!!")!!!!3!!!!#A!!!"!!!!)1!!!!%!!!$1!!!!Q!!!!!!!!!!!!!!1!.!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
@@ -86,5 +151,15 @@ Model data that must be used/observed by Viewables (or reacted to by ViewModel) 
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1107825168</Property>
+	</Item>
+	<Item Name="Request Synchronous Data.vi" Type="VI" URL="../Request Synchronous Data.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!1!!!!!1!)!0)!!!!!!!%!!!!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">-2147483648</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">3</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1074528768</Property>
+		<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
 	</Item>
 </LVClass>
