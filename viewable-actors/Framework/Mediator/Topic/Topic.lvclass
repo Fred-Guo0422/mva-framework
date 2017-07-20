@@ -73,7 +73,7 @@
 		<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
 	</Item>
 	<Item Name="New Topic.vi" Type="VI" URL="../New Topic.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$R!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$*!=!!?!!!?$EVF:'FB&gt;'^S,GRW&lt;'FC$62P='FD,GRW9WRB=X-!!!F5&lt;X"J9S"P&gt;81!&amp;%"4$EZF&gt;S"5&lt;X"J9S"%982B!!!/1$$`````"%ZB&lt;75!!&amp;1!]!!-!!-!"!!%!!5!"!!%!!1!"!!%!!9!"Q!%!Q!!?!!!#1!!!!!!!!!!!!!!#1!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!%!!!!B!!!!!!!!!!!!%!#!!!!!!</Property>
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%8!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$*!=!!?!!!?$EVF:'FB&gt;'^S,GRW&lt;'FC$62P='FD,GRW9WRB=X-!!!F5&lt;X"J9S"P&gt;81!&amp;%"4$EZF&gt;S"5&lt;X"J9S"%982B!!!/1$$`````"%ZB&lt;75!!#:!)3"6=W5A6(FQ:3"*&lt;H"V&gt;#""=S"*&lt;GFU;7&amp;M)&amp;:B&lt;(6F0Q!!6!$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!1!"A!(!!A$!!"Y!!!*!!!!!!!!!!!!!!!*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1!!!#%!!!!"!!!!!!!1!*!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
