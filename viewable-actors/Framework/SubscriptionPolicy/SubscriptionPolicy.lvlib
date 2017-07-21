@@ -4,6 +4,7 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">352354304</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
+	<Item Name="BasicSubscription.lvclass" Type="LVClass" URL="../BasicSubscription/BasicSubscription.lvclass"/>
 	<Item Name="OneShotSubscription.lvclass" Type="LVClass" URL="../OneShotSubscription/OneShotSubscription.lvclass"/>
 	<Item Name="TimedAverageSubscription.lvclass" Type="LVClass" URL="../TimedAverageSubscription/TimedAverageSubscription.lvclass"/>
 	<Item Name="TriggeredSubscription.lvclass" Type="LVClass" URL="../TriggeredSubscription/TriggeredSubscription.lvclass"/>
