@@ -19,6 +19,7 @@
 				<Item Name="StringList.lvlib" Type="Library" URL="../Framework/Components/StringList/StringList.lvlib"/>
 				<Item Name="CurrentValueTable.lvlib" Type="Library" URL="../Framework/Components/CurrentValueTable/CurrentValueTable.lvlib"/>
 				<Item Name="VariantExtensions.lvlib" Type="Library" URL="../Framework/Components/VariantExtensions/VariantExtensions.lvlib"/>
+				<Item Name="ArrayExtensions.lvlib" Type="Library" URL="../Framework/Components/ArrayExtensions/ArrayExtensions.lvlib"/>
 			</Item>
 			<Item Name="MVVM Errors Readme.txt" Type="Document" URL="../Framework/MVVM Errors Readme.txt"/>
 			<Item Name="AbstractMessages.lvlib" Type="Library" URL="../Framework/AbstractMessages/AbstractMessages.lvlib"/>
