@@ -4,7 +4,11 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">352354304</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
-	<Item Name="ActorMessage" Type="Folder">
+	<Property Name="NI.SortType" Type="Int">3</Property>
+	<Item Name="Test" Type="Folder">
+		<Item Name="TestTransport.lvclass" Type="LVClass" URL="../_Test/TestTransport.lvclass"/>
+	</Item>
+	<Item Name="ActorMessage Transport" Type="Folder">
 		<Item Name="ActorMessage.lvclass" Type="LVClass" URL="../ActorMessage/ActorMessage.lvclass"/>
 		<Item Name="Notification Msg.lvclass" Type="LVClass" URL="../ActorMessage/Notification Msg/Notification Msg.lvclass"/>
 	</Item>

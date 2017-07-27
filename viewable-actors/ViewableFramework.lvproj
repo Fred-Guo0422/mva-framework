@@ -20,6 +20,7 @@
 				<Item Name="CurrentValueTable.lvlib" Type="Library" URL="../Framework/Components/CurrentValueTable/CurrentValueTable.lvlib"/>
 				<Item Name="VariantExtensions.lvlib" Type="Library" URL="../Framework/Components/VariantExtensions/VariantExtensions.lvlib"/>
 				<Item Name="ArrayExtensions.lvlib" Type="Library" URL="../Framework/Components/ArrayExtensions/ArrayExtensions.lvlib"/>
+				<Item Name="ProtectedSubpanel.lvlib" Type="Library" URL="../Framework/Components/ProtectedSubpanel/ProtectedSubpanel.lvlib"/>
 			</Item>
 			<Item Name="MVVM Errors Readme.txt" Type="Document" URL="../Framework/MVVM Errors Readme.txt"/>
 			<Item Name="AbstractMessages.lvlib" Type="Library" URL="../Framework/AbstractMessages/AbstractMessages.lvlib"/>
@@ -54,11 +55,8 @@
 			</Item>
 			<Item Name="Unit Test" Type="Folder">
 				<Item Name="Unit Test Readme.txt" Type="Document" URL="../Test/Unit Test/Unit Test Readme.txt"/>
-				<Item Name="TestTransport.lvclass" Type="LVClass" URL="../Test/Unit Test/TestTransport/TestTransport.lvclass"/>
 				<Item Name="TestIViewModel.lvclass" Type="LVClass" URL="../Test/Unit Test/TestIViewModel/TestIViewModel/TestIViewModel.lvclass"/>
 				<Item Name="TestObservableData.lvclass" Type="LVClass" URL="../Test/Unit Test/TestObservableData/TestObservableData.lvclass"/>
-				<Item Name="TestProtectedSubpanel.lvclass" Type="LVClass" URL="../Test/Unit Test/TestProtectedSubpanel/TestProtectedSubpanel.lvclass"/>
-				<Item Name="TestSubscriptionPolicy.lvclass" Type="LVClass" URL="../Test/Unit Test/TestSubscriptionPolicy/TestSubscriptionPolicy.lvclass"/>
 			</Item>
 			<Item Name="Integration Test" Type="Folder">
 				<Item Name="Integration Test Readme.txt" Type="Document" URL="../Test/Integration Test/Integration Test Readme.txt"/>

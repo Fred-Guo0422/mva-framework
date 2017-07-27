@@ -4,6 +4,7 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">352354304</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
+	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Item Name="Messages" Type="Folder">
 		<Item Name="Close View Msg.lvclass" Type="LVClass" URL="../IViewable Messages/Close View Msg/Close View Msg.lvclass"/>
 		<Item Name="Defer Panel Updates Msg.lvclass" Type="LVClass" URL="../IViewable Messages/Defer Panel Updates Msg/Defer Panel Updates Msg.lvclass"/>
@@ -17,5 +18,4 @@
 		<Item Name="Set Panes to Origins Msg.lvclass" Type="LVClass" URL="../IViewable Messages/Set Panes to Origins Msg/Set Panes to Origins Msg.lvclass"/>
 	</Item>
 	<Item Name="IViewable.lvclass" Type="LVClass" URL="../IViewable/IViewable.lvclass"/>
-	<Item Name="ProtectedSubpanel.lvclass" Type="LVClass" URL="../ProtectedSubpanel/ProtectedSubpanel.lvclass"/>
 </Library>

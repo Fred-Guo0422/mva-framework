@@ -54,13 +54,13 @@
 	</Item>
 	<Item Name="IMediator" Type="Folder">
 		<Item Name="Insert Bus Monitor.vi" Type="VI" URL="../Insert Bus Monitor.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(L!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$B!=!!?!!!B$EVF:'FB&gt;'^S,GRW&lt;'FC%%VF:'FB&gt;'^S,GRW9WRB=X-!$%VF:'FB&gt;'^S)'^V&gt;!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1"+1(!!(A!!+Q^*6GFF&gt;W&amp;C&lt;'5O&lt;(:M;7):5(*P&gt;'6D&gt;'6E5X6C='&amp;O:7QO&lt;(:D&lt;'&amp;T=Q!55(*P&gt;'6D&gt;'6E5X6C='&amp;O:7QA;7Y!!(9!]1!!!!!!!!!$$UF7;76X97*M:3ZM&gt;GRJ9BF1=G^U:7.U:724&gt;7*Q97ZF&lt;#ZM&gt;G.M98.T)&amp;"S&lt;X2F9X2F:#"4&gt;7*Q97ZF&lt;#"3:7:F=G6O9W5O9X2M!#.!=!!A!!%!"Q!35(*P&gt;'6D&gt;'6E)&amp;.V9H"B&lt;G6M!!!W1(!!(A!!)1Z.:72J982P=CZM&gt;GRJ9B".:72J982P=CZM&gt;G.M98.T!!N.:72J982P=C"J&lt;A"5!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!A!#1-!!(A!!!U)!!!!!!!!!!!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!1!!!!E!!!!!!"!!I!!!!!</Property>
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(\!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$B!=!!?!!!B$EVF:'FB&gt;'^S,GRW&lt;'FC%%VF:'FB&gt;'^S,GRW9WRB=X-!$%VF:'FB&gt;'^S)'^V&gt;!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1"31(!!(A!!-R&gt;1=G^U:7.U:724&gt;7*Q97ZF&lt;#ZM&gt;GRJ9BF1=G^U:7.U:724&gt;7*Q97ZF&lt;#ZM&gt;G.M98.T!"21=G^U:7.U:724&gt;7*Q97ZF&lt;#"J&lt;A!!@A$R!!!!!!!!!!-85(*P&gt;'6D&gt;'6E5X6C='&amp;O:7QO&lt;(:M;7):5(*P&gt;'6D&gt;'6E5X6C='&amp;O:7QO&lt;(:D&lt;'&amp;T=S"1=G^U:7.U:71A5X6C='&amp;O:7QA5G6G:8*F&lt;G.F,G.U&lt;!!D1(!!)!!"!!=!%F"S&lt;X2F9X2F:#"4&gt;7*Q97ZF&lt;!!!.E"Q!"Y!!#%/476E;7&amp;U&lt;X)O&lt;(:M;7)1476E;7&amp;U&lt;X)O&lt;(:D&lt;'&amp;T=Q!,476E;7&amp;U&lt;X)A;7Y!6!$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!)!!E$!!"Y!!!.#!!!!!!!!!!!!!#.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!%!!!!*!!!!!!!1!+!!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1342972432</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1350574608</Property>
 		</Item>
 		<Item Name="Open Bus Monitor.vi" Type="VI" URL="../Open Bus Monitor.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%L!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$B!=!!?!!!B$EVF:'FB&gt;'^S,GRW&lt;'FC%%VF:'FB&gt;'^S,GRW9WRB=X-!$%VF:'FB&gt;'^S)'^V&gt;!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!W1(!!(A!!)1Z.:72J982P=CZM&gt;GRJ9B".:72J982P=CZM&gt;G.M98.T!!N.:72J982P=C"J&lt;A"5!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!1!"Q-!!(A!!!U)!!!!!!!!!!!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!E!!!!!!"!!A!!!!!</Property>
