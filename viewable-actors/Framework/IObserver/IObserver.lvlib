@@ -10,6 +10,7 @@
 	<Item Name="Messages" Type="Folder">
 		<Item Name="Observe Data Msg.lvclass" Type="LVClass" URL="../IObserver Messages/Observe Data Msg/Observe Data Msg.lvclass"/>
 		<Item Name="Subscribe Msg.lvclass" Type="LVClass" URL="../IObserver Messages/Subscribe Msg/Subscribe Msg.lvclass"/>
+		<Item Name="Unsubscribe Msg.lvclass" Type="LVClass" URL="../IObserver Messages/Unsubscribe Msg/Unsubscribe Msg.lvclass"/>
 	</Item>
 	<Item Name="IObserver.lvclass" Type="LVClass" URL="../IObserver/IObserver.lvclass"/>
 </Library>

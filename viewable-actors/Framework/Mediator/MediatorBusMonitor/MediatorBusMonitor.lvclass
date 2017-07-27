@@ -74,11 +74,11 @@
 		<Item Name="Observe Data.vi" Type="VI" URL="../Observe Data.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'$!!!!$!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!%R!=!!?!!!L$EVF:'FB&gt;'^S,GRW&lt;'FC'EVF:'FB&gt;'^S1H6T47^O;82P=CZM&gt;G.M98.T!":.:72J982P=E*V=UVP&lt;GFU&lt;X)A&lt;X6U!!!31&amp;1!"AJ5;7VF)&amp;.U97VQ!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!!J!5Q6797RV:1!51$$`````#E2B&gt;(6N)%ZB&lt;75!!%J!=!!?!!!L$EVF:'FB&gt;'^S,GRW&lt;'FC'EVF:'FB&gt;'^S1H6T47^O;82P=CZM&gt;G.M98.T!"6.:72J982P=E*V=UVP&lt;GFU&lt;X)A;7Y!6!$Q!!Q!!Q!%!!1!"1!%!!1!"A!%!!=!#!!*!!I$!!"Y!!!.#!!!!!!!!!!!!!#.#Q!!!!!!!!!!!!!1!!!!!!!!!!I!!!!1!!!#%!!!!*!!!!!!!1!,!!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">16777344</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1115685392</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1082143248</Property>
 		</Item>
 	</Item>
 	<Item Name="IViewable" Type="Folder">

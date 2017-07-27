@@ -10,6 +10,7 @@
 		<Item Name="Publish Msg.lvclass" Type="LVClass" URL="../IMediator Messages/Publish Msg/Publish Msg.lvclass"/>
 		<Item Name="Start Bus Monitor Msg.lvclass" Type="LVClass" URL="../IMediator Messages/Start Bus Monitor Msg/Start Bus Monitor Msg.lvclass"/>
 		<Item Name="Subscribe Msg.lvclass" Type="LVClass" URL="../IMediator Messages/Subscribe Msg/Subscribe Msg.lvclass"/>
+		<Item Name="Unsubscribe Msg.lvclass" Type="LVClass" URL="../IMediator Messages/Unsubscribe Msg/Unsubscribe Msg.lvclass"/>
 	</Item>
 	<Item Name="IMediator.lvclass" Type="LVClass" URL="../IMediator/IMediator.lvclass"/>
 	<Item Name="IMediatorBusMonitor.lvclass" Type="LVClass" URL="../IMediatorBusMonitor/MediatorBusMonitor/IMediatorBusMonitor.lvclass"/>

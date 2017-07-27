@@ -4,6 +4,10 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">352354304</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
+	<Property Name="NI.SortType" Type="Int">3</Property>
+	<Item Name="Test" Type="Folder">
+		<Item Name="TestTopicLookupTable.lvclass" Type="LVClass" URL="../_Test/TestTopicLookupTable/TestTopicLookupTable/TestTopicLookupTable.lvclass"/>
+	</Item>
 	<Item Name="MediatorBusMonitor Messages" Type="Folder">
 		<Item Name="Update Front Panel Msg.lvclass" Type="LVClass" URL="../MediatorBusMonitor Messages/Update Front Panel Msg/Update Front Panel Msg.lvclass"/>
 	</Item>
