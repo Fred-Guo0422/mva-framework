@@ -53,7 +53,7 @@
 				<Item Name="TestModels.lvlib" Type="Library" URL="../Test/Doubles/TestModels.lvlib"/>
 				<Item Name="LeakyViewModel.lvlib" Type="Library" URL="../Test/Doubles/LeakyViewModel/LeakyViewModel.lvlib"/>
 			</Item>
-			<Item Name="Unit Test" Type="Folder">
+			<Item Name="Unit-ish Test" Type="Folder">
 				<Item Name="Unit Test Readme.txt" Type="Document" URL="../Test/Unit Test/Unit Test Readme.txt"/>
 				<Item Name="TestIViewModel.lvclass" Type="LVClass" URL="../Test/Unit Test/TestIViewModel/TestIViewModel/TestIViewModel.lvclass"/>
 				<Item Name="TestObservableData.lvclass" Type="LVClass" URL="../Test/Unit Test/TestObservableData/TestObservableData.lvclass"/>
