@@ -311,7 +311,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/Users/Ethan/Git/actor-framework/viewable-actors/builds/Framework/Components/NI_AB_PROJECTNAME</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{C3F6C307-65F6-4546-8B03-8BDDCE5FABD9}</Property>
-				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.build" Type="Int">3</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">VariantExtensions.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/Users/Ethan/Git/actor-framework/viewable-actors/builds/Framework/Components/NI_AB_PROJECTNAME/VariantExtensions.lvlibp</Property>

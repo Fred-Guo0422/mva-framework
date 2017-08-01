@@ -309,7 +309,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/Users/Ethan/Git/actor-framework/viewable-actors/builds/Framework/Components/NI_AB_PROJECTNAME</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{CBDEFAA0-70A9-43FF-8C23-E75E5CB45CF0}</Property>
-				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.build" Type="Int">2</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">TimedAverageBuffer.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/Users/Ethan/Git/actor-framework/viewable-actors/builds/Framework/Components/NI_AB_PROJECTNAME/TimedAverageBuffer.lvlibp</Property>

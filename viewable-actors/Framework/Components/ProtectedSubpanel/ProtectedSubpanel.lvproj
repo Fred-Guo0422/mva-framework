@@ -307,7 +307,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/Users/Ethan/Git/actor-framework/viewable-actors/builds/Framework/Components/NI_AB_PROJECTNAME</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{099A0036-DF43-4889-9758-D3909E6EF57A}</Property>
-				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.build" Type="Int">2</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">ProtectedSubpanel.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/Users/Ethan/Git/actor-framework/viewable-actors/builds/Framework/Components/NI_AB_PROJECTNAME/ProtectedSubpanel.lvlibp</Property>

@@ -83,7 +83,7 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1342713872</Property>
 	</Item>
-	<Item Name="Create List.vi" Type="VI" URL="../Create List.vi">
+	<Item Name="Create String List.vi" Type="VI" URL="../Create String List.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;5!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$R!=!!?!!!F%&amp;.U=GFO:URJ=X1O&lt;(:M;7)35X2S;7ZH4'FT&gt;#ZM&gt;G.M98.T!!V4&gt;(*J&lt;G&gt;-;8.U)'FO!#&amp;!=!!A!!%!"1!55X2S;7ZH4'FT&gt;#"3:7:F=G6O9W5!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!%%!Q`````Q:4&gt;(*J&lt;G=!!#J!1!!"`````Q!)(%FO;82J97QA5X2S;7ZH=S!I:7VQ&gt;(EA&lt;'FT&gt;#E!!&amp;1!]!!-!!-!"!!%!!9!"!!%!!1!"!!(!!1!"!!*!A!!?!!!$1A!!!!!!!!!!!!!#1!!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!))!!!!!!%!#A!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
@@ -92,7 +92,7 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1342713856</Property>
 	</Item>
-	<Item Name="Destroy List.vi" Type="VI" URL="../Destroy List.vi">
+	<Item Name="Destroy String List.vi" Type="VI" URL="../Destroy String List.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;!!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!!Z!-0````]%382F&lt;1!!'%"!!!(`````!!5,2GFO97QA382F&lt;8-!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!]1(!!(A!!*2"4&gt;(*J&lt;G&gt;-;8.U,GRW&lt;'FC%F.U=GFO:URJ=X1O&lt;(:D&lt;'&amp;T=Q!.5X2S;7ZH4'FT&gt;#"J&lt;A!B1(!!)!!"!!A!&amp;&amp;.U=GFO:URJ=X1A5G6G:8*F&lt;G.F!!"5!0!!$!!$!!1!"A!%!!1!"!!%!!1!"Q!%!!1!#1-!!(A!!!U)!!!!!!!!#1!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!%!!!!!!"!!I!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>

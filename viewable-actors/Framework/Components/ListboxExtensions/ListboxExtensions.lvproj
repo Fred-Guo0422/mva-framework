@@ -309,7 +309,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/Users/Ethan/Git/actor-framework/viewable-actors/builds/Framework/Components/NI_AB_PROJECTNAME</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{EFDC7AD3-A0E8-4742-8CC2-6316ED23E4F7}</Property>
-				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.build" Type="Int">2</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">ListboxExtensions.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/Users/Ethan/Git/actor-framework/viewable-actors/builds/Framework/Components/NI_AB_PROJECTNAME/ListboxExtensions.lvlibp</Property>
