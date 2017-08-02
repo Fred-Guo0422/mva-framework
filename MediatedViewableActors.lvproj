@@ -11,16 +11,7 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Libraries" Type="Folder">
-			<Item Name="TimedAverageBuffer.lvlib" Type="Library" URL="../Framework/Components/TimedAverageBuffer/TimedAverageBuffer.lvlib"/>
-			<Item Name="TreeExtensions.lvlib" Type="Library" URL="../Framework/Components/TreeExtensions/TreeExtensions.lvlib"/>
-			<Item Name="ListboxExtensions.lvlib" Type="Library" URL="../Framework/Components/ListboxExtensions/ListboxExtensions.lvlib"/>
-			<Item Name="StringList.lvlib" Type="Library" URL="../Framework/Components/StringList/StringList.lvlib"/>
-			<Item Name="CurrentValueTable.lvlib" Type="Library" URL="../Framework/Components/CurrentValueTable/CurrentValueTable.lvlib"/>
-			<Item Name="VariantExtensions.lvlib" Type="Library" URL="../Framework/Components/VariantExtensions/VariantExtensions.lvlib"/>
-			<Item Name="ArrayExtensions.lvlib" Type="Library" URL="../Framework/Components/ArrayExtensions/ArrayExtensions.lvlib"/>
-			<Item Name="ProtectedSubpanel.lvlib" Type="Library" URL="../Framework/Components/ProtectedSubpanel/ProtectedSubpanel.lvlib"/>
-		</Item>
+		<Item Name="Include" Type="Folder"/>
 		<Item Name="Framework" Type="Folder">
 			<Item Name="AbstractMessages.lvlib" Type="Library" URL="../Framework/AbstractMessages/AbstractMessages.lvlib"/>
 			<Item Name="IObserver.lvlib" Type="Library" URL="../Framework/IObserver/IObserver.lvlib"/>
@@ -64,9 +55,145 @@
 				<Item Name="TopLevelApplication.lvlib" Type="Library" URL="../_Test/Integration Test/TopLevelApplication.lvlib"/>
 			</Item>
 			<Item Name="Performance Test" Type="Folder">
-				<Item Name="Performance Test Readme.txt" Type="Document" URL="../Test/Performance Test/Performance Test Readme.txt"/>
+				<Item Name="Performance Test Readme.txt" Type="Document" URL="../_Test/Performance Test/Performance Test Readme.txt"/>
 				<Item Name="TestPublishRate.lvclass" Type="LVClass" URL="../_Test/Performance Test/TestPublishRate/TestPublishRate.lvclass"/>
 				<Item Name="TestManyPublications.lvclass" Type="LVClass" URL="../_Test/Performance Test/TestManyPublications/TestManyPublications.lvclass"/>
+			</Item>
+		</Item>
+		<Item Name="Libraries" Type="Folder">
+			<Property Name="NI.SortType" Type="Int">0</Property>
+			<Item Name="ArrayExtensions.lvlibp" Type="LVLibp" URL="../Libraries/ArrayExtensions.lvlibp">
+				<Item Name="Promote Element" Type="Folder">
+					<Item Name="Promote Element (Variant).vi" Type="VI" URL="../Libraries/ArrayExtensions.lvlibp/Promote Element (Variant).vi"/>
+					<Item Name="Promote Element (I8).vi" Type="VI" URL="../Libraries/ArrayExtensions.lvlibp/Promote Element (I8).vi"/>
+					<Item Name="Promote Element (I16).vi" Type="VI" URL="../Libraries/ArrayExtensions.lvlibp/Promote Element (I16).vi"/>
+					<Item Name="Promote Element (I32).vi" Type="VI" URL="../Libraries/ArrayExtensions.lvlibp/Promote Element (I32).vi"/>
+					<Item Name="Promote Element (I64).vi" Type="VI" URL="../Libraries/ArrayExtensions.lvlibp/Promote Element (I64).vi"/>
+					<Item Name="Promote Element (U8).vi" Type="VI" URL="../Libraries/ArrayExtensions.lvlibp/Promote Element (U8).vi"/>
+					<Item Name="Promote Element (U16).vi" Type="VI" URL="../Libraries/ArrayExtensions.lvlibp/Promote Element (U16).vi"/>
+					<Item Name="Promote Element (U32).vi" Type="VI" URL="../Libraries/ArrayExtensions.lvlibp/Promote Element (U32).vi"/>
+					<Item Name="Promote Element (U64).vi" Type="VI" URL="../Libraries/ArrayExtensions.lvlibp/Promote Element (U64).vi"/>
+					<Item Name="Promote Element (SGL).vi" Type="VI" URL="../Libraries/ArrayExtensions.lvlibp/Promote Element (SGL).vi"/>
+					<Item Name="Promote Element (DBL).vi" Type="VI" URL="../Libraries/ArrayExtensions.lvlibp/Promote Element (DBL).vi"/>
+					<Item Name="Promote Element (EXT).vi" Type="VI" URL="../Libraries/ArrayExtensions.lvlibp/Promote Element (EXT).vi"/>
+					<Item Name="Promote Element (String).vi" Type="VI" URL="../Libraries/ArrayExtensions.lvlibp/Promote Element (String).vi"/>
+				</Item>
+				<Item Name="Demote Element" Type="Folder">
+					<Item Name="Demote Element (Variant).vi" Type="VI" URL="../Libraries/ArrayExtensions.lvlibp/Demote Element (Variant).vi"/>
+					<Item Name="Demote Element (I8).vi" Type="VI" URL="../Libraries/ArrayExtensions.lvlibp/Demote Element (I8).vi"/>
+					<Item Name="Demote Element (I16).vi" Type="VI" URL="../Libraries/ArrayExtensions.lvlibp/Demote Element (I16).vi"/>
+					<Item Name="Demote Element (I32).vi" Type="VI" URL="../Libraries/ArrayExtensions.lvlibp/Demote Element (I32).vi"/>
+					<Item Name="Demote Element (I64).vi" Type="VI" URL="../Libraries/ArrayExtensions.lvlibp/Demote Element (I64).vi"/>
+					<Item Name="Demote Element (U8).vi" Type="VI" URL="../Libraries/ArrayExtensions.lvlibp/Demote Element (U8).vi"/>
+					<Item Name="Demote Element (U16).vi" Type="VI" URL="../Libraries/ArrayExtensions.lvlibp/Demote Element (U16).vi"/>
+					<Item Name="Demote Element (U32).vi" Type="VI" URL="../Libraries/ArrayExtensions.lvlibp/Demote Element (U32).vi"/>
+					<Item Name="Demote Element (U64).vi" Type="VI" URL="../Libraries/ArrayExtensions.lvlibp/Demote Element (U64).vi"/>
+					<Item Name="Demote Element (SGL).vi" Type="VI" URL="../Libraries/ArrayExtensions.lvlibp/Demote Element (SGL).vi"/>
+					<Item Name="Demote Element (DBL).vi" Type="VI" URL="../Libraries/ArrayExtensions.lvlibp/Demote Element (DBL).vi"/>
+					<Item Name="Demote Element (EXT).vi" Type="VI" URL="../Libraries/ArrayExtensions.lvlibp/Demote Element (EXT).vi"/>
+					<Item Name="Demote Element (String).vi" Type="VI" URL="../Libraries/ArrayExtensions.lvlibp/Demote Element (String).vi"/>
+				</Item>
+				<Item Name="Promote Element.vi" Type="VI" URL="../Libraries/ArrayExtensions.lvlibp/Promote Element.vi"/>
+				<Item Name="Demote Element.vi" Type="VI" URL="../Libraries/ArrayExtensions.lvlibp/Demote Element.vi"/>
+			</Item>
+			<Item Name="CurrentValueTable.lvlibp" Type="LVLibp" URL="../Libraries/CurrentValueTable.lvlibp">
+				<Item Name="CurrentValueTable.lvclass" Type="LVClass" URL="../Libraries/CurrentValueTable.lvlibp/CurrentValueTable.lvclass"/>
+			</Item>
+			<Item Name="ListboxExtensions.lvlibp" Type="LVLibp" URL="../Libraries/ListboxExtensions.lvlibp">
+				<Item Name="LstbxExt_LVRowAndColumnTypeDef.ctl" Type="VI" URL="../Libraries/ListboxExtensions.lvlibp/1abvi3w/vi.lib/Utility/miscctls.llb/LstbxExt_LVRowAndColumnTypeDef.ctl"/>
+				<Item Name="LstbxExt_LVRowAndColumnUnsignedTypeDef.ctl" Type="VI" URL="../Libraries/ListboxExtensions.lvlibp/1abvi3w/vi.lib/Utility/miscctls.llb/LstbxExt_LVRowAndColumnUnsignedTypeDef.ctl"/>
+				<Item Name="Nudge Position Down.vi" Type="VI" URL="../Libraries/ListboxExtensions.lvlibp/Nudge Position Down.vi"/>
+				<Item Name="Nudge Position Up.vi" Type="VI" URL="../Libraries/ListboxExtensions.lvlibp/Nudge Position Up.vi"/>
+				<Item Name="Read Highlighted Row.vi" Type="VI" URL="../Libraries/ListboxExtensions.lvlibp/Read Highlighted Row.vi"/>
+				<Item Name="Read Highlighted Rows.vi" Type="VI" URL="../Libraries/ListboxExtensions.lvlibp/Read Highlighted Rows.vi"/>
+				<Item Name="Scale Columns (Ratio).vi" Type="VI" URL="../Libraries/ListboxExtensions.lvlibp/Scale Columns (Ratio).vi"/>
+				<Item Name="Set Column Widths (Pixels).vi" Type="VI" URL="../Libraries/ListboxExtensions.lvlibp/Set Column Widths (Pixels).vi"/>
+			</Item>
+			<Item Name="NI_Data Type.lvlibp" Type="LVLibp" URL="../Libraries/NI_Data Type.lvlibp">
+				<Item Name="Private" Type="Folder">
+					<Item Name="GetRefnumInfoInternal.vi" Type="VI" URL="../Libraries/NI_Data Type.lvlibp/1abvi3w/vi.lib/Utility/Data Type/Private/GetRefnumInfoInternal.vi"/>
+					<Item Name="I32ToMemoryInfo.vi" Type="VI" URL="../Libraries/NI_Data Type.lvlibp/1abvi3w/vi.lib/Utility/Data Type/Private/I32ToMemoryInfo.vi"/>
+					<Item Name="I32ToRefnumType.vi" Type="VI" URL="../Libraries/NI_Data Type.lvlibp/1abvi3w/vi.lib/Utility/Data Type/Private/I32ToRefnumType.vi"/>
+					<Item Name="MDTFlavorToTypeEnum.vi" Type="VI" URL="../Libraries/NI_Data Type.lvlibp/1abvi3w/vi.lib/Utility/Data Type/Private/MDTFlavorToTypeEnum.vi"/>
+					<Item Name="MemoryInfoToI32.vi" Type="VI" URL="../Libraries/NI_Data Type.lvlibp/1abvi3w/vi.lib/Utility/Data Type/Private/MemoryInfoToI32.vi"/>
+					<Item Name="RefnumTypeToI32.vi" Type="VI" URL="../Libraries/NI_Data Type.lvlibp/1abvi3w/vi.lib/Utility/Data Type/Private/RefnumTypeToI32.vi"/>
+					<Item Name="SetNumericFxpBitInfo.vi" Type="VI" URL="../Libraries/NI_Data Type.lvlibp/1abvi3w/vi.lib/Utility/Data Type/SetNumericFxpBitInfo.vi"/>
+					<Item Name="SetNumericFxpIncludeOverflowStatus.vi" Type="VI" URL="../Libraries/NI_Data Type.lvlibp/1abvi3w/vi.lib/Utility/Data Type/SetNumericFxpIncludeOverflowStatus.vi"/>
+					<Item Name="SetNumericFxpRangeInfo.vi" Type="VI" URL="../Libraries/NI_Data Type.lvlibp/1abvi3w/vi.lib/Utility/Data Type/SetNumericFxpRangeInfo.vi"/>
+				</Item>
+				<Item Name="Type Definitions" Type="Folder">
+					<Item Name="Data Type.ctl" Type="VI" URL="../Libraries/NI_Data Type.lvlibp/1abvi3w/vi.lib/Utility/Data Type/Type Definitions/Data Type.ctl"/>
+					<Item Name="Memory Info.ctl" Type="VI" URL="../Libraries/NI_Data Type.lvlibp/1abvi3w/vi.lib/Utility/Data Type/Type Definitions/Memory Info.ctl"/>
+					<Item Name="Memory Type.ctl" Type="VI" URL="../Libraries/NI_Data Type.lvlibp/1abvi3w/vi.lib/Utility/Data Type/Type Definitions/Memory Type.ctl"/>
+					<Item Name="Polymorphic VI Time Stamp.ctl" Type="VI" URL="../Libraries/NI_Data Type.lvlibp/1abvi3w/vi.lib/Utility/Data Type/Type Definitions/Polymorphic VI Time Stamp.ctl"/>
+					<Item Name="Refnum Type.ctl" Type="VI" URL="../Libraries/NI_Data Type.lvlibp/1abvi3w/vi.lib/Utility/Data Type/Type Definitions/Refnum Type.ctl"/>
+					<Item Name="Tag Type.ctl" Type="VI" URL="../Libraries/NI_Data Type.lvlibp/1abvi3w/vi.lib/Utility/Data Type/Type Definitions/Tag Type.ctl"/>
+					<Item Name="Terminal Array.ctl" Type="VI" URL="../Libraries/NI_Data Type.lvlibp/1abvi3w/vi.lib/Utility/Data Type/Type Definitions/Terminal Array.ctl"/>
+					<Item Name="Type Definition Info.ctl" Type="VI" URL="../Libraries/NI_Data Type.lvlibp/1abvi3w/vi.lib/Utility/Data Type/Type Definitions/Type Definition Info.ctl"/>
+					<Item Name="Unit Info.ctl" Type="VI" URL="../Libraries/NI_Data Type.lvlibp/1abvi3w/vi.lib/Utility/Data Type/Type Definitions/Unit Info.ctl"/>
+					<Item Name="Unit Type.ctl" Type="VI" URL="../Libraries/NI_Data Type.lvlibp/1abvi3w/vi.lib/Utility/Data Type/Type Definitions/Unit Type.ctl"/>
+					<Item Name="VI Info.ctl" Type="VI" URL="../Libraries/NI_Data Type.lvlibp/1abvi3w/vi.lib/Utility/Data Type/Type Definitions/VI Info.ctl"/>
+					<Item Name="VI Server Generic Type.ctl" Type="VI" URL="../Libraries/NI_Data Type.lvlibp/1abvi3w/vi.lib/Utility/Data Type/Type Definitions/VI Server Generic Type.ctl"/>
+				</Item>
+				<Item Name="Get" Type="Folder">
+					<Item Name="Get Type Information.vi" Type="VI" URL="../Libraries/NI_Data Type.lvlibp/1abvi3w/vi.lib/Utility/Data Type/Get Type Information.vi"/>
+					<Item Name="Get Array Information.vi" Type="VI" URL="../Libraries/NI_Data Type.lvlibp/1abvi3w/vi.lib/Utility/Data Type/Get Array Information.vi"/>
+					<Item Name="Get Cluster Information.vi" Type="VI" URL="../Libraries/NI_Data Type.lvlibp/1abvi3w/vi.lib/Utility/Data Type/Get Cluster Information.vi"/>
+					<Item Name="Get Fixed-Point Information.vi" Type="VI" URL="../Libraries/NI_Data Type.lvlibp/1abvi3w/vi.lib/Utility/Data Type/Get Fixed-Point Information.vi"/>
+					<Item Name="Get LabVIEW Class Information.vi" Type="VI" URL="../Libraries/NI_Data Type.lvlibp/1abvi3w/vi.lib/Utility/Data Type/Get LabVIEW Class Information.vi"/>
+					<Item Name="Get Numeric Information.vi" Type="VI" URL="../Libraries/NI_Data Type.lvlibp/1abvi3w/vi.lib/Utility/Data Type/Get Numeric Information.vi"/>
+					<Item Name="Get Polymorphic VI Information.vi" Type="VI" URL="../Libraries/NI_Data Type.lvlibp/1abvi3w/vi.lib/Utility/Data Type/Get Polymorphic VI Information.vi"/>
+					<Item Name="Get Refnum Information.vi" Type="VI" URL="../Libraries/NI_Data Type.lvlibp/1abvi3w/vi.lib/Utility/Data Type/Get Refnum Information.vi"/>
+					<Item Name="Get Tag Information.vi" Type="VI" URL="../Libraries/NI_Data Type.lvlibp/1abvi3w/vi.lib/Utility/Data Type/Get Tag Information.vi"/>
+					<Item Name="Get User-Defined Refnum Information.vi" Type="VI" URL="../Libraries/NI_Data Type.lvlibp/1abvi3w/vi.lib/Utility/Data Type/Get User-Defined Refnum Information.vi"/>
+					<Item Name="Get User-Defined Tag Information.vi" Type="VI" URL="../Libraries/NI_Data Type.lvlibp/1abvi3w/vi.lib/Utility/Data Type/Get User-Defined Tag Information.vi"/>
+					<Item Name="Get VI Information.vi" Type="VI" URL="../Libraries/NI_Data Type.lvlibp/1abvi3w/vi.lib/Utility/Data Type/Get VI Information.vi"/>
+					<Item Name="Get Waveform Information.vi" Type="VI" URL="../Libraries/NI_Data Type.lvlibp/1abvi3w/vi.lib/Utility/Data Type/Get Waveform Information.vi"/>
+				</Item>
+				<Item Name="Set" Type="Folder">
+					<Item Name="Set Array Information.vi" Type="VI" URL="../Libraries/NI_Data Type.lvlibp/1abvi3w/vi.lib/Utility/Data Type/Set Array Information.vi"/>
+					<Item Name="Set Cluster Information.vi" Type="VI" URL="../Libraries/NI_Data Type.lvlibp/1abvi3w/vi.lib/Utility/Data Type/Set Cluster Information.vi"/>
+					<Item Name="Set Fixed-Point Information.vi" Type="VI" URL="../Libraries/NI_Data Type.lvlibp/1abvi3w/vi.lib/Utility/Data Type/Set Fixed-Point Information.vi"/>
+					<Item Name="Set Numeric Information.vi" Type="VI" URL="../Libraries/NI_Data Type.lvlibp/1abvi3w/vi.lib/Utility/Data Type/Set Numeric Information.vi"/>
+					<Item Name="Set Refnum Information.vi" Type="VI" URL="../Libraries/NI_Data Type.lvlibp/1abvi3w/vi.lib/Utility/Data Type/Set Refnum Information.vi"/>
+					<Item Name="Set Type Information.vi" Type="VI" URL="../Libraries/NI_Data Type.lvlibp/1abvi3w/vi.lib/Utility/Data Type/Set Type Information.vi"/>
+					<Item Name="Set User-Defined Refnum Information.vi" Type="VI" URL="../Libraries/NI_Data Type.lvlibp/1abvi3w/vi.lib/Utility/Data Type/Set User-Defined Refnum Information.vi"/>
+					<Item Name="Set User-Defined Tag Information.vi" Type="VI" URL="../Libraries/NI_Data Type.lvlibp/1abvi3w/vi.lib/Utility/Data Type/Set User-Defined Tag Information.vi"/>
+					<Item Name="Set VI Information.vi" Type="VI" URL="../Libraries/NI_Data Type.lvlibp/1abvi3w/vi.lib/Utility/Data Type/Set VI Information.vi"/>
+				</Item>
+				<Item Name="Miscellaneous" Type="Folder">
+					<Item Name="Is or Contains Type Definition.vi" Type="VI" URL="../Libraries/NI_Data Type.lvlibp/1abvi3w/vi.lib/Utility/Data Type/Is or Contains Type Definition.vi"/>
+					<Item Name="Disconnect Type Definitions.vi" Type="VI" URL="../Libraries/NI_Data Type.lvlibp/1abvi3w/vi.lib/Utility/Data Type/Disconnect Type Definitions.vi"/>
+					<Item Name="Check for Contained Data Type.vi" Type="VI" URL="../Libraries/NI_Data Type.lvlibp/1abvi3w/vi.lib/Utility/Data Type/Check for Contained Data Type.vi"/>
+					<Item Name="Get Type Definition Path.vi" Type="VI" URL="../Libraries/NI_Data Type.lvlibp/1abvi3w/vi.lib/Utility/Data Type/Get Type Definition Path.vi"/>
+				</Item>
+				<Item Name="All Palette VIs.vi" Type="VI" URL="../Libraries/NI_Data Type.lvlibp/1abvi3w/vi.lib/Utility/Data Type/All Palette VIs.vi"/>
+				<Item Name="NIDataType_Qualified Name Array To Single String.vi" Type="VI" URL="../Libraries/NI_Data Type.lvlibp/1abvi3w/vi.lib/Utility/LVClass/NIDataType_Qualified Name Array To Single String.vi"/>
+				<Item Name="NIDataType_Error Cluster From Error Code.vi" Type="VI" URL="../Libraries/NI_Data Type.lvlibp/1abvi3w/vi.lib/Utility/error.llb/NIDataType_Error Cluster From Error Code.vi"/>
+				<Item Name="NIDataType_LVFixedPointRepRangeTypeDef.ctl" Type="VI" URL="../Libraries/NI_Data Type.lvlibp/1abvi3w/vi.lib/fxp/NIDataType_LVFixedPointRepRangeTypeDef.ctl"/>
+				<Item Name="NIDataType_LVFixedPointRepBitsTypeDef.ctl" Type="VI" URL="../Libraries/NI_Data Type.lvlibp/1abvi3w/vi.lib/fxp/NIDataType_LVFixedPointRepBitsTypeDef.ctl"/>
+				<Item Name="NIDataType_LVNumericRepresentation.ctl" Type="VI" URL="../Libraries/NI_Data Type.lvlibp/1abvi3w/vi.lib/numeric/NIDataType_LVNumericRepresentation.ctl"/>
+			</Item>
+			<Item Name="ProtectedSubpanel.lvlibp" Type="LVLibp" URL="../Libraries/ProtectedSubpanel.lvlibp">
+				<Item Name="ProtectedSubpanel.lvclass" Type="LVClass" URL="../Libraries/ProtectedSubpanel.lvlibp/ProtectedSubpanel.lvclass"/>
+			</Item>
+			<Item Name="StringList.lvlibp" Type="LVLibp" URL="../Libraries/StringList.lvlibp">
+				<Item Name="StringList.lvclass" Type="LVClass" URL="../Libraries/StringList.lvlibp/StringList.lvclass"/>
+			</Item>
+			<Item Name="TimedAverageBuffer.lvlibp" Type="LVLibp" URL="../Libraries/TimedAverageBuffer.lvlibp">
+				<Item Name="TimedAverageBuffer.lvclass" Type="LVClass" URL="../Libraries/TimedAverageBuffer.lvlibp/TimedAverageBuffer.lvclass"/>
+				<Item Name="TmdAvgBuffer_High Resolution Relative Seconds.vi" Type="VI" URL="../Libraries/TimedAverageBuffer.lvlibp/1abvi3w/vi.lib/Utility/TmdAvgBuffer_High Resolution Relative Seconds.vi"/>
+			</Item>
+			<Item Name="TreeExtensions.lvlibp" Type="LVLibp" URL="../Libraries/TreeExtensions.lvlibp">
+				<Item Name="Build Tree From Data (Recursive).vi" Type="VI" URL="../Libraries/TreeExtensions.lvlibp/Build Tree From Data (Recursive).vi"/>
+				<Item Name="Set Column Widths (STUB).vi" Type="VI" URL="../Libraries/TreeExtensions.lvlibp/Set Column Widths (STUB).vi"/>
+			</Item>
+			<Item Name="VariantExtensions.lvlibp" Type="LVLibp" URL="../Libraries/VariantExtensions.lvlibp">
+				<Item Name="Format Type Name.vi" Type="VI" URL="../Libraries/VariantExtensions.lvlibp/Format Type Name.vi"/>
+				<Item Name="Format Value String.vi" Type="VI" URL="../Libraries/VariantExtensions.lvlibp/Format Value String.vi"/>
+				<Item Name="Scalar Data to String.vi" Type="VI" URL="../Libraries/VariantExtensions.lvlibp/Scalar Data to String.vi"/>
+				<Item Name="VarExt_Trim Whitespace.vi" Type="VI" URL="../Libraries/VariantExtensions.lvlibp/1abvi3w/vi.lib/Utility/error.llb/VarExt_Trim Whitespace.vi"/>
+				<Item Name="VarExt_whitespace.ctl" Type="VI" URL="../Libraries/VariantExtensions.lvlibp/1abvi3w/vi.lib/Utility/error.llb/VarExt_whitespace.ctl"/>
 			</Item>
 		</Item>
 		<Item Name="Integration Test Launcher.vi" Type="VI" URL="../_Test/Integration Test/Integration Test Launcher.vi"/>
@@ -358,7 +485,6 @@
 				<Item Name="High Resolution Relative Seconds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/High Resolution Relative Seconds.vi"/>
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 				<Item Name="LVRowAndColumnUnsignedTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRowAndColumnUnsignedTypeDef.ctl"/>
-				<Item Name="LVRowAndColumnTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRowAndColumnTypeDef.ctl"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="LVPoint32TypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPoint32TypeDef.ctl"/>
