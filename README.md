@@ -1,4 +1,4 @@
-![MVAFramework](../MVAFramework.png)
+![MVAFramework](https://bitbucket.org/composedsystems/actor-framework/src/f25316a655a8193842f5614cc3a4770ae2e617ff/MVAFramework.png)
 
 # README #
 
