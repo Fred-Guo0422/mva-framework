@@ -5,6 +5,8 @@ Code	Description
 516004	Send Synchronous Message timed out before receiving a reply.
 516005  TopicLookupTable does not contain the requested information for Topic "%s".
 
+*** Transport Errors (Concrete) ***
 517001	The boolean text update failed because BooleanTextBinding class does not support binding data of type "%s".
 517002	The listbox update failed because MCListboxItemNamesBinding class does not support the bound data type (type "%s", dimension=%d, element type"%s").
 517003	The string update failed because FormattedStringBinding class does not support binding data of type "%s".
+517004	The QueueTransport class timed out while waiting for data.

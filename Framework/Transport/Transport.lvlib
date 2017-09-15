@@ -13,6 +13,7 @@
 		<Item Name="Notification Msg.lvclass" Type="LVClass" URL="../ActorMessage/Notification Msg/Notification Msg.lvclass"/>
 	</Item>
 	<Item Name="BooleanTextBinding.lvclass" Type="LVClass" URL="../BooleanTextBinding/BooleanTextBinding.lvclass"/>
+	<Item Name="ConfigurationFileBinding.lvclass" Type="LVClass" URL="../ConfigurationFileBinding/ConfigurationFileBinding.lvclass"/>
 	<Item Name="EventTransport.lvclass" Type="LVClass" URL="../EventTransport/EventTransport.lvclass"/>
 	<Item Name="FormattedStringBinding.lvclass" Type="LVClass" URL="../FormattedStringBinding/FormattedStringBinding.lvclass"/>
 	<Item Name="MCListboxItemNamesBinding.lvclass" Type="LVClass" URL="../MCListboxItemNamesBinding/MCListboxItemNamesBinding.lvclass"/>
@@ -20,4 +21,5 @@
 	<Item Name="StreamToDisk.lvclass" Type="LVClass" URL="../StreamToDisk/StreamToDisk.lvclass"/>
 	<Item Name="TerminalBinding.lvclass" Type="LVClass" URL="../TerminalBinding/TerminalBinding.lvclass"/>
 	<Item Name="TerminalReference.lvclass" Type="LVClass" URL="../TerminalReference/TerminalReference.lvclass"/>
+	<Item Name="ValueReferenceTransport.lvclass" Type="LVClass" URL="../ValueReferenceTransport/ValueReferenceTransport.lvclass"/>
 </Library>

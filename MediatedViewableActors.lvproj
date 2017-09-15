@@ -11,16 +11,6 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Libraries" Type="Folder">
-			<Item Name="TimedAverageBuffer.lvlib" Type="Library" URL="../Framework/Components/TimedAverageBuffer/TimedAverageBuffer.lvlib"/>
-			<Item Name="TreeExtensions.lvlib" Type="Library" URL="../Framework/Components/TreeExtensions/TreeExtensions.lvlib"/>
-			<Item Name="ListboxExtensions.lvlib" Type="Library" URL="../Framework/Components/ListboxExtensions/ListboxExtensions.lvlib"/>
-			<Item Name="StringList.lvlib" Type="Library" URL="../Framework/Components/StringList/StringList.lvlib"/>
-			<Item Name="CurrentValueTable.lvlib" Type="Library" URL="../Framework/Components/CurrentValueTable/CurrentValueTable.lvlib"/>
-			<Item Name="VariantExtensions.lvlib" Type="Library" URL="../Framework/Components/VariantExtensions/VariantExtensions.lvlib"/>
-			<Item Name="ArrayExtensions.lvlib" Type="Library" URL="../Framework/Components/ArrayExtensions/ArrayExtensions.lvlib"/>
-			<Item Name="ProtectedSubpanel.lvlib" Type="Library" URL="../Framework/Components/ProtectedSubpanel/ProtectedSubpanel.lvlib"/>
-		</Item>
 		<Item Name="Framework" Type="Folder">
 			<Item Name="AbstractMessages.lvlib" Type="Library" URL="../Framework/AbstractMessages/AbstractMessages.lvlib"/>
 			<Item Name="IObserver.lvlib" Type="Library" URL="../Framework/IObserver/IObserver.lvlib"/>
@@ -30,22 +20,24 @@
 			<Item Name="IViewModel.lvlib" Type="Library" URL="../Framework/IViewModel/IViewModel.lvlib"/>
 			<Item Name="IMediator.lvlib" Type="Library" URL="../Framework/IMediator/IMediator.lvlib"/>
 			<Item Name="IDialogBox.lvlib" Type="Library" URL="../Framework/IDialogBox/IDialogBox.lvlib"/>
-			<Item Name="SubscriptionPolicy.lvlib" Type="Library" URL="../Framework/SubscriptionPolicy/SubscriptionPolicy.lvlib"/>
-			<Item Name="Transport.lvlib" Type="Library" URL="../Framework/Transport/Transport.lvlib"/>
 			<Item Name="AutoRegistration.lvlib" Type="Library" URL="../Framework/AutoRegistration/AutoRegistration.lvlib"/>
 			<Item Name="ActorAutoRegistration.lvlib" Type="Library" URL="../Framework/AutoRegistration/ActorAutoRegistration.lvlib"/>
-			<Item Name="Mediator.lvlib" Type="Library" URL="../Framework/Mediator/Mediator.lvlib"/>
 			<Item Name="MVVM Errors Readme.txt" Type="Document" URL="../Framework/MVVM Errors Readme.txt"/>
 		</Item>
-		<Item Name="View Managers" Type="Folder">
-			<Item Name="LeftListboxViewManager.lvlib" Type="Library" URL="../ViewManager/LeftListboxViewManager/LeftListboxViewManager.lvlib"/>
-			<Item Name="QuadViewManager.lvlib" Type="Library" URL="../ViewManager/QuadViewManager/QuadViewManager.lvlib"/>
-			<Item Name="TabbedViewManager.lvlib" Type="Library" URL="../ViewManager/TabbedViewManager/TabbedViewManager.lvlib"/>
-		</Item>
-		<Item Name="Dialog Boxes" Type="Folder">
-			<Item Name="OneButtonDialogBox.lvlib" Type="Library" URL="../DialogBox/OneButtonDialogBox/OneButtonDialogBox.lvlib"/>
-			<Item Name="TwoButtonDialogBox.lvlib" Type="Library" URL="../DialogBox/TwoButtonDialogBox/TwoButtonDialogBox.lvlib"/>
-			<Item Name="KeypadDialogBox.lvlib" Type="Library" URL="../DialogBox/KeypadDialogBox/KeypadDialogBox.lvlib"/>
+		<Item Name="Concrete" Type="Folder">
+			<Item Name="View Managers" Type="Folder">
+				<Item Name="LeftListboxViewManager.lvlib" Type="Library" URL="../ViewManager/LeftListboxViewManager/LeftListboxViewManager.lvlib"/>
+				<Item Name="QuadViewManager.lvlib" Type="Library" URL="../ViewManager/QuadViewManager/QuadViewManager.lvlib"/>
+				<Item Name="TabbedViewManager.lvlib" Type="Library" URL="../ViewManager/TabbedViewManager/TabbedViewManager.lvlib"/>
+			</Item>
+			<Item Name="Dialog Boxes" Type="Folder">
+				<Item Name="OneButtonDialogBox.lvlib" Type="Library" URL="../DialogBox/OneButtonDialogBox/OneButtonDialogBox.lvlib"/>
+				<Item Name="TwoButtonDialogBox.lvlib" Type="Library" URL="../DialogBox/TwoButtonDialogBox/TwoButtonDialogBox.lvlib"/>
+				<Item Name="KeypadDialogBox.lvlib" Type="Library" URL="../DialogBox/KeypadDialogBox/KeypadDialogBox.lvlib"/>
+			</Item>
+			<Item Name="SubscriptionPolicy.lvlib" Type="Library" URL="../Framework/SubscriptionPolicy/SubscriptionPolicy.lvlib"/>
+			<Item Name="Mediator.lvlib" Type="Library" URL="../Framework/Mediator/Mediator.lvlib"/>
+			<Item Name="Transport.lvlib" Type="Library" URL="../Framework/Transport/Transport.lvlib"/>
 		</Item>
 		<Item Name="Test" Type="Folder">
 			<Item Name="Test Doubles" Type="Folder">
@@ -358,7 +350,6 @@
 				<Item Name="High Resolution Relative Seconds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/High Resolution Relative Seconds.vi"/>
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 				<Item Name="LVRowAndColumnUnsignedTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRowAndColumnUnsignedTypeDef.ctl"/>
-				<Item Name="LVRowAndColumnTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRowAndColumnTypeDef.ctl"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="LVPoint32TypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPoint32TypeDef.ctl"/>
@@ -439,6 +430,15 @@
 				<Item Name="GoTo.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/GoTo.vi"/>
 				<Item Name="Time-Delayed Send Message.vi" Type="VI" URL="/&lt;vilib&gt;/ActorFramework/Time-Delayed Send Message/Time-Delayed Send Message.vi"/>
 				<Item Name="Time-Delayed Send Message Core.vi" Type="VI" URL="/&lt;vilib&gt;/ActorFramework/Time-Delayed Send Message/Time-Delayed Send Message Core.vi"/>
+				<Item Name="TimedAverageBuffer.lvlib" Type="Library" URL="/&lt;vilib&gt;/Composed Systems/Timed Average Buffer/TimedAverageBuffer.lvlib"/>
+				<Item Name="ListboxExtensions.lvlib" Type="Library" URL="/&lt;vilib&gt;/Composed Systems/Listbox Extensions/ListboxExtensions.lvlib"/>
+				<Item Name="CurrentValueTable.lvlib" Type="Library" URL="/&lt;vilib&gt;/Composed Systems/CurrentValueTable/CurrentValueTable.lvlib"/>
+				<Item Name="LVRowAndColumnTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRowAndColumnTypeDef.ctl"/>
+				<Item Name="VariantExtensions.lvlib" Type="Library" URL="/&lt;vilib&gt;/Composed Systems/Variant Extensions/VariantExtensions.lvlib"/>
+				<Item Name="ProtectedSubpanel.lvlib" Type="Library" URL="/&lt;vilib&gt;/Composed Systems/Protected Subpanel/ProtectedSubpanel.lvlib"/>
+				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
+				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
+				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
 			</Item>
 			<Item Name="AF Debug.lvlib" Type="Library" URL="/&lt;resource&gt;/AFDebug/AF Debug.lvlib"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
