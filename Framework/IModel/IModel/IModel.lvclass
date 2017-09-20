@@ -37,17 +37,7 @@ Model data that must be used/observed by Viewables (or reacted to by ViewModel) 
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
 	<Item Name="Accessors" Type="Folder">
-		<Item Name="Read Publish Msg.vi" Type="VI" URL="../Read Publish Msg.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$9!!!!"!!%!!!!3%"Q!"Y!!#5035VF:'FB&gt;'^S,GRW&lt;'FC%V"V9GRJ=WAA48.H,GRW9WRB=X-!'6"S:3V":'2S:8.T:71A5(6C&lt;'FT;#".=W=!-%"Q!"Y!!"U-35VP:'6M,GRW&lt;'FC$EF.&lt;W2F&lt;#ZM&gt;G.M98.T!!F*47^E:7QA;7Y!6!$Q!!Q!!!!!!!%!!!!!!!!!!!!!!!!!!!!!!!)#!!"Y!!!!!!!!!!!!!!E!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"!!!!!!!1!$!!!!!!</Property>
-			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">32</Property>
-			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-			<Property Name="NI.ClassItem.MethodScope" Type="UInt">3</Property>
-			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">8388608</Property>
-			<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
-		</Item>
-		<Item Name="Write Publish Msg.vi" Type="VI" URL="../Write Publish Msg.vi">
+		<Item Name="Write Pre-Addressed Messages.vi" Type="VI" URL="../Write Pre-Addressed Messages.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;D!!!!"A!%!!!!-E"Q!"Y!!"U-35VP:'6M,GRW&lt;'FC$EF.&lt;W2F&lt;#ZM&gt;G.M98.T!!J*47^E:7QA&lt;X6U!!"-1(!!(A!!*Q^*476E;7&amp;U&lt;X)O&lt;(:M;7)65X6C=W.S;7*F)%VT:SZM&gt;G.M98.T!"N1=G5N172E=G6T=W6E)&amp;.V9H.D=GFC:3".=W=!3%"Q!"Y!!#5035VF:'FB&gt;'^S,GRW&lt;'FC%V"V9GRJ=WAA48.H,GRW9WRB=X-!'6"S:3V":'2S:8.T:71A5(6C&lt;'FT;#".=W=!-%"Q!"Y!!"U-35VP:'6M,GRW&lt;'FC$EF.&lt;W2F&lt;#ZM&gt;G.M98.T!!F*47^E:7QA;7Y!91$Q!!Q!!!!!!!!!!1!!!!!!!!!!!!!!!A!$!!1#!!"Y!!!!!!!!!!!!!!!!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1!!!!%!!!!")!!!U!!!!-!!!!!!!!!!!!!!%!"1!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
