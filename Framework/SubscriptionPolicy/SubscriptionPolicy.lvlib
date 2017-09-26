@@ -12,4 +12,5 @@
 	<Item Name="TimedAverageSubscription.lvclass" Type="LVClass" URL="../TimedAverageSubscription/TimedAverageSubscription.lvclass"/>
 	<Item Name="TriggeredSubscription.lvclass" Type="LVClass" URL="../TriggeredSubscription/TriggeredSubscription.lvclass"/>
 	<Item Name="ValueChangeSubscription.lvclass" Type="LVClass" URL="../ValueChangeSubscription/ValueChangeSubscription.lvclass"/>
+	<Item Name="WriteWhenVisibleSubscription.lvclass" Type="LVClass" URL="../WriteWhenVisibleSubscription/WriteWhenVisibleSubscription.lvclass"/>
 </Library>

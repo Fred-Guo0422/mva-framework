@@ -22,7 +22,6 @@
 			<Item Name="IDialogBox.lvlib" Type="Library" URL="../Framework/IDialogBox/IDialogBox.lvlib"/>
 			<Item Name="AutoRegistration.lvlib" Type="Library" URL="../Framework/AutoRegistration/AutoRegistration.lvlib"/>
 			<Item Name="ActorAutoRegistration.lvlib" Type="Library" URL="../Framework/AutoRegistration/ActorAutoRegistration.lvlib"/>
-			<Item Name="MVVM Errors Readme.txt" Type="Document" URL="../Framework/MVVM Errors Readme.txt"/>
 		</Item>
 		<Item Name="Concrete" Type="Folder">
 			<Item Name="View Managers" Type="Folder">
@@ -62,6 +61,7 @@
 			</Item>
 		</Item>
 		<Item Name="Integration Test Launcher.vi" Type="VI" URL="../_Test/Integration Test/Integration Test Launcher.vi"/>
+		<Item Name="MVVM Errors Readme.txt" Type="Document" URL="../MVVM Errors Readme.txt"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Actor Framework.lvlib" Type="Library" URL="/&lt;vilib&gt;/ActorFramework/Actor Framework.lvlib"/>
