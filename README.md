@@ -4,9 +4,7 @@
 
 Please read this document before getting too far with the framework. There is robust documentation on VI block diagrams, so please browse and read the source to understand how (and why) it works.
 
-### What is this repository for? ###
-
-#### This repo holds an open-source extension to the LabVIEW Actor Framework and includes the following features:####
+### This repo holds an open-source extension to the LabVIEW Actor Framework and includes the following features:###
 
 * Separation of Concerns design pattern (Model-View-ViewModel, in the author's opinion --  See https://msdn.microsoft.com/en-us/library/hh848246.aspx)
 * Mediated data bus with implicit type safety (Subscribers request data by type--any type)
