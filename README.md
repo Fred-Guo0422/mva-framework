@@ -12,7 +12,7 @@ Please read this document before getting too far with the framework. There is ro
 * Viewable Actor event-routing policy that allows dynamic views to work without insane coupling
 * Multiple publication/binding types for publishing mediated data into viewable (and other) Actors
 * Transport abstraction to allow painless interaction with non-Actor actors (i.e. actors that are not built on the LabVIEW Actor Framework)
-* Policy-based subscrition abstraction to remove behavioral coupling of publishers and subscribers ("I want 'x' data of type DBL with these conditions..." -- Concrete details abstracted from Publisher and Mediator)
+* Policy-based subscriptions to decouple behavior of publishers and subscribers ("I want 'x' data of type DBL with these conditions..." --> details abstracted from Publisher and Mediator)
 
 ### How do I get set up? ###
 
