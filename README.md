@@ -6,7 +6,8 @@ Please read this document before getting too far with the framework. There is ro
 
 ### What is this repository for? ###
 
-This repo holds an open-source extension to the LabVIEW Actor Framework and includes the following features:
+#### This repo holds an open-source extension to the LabVIEW Actor Framework and includes the following features:####
+
 * Separation of Concerns design pattern (Model-View-ViewModel, in the author's opinion --  See https://msdn.microsoft.com/en-us/library/hh848246.aspx)
 * Mediated data bus with implicit type safety (Subscribers request data by type--any type)
 * Abstractions for launching and managing dynamic (i.e. nested) viewable actor UIs
@@ -32,7 +33,7 @@ This repo holds an open-source extension to the LabVIEW Actor Framework and incl
 
 ### Contribution guidelines ###
 
-* Tests: Reasonable rigor must be applied to framework testing. Some of those tests might wander into the strange territory of perfoamance testing/benchmarking, but do so out of necessity. Verifying functionality of units (transports, policies, etc.) is not enough. We must have confidence the framework can handle--for example--transmitting 1000 messages in less than x milliseconds.
+* Tests: Reasonable rigor must be applied to framework testing. Some of those tests might wander into the strange territory of performance testing/benchmarking, but do so out of necessity. Verifying functionality of units (transports, policies, etc.) is not enough. We must have confidence the framework can handle--for example--transmitting 1000 messages in less than x milliseconds.
 * Code review: For now, contributions must be reviewed by the repo owner before rolling into the main branch. Please contact me if you want to contribute.
 * All code in this repo must be compliant with the SOLID design principles.
 
