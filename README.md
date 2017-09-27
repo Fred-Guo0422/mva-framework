@@ -6,7 +6,7 @@ Please read this document before getting too far with the framework. There is ro
 
 ### This repo holds an open-source extension to the LabVIEW Actor Framework and includes the following features:###
 
-* Separation of Concerns design pattern (Model-View-ViewModel, in the author's opinion --  See https://msdn.microsoft.com/en-us/library/hh848246.aspx)
+* Separation of Concerns design pattern (Model-View-ViewModel, in the author's opinion --  See https://blogs.msdn.microsoft.com/dphill/2009/01/31/the-viewmodel-pattern/)
 * Mediated data bus with implicit type safety (Subscribers request data by type--any type)
 * Abstractions for launching and managing dynamic (i.e. nested) viewable actor UIs
 * Viewable Actor event-routing policy that allows dynamic views to work without insane coupling
