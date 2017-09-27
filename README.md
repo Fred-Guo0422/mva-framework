@@ -16,16 +16,17 @@ Please read this document before getting too far with the framework. There is ro
 
 ### How do I get set up? ###
 
-* You may use this framework in one of (at least) two ways...
+You may use this framework in one of (at least) two ways...
+
 * OPTION 1: Install the dependencies, and then use the framework source code as the starting point for a project (like a template)
 * OPTION 2: Install the dependencies AND the MVA Framework package and use the framework like a built-in extenstion to the NI Actor Framework (like a proper framework library--the preferred way)
 * OPTION 1 means you're on your own with bug fixes and updates; OPTION 2 means you can download and update VI Package to apply fixes and updates (again, this is a better way) 
 * All tests are written for JKI's VI Tester -- you will need to install VI Tester through VI Package Manager to run tests. If you are not changing the framework, there's no need to run tests.
-* See below for source code Dependencies
+* See below for source code dependencies
 
 ### DEPENDENCIES ###
 
-* All dependencies are included in this repo as VI Packages in a folder aptly named "Dependencies". Install them through VI Package Manager.
+* All dependencies are included in this repo as VI Packages in a folder aptly named "VI Packages". Install them through VI Package Manager.
 * Source code for dependencies is also open-sourced and located in the public project "Composed Systems Libraries"
 * You DO NOT need to pull the source code of the dependencies to use or edit the framework--just install and use the packages.
 
