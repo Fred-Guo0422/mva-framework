@@ -26,7 +26,8 @@ You may use this framework in one of (at least) two ways...
 
 ### DEPENDENCIES ###
 
-* All dependencies are included in this repo as VI Packages in a folder aptly named "VI Packages". Install them through VI Package Manager.
+* All unpublished dependencies are included in VI Packages in the repo ../mva-dependencies (parallel to this repo). Install them through VI Package Manager.
+* If you want to run the framework tests, you will also need to install JKI's VI Tester (published through the LV Tools Network)
 * Source code for dependencies is also open-sourced and located in the public project "Composed Systems Libraries"
 * You DO NOT need to pull the source code of the dependencies to use or edit the framework--just install and use the packages.
 
