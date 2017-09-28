@@ -47,13 +47,13 @@
 		<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
 	</Item>
 	<Item Name="Resize Panel to Pane.vi" Type="VI" URL="../Resize Panel to Pane.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;:!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!%Z!=!!?!!!P%V2F=X27;76X97*M:8-O&lt;(:M;7):17.U&lt;X*"&gt;82P5G6H5'&amp;O:7QO&lt;(:D&lt;'&amp;T=Q!617.U&lt;X*"&gt;82P5G6H5'&amp;O:7QA4X6U!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!4E"Q!"Y!!#]46'6T&gt;&amp;:J:8&gt;B9GRF=SZM&gt;GRJ9BF"9X2P=E&amp;V&gt;'^3:7&gt;197ZF&lt;#ZM&gt;G.M98.T!"2"9X2P=E&amp;V&gt;'^3:7&gt;197ZF&lt;#"*&lt;A!!6!$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!%!!=$!!"Y!!!.#!!!!!!!!!!!!!#.#Q!!!!!!!!!!!!!!!!!!!!!!!!A!!!!!!!!!!!!!!*!!!!!!!1!)!!!!!!</Property>
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;:!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!%Z!=!!?!!!P%V2F=X27;76X97*M:8-O&lt;(:M;7):17.U&lt;X*"&gt;82P5G6H5'&amp;O:7QO&lt;(:D&lt;'&amp;T=Q!617.U&lt;X*"&gt;82P5G6H5'&amp;O:7QA4X6U!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!4E"Q!"Y!!#]46'6T&gt;&amp;:J:8&gt;B9GRF=SZM&gt;GRJ9BF"9X2P=E&amp;V&gt;'^3:7&gt;197ZF&lt;#ZM&gt;G.M98.T!"2"9X2P=E&amp;V&gt;'^3:7&gt;197ZF&lt;#"*&lt;A!!6!$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!%!!=#!!"Y!!!.#!!!!!!!!!!!!!#.#Q!!!!!!!!!!!!!!!!!!!!!!!!A!!!!!!!!!!!!!!*!!!!!!!1!)!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1082130944</Property>
 	</Item>
 	<Item Name="NestedMenu.rtm" Type="Document" URL="../NestedMenu.rtm"/>
 </LVClass>

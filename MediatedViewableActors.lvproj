@@ -61,7 +61,7 @@
 			</Item>
 		</Item>
 		<Item Name="Integration Test Launcher.vi" Type="VI" URL="../_Test/Integration Test/Integration Test Launcher.vi"/>
-		<Item Name="MVVM Errors Readme.txt" Type="Document" URL="../MVVM Errors Readme.txt"/>
+		<Item Name="MVA Error List.txt" Type="Document" URL="../MVA Error List.txt"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Actor Framework.lvlib" Type="Library" URL="/&lt;vilib&gt;/ActorFramework/Actor Framework.lvlib"/>
