@@ -34,8 +34,8 @@
 				<Item Name="TwoButtonDialogBox.lvlib" Type="Library" URL="../DialogBox/TwoButtonDialogBox/TwoButtonDialogBox.lvlib"/>
 				<Item Name="KeypadDialogBox.lvlib" Type="Library" URL="../DialogBox/KeypadDialogBox/KeypadDialogBox.lvlib"/>
 			</Item>
-			<Item Name="SubscriptionPolicy.lvlib" Type="Library" URL="../Framework/SubscriptionPolicy/SubscriptionPolicy.lvlib"/>
 			<Item Name="Mediator.lvlib" Type="Library" URL="../Framework/Mediator/Mediator.lvlib"/>
+			<Item Name="SubscriptionPolicy.lvlib" Type="Library" URL="../Framework/SubscriptionPolicy/SubscriptionPolicy.lvlib"/>
 			<Item Name="Transport.lvlib" Type="Library" URL="../Framework/Transport/Transport.lvlib"/>
 		</Item>
 		<Item Name="Test" Type="Folder">
@@ -53,6 +53,7 @@
 				<Item Name="Integration Test Readme.txt" Type="Document" URL="../_Test/Integration Test/Integration Test Readme.txt"/>
 				<Item Name="TestViewables.lvlib" Type="Library" URL="../_Test/Integration Test/TestViewables.lvlib"/>
 				<Item Name="TopLevelApplication.lvlib" Type="Library" URL="../_Test/Integration Test/TopLevelApplication.lvlib"/>
+				<Item Name="Integration Test Launcher.vi" Type="VI" URL="../_Test/Integration Test/Integration Test Launcher.vi"/>
 			</Item>
 			<Item Name="Performance Test" Type="Folder">
 				<Item Name="Performance Test Readme.txt" Type="Document" URL="../Test/Performance Test/Performance Test Readme.txt"/>
@@ -60,7 +61,6 @@
 				<Item Name="TestManyPublications.lvclass" Type="LVClass" URL="../_Test/Performance Test/TestManyPublications/TestManyPublications.lvclass"/>
 			</Item>
 		</Item>
-		<Item Name="Integration Test Launcher.vi" Type="VI" URL="../_Test/Integration Test/Integration Test Launcher.vi"/>
 		<Item Name="MVA Error List.txt" Type="Document" URL="../MVA Error List.txt"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
