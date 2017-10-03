@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2017-09-18 19:58:26" Modified_Date="2017-10-01 22:35:52" Creator="Ethan Stern" Comments="" ID="2477481da197aaf0631227708d99b41b">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2017-09-18 19:58:26" Modified_Date="2017-10-02 12:23:16" Creator="Ethan Stern" Comments="" ID="5c5e11c2547306a37ffcf28582af46aa">
   <Library_General_Settings>
     <Package_File_Name>Composed_Systems_lib_MVA_Framework</Package_File_Name>
-    <Library_Version>1.0.1.7</Library_Version>
+    <Library_Version>1.0.1.8</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..</Library_Source_Folder>
     <Library_Output_Folder>.</Library_Output_Folder>
@@ -50,7 +50,7 @@
       <Copyright/>
       <Packager/>
       <URL>www.composed.io</URL>
-      <Release_Notes>Added dynamic activate/deactivate to Subscription Policy</Release_Notes>
+      <Release_Notes>Added protected Pub/Sub Message accessors so Models can launch nested Models</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -268,7 +268,7 @@
         <Path>..\DialogBox</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>554570221543BDC221BFD95CA7B53F5C</GUID>
+      <GUID>55511CD4A663970ED65DA30300EFE760</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -331,7 +331,7 @@
         <Path>..\DialogBox\TwoButtonDialogBox</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A7F4296F3643092713492C00231FE57E</GUID>
+      <GUID>4C22722A954761BDB1ACCB249A778B25</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -520,7 +520,7 @@
         <Path>..\Framework\IMediator</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9246AF9B8F0D740DA5380ABA7DA39B7B</GUID>
+      <GUID>1F2C917DCD1C1E4EBB009FDFA2B06452</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -611,7 +611,7 @@
         <Path>..\ViewManager\TabbedViewManager Messages</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4041084E360C9AB668EF07AC66807AF1</GUID>
+      <GUID>50D1F07D1334E7449C18D4DA7C9135AE</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -688,7 +688,7 @@
         <Path>..\DialogBox\KeypadDialogBox\Receive Value Change Msg.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>AF0BEE56D41F2AE48B80EA3ED179648A</GUID>
+      <GUID>661C8DCDE39B5151B9CFC848E0146451</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -765,7 +765,7 @@
         <Path>..\DialogBox\OneButtonDialogBox\Receive Value Change Msg.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C6753F4AAFC56F9E3E7291C954E86A4E</GUID>
+      <GUID>76C1BDE62BD231873F805FEC2A81EAF5</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -842,7 +842,7 @@
         <Path>..\DialogBox\TwoButtonDialogBox\Receive Value Change Msg.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6E7746B812FC5EED2C6B29D4A5A95602</GUID>
+      <GUID>FB93E072B731B7DBA2E8DB891B5BB259</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -905,7 +905,7 @@
         <Path>..\Framework\AbstractMessages\SynchronousMsg</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E79A2C120C0D84FB4F295BBFE3C31723</GUID>
+      <GUID>DB2A84B201E4D6DBCEDA0D4D6DEC156B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1066,7 +1066,7 @@
         <Path>..\Framework\AutoRegistration\AutoRegistration\Register Auto-Events.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B977232E35BF6BBBDBC63806CB6691DD</GUID>
+      <GUID>BB88B2BBD18ABD34182334C04493EF25</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1115,7 +1115,7 @@
         <Path>..\Framework\IDialogBox\IDialogBox Messages</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>457D3B1F431B0BEE3D7D77F6492FC7B5</GUID>
+      <GUID>869BFD38F88094D33381879E81ADAF3F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1220,7 +1220,7 @@
         <Path>..\Framework\IMediator\SubscriptionRequest</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7BCB66D89039CBF6B73A2ED0748280B8</GUID>
+      <GUID>BF714E8F2B6F092E96A4D70672667173</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1297,7 +1297,7 @@
         <Path>..\Framework\IModel\IModel\Write Pre-Addressed Publish Message.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B23CC626A2364EEA99D41054FBDCECA5</GUID>
+      <GUID>4F4A2158D3B0D2AACD98B85C2F3D8827</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1360,7 +1360,7 @@
         <Path>..\Framework\IObserver\IObserver Messages</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>643D1FA59127B491AD5D6EEBEC7AB566</GUID>
+      <GUID>20A402F6CFF50030033838AF9737F332</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1409,7 +1409,7 @@
         <Path>..\Framework\IViewable\IViewable Messages</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4E188CB57B215385F4B0A6C05C21148E</GUID>
+      <GUID>540DFF54F822BF3F65E999F870E8EE65</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1458,7 +1458,7 @@
         <Path>..\Framework\IViewManager\IViewManager Messages</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>337483459A3AF2F733946AAC7350F4BC</GUID>
+      <GUID>B4EA9D7E74C5A0A4BAE0AE8938CE623D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1535,7 +1535,7 @@
         <Path>..\Framework\IViewModel\IViewModel\Read Model Enqueuer.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>DF16DE24EBEF112B92129AC1C4FD6C4D</GUID>
+      <GUID>CA7EDACE2C8C7304D573F6700BF1A0A2</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1668,7 +1668,7 @@
         <Path>..\Framework\SubscriptionPolicy\WriteWhenVisibleSubscription\New Write When Visible Subscription.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>EF8FD0F75F62C501E98F034CED613D41</GUID>
+      <GUID>51BB76B08612F66EEF60E1B1C3932F63</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1899,7 +1899,7 @@
         <Path>..\Framework\IMediator\ITransport\Close Transport.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7B8432459B7B203C9FB73929A618CB49</GUID>
+      <GUID>C7DCB6358558902048A318B051F26D0D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -1948,7 +1948,7 @@
         <Path>..\Framework\AbstractMessages\BinaryDecisionMsg\Write Binary Reply Messages.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8C295BBDBB1062F598B8F41F517A8BD8</GUID>
+      <GUID>98686B39658130557A39C0D6C79AC9FA</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -1997,7 +1997,7 @@
         <Path>..\Framework\AbstractMessages\PreAddressedMsg\Write Return Address.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8CAA86A90A0DDFB6ABC83739BD214B76</GUID>
+      <GUID>C0F6899FE1A85DB47C5A567B4086A5B1</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -2046,7 +2046,7 @@
         <Path>..\Framework\AbstractMessages\SynchronousMsg\Send Synchronous Reply.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>751139ADA909E997874F877138215522</GUID>
+      <GUID>32CE0096D107142AF56E885EC4A8E533</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>9</Parent_Palette_Index>
@@ -2109,7 +2109,7 @@
         <Path>..\Framework\IDialogBox\IDialogBox\Stop Core.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9E82EEB3602205402B9983F84887EBF4</GUID>
+      <GUID>C7A723A335CE20EC8A6418974A2C18FD</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>9</Parent_Palette_Index>
@@ -2144,7 +2144,7 @@
         <Path>..\Framework\IDialogBox\IDialogBox Messages\Dialog Return Msg</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E68AC2A7B8C2A4354200001B8B75DE24</GUID>
+      <GUID>341C8FA2CF7ABC531E64857BD2917158</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>22</Parent_Palette_Index>
@@ -2193,7 +2193,7 @@
         <Path>..\Framework\IDialogBox\IDialogBox Messages\Dialog Return Msg\Write Return Address and Payload.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>BEB92E5E8034835CEDF69DF97AB47C2A</GUID>
+      <GUID>D6C4D85F95E3C9558674D3D86187887D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>10</Parent_Palette_Index>
@@ -2326,7 +2326,7 @@
         <Path>..\Framework\IMediator\IMediator\Write MediatorBusMonitor Type.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>43ED0ECE2DC7BA75B96FDEA8B97FFA27</GUID>
+      <GUID>B213C2EC2FB9034F3C50C1F82DA9CF84</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>10</Parent_Palette_Index>
@@ -2431,7 +2431,7 @@
         <Path>..\Framework\IMediator\IMediator Messages\Unsubscribe Msg</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C149BC7DAA99E5A6B74E215FBAFE1378</GUID>
+      <GUID>A6607E8F67C20615D55BA09EAF1F1318</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>10</Parent_Palette_Index>
@@ -2480,7 +2480,7 @@
         <Path>..\Framework\IMediator\IMediatorBusMonitor\MediatorBusMonitor</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E4EFF4207C000EAFC870FF54ED3F91B6</GUID>
+      <GUID>47132C0AF70D22CAD43B1FA03FB84916</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>10</Parent_Palette_Index>
@@ -2627,7 +2627,7 @@
         <Path>..\Framework\IMediator\ISubscriptionPolicy\Check Subscription Policy.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>13911503A6D8DD57699566A05E1B0586</GUID>
+      <GUID>A9643D5B64C0DFBB9BA919AD73CD0005</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>10</Parent_Palette_Index>
@@ -2662,7 +2662,7 @@
         <Path>..\Framework\IMediator\ITransport\Write Data.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3E8EC2CD1D183F3822DE6C2093304D07</GUID>
+      <GUID>ECC2B5D1851C0EC0BBB018DA343ED87F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>10</Parent_Palette_Index>
@@ -2697,7 +2697,7 @@
         <Path>..\Framework\IMediator\SubscriptionRequest\Unpack Subscription Request.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>71ACC3CB56925E6F2945F6CE9588EC69</GUID>
+      <GUID>98BC903666E2423E1470D70C975005C8</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>25</Parent_Palette_Index>
@@ -2746,7 +2746,7 @@
         <Path>..\Framework\IMediator\IMediator Messages\Insert Bus Monitor Msg\Send Insert Bus Monitor.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E5DCDDFC5F949E37E3B40B720E855968</GUID>
+      <GUID>036B2213A46F68766321ECD25DA25863</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>25</Parent_Palette_Index>
@@ -2795,7 +2795,7 @@
         <Path>..\Framework\IMediator\IMediator Messages\Monitor Msg\Send Open Bus Monitor.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>648AA2101AB39AAFFD0FAAB158039C69</GUID>
+      <GUID>733CBF7C184E9912183E1D1AF9D944B9</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>25</Parent_Palette_Index>
@@ -2858,7 +2858,7 @@
         <Path>..\Framework\IMediator\IMediator Messages\Publish Msg\Send Pre-Addressed Publish.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A5F36929C8C87E621EBAA1CFBAC6AF7F</GUID>
+      <GUID>13F02AA38B4412897B9106E4A3891652</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>25</Parent_Palette_Index>
@@ -2907,7 +2907,7 @@
         <Path>..\Framework\IMediator\IMediator Messages\Start Bus Monitor Msg\Send Start Bus Monitor.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1AADADFEDE331FEE22F2A59ED315144E</GUID>
+      <GUID>F69A2FCEC688FAFCBF2052FED02123C3</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>25</Parent_Palette_Index>
@@ -2970,7 +2970,7 @@
         <Path>..\Framework\IMediator\IMediator Messages\Subscribe Msg\Send Pre-Addressed Subscribe.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7AEAB36FA146448E99F6CDDEBCC821AE</GUID>
+      <GUID>86AEA889D600BFEE53C8D8BB399830FC</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>25</Parent_Palette_Index>
@@ -3019,7 +3019,7 @@
         <Path>..\Framework\IMediator\IMediator Messages\Unsubscribe Msg\Send Unsubscribe.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>929AC3685E980A19E062C230137F9B49</GUID>
+      <GUID>0E8C368E572D86AB5DF466924A7A6174</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>26</Parent_Palette_Index>
@@ -3068,7 +3068,7 @@
         <Path>..\Framework\IMediator\IMediatorBusMonitor\Mediator\Update Front Panel.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B822DE87FEA9A8B85C48FBEC78C40735</GUID>
+      <GUID>9352F2F405939882E7051F7E3CC2548F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>26</Parent_Palette_Index>
@@ -3103,7 +3103,7 @@
         <Path>..\Framework\IMediator\IMediatorBusMonitor\MediatorBusMonitor\Launch.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>04CCDCCAAC00A0DF7BFF4C14481D5D05</GUID>
+      <GUID>DF6D47637817043EF7BABBF223D4D4B0</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>12</Parent_Palette_Index>
@@ -3152,7 +3152,7 @@
         <Path>..\Framework\IObserver\ActorDataBinding\Write Data.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B5F83C767B4C64CF7659FA92715CAF9B</GUID>
+      <GUID>C51FE36A7AF182E44BC1EDC9ED8AE39E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>12</Parent_Palette_Index>
@@ -3299,7 +3299,7 @@
         <Path>..\Framework\IObserver\IObserver\Unsubscribe.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E1A432014FE672414279D2230C353251</GUID>
+      <GUID>86547EF2115FA99D1D38430C6043EA24</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>12</Parent_Palette_Index>
@@ -3362,7 +3362,7 @@
         <Path>..\Framework\IObserver\IObserver Messages\Unsubscribe Msg</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>FAA6F936F066BB259475FB5BD715C8E4</GUID>
+      <GUID>C7E7BB453B71A93641A2E0925888ED74</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>40</Parent_Palette_Index>
@@ -3439,7 +3439,7 @@
         <Path>..\Framework\IObserver\IObserver Messages\Observe Data Msg\Write Observe Data Msg Return Info.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5B8401028A8478A8A0B7A99E204D1B60</GUID>
+      <GUID>41ED1D373D81C476CF299EA321366078</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>40</Parent_Palette_Index>
@@ -3488,7 +3488,7 @@
         <Path>..\Framework\IObserver\IObserver Messages\Subscribe Msg\Send Subscribe.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>27CE5A8B5597185F899F18A115298D7D</GUID>
+      <GUID>D7F0A1F7FDA6A2822116CE4AD3C8E6A9</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>40</Parent_Palette_Index>
@@ -3537,7 +3537,7 @@
         <Path>..\Framework\IObserver\IObserver Messages\Unsubscribe Msg\Send Unsubscribe.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>AD85E88A9D51474DBF4150526DBF09FC</GUID>
+      <GUID>0571B8706932652031806723BD68AD91</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>13</Parent_Palette_Index>
@@ -3852,7 +3852,7 @@
         <Path>..\Framework\IViewable\IViewable\Unsubscribe.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>03F1FE25222CACAE6802864200D375EE</GUID>
+      <GUID>4AFAD18FF63E70824ACD9053997BD44D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>13</Parent_Palette_Index>
@@ -4013,7 +4013,7 @@
         <Path>..\Framework\IViewable\IViewable Messages\Set Panes to Origins Msg</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1264BD2CF9213E6BBC4FA2335B8E1D7E</GUID>
+      <GUID>F80804F5BF3EC314EAA36EAA557019D9</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>45</Parent_Palette_Index>
@@ -4062,7 +4062,7 @@
         <Path>..\Framework\IViewable\IViewable Messages\Close View Msg\Send Close View.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>18CB3A08B8FA3A9FA1C41D423B45331E</GUID>
+      <GUID>F5B13093E86CE513E01359F3D47E2131</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>45</Parent_Palette_Index>
@@ -4111,7 +4111,7 @@
         <Path>..\Framework\IViewable\IViewable Messages\Defer Panel Updates Msg\Send Defer Panel Updates.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>116BBB063AEC60279A1FA3B681EF10EB</GUID>
+      <GUID>135AF44138AEADB66FD00C38FCF2699C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>45</Parent_Palette_Index>
@@ -4160,7 +4160,7 @@
         <Path>..\Framework\IViewable\IViewable Messages\Insert View Msg\Send Insert View.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>33AA450918496801EDA571869056C988</GUID>
+      <GUID>C4BC3C8AC860D3FD130650918D6266B5</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>45</Parent_Palette_Index>
@@ -4209,7 +4209,7 @@
         <Path>..\Framework\IViewable\IViewable Messages\Launch Dialog Box Msg\Send Launch Dialog Box.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>636D77A17E45624F0ECF4B738AA53AE6</GUID>
+      <GUID>7584877815A03A90E13F712AB1314E1B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>45</Parent_Palette_Index>
@@ -4258,7 +4258,7 @@
         <Path>..\Framework\IViewable\IViewable Messages\Open View Msg\Send Open View.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>06C3EAF010C23E3E2A1EE1E451AF55B8</GUID>
+      <GUID>7E4F9B8C171539B93C748D10C6C31A0B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>45</Parent_Palette_Index>
@@ -4307,7 +4307,7 @@
         <Path>..\Framework\IViewable\IViewable Messages\Resize Panel to Pane Msg\Send Resize Panel to Pane.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9921E57D67F508354F3FD3D8DE6AC7CA</GUID>
+      <GUID>6C2B1E516533F42E5248E0F54334BA75</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>45</Parent_Palette_Index>
@@ -4356,7 +4356,7 @@
         <Path>..\Framework\IViewable\IViewable Messages\Resume Panel Updates Msg\Send Resume Panel Updates.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F154ACCDBD77F43D902358A0C42926AB</GUID>
+      <GUID>01B667FBCAB5E1A4B5B4198CF4287BD1</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>45</Parent_Palette_Index>
@@ -4405,7 +4405,7 @@
         <Path>..\Framework\IViewable\IViewable Messages\Set Cursor Busy Msg\Send Set Cursor Busy.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2A04E6AC9D7EB0249480CA4D2C4621E5</GUID>
+      <GUID>79268B5C637DAD7BAC71B5B3AAC7BD53</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>45</Parent_Palette_Index>
@@ -4454,7 +4454,7 @@
         <Path>..\Framework\IViewable\IViewable Messages\Set Cursor Unbusy Msg\Send Set Cursor Unbusy.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>28CF6175A1DF982EDB1120E83D20ED58</GUID>
+      <GUID>4B87BD49694BB684A7BEA226F3A0660D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>45</Parent_Palette_Index>
@@ -4503,7 +4503,7 @@
         <Path>..\Framework\IViewable\IViewable Messages\Set Panes to Origins Msg\Send Set Panes to Origins.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>127DDA9F1765AE2BD64EC595F6AF929A</GUID>
+      <GUID>2E020107AA9D6D0E4E7C17A9AF430715</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>14</Parent_Palette_Index>
@@ -4678,7 +4678,7 @@
         <Path>..\Framework\IViewManager\IViewManager\Write Startup Views.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>77F3574693CBB90B69A04B0DC00BDD63</GUID>
+      <GUID>0E1B5067C8EFD99E9B32368AC48DF913</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>14</Parent_Palette_Index>
@@ -4727,7 +4727,7 @@
         <Path>..\Framework\IViewManager\IViewManager Messages\Populate Subpanels Msg</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A7D0BCA75311316FA7D71BAEAD467D0A</GUID>
+      <GUID>4BC82373441A2AC5AAADE0E89D2AECE5</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>57</Parent_Palette_Index>
@@ -4790,7 +4790,7 @@
         <Path>..\Framework\IViewManager\IViewManager Messages\Launch Nested Views Msg\Send Launch Nested Views.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1E132664C40603D730E865101B845385</GUID>
+      <GUID>75DFA2FE5AA8DCE0972E94D0DE7A22C2</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>57</Parent_Palette_Index>
@@ -4839,7 +4839,7 @@
         <Path>..\Framework\IViewManager\IViewManager Messages\Populate Subpanels Msg\Send Populate Subpanels.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E7D789FFC329323E62E39B0C700CB00D</GUID>
+      <GUID>6B3384118E4209BFAEB2A2EDF1B041D9</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>3</Parent_Palette_Index>
@@ -4916,7 +4916,7 @@
         <Path>..\ViewManager\LeftListboxViewManager\Set View by Listbox Index.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A5F932DE84AA941A355CC112F0C26E11</GUID>
+      <GUID>FA1CA321670885BFA7D170C145130BB0</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>3</Parent_Palette_Index>
@@ -4951,7 +4951,7 @@
         <Path>..\ViewManager\LeftListboxViewManager Messages\Set View by Listbox Index Msg</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>057E374FB3C6A7AB77ACF680E50CA0D8</GUID>
+      <GUID>387D1EB9E9A3F32B3336C645677D15DD</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>3</Parent_Palette_Index>
@@ -5014,7 +5014,7 @@
         <Path>..\ViewManager\QuadViewManager\Populate Subpanels.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4FC809306B2AC526290DBD45AB053AB2</GUID>
+      <GUID>0C836DDE8FA250A6C7E88441F0A09646</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>3</Parent_Palette_Index>
@@ -5091,7 +5091,7 @@
         <Path>..\ViewManager\TabbedViewManager\Set View by Tab Index.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6C8D3FE9F8E35C49F5189BF991F20101</GUID>
+      <GUID>00227DD82B051BB4C5D4A79576720B6E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>3</Parent_Palette_Index>
@@ -5126,7 +5126,7 @@
         <Path>..\ViewManager\TabbedViewManager Messages\Set View by Tab Index Msg</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>ECC803E1B09514FCF17F3867658AF10F</GUID>
+      <GUID>B3482681E718B693AD3834994A299E15</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>61</Parent_Palette_Index>
@@ -5175,7 +5175,7 @@
         <Path>..\ViewManager\LeftListboxViewManager Messages\Set View by Listbox Index Msg\Send Set View by Listbox Index.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>49EC664786D2EBF51394E87977E17896</GUID>
+      <GUID>2E6D19ED0FE8C80E17A174B3D686A221</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>64</Parent_Palette_Index>
@@ -5224,7 +5224,7 @@
         <Path>..\ViewManager\TabbedViewManager Messages\Set View by Tab Index Msg\Send Set View by Tab Index.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>38CDF90F9E3B514C01A2DFB76D3FB43C</GUID>
+      <GUID>B6EB88220D2E189729DD9BB65436A93A</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
