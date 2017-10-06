@@ -4,5 +4,8 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">352354304</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
+	<Item Name="Messages" Type="Folder">
+		<Item Name="Launch Nested Models Msg.lvclass" Type="LVClass" URL="../IModel Messages/Launch Nested Models Msg/Launch Nested Models Msg.lvclass"/>
+	</Item>
 	<Item Name="IModel.lvclass" Type="LVClass" URL="../IModel/IModel.lvclass"/>
 </Library>
