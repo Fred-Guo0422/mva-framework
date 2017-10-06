@@ -62,6 +62,7 @@
 			</Item>
 		</Item>
 		<Item Name="MVA Error List.txt" Type="Document" URL="../MVA Error List.txt"/>
+		<Item Name="Include.vi" Type="VI" URL="../Include.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Actor Framework.lvlib" Type="Library" URL="/&lt;vilib&gt;/ActorFramework/Actor Framework.lvlib"/>
