@@ -28,6 +28,7 @@
 				<Item Name="LeftListboxViewManager.lvlib" Type="Library" URL="../ViewManager/LeftListboxViewManager/LeftListboxViewManager.lvlib"/>
 				<Item Name="QuadViewManager.lvlib" Type="Library" URL="../ViewManager/QuadViewManager/QuadViewManager.lvlib"/>
 				<Item Name="TabbedViewManager.lvlib" Type="Library" URL="../ViewManager/TabbedViewManager/TabbedViewManager.lvlib"/>
+				<Item Name="BoundViewManager.lvlib" Type="Library" URL="../ViewManager/BoundViewManager/BoundViewManager.lvlib"/>
 			</Item>
 			<Item Name="Dialog Boxes" Type="Folder">
 				<Item Name="OneButtonDialogBox.lvlib" Type="Library" URL="../DialogBox/OneButtonDialogBox/OneButtonDialogBox.lvlib"/>
@@ -433,7 +434,7 @@
 				<Item Name="Time-Delayed Send Message Core.vi" Type="VI" URL="/&lt;vilib&gt;/ActorFramework/Time-Delayed Send Message/Time-Delayed Send Message Core.vi"/>
 				<Item Name="TimedAverageBuffer.lvlib" Type="Library" URL="/&lt;vilib&gt;/Composed Systems/Timed Average Buffer/TimedAverageBuffer.lvlib"/>
 				<Item Name="ListboxExtensions.lvlib" Type="Library" URL="/&lt;vilib&gt;/Composed Systems/Listbox Extensions/ListboxExtensions.lvlib"/>
-				<Item Name="CurrentValueTable.lvlib" Type="Library" URL="/&lt;vilib&gt;/Composed Systems/CurrentValueTable/CurrentValueTable.lvlib"/>
+				<Item Name="CurrentValueTable.lvlib" Type="Library" URL="/&lt;vilib&gt;/Composed Systems/Current Value Table/CurrentValueTable.lvlib"/>
 				<Item Name="LVRowAndColumnTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRowAndColumnTypeDef.ctl"/>
 				<Item Name="VariantExtensions.lvlib" Type="Library" URL="/&lt;vilib&gt;/Composed Systems/Variant Extensions/VariantExtensions.lvlib"/>
 				<Item Name="ProtectedSubpanel.lvlib" Type="Library" URL="/&lt;vilib&gt;/Composed Systems/Protected Subpanel/ProtectedSubpanel.lvlib"/>
