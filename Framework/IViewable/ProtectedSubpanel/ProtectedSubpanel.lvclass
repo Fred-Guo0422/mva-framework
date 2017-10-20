@@ -35,13 +35,22 @@ Send Insert View attaches a timestamp to each insertion and this time stamp is t
 	<Item Name="Private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Item Name="Do Insertion.vi" Type="VI" URL="../Do Insertion.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(N!!!!$!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$J!=!!?!!!D$UF7;76X97*M:3ZM&gt;GRJ9B&amp;*6GFF&gt;W&amp;C&lt;'5O&lt;(:D&lt;'&amp;T=Q!-6GFF&gt;W&amp;C&lt;'5A4X6U!!"+1(!!(A!!+Q^*6GFF&gt;W&amp;C&lt;'5O&lt;(:M;7):5(*P&gt;'6D&gt;'6E5X6C='&amp;O:7QO&lt;(:D&lt;'&amp;T=Q!65(*P&gt;'6D&gt;'6E5X6C='&amp;O:7QA&lt;X6U!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!(E"5!!9737ZT:8*U;7^O)&amp;*F=86F=X1A6'FN:1!!.E"Q!"Y!!#-036:J:8&gt;B9GRF,GRW&lt;'FC%5F7;76X97*M:3ZM&gt;G.M98.T!!B7;76X97*M:1!!3E"Q!"Y!!#M036:J:8&gt;B9GRF,GRW&lt;'FC'6"S&lt;X2F9X2F:&amp;.V9H"B&lt;G6M,GRW9WRB=X-!&amp;&amp;"S&lt;X2F9X2F:&amp;.V9H"B&lt;G6M)'FO!!"C!0!!$!!$!!1!"1!'!!1!"!!%!!1!"Q!)!!E!#A-!!(A!!!E!!!!!!!!!#1!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!"!!!!!1!!!!%A!!$A!!#Q!-!!!!!!!!!!!!!!%!#Q!!!!!</Property>
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(N!!!!$!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$J!=!!?!!!D$UF7;76X97*M:3ZM&gt;GRJ9B&amp;*6GFF&gt;W&amp;C&lt;'5O&lt;(:D&lt;'&amp;T=Q!-6GFF&gt;W&amp;C&lt;'5A4X6U!!"+1(!!(A!!+Q^*6GFF&gt;W&amp;C&lt;'5O&lt;(:M;7):5(*P&gt;'6D&gt;'6E5X6C='&amp;O:7QO&lt;(:D&lt;'&amp;T=Q!65(*P&gt;'6D&gt;'6E5X6C='&amp;O:7QA&lt;X6U!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!(E"5!!9737ZT:8*U;7^O)&amp;*F=86F=X1A6'FN:1!!.E"Q!"Y!!#-036:J:8&gt;B9GRF,GRW&lt;'FC%5F7;76X97*M:3ZM&gt;G.M98.T!!B7;76X97*M:1!!3E"Q!"Y!!#M036:J:8&gt;B9GRF,GRW&lt;'FC'6"S&lt;X2F9X2F:&amp;.V9H"B&lt;G6M,GRW9WRB=X-!&amp;&amp;"S&lt;X2F9X2F:&amp;.V9H"B&lt;G6M)'FO!!"C!0!!$!!$!!1!"1!'!!1!"!!%!!1!"Q!)!!E!#A-!!(A!!!U)!!!!!!!!$1I!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!"!!!!!1!!!!%A!!$A!!#Q!-!!!!!!!!!!!!!!%!#Q!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">2</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">268972560</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1082130960</Property>
+		</Item>
+		<Item Name="Evaluate Insertion Request.vi" Type="VI" URL="../Evaluate Insertion Request.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$=!!!!"1!%!!!!'%!B%F"F=G:P=GUA37ZT:8*U;7^O0Q!!(E"5!!9737ZT:8*U;7^O)&amp;*F=86F=X1A6'FN:1!!2E"Q!"Y!!#M036:J:8&gt;B9GRF,GRW&lt;'FC'6"S&lt;X2F9X2F:&amp;.V9H"B&lt;G6M,GRW9WRB=X-!%6"S&lt;X2F9X2F:&amp;.V9H"B&lt;G6M!&amp;1!]!!-!!!!!!!!!!%!!!!!!!!!!!!!!!!!!A!$!A!!?!!!!!!!!!!!!!!!!!!!#1!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"!!!!!1!!!!!!%!"!!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">32</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">2</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">8388608</Property>
 		</Item>
 	</Item>
 	<Item Name="Insert Into Subpanel.vi" Type="VI" URL="../Insert Into Subpanel.vi">
@@ -51,7 +60,7 @@ Send Insert View attaches a timestamp to each insertion and this time stamp is t
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">34078736</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">268967952</Property>
 	</Item>
 	<Item Name="Clear Subpanel.vi" Type="VI" URL="../Clear Subpanel.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(X!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!%J!=!!?!!!L$UF7;76X97*M:3ZM&gt;GRJ9BF1=G^U:7.U:724&gt;7*Q97ZF&lt;#ZM&gt;G.M98.T!"21=G^U:7.U:724&gt;7*Q97ZF&lt;#"J&lt;A!!?A$R!!!!!!!!!!-036:J:8&gt;B9GRF,GRW&lt;'FC'6"S&lt;X2F9X2F:&amp;.V9H"B&lt;G6M,GRW9WRB=X-A5(*P&gt;'6D&gt;'6E)&amp;.V9H"B&lt;G6M)&amp;*F:G6S:7ZD:3ZD&gt;'Q!*U"Q!#!!!1!&amp;!":1=G^U:7.U:71A5X6C='&amp;O:7QA4X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!(9!]1!!!!!!!!!$$UF7;76X97*M:3ZM&gt;GRJ9BF1=G^U:7.U:724&gt;7*Q97ZF&lt;#ZM&gt;G.M98.T)&amp;"S&lt;X2F9X2F:#"4&gt;7*Q97ZF&lt;#"3:7:F=G6O9W5O9X2M!#.!=!!A!!%!"1!35(*P&gt;'6D&gt;'6E)&amp;.V9H"B&lt;G6M!!"5!0!!$!!$!!1!"!!'!!1!"!!%!!1!"Q!%!!1!#!-!!(A!!!U)!!!!!!!!!!!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!%!!!!!!"!!E!!!!!</Property>
@@ -78,7 +87,7 @@ Send Insert View attaches a timestamp to each insertion and this time stamp is t
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1350574608</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1342713872</Property>
 	</Item>
 	<Item Name="Protected Subpanel Reference.ctl" Type="VI" URL="../Protected Subpanel Reference.ctl">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$)!!!!!A"+1(!!(A!!+Q^*6GFF&gt;W&amp;C&lt;'5O&lt;(:M;7):5(*P&gt;'6D&gt;'6E5X6C='&amp;O:7QO&lt;(:D&lt;'&amp;T=Q!55(*P&gt;'6D&gt;'6E5X6C='&amp;O:7QA;7Y!!(9!]1!!!!!!!!!$$UF7;76X97*M:3ZM&gt;GRJ9BF1=G^U:7.U:724&gt;7*Q97ZF&lt;#ZM&gt;G.M98.T)&amp;"S&lt;X2F9X2F:#"4&gt;7*Q97ZF&lt;#"3:7:F=G6O9W5O9X2M!#.!=!!A!!%!!!!35(*P&gt;'6D&gt;'6E)&amp;.V9H"B&lt;G6M!!!"!!%!!!!!</Property>
