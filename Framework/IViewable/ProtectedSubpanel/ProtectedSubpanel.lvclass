@@ -60,7 +60,7 @@ Send Insert View attaches a timestamp to each insertion and this time stamp is t
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">268967952</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1342713872</Property>
 	</Item>
 	<Item Name="Clear Subpanel.vi" Type="VI" URL="../Clear Subpanel.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(X!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!%J!=!!?!!!L$UF7;76X97*M:3ZM&gt;GRJ9BF1=G^U:7.U:724&gt;7*Q97ZF&lt;#ZM&gt;G.M98.T!"21=G^U:7.U:724&gt;7*Q97ZF&lt;#"J&lt;A!!?A$R!!!!!!!!!!-036:J:8&gt;B9GRF,GRW&lt;'FC'6"S&lt;X2F9X2F:&amp;.V9H"B&lt;G6M,GRW9WRB=X-A5(*P&gt;'6D&gt;'6E)&amp;.V9H"B&lt;G6M)&amp;*F:G6S:7ZD:3ZD&gt;'Q!*U"Q!#!!!1!&amp;!":1=G^U:7.U:71A5X6C='&amp;O:7QA4X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!(9!]1!!!!!!!!!$$UF7;76X97*M:3ZM&gt;GRJ9BF1=G^U:7.U:724&gt;7*Q97ZF&lt;#ZM&gt;G.M98.T)&amp;"S&lt;X2F9X2F:#"4&gt;7*Q97ZF&lt;#"3:7:F=G6O9W5O9X2M!#.!=!!A!!%!"1!35(*P&gt;'6D&gt;'6E)&amp;.V9H"B&lt;G6M!!"5!0!!$!!$!!1!"!!'!!1!"!!%!!1!"Q!%!!1!#!-!!(A!!!U)!!!!!!!!!!!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!%!!!!!!"!!E!!!!!</Property>

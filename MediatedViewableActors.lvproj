@@ -44,6 +44,7 @@
 				<Item Name="Test Doubles Readme.txt" Type="Document" URL="../_Test/Doubles/Test Doubles Readme.txt"/>
 				<Item Name="TestModels.lvlib" Type="Library" URL="../_Test/Doubles/TestModels.lvlib"/>
 				<Item Name="LeakyViewModel.lvlib" Type="Library" URL="../_Test/Doubles/LeakyViewModel/LeakyViewModel.lvlib"/>
+				<Item Name="ViewableDoubles.lvlib" Type="Library" URL="../_Test/Doubles/ViewableDoubles/ViewableDoubles.lvlib"/>
 			</Item>
 			<Item Name="Unit Test" Type="Folder">
 				<Item Name="Unit Test Readme.txt" Type="Document" URL="../_Test/Unit Test/Unit Test Readme.txt"/>
