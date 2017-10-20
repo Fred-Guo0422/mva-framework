@@ -8,7 +8,7 @@
 	<Item Name="Messages" Type="Folder">
 		<Item Name="Close Front Panel Msg.lvclass" Type="LVClass" URL="../IViewable Messages/Close Front Panel Msg/Close Front Panel Msg.lvclass"/>
 		<Item Name="Defer Panel Updates Msg.lvclass" Type="LVClass" URL="../IViewable Messages/Defer Panel Updates Msg/Defer Panel Updates Msg.lvclass"/>
-		<Item Name="Insert View Msg.lvclass" Type="LVClass" URL="../IViewable Messages/Insert View Msg/Insert View Msg.lvclass"/>
+		<Item Name="Insert Front Panel Msg.lvclass" Type="LVClass" URL="../IViewable Messages/Insert Front Panel Msg/Insert Front Panel Msg.lvclass"/>
 		<Item Name="Launch Dialog Box Msg.lvclass" Type="LVClass" URL="../IViewable Messages/Launch Dialog Box Msg/Launch Dialog Box Msg.lvclass"/>
 		<Item Name="Open Front Panel Msg.lvclass" Type="LVClass" URL="../IViewable Messages/Open Front Panel Msg/Open Front Panel Msg.lvclass"/>
 		<Item Name="Resize Panel to Pane Msg.lvclass" Type="LVClass" URL="../IViewable Messages/Resize Panel to Pane Msg/Resize Panel to Pane Msg.lvclass"/>
@@ -16,6 +16,8 @@
 		<Item Name="Set Cursor Busy Msg.lvclass" Type="LVClass" URL="../IViewable Messages/Set Cursor Busy Msg/Set Cursor Busy Msg.lvclass"/>
 		<Item Name="Set Cursor Unbusy Msg.lvclass" Type="LVClass" URL="../IViewable Messages/Set Cursor Unbusy Msg/Set Cursor Unbusy Msg.lvclass"/>
 		<Item Name="Set Panes to Origins Msg.lvclass" Type="LVClass" URL="../IViewable Messages/Set Panes to Origins Msg/Set Panes to Origins Msg.lvclass"/>
+		<Item Name="Removed From Subpanel Msg.lvclass" Type="LVClass" URL="../IViewable Messages/Removed From Subpanel Msg/Removed From Subpanel Msg.lvclass"/>
 	</Item>
 	<Item Name="IViewable.lvclass" Type="LVClass" URL="../IViewable/IViewable.lvclass"/>
+	<Item Name="ProtectedSubpanel.lvclass" Type="LVClass" URL="../ProtectedSubpanel/ProtectedSubpanel.lvclass"/>
 </Library>

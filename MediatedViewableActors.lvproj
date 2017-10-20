@@ -45,10 +45,11 @@
 				<Item Name="TestModels.lvlib" Type="Library" URL="../_Test/Doubles/TestModels.lvlib"/>
 				<Item Name="LeakyViewModel.lvlib" Type="Library" URL="../_Test/Doubles/LeakyViewModel/LeakyViewModel.lvlib"/>
 			</Item>
-			<Item Name="Unit-ish Test" Type="Folder">
+			<Item Name="Unit Test" Type="Folder">
 				<Item Name="Unit Test Readme.txt" Type="Document" URL="../_Test/Unit Test/Unit Test Readme.txt"/>
 				<Item Name="TestIViewModel.lvclass" Type="LVClass" URL="../_Test/Unit Test/TestIViewModel/TestIViewModel/TestIViewModel.lvclass"/>
 				<Item Name="TestObservableData.lvclass" Type="LVClass" URL="../_Test/Unit Test/TestObservableData/TestObservableData.lvclass"/>
+				<Item Name="TestProtectedSubpanel.lvclass" Type="LVClass" URL="../_Test/Unit Test/TestProtectedSubpanel/TestProtectedSubpanel.lvclass"/>
 			</Item>
 			<Item Name="Integration Test" Type="Folder">
 				<Item Name="Integration Test Readme.txt" Type="Document" URL="../_Test/Integration Test/Integration Test Readme.txt"/>
@@ -437,7 +438,6 @@
 				<Item Name="CurrentValueTable.lvlib" Type="Library" URL="/&lt;vilib&gt;/Composed Systems/Current Value Table/CurrentValueTable.lvlib"/>
 				<Item Name="LVRowAndColumnTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRowAndColumnTypeDef.ctl"/>
 				<Item Name="VariantExtensions.lvlib" Type="Library" URL="/&lt;vilib&gt;/Composed Systems/Variant Extensions/VariantExtensions.lvlib"/>
-				<Item Name="ProtectedSubpanel.lvlib" Type="Library" URL="/&lt;vilib&gt;/Composed Systems/Protected Subpanel/ProtectedSubpanel.lvlib"/>
 				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
