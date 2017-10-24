@@ -64,6 +64,9 @@
 				<Item Name="TestPublishRate.lvclass" Type="LVClass" URL="../_Test/Performance Test/TestPublishRate/TestPublishRate.lvclass"/>
 				<Item Name="TestManyPublications.lvclass" Type="LVClass" URL="../_Test/Performance Test/TestManyPublications/TestManyPublications.lvclass"/>
 			</Item>
+			<Item Name="User Interface Test" Type="Folder">
+				<Item Name="UITestAutoRegistration.lvclass" Type="LVClass" URL="../_Test/User Interface Test/UITestAutoRegistration/UITestAutoRegistration.lvclass"/>
+			</Item>
 		</Item>
 		<Item Name="MVA Error List.txt" Type="Document" URL="../MVA Error List.txt"/>
 		<Item Name="Include.vi" Type="VI" URL="../Include.vi"/>
