@@ -51,6 +51,7 @@
 				<Item Name="TestIViewModel.lvclass" Type="LVClass" URL="../_Test/Unit Test/TestIViewModel/TestIViewModel/TestIViewModel.lvclass"/>
 				<Item Name="TestObservableData.lvclass" Type="LVClass" URL="../_Test/Unit Test/TestObservableData/TestObservableData.lvclass"/>
 				<Item Name="TestProtectedSubpanel.lvclass" Type="LVClass" URL="../_Test/Unit Test/TestProtectedSubpanel/TestProtectedSubpanel.lvclass"/>
+				<Item Name="TestAutoRegistration.lvclass" Type="LVClass" URL="../_Test/Unit Test/TestAutoRegistration/TestAutoRegistration/TestAutoRegistration.lvclass"/>
 			</Item>
 			<Item Name="Integration Test" Type="Folder">
 				<Item Name="Integration Test Readme.txt" Type="Document" URL="../_Test/Integration Test/Integration Test Readme.txt"/>
