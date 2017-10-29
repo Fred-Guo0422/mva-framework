@@ -20,8 +20,8 @@
 			<Item Name="IViewModel.lvlib" Type="Library" URL="../Framework/IViewModel/IViewModel.lvlib"/>
 			<Item Name="IMediator.lvlib" Type="Library" URL="../Framework/IMediator/IMediator.lvlib"/>
 			<Item Name="IDialogBox.lvlib" Type="Library" URL="../Framework/IDialogBox/IDialogBox.lvlib"/>
-			<Item Name="AutoRegistration.lvlib" Type="Library" URL="../Framework/AutoRegistration/AutoRegistration.lvlib"/>
-			<Item Name="ActorEvents.lvlib" Type="Library" URL="../Framework/AutoRegistration/ActorEvents.lvlib"/>
+			<Item Name="AutoRegistration.lvlib" Type="Library" URL="../Framework/ActorEvents/AutoRegistration.lvlib"/>
+			<Item Name="ActorEvents.lvlib" Type="Library" URL="../Framework/ActorEvents/ActorEvents.lvlib"/>
 		</Item>
 		<Item Name="Concrete" Type="Folder">
 			<Item Name="View Managers" Type="Folder">
