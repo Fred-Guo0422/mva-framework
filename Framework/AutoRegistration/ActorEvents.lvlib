@@ -4,7 +4,8 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">352354304</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
-	<Item Name="Auto-Event Messages" Type="Folder">
+	<Property Name="NI.SortType" Type="Int">3</Property>
+	<Item Name="IEventAggregator Messages" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="EventDataMessage.lvclass" Type="LVClass" URL="../ActorAutoRegistration Messages/EventDataMessage/EventDataMessage.lvclass"/>
 		<Item Name="PanelCloseMsg.lvclass" Type="LVClass" URL="../ActorAutoRegistration Messages/PanelCloseMsg/PanelCloseMsg.lvclass"/>
@@ -12,7 +13,17 @@
 		<Item Name="ControlMouseUpMsg.lvclass" Type="LVClass" URL="../ActorAutoRegistration Messages/ControlMouseUpMsg/ControlMouseUpMsg.lvclass"/>
 		<Item Name="ControlMouseDownMsg.lvclass" Type="LVClass" URL="../ActorAutoRegistration Messages/ControlMouseDownMsg/ControlMouseDownMsg.lvclass"/>
 		<Item Name="UserMenuSelectionMsg.lvclass" Type="LVClass" URL="../ActorAutoRegistration Messages/UserMenuSelectionMsg/UserMenuSelectionMsg.lvclass"/>
+		<Item Name="Launch Event Handlers Msg.lvclass" Type="LVClass" URL="../AutoEventActor Messages/Launch Event Handlers Msg/Launch Event Handlers Msg.lvclass"/>
+	</Item>
+	<Item Name="EventHandler" Type="Folder">
+		<Property Name="NI.SortType" Type="Int">3</Property>
+		<Item Name="IEventHandler.lvclass" Type="LVClass" URL="../IEventHandler/IEventHandler.lvclass"/>
+		<Item Name="ApplicationEventHandler.lvclass" Type="LVClass" URL="../EventHandler/ApplicationEventHandler/ApplicationEventHandler.lvclass"/>
+		<Item Name="VIEventHandler.lvclass" Type="LVClass" URL="../EventHandler/VIEventHandler/VIEventHandler.lvclass"/>
+		<Item Name="PaneEventHandler.lvclass" Type="LVClass" URL="../EventHandler/PaneEventHandler/PaneEventHandler.lvclass"/>
+		<Item Name="ControlEventHandler.lvclass" Type="LVClass" URL="../EventHandler/ControlEventHandler/ControlEventHandler.lvclass"/>
+		<Item Name="TreeControlEventHandler.lvclass" Type="LVClass" URL="../EventHandler/TreeControlEventHandler/TreeControlEventHandler.lvclass"/>
 	</Item>
 	<Item Name="ActorAutoRegistration.lvclass" Type="LVClass" URL="../ActorAutoRegistration/ActorAutoRegistration.lvclass"/>
-	<Item Name="AutoEventActor.lvclass" Type="LVClass" URL="../AutoEventActor/AutoEventActor.lvclass"/>
+	<Item Name="IEventAggregator.lvclass" Type="LVClass" URL="../AutoEventActor/IEventAggregator.lvclass"/>
 </Library>

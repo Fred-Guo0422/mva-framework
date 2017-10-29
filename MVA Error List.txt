@@ -4,10 +4,11 @@ Code	Description
 516003	The software attempted to open a reference to an abstract ISubscriptionPolicy object. The developer must provide a concrete policy type to establish a subscription.
 516004	Send Synchronous Message timed out before receiving a reply.
 516005  TopicLookupTable does not contain the requested information for Topic "%s".
+516006	An Actor attempted to register for an invalid event type; This EventHandler does not allow registrations of type "%s".
 
 *** Transport Errors (Concrete) ***
 517001	The boolean text update failed because BooleanTextBinding class does not support binding data of type "%s".
-517002	The listbox update failed because MCListboxItemNamesBinding class does not support the bound data type (type "%s", dimension=%d, element type"%s").
+517002	The listbox update failed because (MC)ListboxItemNamesBinding class does not support the bound data type (type "%s", dimension=%d, element type"%s").
 517003	The string update failed because FormattedStringBinding class does not support binding data of type "%s".
 517004	The QueueTransport class timed out while waiting for data.
 517005	The wired control reference to "%s" can not be bound. If the control type is Boolean, ensure that its mechanical action is set to switching.

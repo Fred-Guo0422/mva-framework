@@ -22,4 +22,6 @@
 	<Item Name="TerminalBinding.lvclass" Type="LVClass" URL="../TerminalBinding/TerminalBinding.lvclass"/>
 	<Item Name="TerminalReference.lvclass" Type="LVClass" URL="../TerminalReference/TerminalReference.lvclass"/>
 	<Item Name="ValueReferenceTransport.lvclass" Type="LVClass" URL="../ValueReferenceTransport/ValueReferenceTransport.lvclass"/>
+	<Item Name="NamedNumericStringsBinding.lvclass" Type="LVClass" URL="../NamedNumericStringsBinding/NamedNumericStringsBinding.lvclass"/>
+	<Item Name="ListboxItemNamesBinding.lvclass" Type="LVClass" URL="../ListboxItemNamesBinding/ListboxItemNamesBinding.lvclass"/>
 </Library>
