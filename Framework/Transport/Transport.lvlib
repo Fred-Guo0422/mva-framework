@@ -8,19 +8,19 @@
 	<Item Name="Test" Type="Folder">
 		<Item Name="TestTransport.lvclass" Type="LVClass" URL="../_Test/TestTransport.lvclass"/>
 	</Item>
-	<Item Name="ActorMessage Transport" Type="Folder">
-		<Item Name="ActorMessage.lvclass" Type="LVClass" URL="../ActorMessage/ActorMessage.lvclass"/>
-		<Item Name="Notification Msg.lvclass" Type="LVClass" URL="../ActorMessage/Notification Msg/Notification Msg.lvclass"/>
+	<Item Name="ActorMessageTransport Msg" Type="Folder">
+		<Item Name="Notification Msg.lvclass" Type="LVClass" URL="../ActorMessageTransport/Notification Msg/Notification Msg.lvclass"/>
 	</Item>
+	<Item Name="ActorMessageTransport.lvclass" Type="LVClass" URL="../ActorMessageTransport/ActorMessageTransport.lvclass"/>
 	<Item Name="BooleanTextBinding.lvclass" Type="LVClass" URL="../BooleanTextBinding/BooleanTextBinding.lvclass"/>
 	<Item Name="ConfigurationFileBinding.lvclass" Type="LVClass" URL="../ConfigurationFileBinding/ConfigurationFileBinding.lvclass"/>
 	<Item Name="EventTransport.lvclass" Type="LVClass" URL="../EventTransport/EventTransport.lvclass"/>
 	<Item Name="FormattedStringBinding.lvclass" Type="LVClass" URL="../FormattedStringBinding/FormattedStringBinding.lvclass"/>
 	<Item Name="MCListboxItemNamesBinding.lvclass" Type="LVClass" URL="../MCListboxItemNamesBinding/MCListboxItemNamesBinding.lvclass"/>
 	<Item Name="QueueTransport.lvclass" Type="LVClass" URL="../QueueTransport/QueueTransport.lvclass"/>
-	<Item Name="StreamToDisk.lvclass" Type="LVClass" URL="../StreamToDisk/StreamToDisk.lvclass"/>
+	<Item Name="StreamToDiskTransport.lvclass" Type="LVClass" URL="../StreamToDiskTransport/StreamToDiskTransport.lvclass"/>
 	<Item Name="TerminalBinding.lvclass" Type="LVClass" URL="../TerminalBinding/TerminalBinding.lvclass"/>
-	<Item Name="TerminalReference.lvclass" Type="LVClass" URL="../TerminalReference/TerminalReference.lvclass"/>
+	<Item Name="TerminalReferenceBinding.lvclass" Type="LVClass" URL="../TerminalReferenceBinding/TerminalReferenceBinding.lvclass"/>
 	<Item Name="ValueReferenceTransport.lvclass" Type="LVClass" URL="../ValueReferenceTransport/ValueReferenceTransport.lvclass"/>
 	<Item Name="NamedNumericStringsBinding.lvclass" Type="LVClass" URL="../NamedNumericStringsBinding/NamedNumericStringsBinding.lvclass"/>
 	<Item Name="ListboxItemNamesBinding.lvclass" Type="LVClass" URL="../ListboxItemNamesBinding/ListboxItemNamesBinding.lvclass"/>
