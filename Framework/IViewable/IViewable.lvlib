@@ -17,6 +17,7 @@
 		<Item Name="Set Cursor Unbusy Msg.lvclass" Type="LVClass" URL="../IViewable Messages/Set Cursor Unbusy Msg/Set Cursor Unbusy Msg.lvclass"/>
 		<Item Name="Set Panes to Origins Msg.lvclass" Type="LVClass" URL="../IViewable Messages/Set Panes to Origins Msg/Set Panes to Origins Msg.lvclass"/>
 		<Item Name="Removed From Subpanel Msg.lvclass" Type="LVClass" URL="../IViewable Messages/Removed From Subpanel Msg/Removed From Subpanel Msg.lvclass"/>
+		<Item Name="Nested Value Update Msg.lvclass" Type="LVClass" URL="../IViewable Messages/Catch Nested Value Change Msg/Nested Value Update Msg.lvclass"/>
 	</Item>
 	<Item Name="IViewable.lvclass" Type="LVClass" URL="../IViewable/IViewable.lvclass"/>
 	<Item Name="ProtectedSubpanel.lvclass" Type="LVClass" URL="../ProtectedSubpanel/ProtectedSubpanel.lvclass"/>
