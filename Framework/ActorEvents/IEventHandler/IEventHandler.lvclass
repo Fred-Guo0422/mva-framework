@@ -63,11 +63,11 @@
 		<Item Name="Stop Event Handler.vi" Type="VI" URL="../Stop Event Handler.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$H!!!!"Q!%!!!!$%!B"H.U982V=Q!!#U!$!!2D&lt;W2F!!!11$$`````"H.P&gt;8*D:1!!)%"1!!-!!1!#!!-4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1"!1(!!(A!!+2&amp;"9X2P=E6W:7ZU=SZM&gt;GRJ9B6*28:F&lt;H2)97ZE&lt;'6S,GRW9WRB=X-!$%6W:7ZU3'&amp;O:'RF=A!!6!$Q!!Q!!!!!!!!!!!!!!!!!!!!!!!1!!!!!!!5#!!"Y!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!A!!!!!!!!!!!!!!"!!!!!!!1!'!!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">16777344</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">1090519040</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">2</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">8396800</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">268972032</Property>
 		</Item>
 	</Item>
 	<Item Name="Protected" Type="Folder">

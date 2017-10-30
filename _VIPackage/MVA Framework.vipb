@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2017-09-18 19:58:26" Modified_Date="2017-10-29 13:33:27" Creator="Ethan Stern" Comments="" ID="78c575471511861ae67b799fe34bfdae">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2017-09-18 19:58:26" Modified_Date="2017-10-29 23:22:33" Creator="Ethan Stern" Comments="" ID="22a968e5c6897d0fb5d87cadda788cc9">
   <Library_General_Settings>
     <Package_File_Name>Composed_Systems_lib_MVA_Framework</Package_File_Name>
-    <Library_Version>1.1.0.17</Library_Version>
+    <Library_Version>1.1.1.19</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..</Library_Source_Folder>
     <Library_Output_Folder>.</Library_Output_Folder>
@@ -19,13 +19,11 @@
     <Package_Dependencies>
       <External_Dependencies>composed_systems_lib_current_value_table &gt;= 1.0.0.3</External_Dependencies>
       <External_Dependencies>composed_systems_lib_listbox_extensions &gt;= 1.0.0.2</External_Dependencies>
-      <External_Dependencies>composed_systems_lib_protected_subpanel &gt;= 1.0.1.4</External_Dependencies>
       <External_Dependencies>composed_systems_lib_timed_average_buffer &gt;= 1.0.0.2</External_Dependencies>
       <External_Dependencies>composed_systems_lib_variant_extensions &gt;= 1.0.0.3</External_Dependencies>
       <External_Dependencies>jki_labs_tool_vi_tester &gt;= 2.0.0.285</External_Dependencies>
       <Direct_Dependencies>composed_systems_lib_current_value_table-1.0.0.3</Direct_Dependencies>
       <Direct_Dependencies>composed_systems_lib_listbox_extensions-1.0.0.2</Direct_Dependencies>
-      <Direct_Dependencies>composed_systems_lib_protected_subpanel-1.0.1.4</Direct_Dependencies>
       <Direct_Dependencies>composed_systems_lib_timed_average_buffer-1.0.0.2</Direct_Dependencies>
       <Direct_Dependencies>composed_systems_lib_variant_extensions-1.0.0.3</Direct_Dependencies>
       <Direct_Dependencies>jki_labs_tool_vi_tester-2.0.0.285-1</Direct_Dependencies>
@@ -79,7 +77,7 @@
       <Copyright/>
       <Packager/>
       <URL>www.composed.io</URL>
-      <Release_Notes>Improved framework event handling (IEventAggregator replaced AutoEventActor)</Release_Notes>
+      <Release_Notes>Improved framework event handling (and Fixed ViewManager event registration issue)</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -308,7 +306,7 @@
         <Path>..\Framework\AbstractMessages</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2D35E9D9F0BCC4B2A3C8DBC15FA42AA0</GUID>
+      <GUID>4542D15949603CAE659046065C0B9CD2</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -385,7 +383,7 @@
         <Path>..\Framework\IViewable\IViewable Messages\Launch Dialog Box Msg\Send Launch Dialog Box.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D49FD7BD993E67490E6A370EA8B7F3BF</GUID>
+      <GUID>743DF9C94A95F7173EF2DD052153AD90</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -546,7 +544,7 @@
         <Path>..\Framework\AutoRegistration</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8CD1ADE8011D9CEE9AF34F3E91564952</GUID>
+      <GUID>E4BE0081CE2F8F607C6DC98A19B2BE84</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -623,7 +621,7 @@
         <Path>..\ViewManager\QuadViewManager\Assemble QuadViewManager.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>DEA6ED830DA90FEC0538234F43392C67</GUID>
+      <GUID>F6D7D7E82B39BCE81DBDCBB408E43F73</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -686,7 +684,7 @@
         <Path>..\Framework\AbstractMessages\SynchronousMsg</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>713012B82FBAAD88DB7DEBF5E4FAE26F</GUID>
+      <GUID>F502F35BC58A2DC9FA13C2C212B98EE4</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -718,7 +716,7 @@
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\Framework\AutoRegistration\ActorAutoRegistration Messages\ValueChangeMsg\Unpack Value Change.vi</Path>
+        <Path>..\Framework\ActorEvents\IEventAggregator Messages\ValueChangeMsg\Unpack Value Change.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -732,7 +730,7 @@
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\Framework\AutoRegistration\ActorAutoRegistration Messages\UserMenuSelectionMsg\Unpack User Menu Selection.vi</Path>
+        <Path>..\Framework\ActorEvents\IEventAggregator Messages\UserMenuSelectionMsg\Unpack User Menu Selection.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -746,7 +744,7 @@
           <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\Framework\AutoRegistration\ActorAutoRegistration Messages\PanelCloseMsg\Unpack Panel Close.vi</Path>
+        <Path>..\Framework\ActorEvents\IEventAggregator Messages\PanelCloseMsg\Unpack Panel Close.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -760,7 +758,7 @@
           <Column>4</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\Framework\AutoRegistration\ActorAutoRegistration Messages\ControlMouseDownMsg\Unpack Control Mouse Down.vi</Path>
+        <Path>..\Framework\ActorEvents\IEventAggregator Messages\ControlMouseDownMsg\Unpack Control Mouse Down.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -774,7 +772,7 @@
           <Column>5</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\Framework\AutoRegistration\ActorAutoRegistration Messages\ControlMouseUpMsg\Unpack Control Mouse Up.vi</Path>
+        <Path>..\Framework\ActorEvents\IEventAggregator Messages\ControlMouseUpMsg\Unpack Control Mouse Up.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -788,10 +786,80 @@
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\Framework\AutoRegistration\AutoRegistration\Register Auto-Events.vi</Path>
+        <Path>..\Framework\ActorEvents\AutoRegistration\Register Auto-Events.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C8BDE212B796B046E5FC6FD806CA0616</GUID>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Register For Control Events.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>1</Row>
+          <Column>1</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\Framework\ActorEvents\IEventAggregator\Register For Control Events.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Register For MulticolumnListbox Events.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>1</Row>
+          <Column>4</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\Framework\ActorEvents\IEventAggregator\Register For MulticolumnListbox Events.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Register For Pane Events.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>1</Row>
+          <Column>2</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\Framework\ActorEvents\IEventAggregator\Register For Pane Events.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Register For VI Events.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>1</Row>
+          <Column>3</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\Framework\ActorEvents\IEventAggregator\Register For VI Events.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Register For Tree Events.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>1</Row>
+          <Column>5</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\Framework\ActorEvents\IEventAggregator\Register For Tree Events.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <GUID>AAFDF7E11B7A1FF7E2783FE621EE6976</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -826,7 +894,7 @@
         <Path>..\Framework\IMediator\IMediator\Write MediatorBusMonitor Type.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5E0D5573BD922C974A97CE4AE8BBDB20</GUID>
+      <GUID>335DA524DA2AE3000C7DF63CF75F2AB4</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -931,7 +999,7 @@
         <Path>..\Advanced</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>DF886C6FA7F4FD1148C798FB3F79A3A0</GUID>
+      <GUID>0E3BDC2B1D4889B9E18E6977F2CEFCC8</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -994,7 +1062,7 @@
         <Path>..\Framework\IViewable\IViewable Messages</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2B5E85CF31C98A5036069D88D3B07DBC</GUID>
+      <GUID>F276AC54C2EB397004897C75B6D1EA1B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1043,7 +1111,7 @@
         <Path>..\Framework\IViewManager\IViewManager Messages</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B87D3B59502831F6EA4FAA5ECCAD1A9D</GUID>
+      <GUID>BFDBD3ECD853D4F002840BA3CFEC16F3</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1148,7 +1216,7 @@
         <Path>..\Framework\IMediator\IMediator Messages\Subscribe Msg\Send Direct Subscribe.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1BAB5BBE3CED269CAB3EE7585C148477</GUID>
+      <GUID>D3449FA8269682CB4560DFDD154623CC</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1323,7 +1391,7 @@
         <Path>..\Framework\IMediator\ISubscriptionPolicy\Open Subscription Policy.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>19A04A80409F0C4E6008D853462BBB3C</GUID>
+      <GUID>32500AA634F3D3152BFFD9884D18188B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1582,7 +1650,7 @@
         <Path>..\Framework\Transport\BooleanTextBinding\New Boolean Text Binding.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>01909BABBE516B567E395F29C8DF0A03</GUID>
+      <GUID>107EE4271D572B57B238E6929F163CE3</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -1631,7 +1699,7 @@
         <Path>..\Framework\AbstractMessages\BinaryDecisionMsg\Write Binary Reply Messages.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>526C9B2B664D0C321C76463DC4CB30C4</GUID>
+      <GUID>322846DBBAB8340EA48F66973CBD679C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -1680,7 +1748,7 @@
         <Path>..\Framework\AbstractMessages\PreAddressedMsg\Write Return Address.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2D2967FB5C43F00516E9F253D255EF2C</GUID>
+      <GUID>5A9BBE3E55AA6EAC930F0AAE8CF2D72A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -1729,7 +1797,7 @@
         <Path>..\Framework\AbstractMessages\SynchronousMsg\Send Synchronous Reply.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2D3975939759152AAD8DAFF5CE5C322E</GUID>
+      <GUID>5582492EE0166EC9C2526B11F26450F6</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>8</Parent_Palette_Index>
@@ -1960,7 +2028,7 @@
         <Path>..\Framework\IObserver\IObserver\Observe Data.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1C748B15B6C8CA4ABAC1DB52D5B5A39A</GUID>
+      <GUID>8B04AF00F7432FEE7553CF9107FB6963</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>16</Parent_Palette_Index>
@@ -2037,7 +2105,7 @@
         <Path>..\Framework\IObserver\IObserver Messages\Observe Data Msg\Write Observe Data Msg Return Info.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>31C979ACD0CCCC29E1F68124765B453F</GUID>
+      <GUID>A5DBF65C25C9CA0074E52AC3AAC23CC5</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>16</Parent_Palette_Index>
@@ -2086,7 +2154,7 @@
         <Path>..\Framework\IObserver\IObserver Messages\Subscribe Msg\Send Subscribe.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F24B3669F2E4EBD5074D3A29D0A7D165</GUID>
+      <GUID>FAB934E62AC8BA60D0EB7F7661124B87</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>16</Parent_Palette_Index>
@@ -2135,7 +2203,7 @@
         <Path>..\Framework\IObserver\IObserver Messages\Unsubscribe Msg\Send Unsubscribe.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5D50AF51FA82FF9ACD897B81253956F7</GUID>
+      <GUID>2EE8E3871707390A9ED4E73361CB7F94</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>8</Parent_Palette_Index>
@@ -2229,26 +2297,12 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Insert View.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>2</Row>
-          <Column>1</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\_Test\Integration Test\MultiSubscriber\Insert View.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
         <NameSub_Menu_Name>Open Front Panel.vi</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
           <Row>2</Row>
-          <Column>2</Column>
+          <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
         <Path>..\Framework\IViewable\IViewable\Open Front Panel.vi</Path>
@@ -2262,7 +2316,7 @@
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
           <Row>2</Row>
-          <Column>3</Column>
+          <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
         <Path>..\Framework\IViewable\IViewable\Close Front Panel.vi</Path>
@@ -2276,7 +2330,7 @@
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
           <Row>2</Row>
-          <Column>5</Column>
+          <Column>4</Column>
         </Position>
         <Icon>00000000</Icon>
         <Path>..\Framework\IViewable\IViewable\Launch Dialog Box.vi</Path>
@@ -2374,13 +2428,27 @@
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
           <Row>2</Row>
-          <Column>4</Column>
+          <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
         <Path>..\Framework\IViewable\IViewable\Insert Front Panel.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>AA24B9EAE97248ACA562B0C24F851943</GUID>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Catch Nested Value Update.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>2</Row>
+          <Column>5</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\Framework\IViewable\IViewable\Catch Nested Value Update.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <GUID>6D333AFFCC19BCC2A3CC21B54DF67502</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>8</Parent_Palette_Index>
@@ -2555,7 +2623,21 @@
         <Path>..\Framework\IViewable\IViewable Messages\Insert Front Panel Msg\Send Insert Front Panel.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>45F1683BD7DE30FB62BF952747BC0F16</GUID>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Send Nested Value Update.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>1</Row>
+          <Column>6</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\Framework\IViewable\IViewable Messages\Catch Nested Value Change Msg\Send Nested Value Update.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <GUID>96B018D7795C1C2558D69E3C93FCB1F8</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>9</Parent_Palette_Index>
@@ -2716,7 +2798,7 @@
         <Path>..\Framework\IViewManager\IViewManager\Read Element of Views.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>17AB8D8E75149373E9A3067BC59B0060</GUID>
+      <GUID>4F5F35ACFB3246059A8107E443363723</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>9</Parent_Palette_Index>
@@ -2765,7 +2847,7 @@
         <Path>..\Framework\IViewManager\IViewManager Messages\Launch Nested Views Msg\Send Launch Nested Views.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4613D4938235B1D0505AF10A35B29F92</GUID>
+      <GUID>33637ACAED27773233B5925892989313</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -2814,7 +2896,7 @@
         <Path>..\Framework\IModel\IModel\Write Pre-Addressed Publish Message.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>FF84592089B78D51E0C97CEBC9C292B9</GUID>
+      <GUID>C2669FEB68F5B544DC2A58A8BCB2F369</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

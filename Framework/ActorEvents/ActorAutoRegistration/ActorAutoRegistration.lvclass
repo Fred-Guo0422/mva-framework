@@ -30,8 +30,17 @@
 	<Item Name="ActorAutoRegistration.ctl" Type="Class Private Data" URL="ActorAutoRegistration.ctl">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
-	<Item Name="DEPRECATED (DELETE) Private" Type="Folder">
+	<Item Name="(TEMP) Private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		<Item Name="Auto-Register For Events.vi" Type="VI" URL="../Auto-Register For Events.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(F!!!!$1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!&amp;2!=!!?!!!R%5&amp;D&gt;'^S28:F&lt;H2T,GRW&lt;'FC(5&amp;D&gt;'^S186U&lt;V*F:WFT&gt;(*B&gt;'FP&lt;CZM&gt;G.M98.T!"F"9X2P=E&amp;V&gt;'^3:7&gt;J=X2S982J&lt;WYA4X6U!#2!)2Z6=W5A4'&amp;C:7QA6'6Y&gt;#!I2DV6=W5A1W&amp;Q&gt;'FP&lt;CE!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!'%"Q!!A!!!!'!!!+1X2M)&amp;*F:GZV&lt;1!!)%"!!!(`````!!A41W^O&gt;(*P&lt;(-A&gt;']A28BD&lt;(6E:1!E1(!!#!!!!!)!!":733"3:7:O&gt;7UA+%&amp;D&gt;'^S)%.P=G5J!!"51(!!(A!!-"6"9X2P=C"'=G&amp;N:8&gt;P=GMO&lt;(:M;7)9476T=W&amp;H:3"&amp;&lt;H&amp;V:86F=CZM&gt;G.M98.T!!!928:F&lt;H2":W&gt;S:7&gt;B&gt;'^S)%6O=86F&gt;76S!!"5!0!!$!!$!!1!"!!&amp;!!1!"!!%!!9!"Q!*!!I!#Q)!!(A!!!U)!!!!!!!!!!!!!!E!!!!!!!!!!!!!!!!!!!!)!!!!#!!!!AA!!!!)!!!!%!!!!!!"!!Q!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">1073741856</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">2</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">8388608</Property>
+		</Item>
 		<Item Name="Read Refnum Table.vi" Type="VI" URL="../Read Refnum Table.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$W!!!!#!!%!!!!%E!Q`````QF$&lt;'&amp;T=UZB&lt;75!(%"Q!!A!!!!'!!!/1W^O&gt;(*P&lt;#"3:7:O&gt;7U!!"R!1!!"`````Q!#$U.P&lt;H2S&lt;WQA5G6G&lt;H6N=Q!91&amp;!!!A!"!!--5G6G&lt;H6N)%&gt;S&lt;X6Q!!!;1%!!!@````]!"!V3:7:O&gt;7UA2X*P&gt;8"T!"J!5R65?8"F:#"3:7:O&gt;7UA6'&amp;C&lt;'5A37Y!6!$Q!!Q!!!!!!!5!!!!!!!!!!!!!!!!!!!!!!!9$!!"Y!!!!!!!!!!!!!!E!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"!!!!!!!1!(!!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -50,15 +59,6 @@
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">268967936</Property>
 		</Item>
-	</Item>
-	<Item Name="Auto-Register For Events.vi" Type="VI" URL="../Auto-Register For Events.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(F!!!!$1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!&amp;2!=!!?!!!R%5&amp;D&gt;'^S28:F&lt;H2T,GRW&lt;'FC(5&amp;D&gt;'^S186U&lt;V*F:WFT&gt;(*B&gt;'FP&lt;CZM&gt;G.M98.T!"F"9X2P=E&amp;V&gt;'^3:7&gt;J=X2S982J&lt;WYA4X6U!#2!)2Z6=W5A4'&amp;C:7QA6'6Y&gt;#!I2DV6=W5A1W&amp;Q&gt;'FP&lt;CE!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!'%"Q!!A!!!!'!!!+1X2M)&amp;*F:GZV&lt;1!!)%"!!!(`````!!A41W^O&gt;(*P&lt;(-A&gt;']A28BD&lt;(6E:1!E1(!!#!!!!!)!!":733"3:7:O&gt;7UA+%&amp;D&gt;'^S)%.P=G5J!!"51(!!(A!!-"6"9X2P=C"'=G&amp;N:8&gt;P=GMO&lt;(:M;7)9476T=W&amp;H:3"&amp;&lt;H&amp;V:86F=CZM&gt;G.M98.T!!!928:F&lt;H2":W&gt;S:7&gt;B&gt;'^S)%6O=86F&gt;76S!!"5!0!!$!!$!!1!"!!&amp;!!1!"!!%!!9!"Q!*!!I!#Q-!!(A!!!U)!!!!!!!!!!!!!!E!!!!!!!!!!!!!!!!!!!!)!!!!#!!!!AA!!!!)!!!!%!!!!!!"!!Q!!!!!</Property>
-		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-		<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
-		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
-		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">268967952</Property>
 	</Item>
 	<Item Name="Handle Actor Core Events.vi" Type="VI" URL="../Handle Actor Core Events.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%.!!!!#!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!5%"Q!"Y!!$%217.U&lt;X*&amp;&gt;G6O&gt;(-O&lt;(:M;7)&gt;17.U&lt;X*"&gt;82P5G6H;8.U=G&amp;U;7^O,GRW9WRB=X-!&amp;5&amp;D&gt;'^S186U&lt;V*F:WFT&gt;(*B&gt;'FP&lt;A"5!0!!$!!$!!1!"!!%!!1!"!!%!!1!"1!%!!1!"A-!!(A!!!U)!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!!!!!!E!!!!!!"!!=!!!!!</Property>
