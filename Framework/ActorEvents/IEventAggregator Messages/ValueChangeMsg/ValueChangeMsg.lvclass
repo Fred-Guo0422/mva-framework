@@ -45,12 +45,12 @@
 		<Property Name="NI.ClassItem.State" Type="Int">1342972432</Property>
 	</Item>
 	<Item Name="Unpack Value Change.vi" Type="VI" URL="../Unpack Value Change.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$N!!!!"Q!/1&amp;-*4G6X)&amp;:B&lt;(6F!!N!"Q!%6'FN:1!!&amp;E!Q`````QV$&lt;WZU=G^M)%RB9G6M!"B!=!!)!!!!"A!!#E.U&lt;#"3:7:O&gt;7U!!!1!!!"'1(!!(A!!+B&amp;"9X2P=E6W:7ZU=SZM&gt;GRJ9B:797RV:5.I97ZH:5VT:SZM&gt;G.M98.T!!!26G&amp;M&gt;76$;'&amp;O:W6.=W=A37Y!6!$Q!!Q!!!!"!!)!!Q!%!!1!"!!%!!1!"!!%!!5#!!"Y!!!*!!!!#1!!!!E!!!!*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*!!!!!!!1!'!!!!!!</Property>
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$L!!!!"Q!/1&amp;-*4G6X)&amp;:B&lt;(6F!!N!"Q!%6'FN:1!!&amp;E!Q`````QV$&lt;WZU=G^M)%RB9G6M!"B!=!!)!!!!"A!!#E.U&lt;#"3:7:O&gt;7U!!!1!!!"%1(!!(A!!+B&amp;"9X2P=E6W:7ZU=SZM&gt;GRJ9B:797RV:5.I97ZH:5VT:SZM&gt;G.M98.T!!!/6G&amp;M&gt;76$;'&amp;O:W6.=W=!!&amp;1!]!!-!!!!!1!#!!-!"!!%!!1!"!!%!!1!"!!&amp;!A!!?!!!#1!!!!E!!!!*!!!!#1!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1!!!!!!%!"A!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
-		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1342710272</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1342713856</Property>
 	</Item>
 </LVClass>

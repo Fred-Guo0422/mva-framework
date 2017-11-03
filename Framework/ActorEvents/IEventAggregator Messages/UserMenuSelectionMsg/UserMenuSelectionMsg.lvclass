@@ -45,12 +45,12 @@
 		<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
 	</Item>
 	<Item Name="Unpack User Menu Selection.vi" Type="VI" URL="../Unpack User Menu Selection.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$P!!!!"Q!31$$`````#5FU:7UA5'&amp;U;!!31$$`````#%FU:7UA6'&amp;H!!!,1!=!"&amp;2J&lt;75!!!Z!=!!*"UVF&lt;H63:79!"!!!!&amp;*!=!!?!!!Q%5&amp;D&gt;'^S28:F&lt;H2T,GRW&lt;'FC(&amp;6T:8*.:7ZV5W6M:7.U;7^O48.H,GRW9WRB=X-!!"&gt;6=W6S476O&gt;6.F&lt;'6D&gt;'FP&lt;EVT:S"*&lt;A"5!0!!$!!!!!%!!A!$!!1!"!!%!!1!"!!%!!1!"1)!!(A!!!E!!!!*!!!!#1!!!!E!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!E!!!!!!"!!9!!!!!</Property>
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$N!!!!"Q!31$$`````#5FU:7UA5'&amp;U;!!31$$`````#%FU:7UA6'&amp;H!!!,1!=!"&amp;2J&lt;75!!!Z!=!!*"UVF&lt;H63:79!"!!!!&amp;"!=!!?!!!Q%5&amp;D&gt;'^S28:F&lt;H2T,GRW&lt;'FC(&amp;6T:8*.:7ZV5W6M:7.U;7^O48.H,GRW9WRB=X-!!"26=W6S476O&gt;6.F&lt;'6D&gt;'FP&lt;EVT:Q!!6!$Q!!Q!!!!"!!)!!Q!%!!1!"!!%!!1!"!!%!!5#!!"Y!!!*!!!!#1!!!!E!!!!*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"!!!!!!!1!'!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
-		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1082139136</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">268967936</Property>
 	</Item>
 </LVClass>

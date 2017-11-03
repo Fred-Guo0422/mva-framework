@@ -45,12 +45,12 @@
 		<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
 	</Item>
 	<Item Name="Unpack User Shortcut Menu Selection.vi" Type="VI" URL="../Unpack User Shortcut Menu Selection.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'#!!!!$!!31$$`````#5FU:7UA5'&amp;U;!!31$$`````#%FU:7UA6'&amp;H!!!,1!=!"&amp;2J&lt;75!!"2!=!!)!!!!"A!!"E.U&lt;&amp;*F:A!!%5!$!!J)&lt;X*J?G^O&gt;'&amp;M!!!01!-!#&amp;:F=H2J9W&amp;M!!!T!0%!!!!!!!!!!22-6F"P;7ZU-T*5?8"F2'6G,G.U&lt;!!71&amp;!!!A!%!!5'1W^P=G2T!!!71$$`````$5.P&lt;H2S&lt;WQA4'&amp;C:7Q!&amp;%"Q!!A!!!!'!!!'5X6C4W*K!!!%!!!!9E"Q!"Y!!$A217.U&lt;X*&amp;&gt;G6O&gt;(-O&lt;(:M;7)E68.F=F.I&lt;X*U9X6U476O&gt;6.F&lt;'6D&gt;'FP&lt;EVT:SZM&gt;G.M98.T!!!@68.F=F.I&lt;X*U9X6U476O&gt;6.F&lt;'6D&gt;'FP&lt;EVT:S"*&lt;A"5!0!!$!!!!!%!!A!$!!9!"Q!)!!E!#1!*!!E!#A)!!(A!!!E!!!!*!!!!#1!!!!E!!!!*!!!!#1!!!!E!!!!!!!!!!!!!!!!!!!!!!!!!E!!!!!!"!!M!!!!!</Property>
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'!!!!!$!!31$$`````#5FU:7UA5'&amp;U;!!31$$`````#%FU:7UA6'&amp;H!!!,1!=!"&amp;2J&lt;75!!"2!=!!)!!!!"A!!"E.U&lt;&amp;*F:A!!%5!$!!J)&lt;X*J?G^O&gt;'&amp;M!!!01!-!#&amp;:F=H2J9W&amp;M!!!T!0%!!!!!!!!!!22-6F"P;7ZU-T*5?8"F2'6G,G.U&lt;!!71&amp;!!!A!%!!5'1W^P=G2T!!!71$$`````$5.P&lt;H2S&lt;WQA4'&amp;C:7Q!&amp;%"Q!!A!!!!'!!!'5X6C4W*K!!!%!!!!9%"Q!"Y!!$A217.U&lt;X*&amp;&gt;G6O&gt;(-O&lt;(:M;7)E68.F=F.I&lt;X*U9X6U476O&gt;6.F&lt;'6D&gt;'FP&lt;EVT:SZM&gt;G.M98.T!!!=68.F=F.I&lt;X*U9X6U476O&gt;6.F&lt;'6D&gt;'FP&lt;EVT:Q!!6!$Q!!Q!!!!"!!)!!Q!'!!=!#!!*!!E!#1!*!!I#!!"Y!!!*!!!!#1!!!!E!!!!*!!!!#1!!!!E!!!!*!!!!!!!!!!!!!!!!!!!!!!!!!"!!!!!!!1!,!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-		<Property Name="NI.ClassItem.Flags" Type="Int">16</Property>
-		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1342972416</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">268967936</Property>
 	</Item>
 </LVClass>

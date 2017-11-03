@@ -45,12 +45,12 @@
 		<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
 	</Item>
 	<Item Name="Unpack Panel Close.vi" Type="VI" URL="../Unpack Panel Close.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$F!!!!"Q!11#%+2'FT9W&amp;S:'6E0Q!!#U!(!!25;7VF!!!11$$`````"V:*)%ZB&lt;75!&amp;E"Q!!A!!!!#!!!*6EEA5G6G&lt;H6N!!1!!!"%1(!!(A!!+2&amp;"9X2P=E6W:7ZU=SZM&gt;GRJ9B6197ZF&lt;%.M&lt;X.F48.H,GRW9WRB=X-!%&amp;"B&lt;G6M1WRP=W6.=W=A37Y!!&amp;1!]!!-!!!!!1!#!!-!"!!%!!1!"!!%!!1!"!!&amp;!A!!?!!!#1!!!!E!!!!*!!!!#1!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#1!!!!!!%!"A!!!!!</Property>
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$B!!!!"Q!11#%+2'FT9W&amp;S:'6E0Q!!#U!(!!25;7VF!!!11$$`````"V:*)%ZB&lt;75!&amp;E"Q!!A!!!!#!!!*6EEA5G6G&lt;H6N!!1!!!"!1(!!(A!!+2&amp;"9X2P=E6W:7ZU=SZM&gt;GRJ9B6197ZF&lt;%.M&lt;X.F48.H,GRW9WRB=X-!$6"B&lt;G6M1WRP=W6.=W=!6!$Q!!Q!!!!"!!)!!Q!%!!1!"!!%!!1!"!!%!!5#!!"Y!!!*!!!!#1!!!!E!!!!*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"!!!!!!!1!'!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-		<Property Name="NI.ClassItem.Flags" Type="Int">16</Property>
-		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1342972416</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">268967936</Property>
 	</Item>
 </LVClass>
