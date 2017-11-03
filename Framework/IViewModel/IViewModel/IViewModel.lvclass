@@ -38,7 +38,7 @@
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
 	<Item Name="IEventAggregator" Type="Folder">
-		<Item Name="Receive Panel Close Msg.vi" Type="VI" URL="../Receive Panel Close Msg.vi">
+		<Item Name="Receive Panel Close Event.vi" Type="VI" URL="../Receive Panel Close Event.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;X!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$Z!=!!?!!!F%%F7;76X47^E:7QO&lt;(:M;7)336:J:8&gt;.&lt;W2F&lt;#ZM&gt;G.M98.T!!Z*6GFF&gt;UVP:'6M)%^V&gt;!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1"!1(!!(A!!+2&amp;"9X2P=E6W:7ZU=SZM&gt;GRJ9B6197ZF&lt;%.M&lt;X.F48.H,GRW9WRB=X-!$6"B&lt;G6M1WRP=W6.=W=!0%"Q!"Y!!#5136:J:8&gt;.&lt;W2F&lt;#ZM&gt;GRJ9B**6GFF&gt;UVP:'6M,GRW9WRB=X-!$5F7;76X47^E:7QA37Y!6!$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!(!!A$!!"Y!!!.#!!!!!!!!!!!!!#.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!%!!!!*!!!!!!!1!*!!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>

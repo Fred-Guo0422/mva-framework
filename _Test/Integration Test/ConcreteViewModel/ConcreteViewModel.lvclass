@@ -46,7 +46,7 @@
 		<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
 	</Item>
 	<Item Name="MainMenu.rtm" Type="Document" URL="../MainMenu.rtm"/>
-	<Item Name="Receive User Menu Selection Msg.vi" Type="VI" URL="../Receive User Menu Selection Msg.vi">
+	<Item Name="Receive User Menu Selection Event.vi" Type="VI" URL="../Receive User Menu Selection Event.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'V!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!&amp;2!=!!?!!!V'62P=%RF&gt;G6M18"Q&lt;'FD982J&lt;WYO&lt;(:M;7):1W^O9X*F&gt;'67;76X47^E:7QO&lt;(:D&lt;'&amp;T=Q!61W^O9X*F&gt;'67;76X47^E:7QA&lt;X6U!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!5%"Q!"Y!!$!217.U&lt;X*&amp;&gt;G6O&gt;(-O&lt;(:M;7)=68.F=EVF&lt;H64:7RF9X2J&lt;WZ.=W=O&lt;(:D&lt;'&amp;T=Q!!&amp;&amp;6T:8*.:7ZV5W6M:7.U;7^O48.H!!"51(!!(A!!.2F5&lt;X"-:8:F&lt;%&amp;Q='RJ9W&amp;U;7^O,GRW&lt;'FC'5.P&lt;G.S:82F6GFF&gt;UVP:'6M,GRW9WRB=X-!&amp;%.P&lt;G.S:82F6GFF&gt;UVP:'6M)'FO!!"5!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!=!#!-!!(A!!!U)!!!!!!!!!!!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!1!!!!E!!!!!!"!!E!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>

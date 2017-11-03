@@ -50,11 +50,11 @@
 	<Item Name="Handle Events.vi" Type="VI" URL="../Handle Events.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$T!!!!"Q!%!!!!$%!B"H.U982V=Q!!#U!$!!2D&lt;W2F!!!11$$`````"H.P&gt;8*D:1!!)%"1!!-!!1!#!!-4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1"-1(!!(A!!,R&amp;"9X2P=E6W:7ZU=SZM&gt;GRJ9BN$&lt;WZU=G^M28:F&lt;H2)97ZE&lt;'6S,GRW9WRB=X-!%U.P&lt;H2S&lt;WR&amp;&gt;G6O&gt;%BB&lt;G2M:8)!6!$Q!!Q!!!!!!!!!!!!!!!!!!!!!!!1!!!!!!!5$!!"Y!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!A!!!!!!!!!!!!!!*!!!!!!!1!'!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-		<Property Name="NI.ClassItem.Flags" Type="Int">16777344</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">1094713472</Property>
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">3</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">277618704</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">8400912</Property>
 		<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
 	</Item>
 	<Item Name="New ControlEventHandler.vi" Type="VI" URL="../New ControlEventHandler.vi">

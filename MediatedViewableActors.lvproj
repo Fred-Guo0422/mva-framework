@@ -23,7 +23,7 @@
 			<Item Name="AutoRegistration.lvlib" Type="Library" URL="../Framework/ActorEvents/AutoRegistration.lvlib"/>
 			<Item Name="ActorEvents.lvlib" Type="Library" URL="../Framework/ActorEvents/ActorEvents.lvlib"/>
 		</Item>
-		<Item Name="Concrete" Type="Folder">
+		<Item Name="Extensions" Type="Folder">
 			<Item Name="View Managers" Type="Folder">
 				<Item Name="LeftListboxViewManager.lvlib" Type="Library" URL="../ViewManager/LeftListboxViewManager/LeftListboxViewManager.lvlib"/>
 				<Item Name="QuadViewManager.lvlib" Type="Library" URL="../ViewManager/QuadViewManager/QuadViewManager.lvlib"/>

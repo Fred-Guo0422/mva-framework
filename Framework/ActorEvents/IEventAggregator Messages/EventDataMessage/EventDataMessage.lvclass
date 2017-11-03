@@ -31,10 +31,10 @@
 	<Item Name="Send Event Data Message.vi" Type="VI" URL="../Send Event Data Message.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(7!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!)%!]1!!!!!!!!!$&amp;5&amp;D&gt;'^S)%:S97VF&gt;W^S;SZM&gt;GRJ9BB.:8.T97&gt;F)%6O=86F&gt;76S,GRW9WRB=X-5476T=W&amp;H:3"1=GFP=GFU?3ZD&gt;'Q!.5!7!!-$4'^X"EZP=GVB&lt;!2);7&gt;I!"F.:8.T97&gt;F)&amp;"S;7^S;82Z)#B/&lt;X*N97QJ!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!3E"Q!"Y!!#Q217.U&lt;X*&amp;&gt;G6O&gt;(-O&lt;(:M;7)928:F&lt;H2%982B476T=W&amp;H:3ZM&gt;G.M98.T!!!428:F&lt;H2%982B476T=W&amp;H:3"J&lt;A"/1(!!(A!!-"6"9X2P=C"'=G&amp;N:8&gt;P=GMO&lt;(:M;7)9476T=W&amp;H:3"&amp;&lt;H&amp;V:86F=CZM&gt;G.M98.T!!!4476T=W&amp;H:3"&amp;&lt;H&amp;V:86F=C"J&lt;A"5!0!!$!!$!!1!"!!%!!1!"!!%!!5!"A!%!!=!#!-!!(A!!!U)!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!)!!!!#A!!!!!!!!!3!!!!%!!!!!!"!!E!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1350574608</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1342713872</Property>
 	</Item>
 </LVClass>
