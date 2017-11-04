@@ -44,7 +44,7 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
 	</Item>
-	<Item Name="Unpack User Shortcut Menu Selection.vi" Type="VI" URL="../Unpack User Shortcut Menu Selection.vi">
+	<Item Name="Unpack Shortcut Menu Activation.vi" Type="VI" URL="../Unpack Shortcut Menu Activation.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;C!!!!#Q!21!-!#EBP=GF[&lt;WZU97Q!!!^!!Q!)6G6S&gt;'FD97Q!!$-!]1!!!!!!!!!"&amp;%R75'^J&lt;H1T-F2Z='6%:79O9X2M!":!5!!#!!!!!1:$&lt;W^S:(-!!!Z!=!!*"UVF&lt;H63:79!#U!(!!25;7VF!!!51(!!#!!!!!9!!!:$&gt;'R3:79!!"2!=!!)!!!!"A!!"F.V9E^C;A!!&amp;E!Q`````QV$&lt;WZU=G^M)%RB9G6M!!1!!!"91(!!(A!!.2&amp;"9X2P=E6W:7ZU=SZM&gt;GRJ9C&amp;4;'^S&gt;'.V&gt;%VF&lt;H6"9X2J&gt;G&amp;U;7^O48.H,GRW9WRB=X-!'6.I&lt;X*U9X6U476O&gt;5&amp;D&gt;'FW982J&lt;WZ.=W=!6!$Q!!Q!!A!$!!1!"1!'!!=!#!!)!!A!#!!)!!E#!!"Y!!!*!!!!#1!!!!E!!!!*!!!!#1!!!!E!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"!!!!!!!1!+!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
