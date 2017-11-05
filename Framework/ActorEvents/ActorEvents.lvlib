@@ -13,6 +13,7 @@
 		<Item Name="ControlEventHandler.lvclass" Type="LVClass" URL="../EventHandler/ControlEventHandler/ControlEventHandler.lvclass"/>
 		<Item Name="TreeControlEventHandler.lvclass" Type="LVClass" URL="../EventHandler/TreeControlEventHandler/TreeControlEventHandler.lvclass"/>
 		<Item Name="MulticolumnListboxEventHandler.lvclass" Type="LVClass" URL="../EventHandler/MulticolumnListboxEventHandler/MulticolumnListboxEventHandler.lvclass"/>
+		<Item Name="ListboxEventHandler.lvclass" Type="LVClass" URL="../EventHandler/ListboxEventHandler/ListboxEventHandler.lvclass"/>
 	</Item>
 	<Item Name="IEventAggregator Messages" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">0</Property>
