@@ -15,8 +15,13 @@
 		<Item Name="MulticolumnListboxEventHandler.lvclass" Type="LVClass" URL="../EventHandler/MulticolumnListboxEventHandler/MulticolumnListboxEventHandler.lvclass"/>
 		<Item Name="ListboxEventHandler.lvclass" Type="LVClass" URL="../EventHandler/ListboxEventHandler/ListboxEventHandler.lvclass"/>
 	</Item>
+	<Item Name="EventFilters" Type="Folder">
+		<Item Name="IControlShortcutMenu.lvclass" Type="LVClass" URL="../EventFilters/IControlShortcutMenu/IControlShortcutMenu.lvclass"/>
+		<Item Name="IControlKeyDownFilter.lvclass" Type="LVClass" URL="../EventFilters/IControlKeyDownFilter/IControlKeyDownFilter.lvclass"/>
+	</Item>
 	<Item Name="IEventAggregator Messages" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">0</Property>
+		<Item Name="ControlKeyDownMsg.lvclass" Type="LVClass" URL="../IEventAggregator Messages/ControlKeyDownMsg/ControlKeyDownMsg.lvclass"/>
 		<Item Name="ControlMouseDownMsg.lvclass" Type="LVClass" URL="../IEventAggregator Messages/ControlMouseDownMsg/ControlMouseDownMsg.lvclass"/>
 		<Item Name="ControlMouseUpMsg.lvclass" Type="LVClass" URL="../IEventAggregator Messages/ControlMouseUpMsg/ControlMouseUpMsg.lvclass"/>
 		<Item Name="EventDataMessage.lvclass" Type="LVClass" URL="../IEventAggregator Messages/EventDataMessage/EventDataMessage.lvclass"/>
@@ -36,5 +41,4 @@
 	<Item Name="ActorAutoRegistration.lvclass" Type="LVClass" URL="../ActorAutoRegistration/ActorAutoRegistration.lvclass"/>
 	<Item Name="IEventAggregator.lvclass" Type="LVClass" URL="../IEventAggregator/IEventAggregator.lvclass"/>
 	<Item Name="IEventHandler.lvclass" Type="LVClass" URL="../IEventHandler/IEventHandler.lvclass"/>
-	<Item Name="IControlShortcutMenu.lvclass" Type="LVClass" URL="../EventHandler/IControlShortcutMenu/IControlShortcutMenu.lvclass"/>
 </Library>
