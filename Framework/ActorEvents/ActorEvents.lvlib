@@ -23,6 +23,8 @@
 		<Property Name="NI.SortType" Type="Int">0</Property>
 		<Item Name="ControlKeyDownMsg.lvclass" Type="LVClass" URL="../IEventAggregator Messages/ControlKeyDownMsg/ControlKeyDownMsg.lvclass"/>
 		<Item Name="ControlMouseDownMsg.lvclass" Type="LVClass" URL="../IEventAggregator Messages/ControlMouseDownMsg/ControlMouseDownMsg.lvclass"/>
+		<Item Name="ControlMouseEnterMsg.lvclass" Type="LVClass" URL="../IEventAggregator Messages/ControlMouseEnterMsg/ControlMouseEnterMsg.lvclass"/>
+		<Item Name="ControlMouseLeaveMsg.lvclass" Type="LVClass" URL="../IEventAggregator Messages/ControlMouseLeaveMsg/ControlMouseLeaveMsg.lvclass"/>
 		<Item Name="ControlMouseUpMsg.lvclass" Type="LVClass" URL="../IEventAggregator Messages/ControlMouseUpMsg/ControlMouseUpMsg.lvclass"/>
 		<Item Name="EventDataMessage.lvclass" Type="LVClass" URL="../IEventAggregator Messages/EventDataMessage/EventDataMessage.lvclass"/>
 		<Item Name="Launch Event Handlers Msg.lvclass" Type="LVClass" URL="../IEventAggregator Messages/Launch Event Handlers Msg/Launch Event Handlers Msg.lvclass"/>
