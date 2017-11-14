@@ -22,6 +22,7 @@
 	<Item Name="IEventAggregator Messages" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">0</Property>
 		<Item Name="ControlKeyDownMsg.lvclass" Type="LVClass" URL="../IEventAggregator Messages/ControlKeyDownMsg/ControlKeyDownMsg.lvclass"/>
+		<Item Name="ControlKeyUpMsg.lvclass" Type="LVClass" URL="../IEventAggregator Messages/ControlKeyUpMsg/ControlKeyUpMsg.lvclass"/>
 		<Item Name="ControlMouseDownMsg.lvclass" Type="LVClass" URL="../IEventAggregator Messages/ControlMouseDownMsg/ControlMouseDownMsg.lvclass"/>
 		<Item Name="ControlMouseEnterMsg.lvclass" Type="LVClass" URL="../IEventAggregator Messages/ControlMouseEnterMsg/ControlMouseEnterMsg.lvclass"/>
 		<Item Name="ControlMouseLeaveMsg.lvclass" Type="LVClass" URL="../IEventAggregator Messages/ControlMouseLeaveMsg/ControlMouseLeaveMsg.lvclass"/>
