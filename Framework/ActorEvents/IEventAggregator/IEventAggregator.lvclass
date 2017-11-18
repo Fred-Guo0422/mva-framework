@@ -144,6 +144,15 @@
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1342713856</Property>
 		</Item>
+		<Item Name="Receive Shortcut Menu Selection Event.vi" Type="VI" URL="../Receive Shortcut Menu Selection Event.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'L!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!%R!=!!?!!!M%5&amp;D&gt;'^S28:F&lt;H2T,GRW&lt;'FC'%F&amp;&gt;G6O&gt;%&amp;H:X*F:W&amp;U&lt;X)O&lt;(:D&lt;'&amp;T=Q!!&amp;%F&amp;&gt;G6O&gt;%&amp;H:X*F:W&amp;U&lt;X)A4X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!&amp;B!=!!?!!!U%5&amp;D&gt;'^S28:F&lt;H2T,GRW&lt;'FC)&amp;.I&lt;X*U9X6U476O&gt;6.F&lt;'6D&gt;'FP&lt;EVT:SZM&gt;G.M98.T!!!95WBP=H2D&gt;82.:7ZV5W6M:7.U;7^O48.H!!"+1(!!(A!!,"&amp;"9X2P=E6W:7ZU=SZM&gt;GRJ9BB*28:F&lt;H2":W&gt;S:7&gt;B&gt;'^S,GRW9WRB=X-!!".*28:F&lt;H2":W&gt;S:7&gt;B&gt;'^S)%FO!&amp;1!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!1!"Q!)!A!!?!!!$1A!!!!!!!!!!!!!D1M!!!!!!!!!!!!!!!!!!!!!!!!)!!!!!!!!!"!!!!#1!!!!!!%!#1!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">1090519168</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1342713856</Property>
+		</Item>
 		<Item Name="Receive Tree Double Click.vi" Type="VI" URL="../Receive Tree Double Click.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'@!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!%R!=!!?!!!M%5&amp;D&gt;'^S28:F&lt;H2T,GRW&lt;'FC'%F&amp;&gt;G6O&gt;%&amp;H:X*F:W&amp;U&lt;X)O&lt;(:D&lt;'&amp;T=Q!!&amp;%F&amp;&gt;G6O&gt;%&amp;H:X*F:W&amp;U&lt;X)A4X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!%R!=!!?!!!O%5&amp;D&gt;'^S28:F&lt;H2T,GRW&lt;'FC'F2S:76%&lt;X6C&lt;'6$&lt;'FD;UVT:SZM&gt;G.M98.T!!!36(*F:52P&gt;7*M:5.M;7.L48.H!!"+1(!!(A!!,"&amp;"9X2P=E6W:7ZU=SZM&gt;GRJ9BB*28:F&lt;H2":W&gt;S:7&gt;B&gt;'^S,GRW9WRB=X-!!".*28:F&lt;H2":W&gt;S:7&gt;B&gt;'^S)%FO!&amp;1!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!1!"Q!)!A!!?!!!$1A!!!!!!!!!!!!!D1M!!!!!!!!!!!!!!!!!!!!!!!!)!!!!!!!!!"!!!!#1!!!!!!%!#1!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -182,15 +191,6 @@
 		</Item>
 		<Item Name="Receive User Menu Selection Event.vi" Type="VI" URL="../Receive User Menu Selection Event.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'&lt;!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!%R!=!!?!!!M%5&amp;D&gt;'^S28:F&lt;H2T,GRW&lt;'FC'%F&amp;&gt;G6O&gt;%&amp;H:X*F:W&amp;U&lt;X)O&lt;(:D&lt;'&amp;T=Q!!&amp;%F&amp;&gt;G6O&gt;%&amp;H:X*F:W&amp;U&lt;X)A4X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!%B!=!!?!!!M%5&amp;D&gt;'^S28:F&lt;H2T,GRW&lt;'FC'%VF&lt;H64:7RF9X2J&lt;WZ.=W=O&lt;(:D&lt;'&amp;T=Q!!%%VF&lt;H64:7RF9X2J&lt;WZ.=W=!!%J!=!!?!!!M%5&amp;D&gt;'^S28:F&lt;H2T,GRW&lt;'FC'%F&amp;&gt;G6O&gt;%&amp;H:X*F:W&amp;U&lt;X)O&lt;(:D&lt;'&amp;T=Q!!%UF&amp;&gt;G6O&gt;%&amp;H:X*F:W&amp;U&lt;X)A37Y!6!$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!(!!A#!!"Y!!!.#!!!!!!!!!!!!!#.#Q!!!!!!!!!!!!!!!!!!!!!!!!A!!!!!!!!!%!!!!*!!!!!!!1!*!!!!!!</Property>
-			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">1090519168</Property>
-			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
-			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
-			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1342713856</Property>
-		</Item>
-		<Item Name="Receive User Shortcut Menu Selection Event.vi" Type="VI" URL="../Receive User Shortcut Menu Selection Event.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'L!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!%R!=!!?!!!M%5&amp;D&gt;'^S28:F&lt;H2T,GRW&lt;'FC'%F&amp;&gt;G6O&gt;%&amp;H:X*F:W&amp;U&lt;X)O&lt;(:D&lt;'&amp;T=Q!!&amp;%F&amp;&gt;G6O&gt;%&amp;H:X*F:W&amp;U&lt;X)A4X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!&amp;B!=!!?!!!U%5&amp;D&gt;'^S28:F&lt;H2T,GRW&lt;'FC)&amp;.I&lt;X*U9X6U476O&gt;6.F&lt;'6D&gt;'FP&lt;EVT:SZM&gt;G.M98.T!!!95WBP=H2D&gt;82.:7ZV5W6M:7.U;7^O48.H!!"+1(!!(A!!,"&amp;"9X2P=E6W:7ZU=SZM&gt;GRJ9BB*28:F&lt;H2":W&gt;S:7&gt;B&gt;'^S,GRW9WRB=X-!!".*28:F&lt;H2":W&gt;S:7&gt;B&gt;'^S)%FO!&amp;1!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!1!"Q!)!A!!?!!!$1A!!!!!!!!!!!!!D1M!!!!!!!!!!!!!!!!!!!!!!!!)!!!!!!!!!"!!!!#1!!!!!!%!#1!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">1090519168</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>

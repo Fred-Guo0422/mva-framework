@@ -45,4 +45,13 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1082143232</Property>
 	</Item>
+	<Item Name="Receive Shortcut Menu Selection Event.vi" Type="VI" URL="../Receive Shortcut Menu Selection Event.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'2!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$Z!=!!?!!!H%V2F=X27;76X97*M:8-O&lt;(:M;7)26(*F:5&amp;D&gt;'^S,GRW9WRB=X-!$62S:76"9X2P=C"0&gt;81!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1"91(!!(A!!."&amp;"9X2P=E6W:7ZU=SZM&gt;GRJ9C"4;'^S&gt;'.V&gt;%VF&lt;H64:7RF9X2J&lt;WZ.=W=O&lt;(:D&lt;'&amp;T=Q!!'&amp;.I&lt;X*U9X6U476O&gt;6.F&lt;'6D&gt;'FP&lt;EVT:Q!!0E"Q!"Y!!#=46'6T&gt;&amp;:J:8&gt;B9GRF=SZM&gt;GRJ9B&amp;5=G6F17.U&lt;X)O&lt;(:D&lt;'&amp;T=Q!-6(*F:5&amp;D&gt;'^S)%FO!!"5!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!=!#!-!!(A!!!U)!!!!!!!!!!!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!1!!!!E!!!!!!"!!E!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">16777344</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">34082832</Property>
+	</Item>
 </LVClass>
