@@ -58,6 +58,7 @@
 				<Item Name="TestViewables.lvlib" Type="Library" URL="../_Test/Integration Test/TestViewables.lvlib"/>
 				<Item Name="TopLevelApplication.lvlib" Type="Library" URL="../_Test/Integration Test/TopLevelApplication.lvlib"/>
 				<Item Name="Integration Test Launcher.vi" Type="VI" URL="../_Test/Integration Test/Integration Test Launcher.vi"/>
+				<Item Name="Write Error.vi" Type="VI" URL="../_Test/Integration Test/Write Error.vi"/>
 			</Item>
 			<Item Name="Performance Test" Type="Folder">
 				<Item Name="Performance Test Readme.txt" Type="Document" URL="../_Test/Performance Test/Performance Test Readme.txt"/>
@@ -447,7 +448,6 @@
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
 				<Item Name="lveventtype.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/lveventtype.ctl"/>
-				<Item Name="LVMenuShortCut.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVMenuShortCut.ctl"/>
 			</Item>
 			<Item Name="AF Debug.lvlib" Type="Library" URL="/&lt;resource&gt;/AFDebug/AF Debug.lvlib"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>

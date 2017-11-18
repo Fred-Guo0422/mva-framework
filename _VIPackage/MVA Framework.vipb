@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2017-09-18 19:58:26" Modified_Date="2017-11-09 18:37:06" Creator="Ethan Stern" Comments="" ID="9c785991bd5130d94a8c215d7ac29e89">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2017-09-18 19:58:26" Modified_Date="2017-11-14 19:08:31" Creator="Ethan Stern" Comments="" ID="f8977e39bdaee92d89bee626116342a1">
   <Library_General_Settings>
     <Package_File_Name>Composed_Systems_lib_MVA_Framework</Package_File_Name>
-    <Library_Version>1.2.2.23</Library_Version>
+    <Library_Version>1.2.3.24</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..</Library_Source_Folder>
     <Library_Output_Folder>.</Library_Output_Folder>
@@ -77,7 +77,7 @@
       <Copyright/>
       <Packager/>
       <URL>www.composed.io</URL>
-      <Release_Notes>Added basic Control Key Down event handling</Release_Notes>
+      <Release_Notes>Added additional event types (Key Up, Mouse Enter, Mouse Leave)</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -306,7 +306,7 @@
         <Path>..\Framework\AbstractMessages</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E16FF0B6E32E05FC549D54E1EBA480EF</GUID>
+      <GUID>8E4CDC901967CC792CBAE845355740B9</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -383,7 +383,7 @@
         <Path>..\Framework\IViewable\IViewable Messages\Launch Dialog Box Msg\Send Launch Dialog Box.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3242EF68D11A3A77E28E50975770F11D</GUID>
+      <GUID>A58E5A25E31EDA64F7B9D078E48029E0</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -460,7 +460,7 @@
         <Path>..\Framework\IViewModel</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D66C88F20F3568B2B08C386FF7F3CEBB</GUID>
+      <GUID>26961D9FF051E299C1F51919B566C518</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -537,7 +537,7 @@
         <Path>..\ViewManager\QuadViewManager\Assemble QuadViewManager.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A2A3CA15D60EB8C3AECA3E0F13FD8876</GUID>
+      <GUID>700EB8F6D29D7B8A98D45A140926CD5B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -600,14 +600,14 @@
         <Path>..\Framework\AbstractMessages\SynchronousMsg</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B38E5EF81B5F9452CAE9D5F14DAE1633</GUID>
+      <GUID>FEADF58EE254BFFF737485DDC58A0647</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>8</Parent_Palette_Index>
       <Name>Actor Events</Name>
       <View_Format>Icons</View_Format>
       <Size>
-        <Height_Row>6</Height_Row>
+        <Height_Row>7</Height_Row>
         <Width_Col.>6</Width_Col.>
       </Size>
       <_256_Color_Icon>00000CA0002800000C9A00000400000000000020002000080000000000FFFFFF00FF80000000FFFFFFFFFFFF0000FFFFFFFFCCCC0000FFFFFFFF99990000FFFFFFFF66660000FFFFFFFF33330000FFFFFFFF00000000FFFFCCCCFFFF0000FFFFCCCCCCCC0000FFFFCCCC99990000FFFFCCCC66660000FFFFCCCC33330000FFFFCCCC00000000FFFF9999FFFF0000FFFF9999CCCC0000FFFF999999990000FFFF999966660000FFFF999933330000FFFF999900000000FFFF6666FFFF0000FFFF6666CCCC0000FFFF666699990000FFFF666666660000FFFF666633330000FFFF666600000000FFFF3333FFFF0000FFFF3333CCCC0000FFFF333399990000FFFF333366660000FFFF333333330000FFFF333300000000FFFF0000FFFF0000FFFF0000CCCC0000FFFF000099990000FFFF000066660000FFFF000033330000FFFF000000000000CCCCFFFFFFFF0000CCCCFFFFCCCC0000CCCCFFFF99990000CCCCFFFF66660000CCCCFFFF33330000CCCCFFFF00000000CCCCCCCCFFFF0000CCCCCCCCCCCC0000CCCCCCCC99990000CCCCCCCC66660000CCCCCCCC33330000CCCCCCCC00000000CCCC9999FFFF0000CCCC9999CCCC0000CCCC999999990000CCCC999966660000CCCC999933330000CCCC999900000000CCCC6666FFFF0000CCCC6666CCCC0000CCCC666699990000CCCC666666660000CCCC666633330000CCCC666600000000CCCC3333FFFF0000CCCC3333CCCC0000CCCC333399990000CCCC333366660000CCCC333333330000CCCC333300000000CCCC0000FFFF0000CCCC0000CCCC0000CCCC000099990000CCCC000066660000CCCC000033330000CCCC0000000000009999FFFFFFFF00009999FFFFCCCC00009999FFFF999900009999FFFF666600009999FFFF333300009999FFFF000000009999CCCCFFFF00009999CCCCCCCC00009999CCCC999900009999CCCC666600009999CCCC333300009999CCCC0000000099999999FFFF000099999999CCCC0000999999999999000099999999666600009999999933330000999999990000000099996666FFFF000099996666CCCC0000999966669999000099996666666600009999666633330000999966660000000099993333FFFF000099993333CCCC0000999933339999000099993333666600009999333333330000999933330000000099990000FFFF000099990000CCCC000099990000999900009999000066660000999900003333000099990000000000006666FFFFFFFF00006666FFFFCCCC00006666FFFF999900006666FFFF666600006666FFFF333300006666FFFF000000006666CCCCFFFF00006666CCCCCCCC00006666CCCC999900006666CCCC666600006666CCCC333300006666CCCC0000000066669999FFFF000066669999CCCC0000666699999999000066669999666600006666999933330000666699990000000066666666FFFF000066666666CCCC0000666666669999000066666666666600006666666633330000666666660000000066663333FFFF000066663333CCCC0000666633339999000066663333666600006666333333330000666633330000000066660000FFFF000066660000CCCC000066660000999900006666000066660000666600003333000066660000000000003333FFFFFFFF00003333FFFFCCCC00003333FFFF999900003333FFFF666600003333FFFF333300003333FFFF000000003333CCCCFFFF00003333CCCCCCCC00003333CCCC999900003333CCCC666600003333CCCC333300003333CCCC0000000033339999FFFF000033339999CCCC0000333399999999000033339999666600003333999933330000333399990000000033336666FFFF000033336666CCCC0000333366669999000033336666666600003333666633330000333366660000000033333333FFFF000033333333CCCC0000333333339999000033333333666600003333333333330000333333330000000033330000FFFF000033330000CCCC000033330000999900003333000066660000333300003333000033330000000000000000FFFFFFFF00000000FFFFCCCC00000000FFFF999900000000FFFF666600000000FFFF333300000000FFFF000000000000CCCCFFFF00000000CCCCCCCC00000000CCCC999900000000CCCC666600000000CCCC333300000000CCCC0000000000009999FFFF000000009999CCCC0000000099999999000000009999666600000000999933330000000099990000000000006666FFFF000000006666CCCC0000000066669999000000006666666600000000666633330000000066660000000000003333FFFF000000003333CCCC0000000033339999000000003333666600000000333333330000000033330000000000000000FFFF000000000000CCCC0000000000009999000000000000666600000000000033330000EEEE000000000000DDDD000000000000BBBB000000000000AAAA0000000000008888000000000000777700000000000055550000000000004444000000000000222200000000000011110000000000000000EEEE000000000000DDDD000000000000BBBB000000000000AAAA0000000000008888000000000000777700000000000055550000000000004444000000000000222200000000000011110000000000000000EEEE000000000000DDDD000000000000BBBB000000000000AAAA0000000000008888000000000000777700000000000055550000000000004444000000000000222200000000000011110000EEEEEEEEEEEE0000DDDDDDDDDDDD0000BBBBBBBBBBBB0000AAAAAAAAAAAA0000888888888888000077777777777700005555555555550000444444444444000022222222222200001111111111110000000000000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000000000000000000000000000000000000000000000000000000000FFFF000000000000000000000000000000000000000000000000000000000000FFFF000000FFFFFF00FF00FF00FFFFFF00FF0000FF00FFFFFF0000FFFFFF0000FFFF000000FF000000FF00FF00FF000000FFFF00FF0000FF0000FF0000000000FFFF000000FFFF0000FF00FF00FFFF0000FF00FFFF0000FF000000FFFF000000FFFF000000FF00000000FF0000FF000000FF0000FF0000FF0000000000FF0000FFFF000000FFFFFF0000FF0000FFFFFF00FF0000FF0000FF0000FFFFFF000000FFFF000000000000000000000000000000000000000000000000000000000000FFFF000000000000000000000000000000000000000000000000000000000000FFFF000000000000000000000000000000000000000000000000000000000000FFFF00000000000000000000000000FFFFFFFFFFFF0000000000000000000000FFFF0000000000000000000000FFFF010101010101FFFF000000000000000000FFFF00000000000000000000FF01010101010101010101FF0000000000000000FFFF00000000000000000000FF0101FF01FFFF01010101FF0000000000000000FFFF000000000000000000FF01010101FF0101FF01010101FF00000000000000FFFF000000000000000000FF010101FF01FF01FF01010101FF00000000000000FFFF000000000000000000FF010101FF0101FF0101010101FF2B000000000000FFFF000000000000000000FF01010101FFFFFF0101010101FF2B000000000000FFFF000000000000000000FF010101010101FF0101010101FF2B000000000000FFFF000000000000000000FF0101010101FFFF0101010101FF2B000000000000FFFF00000000000000000000FF010101FFFFFFFF010101FF2B2B000000000000FFFF00000000000000000000FF01010101010101010101FF2B00000000000000FFFF0000000000000000000000FFFF010101010101FFFF2B2B00000000000000FFFF00000000000000000000000000FFFFFFFFFFFF2B2B2B0000000000000000FFFF0000000000000000000000000000002B2B2B2B2B00000000000000000000FFFF000000000000000000000000000000000000000000000000000000000000FFFF000000000000000000000000000000000000000000000000000000000000FFFF000000000000000000000000000000000000000000000000000000000000FFFF000000000000000000000000000000000000000000000000000000000000FFFF000000000000000000000000000000000000000000000000000000000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF</_256_Color_Icon>
@@ -661,34 +661,6 @@
         </Position>
         <Icon>00000000</Icon>
         <Path>..\Framework\ActorEvents\IEventAggregator Messages\PanelCloseMsg\Unpack Panel Close.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Unpack Control Mouse Down.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>3</Row>
-          <Column>4</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\Framework\ActorEvents\IEventAggregator Messages\ControlMouseDownMsg\Unpack Control Mouse Down.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Unpack Control Mouse Up.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>3</Row>
-          <Column>5</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\Framework\ActorEvents\IEventAggregator Messages\ControlMouseUpMsg\Unpack Control Mouse Up.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -764,25 +736,11 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Unpack User Shortcut Menu Selection.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>4</Row>
-          <Column>1</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\Framework\ActorEvents\IEventAggregator Messages\UserShortcutMenuSelectionMsg\Unpack User Shortcut Menu Selection.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
         <NameSub_Menu_Name>Unpack Tree Double Click.vi</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
-          <Row>6</Row>
+          <Row>7</Row>
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
@@ -796,7 +754,7 @@
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
-          <Row>6</Row>
+          <Row>7</Row>
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
@@ -810,7 +768,7 @@
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
-          <Row>5</Row>
+          <Row>6</Row>
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
@@ -824,7 +782,7 @@
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
-          <Row>5</Row>
+          <Row>6</Row>
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
@@ -838,7 +796,7 @@
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
-          <Row>6</Row>
+          <Row>7</Row>
           <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
@@ -852,25 +810,11 @@
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
-          <Row>6</Row>
+          <Row>7</Row>
           <Column>4</Column>
         </Position>
         <Icon>00000000</Icon>
         <Path>..\Framework\ActorEvents\IEventAggregator Messages\TreeItemOpenMsg\Unpack Tree Item Open.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Unpack User Shortcut Menu Selection.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>4</Row>
-          <Column>2</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\Framework\ActorEvents\IEventAggregator Messages\UserShortcutMenuSelectionMsg\Unpack User Shortcut Menu Selection.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -890,18 +834,116 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Unpack Control Mouse Down.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>4</Row>
+          <Column>1</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\Framework\ActorEvents\IEventAggregator Messages\ControlMouseDownMsg\Unpack Control Mouse Down.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Unpack Control Mouse Up.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>4</Row>
+          <Column>2</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\Framework\ActorEvents\IEventAggregator Messages\ControlMouseUpMsg\Unpack Control Mouse Up.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Unpack Control Mouse Enter.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>4</Row>
+          <Column>3</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\Framework\ActorEvents\IEventAggregator Messages\ControlMouseEnterMsg\Unpack Control Mouse Enter.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Unpack Control Mouse Leave.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>4</Row>
+          <Column>4</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\Framework\ActorEvents\IEventAggregator Messages\ControlMouseLeaveMsg\Unpack Control Mouse Leave.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
         <NameSub_Menu_Name>Unpack Control Key Down.vi</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
           <Row>3</Row>
-          <Column>6</Column>
+          <Column>4</Column>
         </Position>
         <Icon>00000000</Icon>
         <Path>..\Framework\ActorEvents\IEventAggregator Messages\ControlKeyDownMsg\Unpack Control Key Down.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D3A48C693CF543EEDFC1DFE937E6C61B</GUID>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Unpack Control Key Up.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>3</Row>
+          <Column>5</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\Framework\ActorEvents\IEventAggregator Messages\ControlKeyUpMsg\Unpack Control Key Up.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Unpack User Shortcut Menu Selection.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>5</Row>
+          <Column>2</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\Framework\ActorEvents\IEventAggregator Messages\UserShortcutMenuSelectionMsg\Unpack User Shortcut Menu Selection.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Unpack Shortcut Menu Activation.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>5</Row>
+          <Column>1</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\Framework\ActorEvents\IEventAggregator Messages\ShortcutMenuActivationMsg\Unpack Shortcut Menu Activation.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <GUID>92A9A3AD38527F612D6D415A67B1B606</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>23</Parent_Palette_Index>
@@ -936,7 +978,7 @@
         <Path>..\Framework\IMediator\IMediator\Write MediatorBusMonitor Type.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>47FF09B1542F4B7A152BC29276C9C1B0</GUID>
+      <GUID>8A67E9BC0495833B1CA82B7EDE216364</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1041,7 +1083,7 @@
         <Path>..\Framework\IModel\IModel\Write Nested Models.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>411289F4613E6D86C5E262E30DDB82C6</GUID>
+      <GUID>1905E6F244615D84A329AEE3ADDBAD36</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1104,7 +1146,7 @@
         <Path>..\Framework\AutoRegistration</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>71EA9DB0334A0BD3581FDE1670D5F161</GUID>
+      <GUID>40FEE04325C63ACCC2D89C88706ABD62</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1209,7 +1251,7 @@
         <Path>..\Framework\IMediator\IMediator Messages\Subscribe Msg\Send Direct Subscribe.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>EDFEBDDE9204A11144C7F45873CE1172</GUID>
+      <GUID>9DA519886A71C23C740DADD95B97092C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>23</Parent_Palette_Index>
@@ -1384,7 +1426,7 @@
         <Path>..\Framework\IMediator\ISubscriptionPolicy\Open Subscription Policy.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E3DB178D2FF7F242B71A7FB3AF85AF7C</GUID>
+      <GUID>E9A5D2B56C30CF73A61F9B4DAF7AEDBA</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>23</Parent_Palette_Index>
@@ -1643,7 +1685,7 @@
         <Path>..\Framework\Transport\BooleanTextBinding\New Boolean Text Binding.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2C76C759C47C16754A02B66D51615B3F</GUID>
+      <GUID>29D31747CDA4B19E4156E05781086EEA</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -1692,7 +1734,7 @@
         <Path>..\Framework\AbstractMessages\BinaryDecisionMsg\Write Binary Reply Messages.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5A3375CFC325A91E765CB6D7865C15A1</GUID>
+      <GUID>FC09FBC738B9CF3AE4268D588FD08FDE</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -1741,7 +1783,7 @@
         <Path>..\Framework\AbstractMessages\PreAddressedMsg\Write Return Address.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>77FB9B377E5269E233316636BCF23728</GUID>
+      <GUID>EB342A9E6AE07F150D963C1F371E6E0A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -1790,7 +1832,7 @@
         <Path>..\Framework\AbstractMessages\SynchronousMsg\Send Synchronous Reply.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>15951C18F260E0C8D01D103C58266F2E</GUID>
+      <GUID>8F1F8AE7A45C103098B98996D07BB77E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>8</Parent_Palette_Index>
@@ -1937,7 +1979,7 @@
         <Path>..\Advanced</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>CDF0314021CDF1781AB9F57CE0A22500</GUID>
+      <GUID>55B591036A238E24C62B52EA11FB6C3F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>22</Parent_Palette_Index>
@@ -2014,7 +2056,7 @@
         <Path>..\Framework\IObserver\IObserver Messages\Observe Data Msg\Write Observe Data Msg Return Info.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>97883CCA96B9F1DDDB8F82473A36BD94</GUID>
+      <GUID>926C373913BDAF647E233E21D42E69B6</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>22</Parent_Palette_Index>
@@ -2063,7 +2105,7 @@
         <Path>..\Framework\IObserver\IObserver Messages\Subscribe Msg\Send Subscribe.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F1DD302857BDD7E54C11AC0A462F82BF</GUID>
+      <GUID>5085F77570A49D9A4672488129AC00FC</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>22</Parent_Palette_Index>
@@ -2112,7 +2154,7 @@
         <Path>..\Framework\IObserver\IObserver Messages\Unsubscribe Msg\Send Unsubscribe.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1F5958F9BE3C53EAAED6866FF939657E</GUID>
+      <GUID>1700D660382480A39927EE46B6ED9338</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>8</Parent_Palette_Index>
@@ -2455,7 +2497,7 @@
         <Path>..\View Manager</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7A38B5C59DC848EA0EB894B868746089</GUID>
+      <GUID>AD700A9B80EAF8FFDF7A5451964C649F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -2504,7 +2546,7 @@
         <Path>..\Framework\IModel\IModel\Write Pre-Addressed Publish Message.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8F730CF01CC0C279303231AD152DE472</GUID>
+      <GUID>9AEA51BF29F889053A24C189B3678AF5</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>23</Parent_Palette_Index>
@@ -2609,7 +2651,7 @@
         <Path>..\Framework\IViewable\ProtectedSubpanel\Release Protected Subpanel.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>DC43FA23CFF98160CFB9D93A085C0249</GUID>
+      <GUID>B83A78EEEDFB1D162C616FCBEE4D1C26</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>15</Parent_Palette_Index>
@@ -2714,7 +2756,7 @@
         <Path>..\Framework\IObserver\IObserver\Read Unique ID.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>122CD148F6F3D7AC9AAE923AD6E1F2D4</GUID>
+      <GUID>021ACF4C4E53A934DC5380F7DD49F5CB</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2805,7 +2847,7 @@
         <Path>..\Framework\IMediator</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>DF0D6F02526ABF9A38092468FCD82925</GUID>
+      <GUID>7ADA369934CD9B26C4DD104A3D182286</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>19</Parent_Palette_Index>
@@ -2868,7 +2910,7 @@
         <Path>..\Advanced</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D26273CF2F97FD5AA2353F3F1DFA16A4</GUID>
+      <GUID>70D0B74130994FEF07D0EA5EE991B3C5</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>24</Parent_Palette_Index>
@@ -2945,7 +2987,7 @@
         <Path>..\Framework\IViewManager\IViewManager\Write Startup Launch Nested Views Msg.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8676A39786B2CC16C79BD23284E3C859</GUID>
+      <GUID>B825090FF18AF4021DD4A5EA2AF0189E</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

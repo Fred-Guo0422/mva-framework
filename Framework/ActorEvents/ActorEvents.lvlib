@@ -15,10 +15,6 @@
 		<Item Name="MulticolumnListboxEventHandler.lvclass" Type="LVClass" URL="../EventHandler/MulticolumnListboxEventHandler/MulticolumnListboxEventHandler.lvclass"/>
 		<Item Name="ListboxEventHandler.lvclass" Type="LVClass" URL="../EventHandler/ListboxEventHandler/ListboxEventHandler.lvclass"/>
 	</Item>
-	<Item Name="EventFilters" Type="Folder">
-		<Item Name="IControlShortcutMenu.lvclass" Type="LVClass" URL="../EventFilters/IControlShortcutMenu/IControlShortcutMenu.lvclass"/>
-		<Item Name="IControlKeyDownFilter.lvclass" Type="LVClass" URL="../EventFilters/IControlKeyDownFilter/IControlKeyDownFilter.lvclass"/>
-	</Item>
 	<Item Name="IEventAggregator Messages" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">0</Property>
 		<Item Name="ControlKeyDownMsg.lvclass" Type="LVClass" URL="../IEventAggregator Messages/ControlKeyDownMsg/ControlKeyDownMsg.lvclass"/>
@@ -31,17 +27,20 @@
 		<Item Name="Launch Event Handlers Msg.lvclass" Type="LVClass" URL="../IEventAggregator Messages/Launch Event Handlers Msg/Launch Event Handlers Msg.lvclass"/>
 		<Item Name="ListboxDoubleClickMsg.lvclass" Type="LVClass" URL="../IEventAggregator Messages/ListboxDoubleClickMsg/ListboxDoubleClickMsg.lvclass"/>
 		<Item Name="ListboxEditCellMsg.lvclass" Type="LVClass" URL="../IEventAggregator Messages/ListboxEditCellMsg/ListboxEditCellMsg.lvclass"/>
+		<Item Name="MenuSelectionMsg.lvclass" Type="LVClass" URL="../IEventAggregator Messages/MenuSelectionMsg/MenuSelectionMsg.lvclass"/>
 		<Item Name="PanelCloseMsg.lvclass" Type="LVClass" URL="../IEventAggregator Messages/PanelCloseMsg/PanelCloseMsg.lvclass"/>
 		<Item Name="ShortcutMenuActivationMsg.lvclass" Type="LVClass" URL="../IEventAggregator Messages/ShortcutMenuActivationMsg/ShortcutMenuActivationMsg.lvclass"/>
+		<Item Name="ShortcutMenuSelectionMsg.lvclass" Type="LVClass" URL="../IEventAggregator Messages/ShortcutMenuSelectionMsg/ShortcutMenuSelectionMsg.lvclass"/>
 		<Item Name="TreeDoubleClickMsg.lvclass" Type="LVClass" URL="../IEventAggregator Messages/TreeDoubleClickMsg/TreeDoubleClickMsg.lvclass"/>
 		<Item Name="TreeEditCellMsg.lvclass" Type="LVClass" URL="../IEventAggregator Messages/TreeEditCellMsg/TreeEditCellMsg.lvclass"/>
 		<Item Name="TreeItemCloseMsg.lvclass" Type="LVClass" URL="../IEventAggregator Messages/TreeItemCloseMsg/TreeItemCloseMsg.lvclass"/>
 		<Item Name="TreeItemOpenMsg.lvclass" Type="LVClass" URL="../IEventAggregator Messages/TreeItemOpenMsg/TreeItemOpenMsg.lvclass"/>
-		<Item Name="UserMenuSelectionMsg.lvclass" Type="LVClass" URL="../IEventAggregator Messages/UserMenuSelectionMsg/UserMenuSelectionMsg.lvclass"/>
-		<Item Name="UserShortcutMenuSelectionMsg.lvclass" Type="LVClass" URL="../IEventAggregator Messages/UserShortcutMenuSelectionMsg/UserShortcutMenuSelectionMsg.lvclass"/>
 		<Item Name="ValueChangeMsg.lvclass" Type="LVClass" URL="../IEventAggregator Messages/ValueChangeMsg/ValueChangeMsg.lvclass"/>
 	</Item>
-	<Item Name="ActorAutoRegistration.lvclass" Type="LVClass" URL="../ActorAutoRegistration/ActorAutoRegistration.lvclass"/>
+	<Item Name="DEPRECATED" Type="Folder">
+		<Item Name="ActorAutoRegistration.lvclass" Type="LVClass" URL="../ActorAutoRegistration/ActorAutoRegistration.lvclass"/>
+	</Item>
 	<Item Name="IEventAggregator.lvclass" Type="LVClass" URL="../IEventAggregator/IEventAggregator.lvclass"/>
 	<Item Name="IEventHandler.lvclass" Type="LVClass" URL="../IEventHandler/IEventHandler.lvclass"/>
+	<Item Name="IEventFilter.lvclass" Type="LVClass" URL="../IEventFilter/IEventFilter.lvclass"/>
 </Library>

@@ -7,7 +7,7 @@
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="TreeActor.lvclass" Type="LVClass" URL="../TreeActor/TreeActor.lvclass"/>
 		<Item Name="MCListboxActor.lvclass" Type="LVClass" URL="../MCListboxActor/MCListboxActor.lvclass"/>
-		<Item Name="TestShortcutMenu.lvclass" Type="LVClass" URL="../TestShortcutMenu/TestShortcutMenu.lvclass"/>
+		<Item Name="TestEventFilter.lvclass" Type="LVClass" URL="../TestEventFilter/TestEventFilter.lvclass"/>
 	</Item>
 	<Item Name="BasicAutoRegistrationView.lvclass" Type="LVClass" URL="../BasicAutoRegistrationView/BasicAutoRegistrationView.lvclass"/>
 	<Item Name="BasicChartBinding.lvclass" Type="LVClass" URL="../BasicChartBinding/BasicChartBinding.lvclass"/>
