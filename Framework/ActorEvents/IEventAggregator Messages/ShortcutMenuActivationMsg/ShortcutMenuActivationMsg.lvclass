@@ -119,7 +119,7 @@
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1342972432</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1342713872</Property>
 	</Item>
 	<Item Name="Filter Event Data.vi" Type="VI" URL="../Filter Event Data.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)T!!!!$!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!!Z!)1B%;8.D98*E0Q!!8%"Q!"Y!!$5217.U&lt;X*&amp;&gt;G6O&gt;(-O&lt;(:M;7)B5WBP=H2D&gt;82.:7ZV17.U;8:B&gt;'FP&lt;EVT:SZM&gt;G.M98.T!"V4;'^S&gt;'.V&gt;%VF&lt;H6"9X2J&gt;G&amp;U;7^O48.H)%^V&gt;!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!%*!=!!?!!!I%5&amp;D&gt;'^S28:F&lt;H2T,GRW&lt;'FC&amp;%F&amp;&gt;G6O&gt;%:J&lt;(2F=CZM&gt;G.M98.T!!!0356W:7ZU2GFM&gt;'6S)'FO!'Y!]1!!!!!!!!!$%5&amp;D&gt;'^S28:F&lt;H2T,GRW&lt;'FC&amp;%F&amp;&gt;G6O&gt;%:J&lt;(2F=CZM&gt;G.M98.T'56W:7ZU2GFM&gt;'6S)&amp;*F:G6S:7ZD:3ZD&gt;'Q!*5"Q!#!!!1!)!"6&amp;&gt;G6O&gt;%:J&lt;(2F=C"3:7:F=G6O9W5!8%"Q!"Y!!$5217.U&lt;X*&amp;&gt;G6O&gt;(-O&lt;(:M;7)B5WBP=H2D&gt;82.:7ZV17.U;8:B&gt;'FP&lt;EVT:SZM&gt;G.M98.T!"R4;'^S&gt;'.V&gt;%VF&lt;H6"9X2J&gt;G&amp;U;7^O48.H)%FO!!"5!0!!$!!$!!1!"1!'!!1!"!!%!!1!"Q!%!!E!#A-!!(A!!!U)!!!!!!!!#1!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!1!!!!E!!!!!!"!!M!!!!!</Property>
@@ -128,16 +128,16 @@
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1342713872</Property>
 	</Item>
 	<Item Name="Send Shortcut Menu Activation.vi" Type="VI" URL="../Send Shortcut Menu Activation.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!+@!!!!%1"/1(!!(A!!-"6"9X2P=C"'=G&amp;N:8&gt;P=GMO&lt;(:M;7)9476T=W&amp;H:3"&amp;&lt;H&amp;V:86F=CZM&gt;G.M98.T!!!4476T=W&amp;H:3"&amp;&lt;H&amp;V:86F=C"J&lt;A!%!!!!1E"Q!"Y!!#A217.U&lt;X*&amp;&gt;G6O&gt;(-O&lt;(:M;7)5356W:7ZU2GFM&gt;'6S,GRW9WRB=X-!!!^*28:F&lt;H2';7RU:8)A;7Y!&lt;A$R!!!!!!!!!!-217.U&lt;X*&amp;&gt;G6O&gt;(-O&lt;(:M;7)5356W:7ZU2GFM&gt;'6S,GRW9WRB=X-:28:F&lt;H2';7RU:8)A5G6G:8*F&lt;G.F,G.U&lt;!!F1(!!)!!"!!)!&amp;56W:7ZU2GFM&gt;'6S)&amp;*F:G6S:7ZD:1"91(!!(A!!.2&amp;"9X2P=E6W:7ZU=SZM&gt;GRJ9C&amp;4;'^S&gt;'.V&gt;%VF&lt;H6"9X2J&gt;G&amp;U;7^O48.H,GRW9WRB=X-!'5:J&lt;(2F=G6E)%6W:7ZU2'&amp;U95VF=X.B:W5!&amp;%"Q!!A!!!!'!!!'1X2M5G6G!!!,1!=!"&amp;2J&lt;75!!!Z!=!!*"UVF&lt;H63:79!%5!$!!J)&lt;X*J?G^O&gt;'&amp;M!!!01!-!#&amp;:F=H2J9W&amp;M!!!T!0%!!!!!!!!!!22-6F"P;7ZU-T*5?8"F2'6G,G.U&lt;!!71&amp;!!!A!)!!E'1W^P=G2T!!!51(!!#!!!!!9!!!:4&gt;7*09GI!!!R!)1:T&gt;'&amp;U&gt;8-!!!N!!Q!%9W^E:1!!%%!Q`````Q:T&lt;X6S9W5!!":!5!!$!!Q!$1!/#76S=G^S)'^V&gt;!"M!0!!%!!!!!%!!1!$!!1!"1!"!!9!!1!(!!%!#A!,!!%!!1!0!Q!"#!!!%!!!!!!!!!!!!!!!%!!!!!E!!!!1!!!!!!!!!"!!!!!!!!!!%!!!!!!!!!!1!!!!%!!!!!!!!!!!!!!!#1!!!!!"!"!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1342713872</Property>
 	</Item>
 	<Item Name="Unpack Shortcut Menu Activation.vi" Type="VI" URL="../Unpack Shortcut Menu Activation.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;C!!!!#Q!21!-!#EBP=GF[&lt;WZU97Q!!!^!!Q!)6G6S&gt;'FD97Q!!$-!]1!!!!!!!!!"&amp;%R75'^J&lt;H1T-F2Z='6%:79O9X2M!":!5!!#!!!!!1:$&lt;W^S:(-!!!Z!=!!*"UVF&lt;H63:79!#U!(!!25;7VF!!!51(!!#!!!!!9!!!:$&gt;'R3:79!!"2!=!!)!!!!"A!!"F.V9E^C;A!!&amp;E!Q`````QV$&lt;WZU=G^M)%RB9G6M!!1!!!"91(!!(A!!.2&amp;"9X2P=E6W:7ZU=SZM&gt;GRJ9C&amp;4;'^S&gt;'.V&gt;%VF&lt;H6"9X2J&gt;G&amp;U;7^O48.H,GRW9WRB=X-!'6.I&lt;X*U9X6U476O&gt;5&amp;D&gt;'FW982J&lt;WZ.=W=!6!$Q!!Q!!A!$!!1!"1!'!!=!#!!)!!A!#!!)!!E#!!"Y!!!*!!!!#1!!!!E!!!!*!!!!#1!!!!E!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"!!!!!!!1!+!!!!!!</Property>

@@ -143,16 +143,16 @@
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1342972432</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1342713872</Property>
 	</Item>
 	<Item Name="Send Listbox Double Click.vi" Type="VI" URL="../Send Listbox Double Click.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)&amp;!!!!&amp;Q"/1(!!(A!!-"6"9X2P=C"'=G&amp;N:8&gt;P=GMO&lt;(:M;7)9476T=W&amp;H:3"&amp;&lt;H&amp;V:86F=CZM&gt;G.M98.T!!!4476T=W&amp;H:3"&amp;&lt;H&amp;V:86F=C"J&lt;A!*1!-!!V*P&gt;Q!%!!!!'%"Q!!A!!!!'!!!+1X2M)&amp;*F:GZV&lt;1!!#U!(!!25;7VF!!!21!-!#EBP=GF[&lt;WZU97Q!!!^!!Q!)6G6S&gt;'FD97Q!!$-!]1!!!!!!!!!"&amp;%R75'^J&lt;H1T-F2Z='6%:79O9X2M!":!5!!#!!5!"A:$&lt;W^S:(-!!!V!"A!'1H6U&gt;'^O!!!31#%-2'^V9GRF)%.M;7.L!!!/1#%)476O&gt;3",:8E!!""!5!!#!!E!#A2.&lt;W2T!!!+1#%&amp;5WBJ:H1!#E!B"%.U=GQ!!!B!)1."&lt;(1!#%!B!U.N:!!)1#%$4X"U!"J!5!!&amp;!!Q!$1!/!!]!%!B1&lt;'&amp;U47^E=Q!!$%!B"H.U982V=Q!!#U!$!!2D&lt;W2F!!!11$$`````"H.P&gt;8*D:1!!&amp;E"1!!-!%A!4!"1*:8*S&lt;X)A&lt;X6U!'Q!]!!1!!!!!1!#!!)!!A!$!!)!"!!#!!=!!A!)!!M!%1!#!"5$!!%)!!!1!!!!%!!!!!!!!!!!!!!!!!!!!"!!!!!!!!!!%!!!!!!!!!!1!!!!!!!!!"!!!!!1!!!!%!!!!!!!!!!*!!!!!!%!&amp;A!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1107825168</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1342713872</Property>
 	</Item>
 	<Item Name="Unpack Listbox Double Click.vi" Type="VI" URL="../Unpack Listbox Double Click.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(A!!!!&amp;!"11(!!(A!!-2&amp;"9X2P=E6W:7ZU=SZM&gt;GRJ9BV-;8.U9G^Y2'^V9GRF1WRJ9WN.=W=O&lt;(:D&lt;'&amp;T=Q!64'FT&gt;'*P?%2P&gt;7*M:5.M;7.L48.H!!1!!!!71$$`````$5RJ=X2C&lt;XAA4'&amp;C:7Q!'%"Q!!A!!!!'!!!+1X2M)&amp;*F:GZV&lt;1!!#U!(!!25;7VF!!!21!-!#EBP=GF[&lt;WZU97Q!!!^!!Q!)6G6S&gt;'FD97Q!!$-!]1!!!!!!!!!"&amp;%R75'^J&lt;H1T-F2Z='6%:79O9X2M!":!5!!#!!5!"A:$&lt;W^S:(-!!!V!"A!'1H6U&gt;'^O!!!*1!-!!V*P&gt;Q!+1#%&amp;5WBJ:H1!#E!B"%.U=GQ!!!B!)1."&lt;(1!#%!B!U.N:!!)1#%$4X"U!"J!5!!&amp;!!I!#Q!-!!U!$AB1&lt;'&amp;U47^E=Q!!%E!B$%2P&gt;7*M:3"$&lt;'FD;Q!!$E!B#%VF&lt;H5A3W6Z!!!11&amp;!!!A!1!"%%47^E=Q!!&lt;!$Q!"!!!!!"!!%!!A!$!!%!"!!"!!=!!1!)!!%!!1!*!!]!%A)!!1A!!"!!!!!!!!!!!!!!!!E!!!!*!!!!!!!!!!E!!!!!!!!!#1!!!!!!!!!*!!!!!!!!!!!!!!!*!!!!#1!!!!E!!!!!!1!4!!!!!!</Property>
