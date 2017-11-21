@@ -17,6 +17,7 @@
 	</Item>
 	<Item Name="IEventAggregator Messages" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">0</Property>
+		<Item Name="ControlDragStartingMsg.lvclass" Type="LVClass" URL="../IEventAggregator Messages/ControlDragStartingMsg/ControlDragStartingMsg.lvclass"/>
 		<Item Name="ControlDropMsg.lvclass" Type="LVClass" URL="../IEventAggregator Messages/ControlDropMsg/ControlDropMsg.lvclass"/>
 		<Item Name="ControlKeyDownMsg.lvclass" Type="LVClass" URL="../IEventAggregator Messages/ControlKeyDownMsg/ControlKeyDownMsg.lvclass"/>
 		<Item Name="ControlKeyUpMsg.lvclass" Type="LVClass" URL="../IEventAggregator Messages/ControlKeyUpMsg/ControlKeyUpMsg.lvclass"/>
