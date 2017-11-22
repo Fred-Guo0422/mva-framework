@@ -22,4 +22,6 @@
 	</Item>
 	<Item Name="IViewable.lvclass" Type="LVClass" URL="../IViewable/IViewable.lvclass"/>
 	<Item Name="ProtectedSubpanel.lvclass" Type="LVClass" URL="../ProtectedSubpanel/ProtectedSubpanel.lvclass"/>
+	<Item Name="ApplicationStyleReference.lvclass" Type="LVClass" URL="../ApplicationStyleReference/ApplicationStyleReference.lvclass"/>
+	<Item Name="IApplicationStyle.lvclass" Type="LVClass" URL="../IApplicationStyle/IApplicationStyle.lvclass"/>
 </Library>

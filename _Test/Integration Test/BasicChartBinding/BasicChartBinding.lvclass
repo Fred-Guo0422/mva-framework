@@ -39,10 +39,10 @@
 	<Item Name="Resize Panel to Pane.vi" Type="VI" URL="../Resize Panel to Pane.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;R!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!%R!=!!?!!!P%V2F=X27;76X97*M:8-O&lt;(:M;7):1G&amp;T;7.$;'&amp;S&gt;%*J&lt;G2J&lt;G=O&lt;(:D&lt;'&amp;T=Q!45G&amp;O:'^N2'&amp;U95.I98*U)%^V&gt;!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!"R!)2:"=("M?3"3:7.V=H.J&gt;G6M?4]A+%9J!!"-1(!!(A!!,R.5:8.U6GFF&gt;W&amp;C&lt;'6T,GRW&lt;'FC'5*B=WFD1WBB=H2#;7ZE;7ZH,GRW9WRB=X-!%F*B&lt;G2P&lt;52B&gt;'&amp;$;'&amp;S&gt;#"*&lt;A!!6!$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!(!!A$!!"Y!!!.#!!!!!!!!!!!!!#.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!#!!!!*!!!!!!!1!*!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-		<Property Name="NI.ClassItem.Flags" Type="Int">33554432</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">1090519168</Property>
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1082143248</Property>
 	</Item>
 </LVClass>
