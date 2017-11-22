@@ -27,7 +27,7 @@
 	<Item Name="IApplicationStyle.ctl" Type="Class Private Data" URL="IApplicationStyle.ctl">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
-	<Item Name="Appply Application Style.vi" Type="VI" URL="../Appply Application Style.vi">
+	<Item Name="Apply Application Style.vi" Type="VI" URL="../Apply Application Style.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%&gt;!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!&amp;E"Q!!A!!!!#!!!*6EEA5G6G&lt;H6N!%J!=!!?!!!L$UF7;76X97*M:3ZM&gt;GRJ9BF*18"Q&lt;'FD982J&lt;WZ4&gt;(FM:3ZM&gt;G.M98.T!"2*18"Q&lt;'FD982J&lt;WZ4&gt;(FM:3"J&lt;A!!6!$Q!!Q!!Q!%!!1!"!!%!!1!"!!%!!5!"!!'!!=$!!"Y!!!.#!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!%!!!!*!!!!!!!1!)!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">1090519168</Property>
