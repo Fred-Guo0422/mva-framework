@@ -14,6 +14,7 @@
 	<Item Name="ActorMessageTransport.lvclass" Type="LVClass" URL="../ActorMessageTransport/ActorMessageTransport.lvclass"/>
 	<Item Name="BooleanTextBinding.lvclass" Type="LVClass" URL="../BooleanTextBinding/BooleanTextBinding.lvclass"/>
 	<Item Name="ConfigurationFileBinding.lvclass" Type="LVClass" URL="../ConfigurationFileBinding/ConfigurationFileBinding.lvclass"/>
+	<Item Name="ControlCaptionBinding.lvclass" Type="LVClass" URL="../ControlCaptionBinding/ControlCaptionBinding.lvclass"/>
 	<Item Name="EventTransport.lvclass" Type="LVClass" URL="../EventTransport/EventTransport.lvclass"/>
 	<Item Name="FormattedStringBinding.lvclass" Type="LVClass" URL="../FormattedStringBinding/FormattedStringBinding.lvclass"/>
 	<Item Name="MCListboxItemNamesBinding.lvclass" Type="LVClass" URL="../MCListboxItemNamesBinding/MCListboxItemNamesBinding.lvclass"/>

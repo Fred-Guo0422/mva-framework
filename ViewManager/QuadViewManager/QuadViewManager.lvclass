@@ -52,13 +52,13 @@ Panel 4: Bottom Right</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1342710272</Property>
 	</Item>
-	<Item Name="Populate Subpanels.vi" Type="VI" URL="../Populate Subpanels.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(F!!!!$1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!%R!=!!?!!!P&amp;6&amp;V9727;76X47&amp;O97&gt;F=CZM&gt;GRJ9B&gt;2&gt;7&amp;E6GFF&gt;UVB&lt;G&amp;H:8)O&lt;(:D&lt;'&amp;T=Q!4586B:&amp;:J:8&gt;.97ZB:W6S)%^V&gt;!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!""!-0````]'5X2S;7ZH!!!E1%!!!@````]!"R:7;76X)%RB9G6M=S!I&lt;X"U;7^O97QJ!!"+1(!!(A!!-"6"9X2P=C"'=G&amp;N:8&gt;P=GMO&lt;(:M;7)9476T=W&amp;H:3"&amp;&lt;H&amp;V:86F=CZM&gt;G.M98.T!!!/17.U&lt;X)A27ZR&gt;76V:8)!!"*!1!!"`````Q!*"6:J:8&gt;T!%R!=!!?!!!P&amp;6&amp;V9727;76X47&amp;O97&gt;F=CZM&gt;GRJ9B&gt;2&gt;7&amp;E6GFF&gt;UVB&lt;G&amp;H:8)O&lt;(:D&lt;'&amp;T=Q!3586B:&amp;:J:8&gt;.97ZB:W6S)%FO!!"5!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!)!!I!#Q-!!(A!!!U)!!!!!!!!!!!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!AA!!!)1!!!!EA!!!!!"!!Q!!!!!</Property>
+	<Item Name="Initialize Front Panel.vi" Type="VI" URL="../Initialize Front Panel.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;6!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!%R!=!!?!!!P&amp;6&amp;V9727;76X47&amp;O97&gt;F=CZM&gt;GRJ9B&gt;2&gt;7&amp;E6GFF&gt;UVB&lt;G&amp;H:8)O&lt;(:D&lt;'&amp;T=Q!4586B:&amp;:J:8&gt;.97ZB:W6S)'^V&gt;!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!%R!=!!?!!!P&amp;6&amp;V9727;76X47&amp;O97&gt;F=CZM&gt;GRJ9B&gt;2&gt;7&amp;E6GFF&gt;UVB&lt;G&amp;H:8)O&lt;(:D&lt;'&amp;T=Q!3586B:&amp;:J:8&gt;.97ZB:W6S)'FO!!"5!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!1!"Q-!!(A!!!U)!!!!!!!!!!!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!EA!!!!!"!!A!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">16777344</Property>
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1082130960</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">34082832</Property>
 	</Item>
 </LVClass>
