@@ -57,6 +57,7 @@
 				<Item Name="Integration Test Readme.txt" Type="Document" URL="../_Test/Integration Test/Integration Test Readme.txt"/>
 				<Item Name="TestViewables.lvlib" Type="Library" URL="../_Test/Integration Test/TestViewables.lvlib"/>
 				<Item Name="TopLevelApplication.lvlib" Type="Library" URL="../_Test/Integration Test/TopLevelApplication.lvlib"/>
+				<Item Name="TestApplicationStyle.lvclass" Type="LVClass" URL="../_Test/Integration Test/TestApplicationStyle/TestApplicationStyle.lvclass"/>
 				<Item Name="Integration Test Launcher.vi" Type="VI" URL="../_Test/Integration Test/Integration Test Launcher.vi"/>
 				<Item Name="Write Error.vi" Type="VI" URL="../_Test/Integration Test/Write Error.vi"/>
 			</Item>
