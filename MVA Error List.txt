@@ -13,3 +13,4 @@ Code	Description
 517004	The QueueTransport class timed out while waiting for data.
 517005	The wired control reference to "%s" can not be bound. If the control type is Boolean, ensure that its mechanical action is set to switching.
 517006	The ControlCaptionBinding failed because the bound control "%s" does not have a caption property. Ensure that the control's caption property exists before run-time.
+517007	The ConfigurationFileBinding refers to an invalid file refnum.
