@@ -19,6 +19,7 @@
 		<Property Name="NI.SortType" Type="Int">0</Property>
 		<Item Name="ControlDragEndedMsg.lvclass" Type="LVClass" URL="../IEventAggregator Messages/ControlDragEndedMsg/ControlDragEndedMsg.lvclass"/>
 		<Item Name="ControlDragOverMsg.lvclass" Type="LVClass" URL="../IEventAggregator Messages/ControlDragOverMsg/ControlDragOverMsg.lvclass"/>
+		<Item Name="ControlDragSourceUpdateMsg.lvclass" Type="LVClass" URL="../IEventAggregator Messages/ControlDragSourceUpdateMsg/ControlDragSourceUpdateMsg.lvclass"/>
 		<Item Name="ControlDragStartingMsg.lvclass" Type="LVClass" URL="../IEventAggregator Messages/ControlDragStartingMsg/ControlDragStartingMsg.lvclass"/>
 		<Item Name="ControlDropMsg.lvclass" Type="LVClass" URL="../IEventAggregator Messages/ControlDropMsg/ControlDropMsg.lvclass"/>
 		<Item Name="ControlKeyDownMsg.lvclass" Type="LVClass" URL="../IEventAggregator Messages/ControlKeyDownMsg/ControlKeyDownMsg.lvclass"/>
