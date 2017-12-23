@@ -47,10 +47,21 @@
 				<Item Name="ViewableDoubles.lvlib" Type="Library" URL="../_Test/Doubles/ViewableDoubles/ViewableDoubles.lvlib"/>
 			</Item>
 			<Item Name="Unit Test" Type="Folder">
+				<Item Name="Test Observation" Type="Folder">
+					<Item Name="Mocks" Type="Folder">
+						<Item Name="ObservingViewable.lvclass" Type="LVClass" URL="../_Test/Unit Test/TestObservation/ObservingViewable/ObservingViewable.lvclass"/>
+						<Item Name="ObservingModel.lvclass" Type="LVClass" URL="../_Test/Unit Test/TestObservation/ObservingModel/ObservingModel.lvclass"/>
+						<Item Name="ObservingViewModel.lvclass" Type="LVClass" URL="../_Test/Unit Test/TestObservation/ObservingViewModel/ObservingViewModel.lvclass"/>
+						<Item Name="PublishingViewable.lvclass" Type="LVClass" URL="../_Test/Unit Test/TestObservation/PublishingViewable/PublishingViewable.lvclass"/>
+						<Item Name="PublishingModel.lvclass" Type="LVClass" URL="../_Test/Unit Test/TestObservation/PublishingModel/PublishingModel.lvclass"/>
+						<Item Name="PublishingViewModel.lvclass" Type="LVClass" URL="../_Test/Unit Test/TestObservation/PublishingViewModel/PublishingViewModel.lvclass"/>
+					</Item>
+					<Item Name="TestObservation.lvclass" Type="LVClass" URL="../_Test/Unit Test/TestObservation/TestObservation.lvclass"/>
+				</Item>
 				<Item Name="Unit Test Readme.txt" Type="Document" URL="../_Test/Unit Test/Unit Test Readme.txt"/>
 				<Item Name="TestIViewModel.lvclass" Type="LVClass" URL="../_Test/Unit Test/TestIViewModel/TestIViewModel/TestIViewModel.lvclass"/>
 				<Item Name="TestObservableData.lvclass" Type="LVClass" URL="../_Test/Unit Test/TestObservableData/TestObservableData.lvclass"/>
-				<Item Name="TestProtectedSubpanel.lvclass" Type="LVClass" URL="../_Test/Unit Test/TestProtectedSubpanel/TestProtectedSubpanel.lvclass"/>
+				<Item Name="TestProtectedSubpanel.lvclass" Type="LVClass" URL="../Framework/IViewable/_Test/TestProtectedSubpanel/TestProtectedSubpanel.lvclass"/>
 				<Item Name="TestAutoRegistration.lvclass" Type="LVClass" URL="../_Test/Unit Test/TestAutoRegistration/TestAutoRegistration/TestAutoRegistration.lvclass"/>
 				<Item Name="TestMediator.lvclass" Type="LVClass" URL="../Framework/Mediator/_Test/TestMediator/TestMediator.lvclass"/>
 			</Item>
