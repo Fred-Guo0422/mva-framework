@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2017-09-18 19:58:26" Modified_Date="2017-12-22 10:52:15" Creator="Ethan Stern" Comments="" ID="73f1412f0b26429ffbbf603736ef6d0b">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2017-09-18 19:58:26" Modified_Date="2018-01-28 19:26:56" Creator="Ethan Stern" Comments="" ID="9b66f237828e9fbd6749f70fba204a89">
   <Library_General_Settings>
     <Package_File_Name>Composed_Systems_lib_MVA_Framework</Package_File_Name>
-    <Library_Version>1.5.0.28</Library_Version>
+    <Library_Version>1.5.2.30</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..</Library_Source_Folder>
     <Library_Output_Folder>.</Library_Output_Folder>
@@ -9,7 +9,7 @@
     <Library_Summary/>
     <Library_License>MIT License</Library_License>
     <Package_LabVIEW_Version>15.0</Package_LabVIEW_Version>
-    <Community_Edition>true</Community_Edition>
+    <Community_Edition>false</Community_Edition>
     <Package_Icon>00000D7E002800000C9A00000400000200020022002200080000000000FFFFFF00FF80000000FFFFFFFFFFFF0000FFFFFFFFCCCC0000FFFFFFFF99990000FFFFFFFF66660000FFFFFFFF33330000FFFFFFFF00000000FFFFCCCCFFFF0000FFFFCCCCCCCC0000FFFFCCCC99990000FFFFCCCC66660000FFFFCCCC33330000FFFFCCCC00000000FFFF9999FFFF0000FFFF9999CCCC0000FFFF999999990000FFFF999966660000FFFF999933330000FFFF999900000000FFFF6666FFFF0000FFFF6666CCCC0000FFFF666699990000FFFF666666660000FFFF666633330000FFFF666600000000FFFF3333FFFF0000FFFF3333CCCC0000FFFF333399990000FFFF333366660000FFFF333333330000FFFF333300000000FFFF0000FFFF0000FFFF0000CCCC0000FFFF000099990000FFFF000066660000FFFF000033330000FFFF000000000000CCCCFFFFFFFF0000CCCCFFFFCCCC0000CCCCFFFF99990000CCCCFFFF66660000CCCCFFFF33330000CCCCFFFF00000000CCCCCCCCFFFF0000CCCCCCCCCCCC0000CCCCCCCC99990000CCCCCCCC66660000CCCCCCCC33330000CCCCCCCC00000000CCCC9999FFFF0000CCCC9999CCCC0000CCCC999999990000CCCC999966660000CCCC999933330000CCCC999900000000CCCC6666FFFF0000CCCC6666CCCC0000CCCC666699990000CCCC666666660000CCCC666633330000CCCC666600000000CCCC3333FFFF0000CCCC3333CCCC0000CCCC333399990000CCCC333366660000CCCC333333330000CCCC333300000000CCCC0000FFFF0000CCCC0000CCCC0000CCCC000099990000CCCC000066660000CCCC000033330000CCCC0000000000009999FFFFFFFF00009999FFFFCCCC00009999FFFF999900009999FFFF666600009999FFFF333300009999FFFF000000009999CCCCFFFF00009999CCCCCCCC00009999CCCC999900009999CCCC666600009999CCCC333300009999CCCC0000000099999999FFFF000099999999CCCC0000999999999999000099999999666600009999999933330000999999990000000099996666FFFF000099996666CCCC0000999966669999000099996666666600009999666633330000999966660000000099993333FFFF000099993333CCCC0000999933339999000099993333666600009999333333330000999933330000000099990000FFFF000099990000CCCC000099990000999900009999000066660000999900003333000099990000000000006666FFFFFFFF00006666FFFFCCCC00006666FFFF999900006666FFFF666600006666FFFF333300006666FFFF000000006666CCCCFFFF00006666CCCCCCCC00006666CCCC999900006666CCCC666600006666CCCC333300006666CCCC0000000066669999FFFF000066669999CCCC0000666699999999000066669999666600006666999933330000666699990000000066666666FFFF000066666666CCCC0000666666669999000066666666666600006666666633330000666666660000000066663333FFFF000066663333CCCC0000666633339999000066663333666600006666333333330000666633330000000066660000FFFF000066660000CCCC000066660000999900006666000066660000666600003333000066660000000000003333FFFFFFFF00003333FFFFCCCC00003333FFFF999900003333FFFF666600003333FFFF333300003333FFFF000000003333CCCCFFFF00003333CCCCCCCC00003333CCCC999900003333CCCC666600003333CCCC333300003333CCCC0000000033339999FFFF000033339999CCCC0000333399999999000033339999666600003333999933330000333399990000000033336666FFFF000033336666CCCC0000333366669999000033336666666600003333666633330000333366660000000033333333FFFF000033333333CCCC0000333333339999000033333333666600003333333333330000333333330000000033330000FFFF000033330000CCCC000033330000999900003333000066660000333300003333000033330000000000000000FFFFFFFF00000000FFFFCCCC00000000FFFF999900000000FFFF666600000000FFFF333300000000FFFF000000000000CCCCFFFF00000000CCCCCCCC00000000CCCC999900000000CCCC666600000000CCCC333300000000CCCC0000000000009999FFFF000000009999CCCC0000000099999999000000009999666600000000999933330000000099990000000000006666FFFF000000006666CCCC0000000066669999000000006666666600000000666633330000000066660000000000003333FFFF000000003333CCCC0000000033339999000000003333666600000000333333330000000033330000000000000000FFFF000000000000CCCC0000000000009999000000000000666600000000000033330000EEEE000000000000DDDD000000000000BBBB000000000000AAAA0000000000008888000000000000777700000000000055550000000000004444000000000000222200000000000011110000000000000000EEEE000000000000DDDD000000000000BBBB000000000000AAAA0000000000008888000000000000777700000000000055550000000000004444000000000000222200000000000011110000000000000000EEEE000000000000DDDD000000000000BBBB000000000000AAAA0000000000008888000000000000777700000000000055550000000000004444000000000000222200000000000011110000EEEEEEEEEEEE0000DDDDDDDDDDDD0000BBBBBBBBBBBB0000AAAAAAAAAAAA0000888888888888000077777777777700005555555555550000444444444444000022222222222200001111111111110000000000000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000000000000000000000000000000000000000000000000000000000FFFF000000000000000000000000000000001111000000000000000000000000FFFF000000000000000000000000000000001111F60000000000000000000000FFFF0000000000000000000000000000000000110A0000000000000000000000FFFF0000000000000000004E72C0C0724E00000011F600000000000000000000FFFF00000000000000004EC0C0C0C0C0C0F6000A1111110A0000000000000000FFFF000000000000004EC0C072F6F6C04EF60A11111111110A00000000000000FFFF0000000000000072C072F6111100F6F611110AF60A1111F6000000000000FFFF00000000000000C0C0F61111111111111111F600001111F6000000000000FFFF00000000000000C0C0F611111111111111110A000A1111F6000000000000FFFF0000000000000072C072001111F6F6F60A11111111110AF6000000000000FFFF000000000000004EC0C07200F6C04E00000A1111110AF600000000000000FFFF00000000000000004EC0C0C0C0C0C0F60000110AF6F60000000000000000FFFF0000000000000000004E72C0C0724EF60011F6F600000000000000000000FFFF00000000000000000000F6F6F6F6F61111F6F60000000000000000000000FFFF0000000000000000000000000000001111F6000000000000000000000000FFFF00000000000000000000000000000000F6F6000000000000000000000000FFFF0000000000000000000000000000FAFCFA00000000000000000000000000FFFF000000000000000000000000FAFC000000FCFA0000000000000000000000FFFF000000000000000000000000FC00FCFCFCFCFC0000000000000000000000FFFF000000000000000000000000FC0000FCFCFCFC0000000000000000000000FFFF000000000000000000000000FC0000FCFCFCFC0000000000000000000000FFFF0000000000000000000000FAFCFC00FCFCFCFCFA00000000000000000000FFFF000000000000000000FAFC000000FCFCFC000000FCFA0000000000000000FFFF000000000000000000FC00FCFCFCFCFC00FCFCFCFCFC0000000000000000FFFF000000000000000000FC0000FCFCFCFC0000FCFCFCFC0000000000000000FFFF000000000000000000FC0000FCFCFCFC0000FCFCFCFC0000000000000000FFFF000000000000000000F8FC00FCFCFCFAFC00FCFCFCF80000000000000000FFFF0000000000000000000000FCFCF8000000FCFCF800000000000000000000FFFF000000000000000000000000000000000000000000000000000000000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF002900000012000000020000000D01000000000100000000000A000000080000000000240024002900000012000000020000000D00B2B2B900010000000000100000001000000002002300000000000000000023002900000012000000020000000D00FCFCFD00010000000000100000001000000002002200010001000100010022002900000012000000020000000D00B2B2B900010000000000100000001000000002000000240024002400240000002900000012000000020000000D0080808A00010000000000100000001000000002000100230023002300230001</Package_Icon>
     <Product_Name>MVA Framework</Product_Name>
     <Was_Built>true</Was_Built>
@@ -77,9 +77,9 @@
       <Copyright/>
       <Packager/>
       <URL>www.composed.io</URL>
-      <Release_Notes>+ IModel now implements IObserver to allow "Observe Data" override
-+ IViewable adds "Send Value Update" method for easier programmatic value sends
-+ Drag Over, Drag Source Update, Drag Ended events now supported</Release_Notes>
+      <Release_Notes>+ Fixed issue with stopping inserted Viewables (stale VI reference held in Subpanel)
++ No error returned by Viewable launched with invalid Style Reference
++ Minor terminal name fixes</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -308,7 +308,7 @@
         <Path>..\Framework\AbstractMessages</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>CB5E62CD6EA08BED5F0E9928556CB951</GUID>
+      <GUID>D059801C8036724B89928A3624207764</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -385,7 +385,7 @@
         <Path>..\Framework\IViewable\IViewable Messages\Launch Dialog Box Msg\Send Launch Dialog Box.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>EC6B4E02FB33A592C76D614EDF0EEAF7</GUID>
+      <GUID>EC68F269F83E7C4FF97B7E9864A6C728</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -462,7 +462,7 @@
         <Path>..\Framework\IViewModel</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B62C089B50ACDC40A60A1CA967E16E44</GUID>
+      <GUID>76BE808C480C4E18F567B5BC4DAB473B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -539,7 +539,7 @@
         <Path>..\ViewManager\QuadViewManager\Assemble QuadViewManager.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B2A0902FFF54CDF6154A6793A80D9F99</GUID>
+      <GUID>847AA088D9B0F10F07F95C08AC07728D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -602,7 +602,7 @@
         <Path>..\Framework\AbstractMessages\SynchronousMsg</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>DBA04FDE6207D562BA7457B571441C2D</GUID>
+      <GUID>D173498A4E6E5835057223592A7F2A79</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>8</Parent_Palette_Index>
@@ -1015,7 +1015,21 @@
         <Path>..\Framework\ActorEvents\IEventAggregator Messages\ControlDropMsg\Unpack Control Drop.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0E6847A4DA5246AAC8E4907AD16542BB</GUID>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Open Event Filter Reference.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>2</Row>
+          <Column>1</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\Framework\ActorEvents\IEventFilter\Open Event Filter Reference.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <GUID>85014935B95B999F1278F43E2BB16BBA</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>23</Parent_Palette_Index>
@@ -1050,7 +1064,21 @@
         <Path>..\Framework\IMediator\IMediator\Write MediatorBusMonitor Type.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>719FBA3C53AD440A4140A994DDF93ACE</GUID>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Send Start Bus Monitor.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>1</Row>
+          <Column>2</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\Framework\IMediator\IMediator Messages\Start Bus Monitor Msg\Send Start Bus Monitor.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <GUID>B43F887F84C1EFD7371776D08E45B756</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1169,7 +1197,7 @@
         <Path>..\Framework\IModel\IModel\Request Synchronous Data.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>23D0644E7C5E091E65403CF61BEAD8D9</GUID>
+      <GUID>6E3918D96DC3DC623D4EBDE1121B1EBE</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1232,7 +1260,7 @@
         <Path>..\Framework\AutoRegistration</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>659B7186EE025154562EA9299C1BB705</GUID>
+      <GUID>AFEE081DDE63F668774F4EF35588FE14</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1337,7 +1365,21 @@
         <Path>..\Framework\IMediator\IMediator Messages\Subscribe Msg\Send Direct Subscribe.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0C988492455FD1005359D5369428E0B7</GUID>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Send Start Bus Monitor.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>2</Row>
+          <Column>4</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\Framework\IMediator\IMediator Messages\Start Bus Monitor Msg\Send Start Bus Monitor.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <GUID>B3FFCE09048A76E9EBF1B28E553975B0</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>23</Parent_Palette_Index>
@@ -1512,7 +1554,7 @@
         <Path>..\Framework\IMediator\ISubscriptionPolicy\Open Subscription Policy.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F12CC0409B0F23C59A6E0C515FC97F05</GUID>
+      <GUID>69E9EF86BDC51278B2CFF7987D60E07C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>23</Parent_Palette_Index>
@@ -1785,7 +1827,7 @@
         <Path>..\Framework\Transport\ControlCaptionBinding\New Control Caption Binding.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0BEFE92D51D29DE0F0722DE26DD33EE7</GUID>
+      <GUID>995140BF19C566CEFAF8361026663790</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -1834,7 +1876,7 @@
         <Path>..\Framework\AbstractMessages\BinaryDecisionMsg\Write Binary Reply Messages.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E948DBB78ECB54612222AFA0F381159D</GUID>
+      <GUID>C26EA4200E8F9B03A6EE021FD04FF193</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -1883,7 +1925,7 @@
         <Path>..\Framework\AbstractMessages\PreAddressedMsg\Write Return Address.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>83F7E4FDBA17DDD85BDD31F8B6F2ABDB</GUID>
+      <GUID>B9A5F1DBFC3A894A5E933214818DB5EC</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -1932,7 +1974,7 @@
         <Path>..\Framework\AbstractMessages\SynchronousMsg\Send Synchronous Reply.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>465A35118E1C87B9000ACEC3DDA6A46E</GUID>
+      <GUID>531490102AE860336762047E347CBF87</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>8</Parent_Palette_Index>
@@ -2093,7 +2135,7 @@
         <Path>..\Framework\IViewable\IViewable\Bind Control Caption.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3F8FCD12782D0EAAB6D160DBBC1E41C3</GUID>
+      <GUID>D47F80BC2E8093C4E144E492A97428B7</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>22</Parent_Palette_Index>
@@ -2170,7 +2212,7 @@
         <Path>..\Framework\IObserver\IObserver Messages\Observe Data Msg\Write Observe Data Msg Return Info.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9D4BF1073DC10DF1FC95A8E5AD31CB72</GUID>
+      <GUID>0A74FED83EC2AE3561955CA7155072E4</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>22</Parent_Palette_Index>
@@ -2219,7 +2261,7 @@
         <Path>..\Framework\IObserver\IObserver Messages\Subscribe Msg\Send Subscribe.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>CED3B4191F888B541407F72966A1E669</GUID>
+      <GUID>31482E6239D167866FF5E1D42098C13B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>22</Parent_Palette_Index>
@@ -2268,7 +2310,7 @@
         <Path>..\Framework\IObserver\IObserver Messages\Unsubscribe Msg\Send Unsubscribe.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>49008A46EC4DE2F07335871D7273D7CE</GUID>
+      <GUID>716E5C33D67F3A3E95A75507686881AB</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>8</Parent_Palette_Index>
@@ -2639,7 +2681,7 @@
         <Path>..\Framework\IViewable\IViewable\Send Value Update.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3551F7EECA91E9950E00FFE044D5D001</GUID>
+      <GUID>5B86CB64775C3FE0A5D817309D64898B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -2688,7 +2730,7 @@
         <Path>..\Framework\IModel\IModel\Write Pre-Addressed Publish Message.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>29D7A6A7D8386783A107EE5ECDB00DCE</GUID>
+      <GUID>9A0E686C06AC0CD276BB80AE231DD134</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>23</Parent_Palette_Index>
@@ -2765,7 +2807,7 @@
         <Path>..\Framework\IViewable\ProtectedSubpanel\Release Protected Subpanel.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5D676391CD08CD8802334E387E7E148A</GUID>
+      <GUID>9BD0CB62591676E624DDE333C4CCEE73</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>15</Parent_Palette_Index>
@@ -2870,7 +2912,7 @@
         <Path>..\Framework\IObserver\IObserver\Read Unique ID.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>FE03E083C3A51FEF489EF145D1AE0082</GUID>
+      <GUID>BD3F94C9A945D0FDADF38C0F11CB4B08</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2975,7 +3017,7 @@
         <Path>..\Framework\IViewable\ApplicationStyleReference</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>08833859BD22988E7AEB1467ADDF440E</GUID>
+      <GUID>2568F8970B69CD4ACB45D945C985516C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>19</Parent_Palette_Index>
@@ -3052,7 +3094,7 @@
         <Path>..\Advanced</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2B61BB46412AB347FF30BCC546D0307C</GUID>
+      <GUID>317EDC34ED95194C1850E7A759D6B9F7</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>24</Parent_Palette_Index>
@@ -3129,7 +3171,7 @@
         <Path>..\Framework\IViewManager\IViewManager\Write Startup Launch Nested Views Msg.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2D67444210C033E014A08E0DD5988BF8</GUID>
+      <GUID>B27E5B9E0F6B88F059F58840EC5243B5</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>23</Parent_Palette_Index>
@@ -3192,7 +3234,7 @@
         <Path>..\Framework\IViewable\ApplicationStyleReference\Open Application Style Reference.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A4B8A13EB34572964FD43A2C7F43FFF0</GUID>
+      <GUID>0E03BBF1F2AF860BC7669316FB5B78B7</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -3241,7 +3283,7 @@
         <Path>..\Framework</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>01079687FD0FC614BE776B033000499B</GUID>
+      <GUID>D488D9456C01438AB0A9BAC95EBAFAFC</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -3276,7 +3318,7 @@
         <Path>..\DialogBox\KeypadDialogBox</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C45C60BA761F29D07669BF24DA0B4C20</GUID>
+      <GUID>69237BD021689696B5205A0A3500EE4E</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -3367,7 +3409,7 @@
         <Path>..\Framework\Transport</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B400CB9284CE013EFF44F70027FD8653</GUID>
+      <GUID>86B380805341205427418BE88A159527</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -3416,7 +3458,7 @@
         <Path>..\DialogBox\KeypadDialogBox\FlatKeypadButton.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>03ABD1AB9018B154219752A0A6EB0DF8</GUID>
+      <GUID>FCF4013AD953E0E118CE68BAB7CE8ED4</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -3465,7 +3507,7 @@
         <Path>..\Framework\ActorEvents\IEventFilter</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9FE73AB1598113DD5D7689CB4033B8CD</GUID>
+      <GUID>A23D1D83359FA784CE2F2337D09FEBB1</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -3500,7 +3542,7 @@
         <Path>..\Framework\IMediator\ISubscriptionPolicy</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>15C814CBADB387330AAE7BD317310628</GUID>
+      <GUID>4CAFBE625892A251B66BCEA550A67D1B</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -3563,7 +3605,7 @@
         <Path>..\Framework\IViewable\ProtectedSubpanel</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>66EDD8474C85921E61CC2D07B5C3A07F</GUID>
+      <GUID>913189B804F182255D37C6232C34A039</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -3598,7 +3640,7 @@
         <Path>..\Framework\SubscriptionPolicy\TriggeredSubscription</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>30385CE69CAA933841D299D825D46AA2</GUID>
+      <GUID>C040852BA2C60BEA2BD2D227260FF286</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -3647,7 +3689,7 @@
         <Path>..\Framework\Transport\MCListboxItemNamesBinding</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>09A90711A16CA76401BBA1042C8E1FD3</GUID>
+      <GUID>294E6271657C5B20CCACE136AA8EC14D</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -3696,7 +3738,7 @@
         <Path>..\Framework\ActorEvents\AutoRegistration\Registration References.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9EA5BD0542FB829E2E9845D9BD6BAE17</GUID>
+      <GUID>4C2B09FA6D6690432959306789897555</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -3731,7 +3773,7 @@
         <Path>..\Framework\ActorEvents\IEventFilter\EventFilter Reference.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>05E3E7AEB33E51B54F99A11D02BEE6EE</GUID>
+      <GUID>BC56A1EB686884957458C1933281ABCC</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -3766,7 +3808,7 @@
         <Path>..\Framework\IMediator\ISubscriptionPolicy\ISubscriptionPolicy Reference.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>18452A45AD87BE7470652E5B9544A4F5</GUID>
+      <GUID>A2E6C248734244F1BA30F65949E6B3C1</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>6</Parent_Palette_Index>
@@ -3801,7 +3843,7 @@
         <Path>..\Framework\IViewable\ApplicationStyleReference\Application Style Reference.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>27240F99A3EBD207C5BF9F1962259761</GUID>
+      <GUID>8258354637006ABEE6A266CD8F5E0539</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>6</Parent_Palette_Index>
@@ -3836,7 +3878,7 @@
         <Path>..\Framework\IViewable\IViewable\View Position Enum.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>CE41E614A466EB18F80A9F465C38FA5C</GUID>
+      <GUID>AC36E3D10EAEAAB87101F24B20FFFBAF</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>6</Parent_Palette_Index>
@@ -3871,7 +3913,7 @@
         <Path>..\Framework\IViewable\ProtectedSubpanel\Protected Subpanel Reference.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>35FAE8A5E7BFC3FE07BFC1468E299BF2</GUID>
+      <GUID>8C37EFB0275433E92A53B59663EFF60B</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -3906,7 +3948,7 @@
         <Path>..\Framework\SubscriptionPolicy\TriggeredSubscription\Trigger Condition.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>DA506F1D972ED0B002AE812844813877</GUID>
+      <GUID>2E40EE26272346B91BA1AFCE4CB1FFDC</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>8</Parent_Palette_Index>
@@ -3941,7 +3983,7 @@
         <Path>..\Framework\Transport\ListboxItemNamesBinding\MCListbox Binding Options.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>642146D5ECD03399E5040AB83C9C7BE1</GUID>
+      <GUID>7CF131274BEFACA47F0C0074B10D3D4F</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>8</Parent_Palette_Index>
@@ -3976,7 +4018,7 @@
         <Path>..\Framework\Transport\MCListboxItemNamesBinding\MCListbox Binding Options.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E564CB118F1E70F556458A07FA5C9930</GUID>
+      <GUID>4C8515DF48AAA103EAA3DA6B09F5C72A</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
