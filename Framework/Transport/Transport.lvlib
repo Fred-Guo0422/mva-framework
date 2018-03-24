@@ -4,12 +4,11 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">352354304</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
-	<Property Name="NI.SortType" Type="Int">3</Property>
-	<Item Name="Test" Type="Folder">
-		<Item Name="TestTransport.lvclass" Type="LVClass" URL="../_Test/TestTransport.lvclass"/>
-	</Item>
 	<Item Name="ActorMessageTransport Msg" Type="Folder">
 		<Item Name="Notification Msg.lvclass" Type="LVClass" URL="../ActorMessageTransport/Notification Msg/Notification Msg.lvclass"/>
+	</Item>
+	<Item Name="Test" Type="Folder">
+		<Item Name="TestTransport.lvclass" Type="LVClass" URL="../_Test/TestTransport.lvclass"/>
 	</Item>
 	<Item Name="ActorMessageTransport.lvclass" Type="LVClass" URL="../ActorMessageTransport/ActorMessageTransport.lvclass"/>
 	<Item Name="BooleanTextBinding.lvclass" Type="LVClass" URL="../BooleanTextBinding/BooleanTextBinding.lvclass"/>
@@ -17,12 +16,12 @@
 	<Item Name="ControlCaptionBinding.lvclass" Type="LVClass" URL="../ControlCaptionBinding/ControlCaptionBinding.lvclass"/>
 	<Item Name="EventTransport.lvclass" Type="LVClass" URL="../EventTransport/EventTransport.lvclass"/>
 	<Item Name="FormattedStringBinding.lvclass" Type="LVClass" URL="../FormattedStringBinding/FormattedStringBinding.lvclass"/>
+	<Item Name="ListboxItemNamesBinding.lvclass" Type="LVClass" URL="../ListboxItemNamesBinding/ListboxItemNamesBinding.lvclass"/>
 	<Item Name="MCListboxItemNamesBinding.lvclass" Type="LVClass" URL="../MCListboxItemNamesBinding/MCListboxItemNamesBinding.lvclass"/>
+	<Item Name="NamedNumericStringsBinding.lvclass" Type="LVClass" URL="../NamedNumericStringsBinding/NamedNumericStringsBinding.lvclass"/>
 	<Item Name="QueueTransport.lvclass" Type="LVClass" URL="../QueueTransport/QueueTransport.lvclass"/>
 	<Item Name="StreamToDiskTransport.lvclass" Type="LVClass" URL="../StreamToDiskTransport/StreamToDiskTransport.lvclass"/>
 	<Item Name="TerminalBinding.lvclass" Type="LVClass" URL="../TerminalBinding/TerminalBinding.lvclass"/>
 	<Item Name="TerminalReferenceBinding.lvclass" Type="LVClass" URL="../TerminalReferenceBinding/TerminalReferenceBinding.lvclass"/>
 	<Item Name="ValueReferenceTransport.lvclass" Type="LVClass" URL="../ValueReferenceTransport/ValueReferenceTransport.lvclass"/>
-	<Item Name="NamedNumericStringsBinding.lvclass" Type="LVClass" URL="../NamedNumericStringsBinding/NamedNumericStringsBinding.lvclass"/>
-	<Item Name="ListboxItemNamesBinding.lvclass" Type="LVClass" URL="../ListboxItemNamesBinding/ListboxItemNamesBinding.lvclass"/>
 </Library>
