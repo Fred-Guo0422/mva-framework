@@ -22,6 +22,8 @@
 	<Item Name="QueueTransport.lvclass" Type="LVClass" URL="../QueueTransport/QueueTransport.lvclass"/>
 	<Item Name="StreamToDiskTransport.lvclass" Type="LVClass" URL="../StreamToDiskTransport/StreamToDiskTransport.lvclass"/>
 	<Item Name="TerminalBinding.lvclass" Type="LVClass" URL="../TerminalBinding/TerminalBinding.lvclass"/>
+	<Item Name="TerminalEnabledStateBinding.lvclass" Type="LVClass" URL="../TerminalEnabledStateBinding/TerminalEnabledStateBinding.lvclass"/>
 	<Item Name="TerminalReferenceBinding.lvclass" Type="LVClass" URL="../TerminalReferenceBinding/TerminalReferenceBinding.lvclass"/>
+	<Item Name="TerminalVisibilityBinding.lvclass" Type="LVClass" URL="../TerminalVisibilityBinding/TerminalVisibilityBinding.lvclass"/>
 	<Item Name="ValueReferenceTransport.lvclass" Type="LVClass" URL="../ValueReferenceTransport/ValueReferenceTransport.lvclass"/>
 </Library>
