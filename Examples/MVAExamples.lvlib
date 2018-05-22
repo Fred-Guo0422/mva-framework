@@ -8,6 +8,7 @@
 	<Item Name="IViewable" Type="Folder">
 		<Item Name="SimpleChart.lvclass" Type="LVClass" URL="../SimpleChart/SimpleChart.lvclass"/>
 		<Item Name="VerticalSlide.lvclass" Type="LVClass" URL="../VerticalSlide/VerticalSlide.lvclass"/>
+		<Item Name="PauseResumeButtons.lvclass" Type="LVClass" URL="../PauseResumeButtons/PauseResumeButtons.lvclass"/>
 	</Item>
 	<Item Name="ViewManager" Type="Folder">
 		<Item Name="TwoPaneViewManager.lvclass" Type="LVClass" URL="../TwoPaneViewManager/TwoPaneViewManager.lvclass"/>
@@ -17,5 +18,4 @@
 	</Item>
 	<Item Name="SimpleRootModel.lvclass" Type="LVClass" URL="../ExampleSimpleRootModel/SimpleRootModel.lvclass"/>
 	<Item Name="SimpleViewModel.lvclass" Type="LVClass" URL="../SimpleViewModel/SimpleViewModel.lvclass"/>
-	<Item Name="PauseResumeButtons.lvclass" Type="LVClass" URL="../PauseResumeButtons/PauseResumeButtons.lvclass"/>
 </Library>
