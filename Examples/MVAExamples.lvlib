@@ -13,9 +13,11 @@
 	<Item Name="ViewManager" Type="Folder">
 		<Item Name="TwoPaneViewManager.lvclass" Type="LVClass" URL="../TwoPaneViewManager/TwoPaneViewManager.lvclass"/>
 	</Item>
-	<Item Name="SimpleRootModel Messages" Type="Folder">
-		<Item Name="Execute State Msg.lvclass" Type="LVClass" URL="../ExampleSimpleRootModel Messages/Execute State Msg/Execute State Msg.lvclass"/>
+	<Item Name="Models" Type="Folder">
+		<Item Name="SimpleRootModel Messages" Type="Folder">
+			<Item Name="Execute State Msg.lvclass" Type="LVClass" URL="../ExampleSimpleRootModel Messages/Execute State Msg/Execute State Msg.lvclass"/>
+		</Item>
+		<Item Name="SimpleRootModel.lvclass" Type="LVClass" URL="../ExampleSimpleRootModel/SimpleRootModel.lvclass"/>
 	</Item>
-	<Item Name="SimpleRootModel.lvclass" Type="LVClass" URL="../ExampleSimpleRootModel/SimpleRootModel.lvclass"/>
 	<Item Name="SimpleViewModel.lvclass" Type="LVClass" URL="../SimpleViewModel/SimpleViewModel.lvclass"/>
 </Library>
