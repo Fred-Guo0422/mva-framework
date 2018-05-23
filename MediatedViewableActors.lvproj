@@ -86,7 +86,7 @@
 			<Item Name="Abstract MVA Application (Template).vi" Type="VI" URL="../Examples/_Launchers/Abstract MVA Application (Template).vi"/>
 			<Item Name="Launch Chart.vi" Type="VI" URL="../Examples/_Launchers/Launch Chart.vi"/>
 			<Item Name="Launch Chart With Slider.vi" Type="VI" URL="../Examples/_Launchers/Launch Chart With Slider.vi"/>
-			<Item Name="Launch Quad With Bells and Whistles.vi" Type="VI" URL="../Examples/_Launchers/Launch Quad With Bells and Whistles.vi"/>
+			<Item Name="Launch Quad With Play and Pause.vi" Type="VI" URL="../Examples/_Launchers/Launch Quad With Play and Pause.vi"/>
 			<Item Name="MVAExamples.lvlib" Type="Library" URL="../Examples/MVAExamples.lvlib"/>
 		</Item>
 		<Item Name="MVA Error List.txt" Type="Document" URL="../MVA Error List.txt"/>
