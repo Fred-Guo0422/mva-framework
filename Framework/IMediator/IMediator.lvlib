@@ -4,6 +4,7 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">352354304</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
+	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Item Name="IMediator Messages" Type="Folder">
 		<Item Name="Insert Bus Monitor Msg.lvclass" Type="LVClass" URL="../IMediator Messages/Insert Bus Monitor Msg/Insert Bus Monitor Msg.lvclass"/>
 		<Item Name="Open Bus Monitor Msg.lvclass" Type="LVClass" URL="../IMediator Messages/Monitor Msg/Open Bus Monitor Msg.lvclass"/>
@@ -11,9 +12,14 @@
 		<Item Name="Start Bus Monitor Msg.lvclass" Type="LVClass" URL="../IMediator Messages/Start Bus Monitor Msg/Start Bus Monitor Msg.lvclass"/>
 		<Item Name="Subscribe Msg.lvclass" Type="LVClass" URL="../IMediator Messages/Subscribe Msg/Subscribe Msg.lvclass"/>
 		<Item Name="Unsubscribe Msg.lvclass" Type="LVClass" URL="../IMediator Messages/Unsubscribe Msg/Unsubscribe Msg.lvclass"/>
+		<Item Name="Lock Publication Msg.lvclass" Type="LVClass" URL="../IMediator Messages/Lock Publication Msg/Lock Publication Msg.lvclass"/>
+		<Item Name="Unlock Publication Msg.lvclass" Type="LVClass" URL="../IMediator Messages/Unlock Publication Msg/Unlock Publication Msg.lvclass"/>
 	</Item>
 	<Item Name="IMediator.lvclass" Type="LVClass" URL="../IMediator/IMediator.lvclass"/>
 	<Item Name="IMediatorBusMonitor.lvclass" Type="LVClass" URL="../IMediatorBusMonitor/MediatorBusMonitor/IMediatorBusMonitor.lvclass"/>
+	<Item Name="IPublicationPolicy.lvclass" Type="LVClass" URL="../IPublicationPolicy/IPublicationPolicy.lvclass"/>
+	<Item Name="PublishRequest.lvclass" Type="LVClass" URL="../PublishRequest/PublishRequest.lvclass"/>
+	<Item Name="MutexedPublishRequest.lvclass" Type="LVClass" URL="../MutexedPublishRequest/MutexedPublishRequest.lvclass"/>
 	<Item Name="ISubscriptionPolicy.lvclass" Type="LVClass" URL="../ISubscriptionPolicy/ISubscriptionPolicy.lvclass"/>
 	<Item Name="ITransport.lvclass" Type="LVClass" URL="../ITransport/ITransport.lvclass"/>
 	<Item Name="SubscriptionRequest.lvclass" Type="LVClass" URL="../SubscriptionRequest/SubscriptionRequest.lvclass"/>

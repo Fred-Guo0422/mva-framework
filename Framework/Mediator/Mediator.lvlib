@@ -15,6 +15,8 @@
 		<Item Name="Add Topic Subscriber Msg.lvclass" Type="LVClass" URL="../Topic Messages/Add Topic Subscriber Msg/Add Topic Subscriber Msg.lvclass"/>
 		<Item Name="Notify Subscribers Msg.lvclass" Type="LVClass" URL="../Topic Messages/Notify Subscribers Msg/Notify Subscribers Msg.lvclass"/>
 		<Item Name="Remove Topic Subscriber Msg.lvclass" Type="LVClass" URL="../Topic Messages/Remove Topic Subscriber Msg/Remove Topic Subscriber Msg.lvclass"/>
+		<Item Name="Unlock Topic Msg.lvclass" Type="LVClass" URL="../Topic Messages/Unlock Topic Msg/Unlock Topic Msg.lvclass"/>
+		<Item Name="Lock Topic Msg.lvclass" Type="LVClass" URL="../Topic Messages/Lock Topic Msg/Lock Topic Msg.lvclass"/>
 	</Item>
 	<Item Name="Mediator.lvclass" Type="LVClass" URL="../Mediator/Mediator.lvclass"/>
 	<Item Name="MediatorBusMonitor.lvclass" Type="LVClass" URL="../MediatorBusMonitor/MediatorBusMonitor.lvclass"/>

@@ -39,7 +39,7 @@
 			<Item Name="SubscriptionPolicy.lvlib" Type="Library" URL="../Framework/SubscriptionPolicy/SubscriptionPolicy.lvlib"/>
 			<Item Name="Transport.lvlib" Type="Library" URL="../Framework/Transport/Transport.lvlib"/>
 		</Item>
-		<Item Name="Test" Type="Folder">
+		<Item Name="Framework Test" Type="Folder">
 			<Item Name="Test Doubles" Type="Folder">
 				<Item Name="Test Doubles Readme.txt" Type="Document" URL="../_Test/Doubles/Test Doubles Readme.txt"/>
 				<Item Name="TestModels.lvlib" Type="Library" URL="../_Test/Doubles/TestModels.lvlib"/>
