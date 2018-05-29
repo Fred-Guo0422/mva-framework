@@ -36,6 +36,7 @@
 				<Item Name="KeypadDialogBox.lvlib" Type="Library" URL="../DialogBox/KeypadDialogBox/KeypadDialogBox.lvlib"/>
 			</Item>
 			<Item Name="Mediator.lvlib" Type="Library" URL="../Framework/Mediator/Mediator.lvlib"/>
+			<Item Name="PublicationPolicy.lvlib" Type="Library" URL="../Framework/PublicationPolicy/PublicationPolicy.lvlib"/>
 			<Item Name="SubscriptionPolicy.lvlib" Type="Library" URL="../Framework/SubscriptionPolicy/SubscriptionPolicy.lvlib"/>
 			<Item Name="Transport.lvlib" Type="Library" URL="../Framework/Transport/Transport.lvlib"/>
 		</Item>
@@ -92,6 +93,7 @@
 		<Item Name="MVA Error List.txt" Type="Document" URL="../MVA Error List.txt"/>
 		<Item Name="Include.vi" Type="VI" URL="../Include.vi"/>
 		<Item Name="Clear Class Mutation History.vi" Type="VI" URL="../Clear Class Mutation History.vi"/>
+		<Item Name="Reaper.lvclass" Type="LVClass" URL="../Reaper/Reaper.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Actor Framework.lvlib" Type="Library" URL="/&lt;vilib&gt;/ActorFramework/Actor Framework.lvlib"/>
@@ -473,9 +475,24 @@
 				<Item Name="Get LV Class Default Value By Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Default Value By Name.vi"/>
 				<Item Name="Get LV Class Default Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Default Value.vi"/>
 				<Item Name="Edit LVLibs.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/EditLVLibs/Edit LVLibs.lvlib"/>
+				<Item Name="BuildErrorSource.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/fileVersionInfo.llb/BuildErrorSource.vi"/>
+				<Item Name="GetFileVersionInfo.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/fileVersionInfo.llb/GetFileVersionInfo.vi"/>
+				<Item Name="FixedFileInfo_Struct.ctl" Type="VI" URL="/&lt;vilib&gt;/Platform/fileVersionInfo.llb/FixedFileInfo_Struct.ctl"/>
+				<Item Name="MoveMemory.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/fileVersionInfo.llb/MoveMemory.vi"/>
+				<Item Name="VerQueryValue.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/fileVersionInfo.llb/VerQueryValue.vi"/>
+				<Item Name="GetFileVersionInfoSize.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/fileVersionInfo.llb/GetFileVersionInfoSize.vi"/>
+				<Item Name="FileVersionInformation.ctl" Type="VI" URL="/&lt;vilib&gt;/Platform/fileVersionInfo.llb/FileVersionInformation.ctl"/>
+				<Item Name="FileVersionInfo.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/fileVersionInfo.llb/FileVersionInfo.vi"/>
+				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
 			</Item>
 			<Item Name="AF Debug.lvlib" Type="Library" URL="/&lt;resource&gt;/AFDebug/AF Debug.lvlib"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
+			<Item Name="version.dll" Type="Document" URL="version.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

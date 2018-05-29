@@ -15,12 +15,16 @@
 		<Item Name="Lock Publication Msg.lvclass" Type="LVClass" URL="../IMediator Messages/Lock Publication Msg/Lock Publication Msg.lvclass"/>
 		<Item Name="Unlock Publication Msg.lvclass" Type="LVClass" URL="../IMediator Messages/Unlock Publication Msg/Unlock Publication Msg.lvclass"/>
 	</Item>
+	<Item Name="Publish" Type="Folder">
+		<Item Name="IPublicationPolicy.lvclass" Type="LVClass" URL="../IPublicationPolicy/IPublicationPolicy.lvclass"/>
+		<Item Name="PublishRequest.lvclass" Type="LVClass" URL="../PublishRequest/PublishRequest.lvclass"/>
+		<Item Name="MutexedPublishRequest.lvclass" Type="LVClass" URL="../MutexedPublishRequest/MutexedPublishRequest.lvclass"/>
+	</Item>
+	<Item Name="Subscribe" Type="Folder">
+		<Item Name="ISubscriptionPolicy.lvclass" Type="LVClass" URL="../ISubscriptionPolicy/ISubscriptionPolicy.lvclass"/>
+		<Item Name="SubscriptionRequest.lvclass" Type="LVClass" URL="../SubscriptionRequest/SubscriptionRequest.lvclass"/>
+	</Item>
 	<Item Name="IMediator.lvclass" Type="LVClass" URL="../IMediator/IMediator.lvclass"/>
 	<Item Name="IMediatorBusMonitor.lvclass" Type="LVClass" URL="../IMediatorBusMonitor/MediatorBusMonitor/IMediatorBusMonitor.lvclass"/>
-	<Item Name="IPublicationPolicy.lvclass" Type="LVClass" URL="../IPublicationPolicy/IPublicationPolicy.lvclass"/>
-	<Item Name="PublishRequest.lvclass" Type="LVClass" URL="../PublishRequest/PublishRequest.lvclass"/>
-	<Item Name="MutexedPublishRequest.lvclass" Type="LVClass" URL="../MutexedPublishRequest/MutexedPublishRequest.lvclass"/>
-	<Item Name="ISubscriptionPolicy.lvclass" Type="LVClass" URL="../ISubscriptionPolicy/ISubscriptionPolicy.lvclass"/>
 	<Item Name="ITransport.lvclass" Type="LVClass" URL="../ITransport/ITransport.lvclass"/>
-	<Item Name="SubscriptionRequest.lvclass" Type="LVClass" URL="../SubscriptionRequest/SubscriptionRequest.lvclass"/>
 </Library>

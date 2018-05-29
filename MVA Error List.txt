@@ -6,7 +6,7 @@ Code	Description
 516005  TopicLookupTable does not contain the requested information for Topic "%s".
 516006	An Actor attempted to register for an invalid event type; This EventHandler does not allow registrations of type "%s".
 516007	The requested lock of datum "%s" is unavailable because it is held by another publisher.
-516008	Mediator received an abstract MutexedPublishRequest. You must either inject a concrete implementation of MutexedPublishRequest or use the parent (non-mutexed) PublishRequest.
+516008	Publication rejected. The PublicationPolicy supplied expects data of type "%s" and can not operate on the type "%s".
 
 *** Transport Errors (Concrete) ***
 517001	The boolean text update failed because BooleanTextBinding class does not support binding data of type "%s".

@@ -44,9 +44,9 @@ Create children and override "Implement Publication Policy" to modify this behav
 		</Item>
 	</Item>
 	<Item Name="Execute Publication Policy.vi" Type="VI" URL="../Execute Publication Policy.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'&lt;!!!!$!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!'%"5!!915(6C&lt;'FD982J&lt;WYA6'FN:1!!&amp;E"4%&amp;:B&lt;(6F)(2P)&amp;"V9GRJ=WA!!!1!!!"11(!!(A!!,!^*476E;7&amp;U&lt;X)O&lt;(:M;7);36"V9GRJ9W&amp;U;7^O5'^M;7.Z,GRW9WRB=X-!!"F%:7:B&gt;7RU)&amp;"V9GRJ9W&amp;U;7^O5'^M;7.Z!"B!6!!'%5RB=X1A5(6C&lt;'FT;#"5;7VF!"J!5R2-98.U)&amp;"V9GRJ=WBF:#"797RV:1!!4E"Q!"Y!!#]035VF:'FB&gt;'^S,GRW&lt;'FC(5VV&gt;'6Y:721&gt;7*M;8.I5G6R&gt;76T&gt;#ZM&gt;G.M98.T!"6.&gt;82F?'6E5(6C&lt;'FT;&amp;*F=86F=X1!6!$Q!!Q!!Q!%!!5!"A!'!!9!"A!(!!9!#!!*!!I$!!"Y!!!*!!!!#1!!!!U+!!!!!!!!!!!!!!!!!!!!!!!!%!!!!!!!!!!1!!!!%A!!!*!!!!!!!1!,!!!!!!</Property>
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'R!!!!$!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!M1&amp;!!!Q!!!!%!!BZF=H*P=C"P&gt;81A+&amp;*F;G6D&gt;#"1&gt;7*M;7.B&gt;'FP&lt;CE!!"B!6!!'%&amp;"V9GRJ9W&amp;U;7^O)&amp;2J&lt;75!!":!5R"797RV:3"U&lt;S"1&gt;7*M;8.I!!!%!!!!5%"Q!"Y!!#Q035VF:'FB&gt;'^S,GRW&lt;'FC'EF1&gt;7*M;7.B&gt;'FP&lt;F"P&lt;'FD?3ZM&gt;G.M98.T!!!:2'6G986M&gt;#"1&gt;7*M;7.B&gt;'FP&lt;F"P&lt;'FD?1!91&amp;1!"B&amp;-98.U)&amp;"V9GRJ=WAA6'FN:1!;1&amp;-54'&amp;T&gt;#"1&gt;7*M;8.I:71A6G&amp;M&gt;75!!%Z!=!!?!!!P$UF.:72J982P=CZM&gt;GRJ9BV.&gt;82F?'6E5(6C&lt;'FT;&amp;*F=86F=X1O&lt;(:D&lt;'&amp;T=Q!6486U:8BF:&amp;"V9GRJ=WB3:8&amp;V:8.U!&amp;1!]!!-!!-!"!!&amp;!!9!"A!'!!9!"Q!'!!A!#1!+!Q!!?!!!#1!!!!E!!!!.#A!!!!!!!!!!!!!!!!!!!!!!!"!!!!!!!!!!%!!!!")!!!#1!!!!!!%!#Q!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-		<Property Name="NI.ClassItem.Flags" Type="Int">33554432</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
