@@ -4,7 +4,9 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">352354304</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
-	<Item Name="Test" Type="Folder"/>
+	<Item Name="Test" Type="Folder">
+		<Item Name="TestPublicationPolicy.lvclass" Type="LVClass" URL="../_Test/TestPublicationPolicy.lvclass"/>
+	</Item>
 	<Item Name="IncrementValuePublication.lvclass" Type="LVClass" URL="../IncrementValuePublication/IncrementValuePublication.lvclass"/>
 	<Item Name="MergeErrorsPublication.lvclass" Type="LVClass" URL="../MergeErrorsPublication/MergeErrorsPublication.lvclass"/>
 </Library>
