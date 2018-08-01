@@ -19,6 +19,7 @@
 	<Item Name="ListboxItemNamesBinding.lvclass" Type="LVClass" URL="../ListboxItemNamesBinding/ListboxItemNamesBinding.lvclass"/>
 	<Item Name="MCListboxItemNamesBinding.lvclass" Type="LVClass" URL="../MCListboxItemNamesBinding/MCListboxItemNamesBinding.lvclass"/>
 	<Item Name="NamedNumericStringsBinding.lvclass" Type="LVClass" URL="../NamedNumericStringsBinding/NamedNumericStringsBinding.lvclass"/>
+	<Item Name="PersistToDiskTransport.lvclass" Type="LVClass" URL="../PersistToDiskTransport/PersistToDiskTransport.lvclass"/>
 	<Item Name="QueueTransport.lvclass" Type="LVClass" URL="../QueueTransport/QueueTransport.lvclass"/>
 	<Item Name="StreamToDiskTransport.lvclass" Type="LVClass" URL="../StreamToDiskTransport/StreamToDiskTransport.lvclass"/>
 	<Item Name="TerminalBinding.lvclass" Type="LVClass" URL="../TerminalBinding/TerminalBinding.lvclass"/>
