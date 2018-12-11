@@ -65,7 +65,7 @@
 				<Item Name="TestProtectedSubpanel.lvclass" Type="LVClass" URL="../Framework/IViewable/_Test/TestProtectedSubpanel/TestProtectedSubpanel.lvclass"/>
 				<Item Name="TestAutoRegistration.lvclass" Type="LVClass" URL="../_Test/Unit Test/TestAutoRegistration/TestAutoRegistration/TestAutoRegistration.lvclass"/>
 				<Item Name="TestMediator.lvclass" Type="LVClass" URL="../Framework/Mediator/_Test/TestMediator/TestMediator.lvclass"/>
-				<Item Name="TestActorEvents.lvclass" Type="LVClass" URL="../Framework/ActorEvents/_Test/TestActorEvents/TestActorEvents.lvclass"/>
+				<Item Name="TestActorEvents.lvlib" Type="Library" URL="../Framework/ActorEvents/_Test/TestActorEvents.lvlib"/>
 			</Item>
 			<Item Name="Integration Test" Type="Folder">
 				<Item Name="Integration Test Readme.txt" Type="Document" URL="../_Test/Integration Test/Integration Test Readme.txt"/>

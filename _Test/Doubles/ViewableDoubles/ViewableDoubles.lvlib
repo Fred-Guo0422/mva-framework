@@ -8,7 +8,6 @@
 		<Item Name="Leak Viewable State Msg.lvclass" Type="LVClass" URL="../LeakyViewable Messages/Leak Viewable State Msg/Leak Viewable State Msg.lvclass"/>
 	</Item>
 	<Item Name="LeakyViewable.lvclass" Type="LVClass" URL="../LeakyViewable/LeakyViewable.lvclass"/>
-	<Item Name="ViewableMCListboxBadReg.lvclass" Type="LVClass" URL="../ViewableMCListboxBadReg/ViewableMCListboxBadReg.lvclass"/>
 	<Item Name="ViewableOne.lvclass" Type="LVClass" URL="../ViewableOne/ViewableOne.lvclass"/>
 	<Item Name="ViewableTwo.lvclass" Type="LVClass" URL="../ViewableTwo/ViewableTwo.lvclass"/>
 </Library>
