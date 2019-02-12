@@ -123,7 +123,6 @@
 			</Item>
 		</Item>
 		<Item Name="MVA Error List.txt" Type="Document" URL="../Source/MVA Error List.txt"/>
-		<Item Name="Include.vi" Type="VI" URL="../Source/Include.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Actor Framework.lvlib" Type="Library" URL="/&lt;vilib&gt;/ActorFramework/Actor Framework.lvlib"/>
