@@ -1,0 +1,10 @@
+{
+	"dependencies": {
+		"@cs/listbox": "^1.0.0",
+		"@cs/variant": "^1.0.0"
+	},
+	"license": "ISC",
+	"lvversion": ">=17",
+	"name": "mva-framework",
+	"version": "0.1.0"
+}

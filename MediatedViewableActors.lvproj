@@ -89,6 +89,39 @@
 		<Item Name="Tools" Type="Folder">
 			<Item Name="Clear Class Mutation History.vi" Type="VI" URL="../Tools/Clear Class Mutation History.vi"/>
 		</Item>
+		<Item Name="GPM Packages" Type="Folder">
+			<Property Name="GPM" Type="Bool">true</Property>
+			<Item Name="@cs" Type="Folder">
+				<Item Name="listbox" Type="Folder">
+					<Item Name="Source" Type="Folder">
+						<Item Name="ListboxExtensions.lvlib" Type="Library" URL="../gpm_packages/@cs/listbox/Source/ListboxExtensions.lvlib"/>
+					</Item>
+					<Item Name="Test" Type="Folder">
+						<Item Name="TestListboxExtensions.lvclass" Type="LVClass" URL="../gpm_packages/@cs/listbox/Test/TestListboxExtensions.lvclass"/>
+					</Item>
+					<Item Name="CHANGELOG.md" Type="Document" URL="../gpm_packages/@cs/listbox/CHANGELOG.md"/>
+					<Item Name="gpackage.json" Type="Document" URL="../gpm_packages/@cs/listbox/gpackage.json"/>
+					<Item Name="Icon.png" Type="Document" URL="../gpm_packages/@cs/listbox/Icon.png"/>
+					<Item Name="LICENSE" Type="Document" URL="../gpm_packages/@cs/listbox/LICENSE"/>
+					<Item Name="ListboxExtensions.lvproj" Type="Document" URL="../gpm_packages/@cs/listbox/ListboxExtensions.lvproj"/>
+					<Item Name="README.md" Type="Document" URL="../gpm_packages/@cs/listbox/README.md"/>
+				</Item>
+				<Item Name="variant" Type="Folder">
+					<Item Name="Source" Type="Folder">
+						<Item Name="VariantExtensions.lvlib" Type="Library" URL="../gpm_packages/@cs/variant/Source/VariantExtensions.lvlib"/>
+					</Item>
+					<Item Name="Test" Type="Folder">
+						<Item Name="TestVariantExtensions.lvclass" Type="LVClass" URL="../gpm_packages/@cs/variant/Test/TestVariantExtensions.lvclass"/>
+					</Item>
+					<Item Name="CHANGELOG.md" Type="Document" URL="../gpm_packages/@cs/variant/CHANGELOG.md"/>
+					<Item Name="gpackage.json" Type="Document" URL="../gpm_packages/@cs/variant/gpackage.json"/>
+					<Item Name="Icon.png" Type="Document" URL="../gpm_packages/@cs/variant/Icon.png"/>
+					<Item Name="LICENSE" Type="Document" URL="../gpm_packages/@cs/variant/LICENSE"/>
+					<Item Name="README.md" Type="Document" URL="../gpm_packages/@cs/variant/README.md"/>
+					<Item Name="VariantExtensions.lvproj" Type="Document" URL="../gpm_packages/@cs/variant/VariantExtensions.lvproj"/>
+				</Item>
+			</Item>
+		</Item>
 		<Item Name="MVA Error List.txt" Type="Document" URL="../Source/MVA Error List.txt"/>
 		<Item Name="Include.vi" Type="VI" URL="../Source/Include.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -459,11 +492,8 @@
 				<Item Name="GoTo.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/GoTo.vi"/>
 				<Item Name="Time-Delayed Send Message.vi" Type="VI" URL="/&lt;vilib&gt;/ActorFramework/Time-Delayed Send Message/Time-Delayed Send Message.vi"/>
 				<Item Name="Time-Delayed Send Message Core.vi" Type="VI" URL="/&lt;vilib&gt;/ActorFramework/Time-Delayed Send Message/Time-Delayed Send Message Core.vi"/>
-				<Item Name="TimedAverageBuffer.lvlib" Type="Library" URL="/&lt;vilib&gt;/Composed Systems/Timed Average Buffer/TimedAverageBuffer.lvlib"/>
-				<Item Name="ListboxExtensions.lvlib" Type="Library" URL="/&lt;vilib&gt;/Composed Systems/Listbox Extensions/ListboxExtensions.lvlib"/>
 				<Item Name="CurrentValueTable.lvlib" Type="Library" URL="/&lt;vilib&gt;/Composed Systems/Current Value Table/CurrentValueTable.lvlib"/>
 				<Item Name="LVRowAndColumnTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRowAndColumnTypeDef.ctl"/>
-				<Item Name="VariantExtensions.lvlib" Type="Library" URL="/&lt;vilib&gt;/Composed Systems/Variant Extensions/VariantExtensions.lvlib"/>
 				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
