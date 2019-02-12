@@ -12,76 +12,71 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Framework" Type="Folder">
-			<Item Name="AbstractMessages.lvlib" Type="Library" URL="../Framework/AbstractMessages/AbstractMessages.lvlib"/>
-			<Item Name="IObserver.lvlib" Type="Library" URL="../Framework/IObserver/IObserver.lvlib"/>
-			<Item Name="IModel.lvlib" Type="Library" URL="../Framework/IModel/IModel.lvlib"/>
-			<Item Name="IViewable.lvlib" Type="Library" URL="../Framework/IViewable/IViewable.lvlib"/>
-			<Item Name="IViewManager.lvlib" Type="Library" URL="../Framework/IViewManager/IViewManager.lvlib"/>
-			<Item Name="IViewModel.lvlib" Type="Library" URL="../Framework/IViewModel/IViewModel.lvlib"/>
-			<Item Name="IMediator.lvlib" Type="Library" URL="../Framework/IMediator/IMediator.lvlib"/>
-			<Item Name="IDialogBox.lvlib" Type="Library" URL="../Framework/IDialogBox/IDialogBox.lvlib"/>
-			<Item Name="AutoRegistration.lvlib" Type="Library" URL="../Framework/ActorEvents/AutoRegistration.lvlib"/>
-			<Item Name="ActorEvents.lvlib" Type="Library" URL="../Framework/ActorEvents/ActorEvents.lvlib"/>
+			<Item Name="AbstractMessages.lvlib" Type="Library" URL="../Source/Framework/AbstractMessages/AbstractMessages.lvlib"/>
+			<Item Name="IObserver.lvlib" Type="Library" URL="../Source/Framework/IObserver/IObserver.lvlib"/>
+			<Item Name="IModel.lvlib" Type="Library" URL="../Source/Framework/IModel/IModel.lvlib"/>
+			<Item Name="IViewable.lvlib" Type="Library" URL="../Source/Framework/IViewable/IViewable.lvlib"/>
+			<Item Name="IViewManager.lvlib" Type="Library" URL="../Source/Framework/IViewManager/IViewManager.lvlib"/>
+			<Item Name="IViewModel.lvlib" Type="Library" URL="../Source/Framework/IViewModel/IViewModel.lvlib"/>
+			<Item Name="IMediator.lvlib" Type="Library" URL="../Source/Framework/IMediator/IMediator.lvlib"/>
+			<Item Name="IDialogBox.lvlib" Type="Library" URL="../Source/Framework/IDialogBox/IDialogBox.lvlib"/>
+			<Item Name="AutoRegistration.lvlib" Type="Library" URL="../Source/Framework/ActorEvents/AutoRegistration.lvlib"/>
+			<Item Name="ActorEvents.lvlib" Type="Library" URL="../Source/Framework/ActorEvents/ActorEvents.lvlib"/>
 		</Item>
-		<Item Name="Concrete Implementations" Type="Folder">
+		<Item Name="Concrete" Type="Folder">
 			<Item Name="View Managers" Type="Folder">
-				<Item Name="LeftListboxViewManager.lvlib" Type="Library" URL="../ViewManager/LeftListboxViewManager/LeftListboxViewManager.lvlib"/>
-				<Item Name="QuadViewManager.lvlib" Type="Library" URL="../ViewManager/QuadViewManager/QuadViewManager.lvlib"/>
-				<Item Name="TabbedViewManager.lvlib" Type="Library" URL="../ViewManager/TabbedViewManager/TabbedViewManager.lvlib"/>
-				<Item Name="BoundViewManager.lvlib" Type="Library" URL="../ViewManager/BoundViewManager/BoundViewManager.lvlib"/>
+				<Item Name="LeftListboxViewManager.lvlib" Type="Library" URL="../Source/ViewManager/LeftListboxViewManager/LeftListboxViewManager.lvlib"/>
+				<Item Name="QuadViewManager.lvlib" Type="Library" URL="../Source/ViewManager/QuadViewManager/QuadViewManager.lvlib"/>
+				<Item Name="TabbedViewManager.lvlib" Type="Library" URL="../Source/ViewManager/TabbedViewManager/TabbedViewManager.lvlib"/>
+				<Item Name="BoundViewManager.lvlib" Type="Library" URL="../Source/ViewManager/BoundViewManager/BoundViewManager.lvlib"/>
 			</Item>
 			<Item Name="Dialog Boxes" Type="Folder">
-				<Item Name="OneButtonDialogBox.lvlib" Type="Library" URL="../DialogBox/OneButtonDialogBox/OneButtonDialogBox.lvlib"/>
-				<Item Name="TwoButtonDialogBox.lvlib" Type="Library" URL="../DialogBox/TwoButtonDialogBox/TwoButtonDialogBox.lvlib"/>
-				<Item Name="KeypadDialogBox.lvlib" Type="Library" URL="../DialogBox/KeypadDialogBox/KeypadDialogBox.lvlib"/>
+				<Item Name="OneButtonDialogBox.lvlib" Type="Library" URL="../Source/DialogBox/OneButtonDialogBox/OneButtonDialogBox.lvlib"/>
+				<Item Name="TwoButtonDialogBox.lvlib" Type="Library" URL="../Source/DialogBox/TwoButtonDialogBox/TwoButtonDialogBox.lvlib"/>
+				<Item Name="KeypadDialogBox.lvlib" Type="Library" URL="../Source/DialogBox/KeypadDialogBox/KeypadDialogBox.lvlib"/>
 			</Item>
-			<Item Name="Mediator.lvlib" Type="Library" URL="../Framework/Mediator/Mediator.lvlib"/>
-			<Item Name="PublicationPolicy.lvlib" Type="Library" URL="../Framework/PublicationPolicy/PublicationPolicy.lvlib"/>
-			<Item Name="SubscriptionPolicy.lvlib" Type="Library" URL="../Framework/SubscriptionPolicy/SubscriptionPolicy.lvlib"/>
-			<Item Name="Transport.lvlib" Type="Library" URL="../Framework/Transport/Transport.lvlib"/>
+			<Item Name="Mediator.lvlib" Type="Library" URL="../Source/Framework/Mediator/Mediator.lvlib"/>
+			<Item Name="PublicationPolicy.lvlib" Type="Library" URL="../Source/Framework/PublicationPolicy/PublicationPolicy.lvlib"/>
+			<Item Name="SubscriptionPolicy.lvlib" Type="Library" URL="../Source/Framework/SubscriptionPolicy/SubscriptionPolicy.lvlib"/>
+			<Item Name="Transport.lvlib" Type="Library" URL="../Source/Framework/Transport/Transport.lvlib"/>
 		</Item>
-		<Item Name="Framework Test" Type="Folder">
+		<Item Name="Test" Type="Folder">
 			<Item Name="Test Doubles" Type="Folder">
-				<Item Name="Test Doubles Readme.txt" Type="Document" URL="../_Test/Doubles/Test Doubles Readme.txt"/>
-				<Item Name="TestModels.lvlib" Type="Library" URL="../_Test/Doubles/TestModels.lvlib"/>
-				<Item Name="LeakyViewModel.lvlib" Type="Library" URL="../_Test/Doubles/LeakyViewModel/LeakyViewModel.lvlib"/>
-				<Item Name="ViewableDoubles.lvlib" Type="Library" URL="../_Test/Doubles/ViewableDoubles/ViewableDoubles.lvlib"/>
+				<Item Name="Test Doubles Readme.txt" Type="Document" URL="../Test/Doubles/Test Doubles Readme.txt"/>
+				<Item Name="TestModels.lvlib" Type="Library" URL="../Test/Doubles/TestModels.lvlib"/>
+				<Item Name="LeakyViewModel.lvlib" Type="Library" URL="../Test/Doubles/LeakyViewModel/LeakyViewModel.lvlib"/>
+				<Item Name="ViewableDoubles.lvlib" Type="Library" URL="../Test/Doubles/ViewableDoubles/ViewableDoubles.lvlib"/>
 			</Item>
 			<Item Name="Unit Test" Type="Folder">
-				<Item Name="Test Observation" Type="Folder">
-					<Item Name="Mocks" Type="Folder">
-						<Item Name="ObservingViewable.lvclass" Type="LVClass" URL="../_Test/Unit Test/TestObservation/ObservingViewable/ObservingViewable.lvclass"/>
-						<Item Name="ObservingModel.lvclass" Type="LVClass" URL="../_Test/Unit Test/TestObservation/ObservingModel/ObservingModel.lvclass"/>
-						<Item Name="ObservingViewModel.lvclass" Type="LVClass" URL="../_Test/Unit Test/TestObservation/ObservingViewModel/ObservingViewModel.lvclass"/>
-						<Item Name="PublishingViewable.lvclass" Type="LVClass" URL="../_Test/Unit Test/TestObservation/PublishingViewable/PublishingViewable.lvclass"/>
-						<Item Name="PublishingModel.lvclass" Type="LVClass" URL="../_Test/Unit Test/TestObservation/PublishingModel/PublishingModel.lvclass"/>
-						<Item Name="PublishingViewModel.lvclass" Type="LVClass" URL="../_Test/Unit Test/TestObservation/PublishingViewModel/PublishingViewModel.lvclass"/>
-					</Item>
-					<Item Name="TestObservation.lvclass" Type="LVClass" URL="../_Test/Unit Test/TestObservation/TestObservation.lvclass"/>
-				</Item>
-				<Item Name="Unit Test Readme.txt" Type="Document" URL="../_Test/Unit Test/Unit Test Readme.txt"/>
-				<Item Name="TestIViewModel.lvclass" Type="LVClass" URL="../_Test/Unit Test/TestIViewModel/TestIViewModel/TestIViewModel.lvclass"/>
-				<Item Name="TestObservableData.lvclass" Type="LVClass" URL="../_Test/Unit Test/TestObservableData/TestObservableData.lvclass"/>
-				<Item Name="TestProtectedSubpanel.lvclass" Type="LVClass" URL="../Framework/IViewable/_Test/TestProtectedSubpanel/TestProtectedSubpanel.lvclass"/>
-				<Item Name="TestAutoRegistration.lvclass" Type="LVClass" URL="../_Test/Unit Test/TestAutoRegistration/TestAutoRegistration/TestAutoRegistration.lvclass"/>
-				<Item Name="TestMediator.lvclass" Type="LVClass" URL="../Framework/Mediator/_Test/TestMediator/TestMediator.lvclass"/>
-				<Item Name="TestActorEvents.lvlib" Type="Library" URL="../Framework/ActorEvents/_Test/TestActorEvents.lvlib"/>
+				<Property Name="NI.SortType" Type="Int">0</Property>
+				<Item Name="TestActorEvents.lvlib" Type="Library" URL="../Source/Framework/ActorEvents/_Test/TestActorEvents.lvlib"/>
+				<Item Name="TestAutoRegistration.lvclass" Type="LVClass" URL="../Test/Unit Test/TestAutoRegistration/TestAutoRegistration/TestAutoRegistration.lvclass"/>
+				<Item Name="TestIViewModel.lvclass" Type="LVClass" URL="../Test/Unit Test/TestIViewModel/TestIViewModel/TestIViewModel.lvclass"/>
+				<Item Name="TestMediator.lvclass" Type="LVClass" URL="../Source/Framework/Mediator/_Test/TestMediator/TestMediator.lvclass"/>
+				<Item Name="TestObservableData.lvclass" Type="LVClass" URL="../Test/Unit Test/TestObservableData/TestObservableData.lvclass"/>
+				<Item Name="TestObservation.lvlib" Type="Library" URL="../Test/Unit Test/TestObservation/TestObservation.lvlib"/>
+				<Item Name="TestProtectedSubpanel.lvclass" Type="LVClass" URL="../Source/Framework/IViewable/_Test/TestProtectedSubpanel/TestProtectedSubpanel.lvclass"/>
+				<Item Name="TestPublicationPolicy.lvclass" Type="LVClass" URL="../Source/Framework/PublicationPolicy/_Test/TestPublicationPolicy.lvclass"/>
+				<Item Name="TestSubscriptionPolicy.lvclass" Type="LVClass" URL="../Source/Framework/SubscriptionPolicy/_Test/TestSubscriptionPolicy.lvclass"/>
+				<Item Name="TestTopicLookupTable.lvclass" Type="LVClass" URL="../Source/Framework/Mediator/_Test/TestTopicLookupTable/TestTopicLookupTable/TestTopicLookupTable.lvclass"/>
+				<Item Name="TestTransport.lvclass" Type="LVClass" URL="../Source/Framework/Transport/_Test/TestTransport.lvclass"/>
+				<Item Name="Unit Test Readme.txt" Type="Document" URL="../Test/Unit Test/Unit Test Readme.txt"/>
 			</Item>
 			<Item Name="Integration Test" Type="Folder">
-				<Item Name="Integration Test Readme.txt" Type="Document" URL="../_Test/Integration Test/Integration Test Readme.txt"/>
-				<Item Name="TestViewables.lvlib" Type="Library" URL="../_Test/Integration Test/TestViewables.lvlib"/>
-				<Item Name="TopLevelApplication.lvlib" Type="Library" URL="../_Test/Integration Test/TopLevelApplication.lvlib"/>
-				<Item Name="TestApplicationStyle.lvclass" Type="LVClass" URL="../_Test/Integration Test/TestApplicationStyle/TestApplicationStyle.lvclass"/>
-				<Item Name="Integration Test Launcher.vi" Type="VI" URL="../_Test/Integration Test/Integration Test Launcher.vi"/>
-				<Item Name="Write Error.vi" Type="VI" URL="../_Test/Integration Test/Write Error.vi"/>
+				<Item Name="Integration Test Readme.txt" Type="Document" URL="../Test/Integration Test/Integration Test Readme.txt"/>
+				<Item Name="TestViewables.lvlib" Type="Library" URL="../Test/Integration Test/TestViewables.lvlib"/>
+				<Item Name="TopLevelApplication.lvlib" Type="Library" URL="../Test/Integration Test/TopLevelApplication.lvlib"/>
+				<Item Name="TestApplicationStyle.lvclass" Type="LVClass" URL="../Test/Integration Test/TestApplicationStyle/TestApplicationStyle.lvclass"/>
+				<Item Name="Integration Test Launcher.vi" Type="VI" URL="../Test/Integration Test/Integration Test Launcher.vi"/>
+				<Item Name="Write Error.vi" Type="VI" URL="../Test/Integration Test/Write Error.vi"/>
 			</Item>
 			<Item Name="Performance Test" Type="Folder">
-				<Item Name="Performance Test Readme.txt" Type="Document" URL="../_Test/Performance Test/Performance Test Readme.txt"/>
-				<Item Name="TestPublishRate.lvclass" Type="LVClass" URL="../_Test/Performance Test/TestPublishRate/TestPublishRate.lvclass"/>
-				<Item Name="TestManyPublications.lvclass" Type="LVClass" URL="../_Test/Performance Test/TestManyPublications/TestManyPublications.lvclass"/>
+				<Item Name="Performance Test Readme.txt" Type="Document" URL="../Test/Performance Test/Performance Test Readme.txt"/>
+				<Item Name="TestPublishRate.lvclass" Type="LVClass" URL="../Test/Performance Test/TestPublishRate/TestPublishRate.lvclass"/>
+				<Item Name="TestManyPublications.lvclass" Type="LVClass" URL="../Test/Performance Test/TestManyPublications/TestManyPublications.lvclass"/>
 			</Item>
 			<Item Name="User Interface Test" Type="Folder">
-				<Item Name="UITestAutoRegistration.lvclass" Type="LVClass" URL="../_Test/User Interface Test/UITestAutoRegistration/UITestAutoRegistration.lvclass"/>
+				<Item Name="UITestAutoRegistration.lvclass" Type="LVClass" URL="../Test/User Interface Test/UITestAutoRegistration/UITestAutoRegistration.lvclass"/>
 			</Item>
 		</Item>
 		<Item Name="Examples" Type="Folder">
@@ -91,9 +86,11 @@
 			<Item Name="Launch Quad With Play and Pause.vi" Type="VI" URL="../Examples/_Launchers/Launch Quad With Play and Pause.vi"/>
 			<Item Name="MVAExamples.lvlib" Type="Library" URL="../Examples/MVAExamples.lvlib"/>
 		</Item>
-		<Item Name="MVA Error List.txt" Type="Document" URL="../MVA Error List.txt"/>
-		<Item Name="Include.vi" Type="VI" URL="../Include.vi"/>
-		<Item Name="Clear Class Mutation History.vi" Type="VI" URL="../Clear Class Mutation History.vi"/>
+		<Item Name="Tools" Type="Folder">
+			<Item Name="Clear Class Mutation History.vi" Type="VI" URL="../Tools/Clear Class Mutation History.vi"/>
+		</Item>
+		<Item Name="MVA Error List.txt" Type="Document" URL="../Source/MVA Error List.txt"/>
+		<Item Name="Include.vi" Type="VI" URL="../Source/Include.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Actor Framework.lvlib" Type="Library" URL="/&lt;vilib&gt;/ActorFramework/Actor Framework.lvlib"/>
