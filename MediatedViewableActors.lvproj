@@ -51,17 +51,17 @@
 			</Item>
 			<Item Name="Unit Test" Type="Folder">
 				<Property Name="NI.SortType" Type="Int">0</Property>
-				<Item Name="TestActorEvents.lvlib" Type="Library" URL="../Source/Framework/ActorEvents/_Test/TestActorEvents.lvlib"/>
+				<Item Name="TestActorEvents.lvlib" Type="Library" URL="../Test/Unit Test/TestActorEvents/TestActorEvents.lvlib"/>
 				<Item Name="TestAutoRegistration.lvclass" Type="LVClass" URL="../Test/Unit Test/TestAutoRegistration/TestAutoRegistration/TestAutoRegistration.lvclass"/>
 				<Item Name="TestIViewModel.lvclass" Type="LVClass" URL="../Test/Unit Test/TestIViewModel/TestIViewModel/TestIViewModel.lvclass"/>
-				<Item Name="TestMediator.lvclass" Type="LVClass" URL="../Source/Framework/Mediator/_Test/TestMediator/TestMediator.lvclass"/>
+				<Item Name="TestMediator.lvclass" Type="LVClass" URL="../Test/Unit Test/TestMediator/TestMediator.lvclass"/>
 				<Item Name="TestObservableData.lvclass" Type="LVClass" URL="../Test/Unit Test/TestObservableData/TestObservableData.lvclass"/>
 				<Item Name="TestObservation.lvlib" Type="Library" URL="../Test/Unit Test/TestObservation/TestObservation.lvlib"/>
-				<Item Name="TestProtectedSubpanel.lvclass" Type="LVClass" URL="../Source/Framework/IViewable/_Test/TestProtectedSubpanel/TestProtectedSubpanel.lvclass"/>
-				<Item Name="TestPublicationPolicy.lvclass" Type="LVClass" URL="../Source/Framework/PublicationPolicy/_Test/TestPublicationPolicy.lvclass"/>
-				<Item Name="TestSubscriptionPolicy.lvclass" Type="LVClass" URL="../Source/Framework/SubscriptionPolicy/_Test/TestSubscriptionPolicy.lvclass"/>
-				<Item Name="TestTopicLookupTable.lvclass" Type="LVClass" URL="../Source/Framework/Mediator/_Test/TestTopicLookupTable/TestTopicLookupTable/TestTopicLookupTable.lvclass"/>
-				<Item Name="TestTransport.lvclass" Type="LVClass" URL="../Source/Framework/Transport/_Test/TestTransport.lvclass"/>
+				<Item Name="TestProtectedSubpanel.lvclass" Type="LVClass" URL="../Test/Unit Test/TestProtectedSubpanel/TestProtectedSubpanel.lvclass"/>
+				<Item Name="TestPublicationPolicy.lvclass" Type="LVClass" URL="../Test/Unit Test/TestPublicationPolicy/TestPublicationPolicy.lvclass"/>
+				<Item Name="TestSubscriptionPolicy.lvclass" Type="LVClass" URL="../Test/Unit Test/TestSubscriptionPolicy/TestSubscriptionPolicy.lvclass"/>
+				<Item Name="TestTopicLookupTable.lvclass" Type="LVClass" URL="../Test/Unit Test/TestTopicLookupTable/TestTopicLookupTable/TestTopicLookupTable.lvclass"/>
+				<Item Name="TestTransport.lvclass" Type="LVClass" URL="../Test/Unit Test/TestTransport/TestTransport.lvclass"/>
 				<Item Name="Unit Test Readme.txt" Type="Document" URL="../Test/Unit Test/Unit Test Readme.txt"/>
 			</Item>
 			<Item Name="Integration Test" Type="Folder">
