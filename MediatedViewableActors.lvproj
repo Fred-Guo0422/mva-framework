@@ -98,29 +98,19 @@
 					<Item Name="Source" Type="Folder">
 						<Item Name="ListboxExtensions.lvlib" Type="Library" URL="../gpm_packages/@cs/listbox/Source/ListboxExtensions.lvlib"/>
 					</Item>
-					<Item Name="Test" Type="Folder">
-						<Item Name="TestListboxExtensions.lvclass" Type="LVClass" URL="../gpm_packages/@cs/listbox/Test/TestListboxExtensions.lvclass"/>
-					</Item>
 					<Item Name="CHANGELOG.md" Type="Document" URL="../gpm_packages/@cs/listbox/CHANGELOG.md"/>
 					<Item Name="gpackage.json" Type="Document" URL="../gpm_packages/@cs/listbox/gpackage.json"/>
-					<Item Name="Icon.png" Type="Document" URL="../gpm_packages/@cs/listbox/Icon.png"/>
 					<Item Name="LICENSE" Type="Document" URL="../gpm_packages/@cs/listbox/LICENSE"/>
-					<Item Name="ListboxExtensions.lvproj" Type="Document" URL="../gpm_packages/@cs/listbox/ListboxExtensions.lvproj"/>
 					<Item Name="README.md" Type="Document" URL="../gpm_packages/@cs/listbox/README.md"/>
 				</Item>
 				<Item Name="variant" Type="Folder">
 					<Item Name="Source" Type="Folder">
 						<Item Name="VariantExtensions.lvlib" Type="Library" URL="../gpm_packages/@cs/variant/Source/VariantExtensions.lvlib"/>
 					</Item>
-					<Item Name="Test" Type="Folder">
-						<Item Name="TestVariantExtensions.lvclass" Type="LVClass" URL="../gpm_packages/@cs/variant/Test/TestVariantExtensions.lvclass"/>
-					</Item>
 					<Item Name="CHANGELOG.md" Type="Document" URL="../gpm_packages/@cs/variant/CHANGELOG.md"/>
 					<Item Name="gpackage.json" Type="Document" URL="../gpm_packages/@cs/variant/gpackage.json"/>
-					<Item Name="Icon.png" Type="Document" URL="../gpm_packages/@cs/variant/Icon.png"/>
 					<Item Name="LICENSE" Type="Document" URL="../gpm_packages/@cs/variant/LICENSE"/>
 					<Item Name="README.md" Type="Document" URL="../gpm_packages/@cs/variant/README.md"/>
-					<Item Name="VariantExtensions.lvproj" Type="Document" URL="../gpm_packages/@cs/variant/VariantExtensions.lvproj"/>
 				</Item>
 			</Item>
 		</Item>

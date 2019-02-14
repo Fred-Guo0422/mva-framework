@@ -2,10 +2,11 @@
 
 # README #
 
-There is robust documentation on VI block diagrams, so please browse and read the source to understand how (and why) it works.
-The examples at mva-framework-examples are a great place to start.
+There is robust documentation on VI block diagrams, so please browse and read the source if you want to understand how and why it works.
 
-### This repo holds an open-source extension to the LabVIEW Actor Framework and includes the following features:###
+To learn how to use it, install the framework and start with the examples at **mva-framework-examples** (a git repo next to this one).
+
+### This repo holds an open-source extension to the LabVIEW Actor Framework and includes the following features: ###
 
 * Separation of Concerns design pattern (Model-View-ViewModel, in the author's opinion --  See https://blogs.msdn.microsoft.com/dphill/2009/01/31/the-viewmodel-pattern/)
 * Mediated data bus with *implicit* type safety (Subscribers request data by type)
@@ -14,7 +15,7 @@ The examples at mva-framework-examples are a great place to start.
 * Transport abstraction to allow painless interaction with non-Actor actors (i.e. actors that are not built on the LabVIEW Actor Framework)
 * Policy-based subscriptions to decouple behavior of publishers and subscribers ("I want 'x' data of type DBL with these conditions..." --> details abstracted from Publisher and Mediator)
 
-### How do I get set up?###
+### How do I get set up? ###
 
 #### Framework
 * Install the framework and its dependencies using VIPM (or GPM, coming soon)
