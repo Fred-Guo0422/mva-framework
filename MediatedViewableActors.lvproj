@@ -103,6 +103,17 @@
 					<Item Name="LICENSE" Type="Document" URL="../gpm_packages/@cs/listbox/LICENSE"/>
 					<Item Name="README.md" Type="Document" URL="../gpm_packages/@cs/listbox/README.md"/>
 				</Item>
+				<Item Name="lookup-table" Type="Folder">
+					<Item Name="Source" Type="Folder">
+						<Item Name="LookupTable" Type="Folder">
+							<Item Name="LookupTable.lvlib" Type="Library" URL="../gpm_packages/@cs/lookup-table/Source/LookupTable/LookupTable.lvlib"/>
+						</Item>
+					</Item>
+					<Item Name="CHANGELOG.md" Type="Document" URL="../gpm_packages/@cs/lookup-table/CHANGELOG.md"/>
+					<Item Name="gpackage.json" Type="Document" URL="../gpm_packages/@cs/lookup-table/gpackage.json"/>
+					<Item Name="LICENSE" Type="Document" URL="../gpm_packages/@cs/lookup-table/LICENSE"/>
+					<Item Name="README.md" Type="Document" URL="../gpm_packages/@cs/lookup-table/README.md"/>
+				</Item>
 				<Item Name="variant" Type="Folder">
 					<Item Name="Source" Type="Folder">
 						<Item Name="VariantExtensions.lvlib" Type="Library" URL="../gpm_packages/@cs/variant/Source/VariantExtensions.lvlib"/>
@@ -483,7 +494,6 @@
 				<Item Name="GoTo.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/GoTo.vi"/>
 				<Item Name="Time-Delayed Send Message.vi" Type="VI" URL="/&lt;vilib&gt;/ActorFramework/Time-Delayed Send Message/Time-Delayed Send Message.vi"/>
 				<Item Name="Time-Delayed Send Message Core.vi" Type="VI" URL="/&lt;vilib&gt;/ActorFramework/Time-Delayed Send Message/Time-Delayed Send Message Core.vi"/>
-				<Item Name="CurrentValueTable.lvlib" Type="Library" URL="/&lt;vilib&gt;/Composed Systems/Current Value Table/CurrentValueTable.lvlib"/>
 				<Item Name="LVRowAndColumnTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRowAndColumnTypeDef.ctl"/>
 				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
