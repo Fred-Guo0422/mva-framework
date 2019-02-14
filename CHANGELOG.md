@@ -12,6 +12,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 ### Security
 
+## [1.8.3] - 2019-02-14
+### Changed
+- Moved all remaining tests out of Source folder
+
 ## [1.8.2] - 2019-02-14
 ### Changed
 - Migrated from VI Package to G Package

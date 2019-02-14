@@ -6,8 +6,8 @@
 	},
 	"bugs": "https://bitbucket.org/composedsystems/mva-framework/issues/",
 	"dependencies": {
-		"@cs/listbox": "^1.0.0",
-		"@cs/variant": "^1.0.0"
+		"@cs/listbox": "^1.0.1",
+		"@cs/variant": "^1.0.1"
 	},
 	"description": "An Actor-based Separation-of-Concerns framework (MVVM) for very cool LabVIEW developers",
 	"files": [
@@ -32,5 +32,5 @@
 	"lvversion": ">=17",
 	"name": "@cs/mva-framework",
 	"repository": "https://bitbucket.org/composedsystems/mva-framework/src/",
-	"version": "1.8.2"
+	"version": "1.8.3"
 }
