@@ -12,6 +12,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 ### Security
 
+## [1.9.0] - 2019-02-14
+### Changed
+- Replaced CurrentValueTable dependency (VIP) with malleable LookupTable (G Package)
+
 ## [1.8.4] - 2019-02-14
 ### Fixed
 - Bad link to listbox dependency (was failing to relink during mva package install)
