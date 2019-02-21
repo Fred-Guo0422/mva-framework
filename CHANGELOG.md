@@ -12,6 +12,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 ### Security
 
+## [1.10.0] - 2019-02-
+### Added
+- Debug logging (new dependency on @cs/event-logger)
+
 ## [1.9.1] - 2019-02-14
 ### Version Note
 All prior GPM versions are incomplete, badly linked, or missing dependencies

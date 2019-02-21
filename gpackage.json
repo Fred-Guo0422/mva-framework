@@ -6,6 +6,7 @@
 	},
 	"bugs": "https://bitbucket.org/composedsystems/mva-framework/issues/",
 	"dependencies": {
+		"@cs/composed-event-logger": "^1.0.1",
 		"@cs/listbox": "^1.0.1",
 		"@cs/lookup-table": "^0.0.2",
 		"@cs/variant": "^1.0.1"
@@ -15,6 +16,7 @@
 		"Source"
 	],
 	"keywords": [
+		"actor framework",
 		"separation of concerns",
 		"soc",
 		"model",
@@ -22,16 +24,13 @@
 		"viewable",
 		"viewmodel",
 		"view-model",
-		"mvvm",
 		"controller",
-		"mvc",
-		"actor",
-		"framework",
-		"dynamic"
+		"mvvm",
+		"mvc"
 	],
 	"license": "MIT",
 	"lvversion": ">=17",
 	"name": "@cs/mva-framework",
 	"repository": "https://bitbucket.org/composedsystems/mva-framework/src/",
-	"version": "1.9.1"
+	"version": "1.10.0"
 }
