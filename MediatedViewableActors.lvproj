@@ -1,5 +1,6 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="17008000">
+	<Property Name="CCSymbols" Type="Str">REMOVE_DEBUG_LOGGING,False;</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Item Name="My Computer" Type="My Computer">
@@ -41,6 +42,7 @@
 			<Item Name="PublicationPolicy.lvlib" Type="Library" URL="../Source/Framework/PublicationPolicy/PublicationPolicy.lvlib"/>
 			<Item Name="SubscriptionPolicy.lvlib" Type="Library" URL="../Source/Framework/SubscriptionPolicy/SubscriptionPolicy.lvlib"/>
 			<Item Name="Transport.lvlib" Type="Library" URL="../Source/Framework/Transport/Transport.lvlib"/>
+			<Item Name="EventSinkConfigurations.lvlib" Type="Library" URL="../Source/EventSinkConfigurations/EventSinkConfigurations.lvlib"/>
 		</Item>
 		<Item Name="Test" Type="Folder">
 			<Item Name="Test Doubles" Type="Folder">
