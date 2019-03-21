@@ -96,37 +96,37 @@
 		<Item Name="GPM Packages" Type="Folder">
 			<Property Name="GPM" Type="Bool">true</Property>
 			<Item Name="@cs" Type="Folder">
-				<Item Name="composed-event-logger" Type="Folder">
+				<Item Name="event-logger" Type="Folder">
 					<Item Name="Source" Type="Folder">
 						<Item Name="Composed Log" Type="Folder">
-							<Item Name="Composed Log.lvlib" Type="Library" URL="../gpm_packages/@cs/composed-event-logger/Source/Composed Log/Composed Log.lvlib"/>
+							<Item Name="Composed Log.lvlib" Type="Library" URL="../gpm_packages/@cs/event-logger/Source/Composed Log/Composed Log.lvlib"/>
 						</Item>
 						<Item Name="IStringFormat" Type="Folder">
-							<Item Name="IStringFormat.lvclass" Type="LVClass" URL="../gpm_packages/@cs/composed-event-logger/Source/IStringFormat/IStringFormat.lvclass"/>
+							<Item Name="IStringFormat.lvclass" Type="LVClass" URL="../gpm_packages/@cs/event-logger/Source/IStringFormat/IStringFormat.lvclass"/>
 						</Item>
 						<Item Name="LVQueue Sink" Type="Folder">
-							<Item Name="LVQueue Sink.lvclass" Type="LVClass" URL="../gpm_packages/@cs/composed-event-logger/Source/LVQueue Sink/LVQueue Sink.lvclass"/>
+							<Item Name="LVQueue Sink.lvclass" Type="LVClass" URL="../gpm_packages/@cs/event-logger/Source/LVQueue Sink/LVQueue Sink.lvclass"/>
 						</Item>
 						<Item Name="Network Sink" Type="Folder">
-							<Item Name="Network Sink.lvlib" Type="Library" URL="../gpm_packages/@cs/composed-event-logger/Source/Network Sink/Network Sink.lvlib"/>
+							<Item Name="Network Sink.lvlib" Type="Library" URL="../gpm_packages/@cs/event-logger/Source/Network Sink/Network Sink.lvlib"/>
 						</Item>
 						<Item Name="String Control Sink" Type="Folder">
-							<Item Name="String Control Sink.lvclass" Type="LVClass" URL="../gpm_packages/@cs/composed-event-logger/Source/String Control Sink/String Control Sink.lvclass"/>
+							<Item Name="String Control Sink.lvclass" Type="LVClass" URL="../gpm_packages/@cs/event-logger/Source/String Control Sink/String Control Sink.lvclass"/>
 						</Item>
 						<Item Name="String Log Sink" Type="Folder">
-							<Item Name="String Log Sink.lvclass" Type="LVClass" URL="../gpm_packages/@cs/composed-event-logger/Source/String Log Sink/String Log Sink.lvclass"/>
+							<Item Name="String Log Sink.lvclass" Type="LVClass" URL="../gpm_packages/@cs/event-logger/Source/String Log Sink/String Log Sink.lvclass"/>
 						</Item>
 						<Item Name="SystemLog Sink" Type="Folder">
-							<Item Name="SystemLog Sink.lvclass" Type="LVClass" URL="../gpm_packages/@cs/composed-event-logger/Source/SystemLog Sink/SystemLog Sink.lvclass"/>
+							<Item Name="SystemLog Sink.lvclass" Type="LVClass" URL="../gpm_packages/@cs/event-logger/Source/SystemLog Sink/SystemLog Sink.lvclass"/>
 						</Item>
 						<Item Name="Text File Sink" Type="Folder">
-							<Item Name="Text File Sink.lvclass" Type="LVClass" URL="../gpm_packages/@cs/composed-event-logger/Source/Text File Sink/Text File Sink.lvclass"/>
+							<Item Name="Text File Sink.lvclass" Type="LVClass" URL="../gpm_packages/@cs/event-logger/Source/Text File Sink/Text File Sink.lvclass"/>
 						</Item>
 					</Item>
-					<Item Name="CHANGELOG.md" Type="Document" URL="../gpm_packages/@cs/composed-event-logger/CHANGELOG.md"/>
-					<Item Name="gpackage.json" Type="Document" URL="../gpm_packages/@cs/composed-event-logger/gpackage.json"/>
-					<Item Name="LICENSE" Type="Document" URL="../gpm_packages/@cs/composed-event-logger/LICENSE"/>
-					<Item Name="Readme.md" Type="Document" URL="../gpm_packages/@cs/composed-event-logger/Readme.md"/>
+					<Item Name="CHANGELOG.md" Type="Document" URL="../gpm_packages/@cs/event-logger/CHANGELOG.md"/>
+					<Item Name="gpackage.json" Type="Document" URL="../gpm_packages/@cs/event-logger/gpackage.json"/>
+					<Item Name="LICENSE" Type="Document" URL="../gpm_packages/@cs/event-logger/LICENSE"/>
+					<Item Name="Readme.md" Type="Document" URL="../gpm_packages/@cs/event-logger/Readme.md"/>
 				</Item>
 				<Item Name="listbox" Type="Folder">
 					<Item Name="Source" Type="Folder">

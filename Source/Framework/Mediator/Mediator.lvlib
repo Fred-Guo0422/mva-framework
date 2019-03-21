@@ -16,6 +16,7 @@
 		<Item Name="Lock Topic Msg.lvclass" Type="LVClass" URL="../Topic Messages/Lock Topic Msg/Lock Topic Msg.lvclass"/>
 	</Item>
 	<Item Name="Mediator.lvclass" Type="LVClass" URL="../Mediator/Mediator.lvclass"/>
+	<Item Name="Bus Monitor Notification Msg.lvclass" Type="LVClass" URL="../MediatorBusMonitor Messages/Bus Monitor Notification Msg/Bus Monitor Notification Msg.lvclass"/>
 	<Item Name="MediatorBusMonitor.lvclass" Type="LVClass" URL="../MediatorBusMonitor/MediatorBusMonitor.lvclass"/>
 	<Item Name="Topic.lvclass" Type="LVClass" URL="../Topic/Topic.lvclass"/>
 	<Item Name="TopicLookupTable.lvclass" Type="LVClass" URL="../TopicLookupTable/TopicLookupTable.lvclass"/>

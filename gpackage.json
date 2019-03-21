@@ -6,9 +6,9 @@
 	},
 	"bugs": "https://bitbucket.org/composedsystems/mva-framework/issues/",
 	"dependencies": {
-		"@cs/composed-event-logger": "^1.0.1",
+		"@cs/event-logger": "^0.4.0",
 		"@cs/listbox": "^1.0.1",
-		"@cs/lookup-table": "^0.0.2",
+		"@cs/lookup-table": "^0.0.3",
 		"@cs/variant": "^1.0.1"
 	},
 	"description": "An Actor-based Separation-of-Concerns framework (MVVM) for very cool LabVIEW developers",
