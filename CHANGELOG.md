@@ -12,9 +12,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 ### Security
 
-## [1.10.0] - 2019-02-
+## [2.0.0] - 2019-03-21
 ### Added
 - Debug logging (new dependency on @cs/event-logger)
+- Project flag to conditionally remove all logging (REMOVE_DEBUG_LOGGING)
+##CHANGED
+- Moved location of applicaiton template on disk so it installs with G Package
+### Removed
+- Deprecated framework accessors
+- ApplicationStyle injection (removed from framework API)
 
 ## [1.9.1] - 2019-02-14
 ### Version Note
