@@ -84,7 +84,6 @@
 			</Item>
 		</Item>
 		<Item Name="Examples" Type="Folder">
-			<Item Name="Abstract MVA Application (Template).vi" Type="VI" URL="../Examples/_Launchers/Abstract MVA Application (Template).vi"/>
 			<Item Name="Launch Chart.vi" Type="VI" URL="../Examples/_Launchers/Launch Chart.vi"/>
 			<Item Name="Launch Chart With Slider.vi" Type="VI" URL="../Examples/_Launchers/Launch Chart With Slider.vi"/>
 			<Item Name="Launch Quad With Play and Pause.vi" Type="VI" URL="../Examples/_Launchers/Launch Quad With Play and Pause.vi"/>
@@ -160,6 +159,7 @@
 			</Item>
 		</Item>
 		<Item Name="MVA Error List.txt" Type="Document" URL="../Source/MVA Error List.txt"/>
+		<Item Name="Abstract MVA Application (Template).vi" Type="VI" URL="../Source/Template/Abstract MVA Application (Template).vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Actor Framework.lvlib" Type="Library" URL="/&lt;vilib&gt;/ActorFramework/Actor Framework.lvlib"/>
