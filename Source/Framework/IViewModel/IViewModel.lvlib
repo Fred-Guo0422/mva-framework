@@ -4,7 +4,7 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">385908736</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
-	<Item Name="Messages" Type="Folder">
+	<Item Name="Messages to IViewModel" Type="Folder">
 		<Item Name="Launch Root Model Msg.lvclass" Type="LVClass" URL="../IViewModel Messages/Launch Root Model Msg/Launch Root Model Msg.lvclass"/>
 	</Item>
 	<Item Name="IViewModel.lvclass" Type="LVClass" URL="../IViewModel/IViewModel.lvclass"/>
