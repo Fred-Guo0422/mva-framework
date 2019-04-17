@@ -19,6 +19,7 @@
 		<Item Name="Removed From Subpanel Msg.lvclass" Type="LVClass" URL="../IViewable Messages/Removed From Subpanel Msg/Removed From Subpanel Msg.lvclass"/>
 		<Item Name="Nested Value Update Msg.lvclass" Type="LVClass" URL="../IViewable Messages/Catch Nested Value Change Msg/Nested Value Update Msg.lvclass"/>
 		<Item Name="Initialize Front Panel Msg.lvclass" Type="LVClass" URL="../IViewable Messages/Initialize Front Panel Msg/Initialize Front Panel Msg.lvclass"/>
+		<Item Name="Set Minimum Panel Size Msg.lvclass" Type="LVClass" URL="../IViewable Messages/Set Minimum Panel Size Msg/Set Minimum Panel Size Msg.lvclass"/>
 	</Item>
 	<Item Name="IViewable.lvclass" Type="LVClass" URL="../IViewable/IViewable.lvclass"/>
 	<Item Name="ProtectedSubpanel.lvclass" Type="LVClass" URL="../ProtectedSubpanel/ProtectedSubpanel.lvclass"/>
