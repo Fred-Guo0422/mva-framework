@@ -95,6 +95,20 @@
 		<Item Name="GPM Packages" Type="Folder">
 			<Property Name="GPM" Type="Bool">true</Property>
 			<Item Name="@cs" Type="Folder">
+				<Item Name="actor-framework-messages" Type="Folder">
+					<Item Name="Source" Type="Folder">
+						<Item Name="MessageCycle" Type="Folder">
+							<Item Name="MessageCycle.lvclass" Type="LVClass" URL="../gpm_packages/@cs/actor-framework-messages/Source/MessageCycle/MessageCycle.lvclass"/>
+						</Item>
+						<Item Name="RoundTripMessage" Type="Folder">
+							<Item Name="RoundTripMessage.lvclass" Type="LVClass" URL="../gpm_packages/@cs/actor-framework-messages/Source/RoundTripMessage/RoundTripMessage.lvclass"/>
+						</Item>
+					</Item>
+					<Item Name="CHANGELOG.md" Type="Document" URL="../gpm_packages/@cs/actor-framework-messages/CHANGELOG.md"/>
+					<Item Name="gpackage.json" Type="Document" URL="../gpm_packages/@cs/actor-framework-messages/gpackage.json"/>
+					<Item Name="LICENSE" Type="Document" URL="../gpm_packages/@cs/actor-framework-messages/LICENSE"/>
+					<Item Name="README.md" Type="Document" URL="../gpm_packages/@cs/actor-framework-messages/README.md"/>
+				</Item>
 				<Item Name="event-logger" Type="Folder">
 					<Item Name="Source" Type="Folder">
 						<Item Name="Composed Log" Type="Folder">
