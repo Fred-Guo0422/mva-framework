@@ -1,6 +1,6 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="17008000">
-	<Property Name="CCSymbols" Type="Str">REMOVE_DEBUG_LOGGING,False;</Property>
+	<Property Name="CCSymbols" Type="Str">REMOVE_FRAMEWORK_LOGGING,False;</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Item Name="My Computer" Type="My Computer">
@@ -109,38 +109,6 @@
 					<Item Name="LICENSE" Type="Document" URL="../gpm_packages/@cs/actor-framework-messages/LICENSE"/>
 					<Item Name="README.md" Type="Document" URL="../gpm_packages/@cs/actor-framework-messages/README.md"/>
 				</Item>
-				<Item Name="event-logger" Type="Folder">
-					<Item Name="Source" Type="Folder">
-						<Item Name="Composed Log" Type="Folder">
-							<Item Name="Composed Log.lvlib" Type="Library" URL="../gpm_packages/@cs/event-logger/Source/Composed Log/Composed Log.lvlib"/>
-						</Item>
-						<Item Name="IStringFormat" Type="Folder">
-							<Item Name="IStringFormat.lvclass" Type="LVClass" URL="../gpm_packages/@cs/event-logger/Source/IStringFormat/IStringFormat.lvclass"/>
-						</Item>
-						<Item Name="LVQueue Sink" Type="Folder">
-							<Item Name="LVQueue Sink.lvclass" Type="LVClass" URL="../gpm_packages/@cs/event-logger/Source/LVQueue Sink/LVQueue Sink.lvclass"/>
-						</Item>
-						<Item Name="Network Sink" Type="Folder">
-							<Item Name="Network Sink.lvlib" Type="Library" URL="../gpm_packages/@cs/event-logger/Source/Network Sink/Network Sink.lvlib"/>
-						</Item>
-						<Item Name="String Control Sink" Type="Folder">
-							<Item Name="String Control Sink.lvclass" Type="LVClass" URL="../gpm_packages/@cs/event-logger/Source/String Control Sink/String Control Sink.lvclass"/>
-						</Item>
-						<Item Name="String Log Sink" Type="Folder">
-							<Item Name="String Log Sink.lvclass" Type="LVClass" URL="../gpm_packages/@cs/event-logger/Source/String Log Sink/String Log Sink.lvclass"/>
-						</Item>
-						<Item Name="SystemLog Sink" Type="Folder">
-							<Item Name="SystemLog Sink.lvclass" Type="LVClass" URL="../gpm_packages/@cs/event-logger/Source/SystemLog Sink/SystemLog Sink.lvclass"/>
-						</Item>
-						<Item Name="Text File Sink" Type="Folder">
-							<Item Name="Text File Sink.lvclass" Type="LVClass" URL="../gpm_packages/@cs/event-logger/Source/Text File Sink/Text File Sink.lvclass"/>
-						</Item>
-					</Item>
-					<Item Name="CHANGELOG.md" Type="Document" URL="../gpm_packages/@cs/event-logger/CHANGELOG.md"/>
-					<Item Name="gpackage.json" Type="Document" URL="../gpm_packages/@cs/event-logger/gpackage.json"/>
-					<Item Name="LICENSE" Type="Document" URL="../gpm_packages/@cs/event-logger/LICENSE"/>
-					<Item Name="Readme.md" Type="Document" URL="../gpm_packages/@cs/event-logger/Readme.md"/>
-				</Item>
 				<Item Name="listbox" Type="Folder">
 					<Item Name="Source" Type="Folder">
 						<Item Name="ListboxExtensions.lvlib" Type="Library" URL="../gpm_packages/@cs/listbox/Source/ListboxExtensions.lvlib"/>
@@ -169,6 +137,47 @@
 					<Item Name="gpackage.json" Type="Document" URL="../gpm_packages/@cs/variant/gpackage.json"/>
 					<Item Name="LICENSE" Type="Document" URL="../gpm_packages/@cs/variant/LICENSE"/>
 					<Item Name="README.md" Type="Document" URL="../gpm_packages/@cs/variant/README.md"/>
+				</Item>
+				<Item Name="event-logger" Type="Folder">
+					<Item Name="Source" Type="Folder">
+						<Item Name="Composed Log" Type="Folder">
+							<Item Name="Application Logger" Type="Folder"/>
+							<Item Name="Global Application Log" Type="Folder"/>
+							<Item Name="IErrorFormat" Type="Folder"/>
+							<Item Name="Log Sink" Type="Folder"/>
+							<Item Name="LoggerReference" Type="Folder"/>
+							<Item Name="Composed Log.lvlib" Type="Library" URL="../gpm_packages/@cs/event-logger/Source/Composed Log/Composed Log.lvlib"/>
+						</Item>
+						<Item Name="IStringFormat" Type="Folder">
+							<Item Name="IStringFormat.lvclass" Type="LVClass" URL="../gpm_packages/@cs/event-logger/Source/IStringFormat/IStringFormat.lvclass"/>
+						</Item>
+						<Item Name="LVQueue Sink" Type="Folder">
+							<Item Name="LVQueue Sink.lvclass" Type="LVClass" URL="../gpm_packages/@cs/event-logger/Source/LVQueue Sink/LVQueue Sink.lvclass"/>
+						</Item>
+						<Item Name="Network Sink" Type="Folder">
+							<Item Name="IConnection" Type="Folder"/>
+							<Item Name="Network Sink Endpoint" Type="Folder"/>
+							<Item Name="NetworkJSON LogFormat" Type="Folder"/>
+							<Item Name="TCP Client" Type="Folder"/>
+							<Item Name="Network Sink.lvlib" Type="Library" URL="../gpm_packages/@cs/event-logger/Source/Network Sink/Network Sink.lvlib"/>
+						</Item>
+						<Item Name="String Control Sink" Type="Folder">
+							<Item Name="String Control Sink.lvclass" Type="LVClass" URL="../gpm_packages/@cs/event-logger/Source/String Control Sink/String Control Sink.lvclass"/>
+						</Item>
+						<Item Name="String Log Sink" Type="Folder">
+							<Item Name="String Log Sink.lvclass" Type="LVClass" URL="../gpm_packages/@cs/event-logger/Source/String Log Sink/String Log Sink.lvclass"/>
+						</Item>
+						<Item Name="SystemLog Sink" Type="Folder">
+							<Item Name="SystemLog Sink.lvclass" Type="LVClass" URL="../gpm_packages/@cs/event-logger/Source/SystemLog Sink/SystemLog Sink.lvclass"/>
+						</Item>
+						<Item Name="Text File Sink" Type="Folder">
+							<Item Name="Text File Sink.lvclass" Type="LVClass" URL="../gpm_packages/@cs/event-logger/Source/Text File Sink/Text File Sink.lvclass"/>
+						</Item>
+					</Item>
+					<Item Name="CHANGELOG.md" Type="Document" URL="../gpm_packages/@cs/event-logger/CHANGELOG.md"/>
+					<Item Name="gpackage.json" Type="Document" URL="../gpm_packages/@cs/event-logger/gpackage.json"/>
+					<Item Name="LICENSE" Type="Document" URL="../gpm_packages/@cs/event-logger/LICENSE"/>
+					<Item Name="Readme.md" Type="Document" URL="../gpm_packages/@cs/event-logger/Readme.md"/>
 				</Item>
 			</Item>
 		</Item>
