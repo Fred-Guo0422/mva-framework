@@ -12,11 +12,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 ### Security
 
+## [2.1.0] - 2019-05-02
+### Changed
+- Framework logging now uses explicit log reference (now local, was global)
+### Added
+- Set Minimum Panel Size message to IViewable
+- In-placeness optimization of subscription policy
+
 ## [2.0.0] - 2019-03-21
 ### Added
 - Debug logging (new dependency on @cs/event-logger)
 - Project flag to conditionally remove all logging (REMOVE_DEBUG_LOGGING)
-##CHANGED
+### Changed
 - Moved location of applicaiton template on disk so it installs with G Package
 ### Removed
 - Deprecated framework accessors
