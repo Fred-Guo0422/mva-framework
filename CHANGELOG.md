@@ -12,6 +12,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 ### Security
 
+## [2.1.2] - 2019-05-10
+(2.1.1 was an errant publication with an inaccurate Changelog version and date. Source is identical)
+### Changed
+- Minor in-placeness optimization to MediatorBusMonitor
+### Removed
+- Deprecated (and disabled) Observe Data method from concrete MediatorBusMonitor
+### Fixed
+- Stale dependency links in obsolete code and unit tests
+
 ## [2.1.0] - 2019-05-02
 ### Changed
 - Framework logging now uses explicit log reference (now local, was global)
