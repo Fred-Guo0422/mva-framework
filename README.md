@@ -18,26 +18,24 @@ To learn how to use it, install the framework and start with the examples at **m
 ### How do I get set up? ###
 
 #### Framework
-* Install the framework and its dependencies using VIPM (or GPM, coming soon)
-* Framework VIP and VIPC (all dependencies) located under **_VIPackage** folder
+* Install the framework and its dependencies using G Package Manager (https://gpackage.io)
 
 #### Examples
 * Examples live at https://bitbucket.org/composedsystems/mva-framework-examples/src/master/
 * The framework must be installed to open the examples
 
-#### Dependencies (Only if you care)
-* All unpublished dependencies are also included in VI Packages in the repo ../mva-dependencies (parallel to this repo). Install them through VI Package Manager.
-* If you want to run the framework tests, you will also need to install JKI's VI Tester (published through the LV Tools Network)
-* Source code for dependencies is also open-sourced and located in the public project "Composed Systems Libraries"
-* You DO NOT need to pull the source code of the dependencies to use or edit the framework--just install and use the packages.
+#### Dependencies
+All dependencies will be automatically installed by GPM
+* @cs/actor-framework-messages (used to implement framework messages)
+* @cs/event-logger (for framework debug event logging)
+* @cs/listbox (used by mediator bus monitor UI)
+* @cs/lookup-table (used multiple places)
+* @cs/variant (used in mediation to format unique and human-readable data types)
 
 ### Contribution guidelines ###
-
-* Reasonable rigor must be applied to framework testing. (Some of those tests might wander into the strange territory of performance testing/benchmarking, but do so out of necessity.)
-* Please contact me if you want to contribute.
-* All code must adhere to SOLID design principles (or die trying).
+* Please contact the author if you want to contribute.
+* Please report issues, bugs, and suggestions using the linked issue tracker.
 
 ### Who do I talk to? ###
-
 * Ethan Stern | Composed Systems, LLC
 * ethan.stern@composed.io

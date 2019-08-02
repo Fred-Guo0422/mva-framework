@@ -36,5 +36,5 @@
 	"lvversion": ">=17",
 	"name": "@cs/mva-framework",
 	"repository": "https://bitbucket.org/composedsystems/mva-framework/src/",
-	"version": "2.1.2"
+	"version": "2.1.3"
 }

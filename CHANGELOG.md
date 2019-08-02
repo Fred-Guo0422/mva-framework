@@ -12,6 +12,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 ### Security
 
+## [2.1.3] - 2019-08-02
+### Fixed
+- Incorrect default value of IViewable:Bind Terminal Enabled State (label and value now match *Disabled and Grayed Out*)
+- Community scoping issue that broke deployments after LV2017 (added friend relationship)
+
 ## [2.1.2] - 2019-05-10
 (2.1.1 was an errant publication with an inaccurate Changelog version and date. Source is identical)
 ### Changed
