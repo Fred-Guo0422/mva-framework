@@ -7,9 +7,10 @@
 	"bugs": "https://bitbucket.org/composedsystems/mva-framework/issues/",
 	"dependencies": {
 		"@cs/actor-framework-messages": "^0.1.0",
-		"@cs/event-logger": "^0.5.18",
+		"@cs/event-logger": "^0.7.1",
 		"@cs/listbox": "^1.0.1",
-		"@cs/lookup-table": "^0.0.3",
+		"@cs/lookup-table": "^0.1.0",
+		"@cs/transport": "^0.0.2",
 		"@cs/variant": "^1.0.1"
 	},
 	"description": "An Actor-based Separation-of-Concerns framework (MVVM) for very cool LabVIEW developers",
@@ -21,16 +22,14 @@
 	],
 	"keywords": [
 		"actor framework",
+		"mvvm",
+		"mvc",
 		"separation of concerns",
-		"soc",
 		"model",
 		"view",
 		"viewable",
 		"viewmodel",
-		"view-model",
-		"controller",
-		"mvvm",
-		"mvc"
+		"controller"
 	],
 	"license": "MIT",
 	"lvversion": ">=17",

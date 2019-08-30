@@ -26,5 +26,4 @@
 	</Item>
 	<Item Name="IMediator.lvclass" Type="LVClass" URL="../IMediator/IMediator.lvclass"/>
 	<Item Name="IMediatorBusMonitor.lvclass" Type="LVClass" URL="../IMediatorBusMonitor/MediatorBusMonitor/IMediatorBusMonitor.lvclass"/>
-	<Item Name="ITransport.lvclass" Type="LVClass" URL="../ITransport/ITransport.lvclass"/>
 </Library>
