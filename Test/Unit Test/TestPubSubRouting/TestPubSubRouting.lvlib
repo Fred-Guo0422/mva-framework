@@ -12,5 +12,5 @@
 		<Item Name="PublishingViewable.lvclass" Type="LVClass" URL="../PublishingViewable/PublishingViewable.lvclass"/>
 		<Item Name="PublishingViewModel.lvclass" Type="LVClass" URL="../PublishingViewModel/PublishingViewModel.lvclass"/>
 	</Item>
-	<Item Name="TestObservation.lvclass" Type="LVClass" URL="../TestObservation.lvclass"/>
+	<Item Name="TestPubSubRouting.lvclass" Type="LVClass" URL="../TestPubSubRouting.lvclass"/>
 </Library>

@@ -1136,14 +1136,6 @@
 			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="New Terminal Binding.vi" Type="VI" URL="../Source/Framework/Transport/TerminalBinding/New Terminal Binding.vi"/>
-			<Item Name="Notification Msg.lvclass" Type="LVClass" URL="../Source/Framework/Transport/ActorMessageTransport/Notification Msg/Notification Msg.lvclass"/>
-			<Item Name="New Queue Transport.vi" Type="VI" URL="../Source/Framework/Transport/QueueTransport/New Queue Transport.vi"/>
-			<Item Name="Dequeue Transport Element.vi" Type="VI" URL="../Source/Framework/Transport/QueueTransport/Dequeue Transport Element.vi"/>
-			<Item Name="QueueTransport.lvclass" Type="LVClass" URL="../Source/Framework/Transport/QueueTransport/QueueTransport.lvclass"/>
-			<Item Name="Log to Aggregate Logs.vi" Type="VI" URL="../gpm_packages/@cs/event-logger/Source/Composed Log/LoggerReference/Log to Aggregate Logs.vi"/>
-			<Item Name="Enqueue Log Entry.vi" Type="VI" URL="../gpm_packages/@cs/event-logger/Source/Composed Log/LoggerReference/Enqueue Log Entry.vi"/>
-			<Item Name="ITransport.lvclass" Type="LVClass" URL="../Source/Framework/IMediator/ITransport/ITransport.lvclass"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
