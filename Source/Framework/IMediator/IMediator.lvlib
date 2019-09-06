@@ -25,5 +25,5 @@
 		<Item Name="SubscriptionRequest.lvclass" Type="LVClass" URL="../SubscriptionRequest/SubscriptionRequest.lvclass"/>
 	</Item>
 	<Item Name="IMediator.lvclass" Type="LVClass" URL="../IMediator/IMediator.lvclass"/>
-	<Item Name="IMediatorBusMonitor.lvclass" Type="LVClass" URL="../IMediatorBusMonitor/MediatorBusMonitor/IMediatorBusMonitor.lvclass"/>
+	<Item Name="IMediatorBusMonitor.lvclass" Type="LVClass" URL="../IMediatorBusMonitor/IMediatorBusMonitor.lvclass"/>
 </Library>
