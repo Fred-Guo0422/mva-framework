@@ -12,6 +12,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 ### Security
 
+## [2.2.0] - 2019-09-06
+### Changed
+- Default framework log state is *no logging*. Minor log format cleanup. To enable framework log, set **ENABLE_FRAMEWORK_LOG** conditional flag = True
+### Fixed
+- Community scoping issue (I somehow messed this up again in the last release)
+### Deprecated
+- Old-fashioned polymorphic Request Synchronous Data API (replace calls with malleable method)
+### Added
+- Malleable Request Synchronous Data compatible with all types
+
 ## [2.1.3] - 2019-08-02
 ### Fixed
 - Incorrect default value of IViewable:Bind Terminal Enabled State (label and value now match *Disabled and Grayed Out*)
