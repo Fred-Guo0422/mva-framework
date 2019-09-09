@@ -12,7 +12,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 ### Security
 
-## [2.2.0] - 2019-09-06
+## [2.2.1] - 2019-09-09
+### Fixed
+- Broken ancestry for all Notification Msg descendants (temporary deprecated ancestor to be removed in major version 3)
+
+## [2.2.0] - 2019-09-06 - DO NOT USE THIS RELEASE (see 2.2.1)
 ### Changed
 - Default framework log state is *no logging*. Minor log format cleanup. To enable framework log, set **ENABLE_FRAMEWORK_LOG** conditional flag = True
 ### Fixed
