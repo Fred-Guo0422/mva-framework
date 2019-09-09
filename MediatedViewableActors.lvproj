@@ -267,6 +267,9 @@
 				</Item>
 			</Item>
 		</Item>
+		<Item Name="Deprecated" Type="Folder">
+			<Item Name="Transport.lvlib" Type="Library" URL="../Source/Framework/Deprecated/Transport/Transport.lvlib"/>
+		</Item>
 		<Item Name="MVA Error List.txt" Type="Document" URL="../Source/MVA Error List.txt"/>
 		<Item Name="Abstract MVA Application Template.vi" Type="VI" URL="../Source/Template/Abstract MVA Application Template.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
