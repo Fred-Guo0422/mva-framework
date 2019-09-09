@@ -12,6 +12,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 ### Security
 
+## [2.2.2] - 2019-09-09
+### Fixed
+- Incorrect Transport version dependency (should be 0.0.3)
+
 ## [2.2.1] - 2019-09-09
 ### Fixed
 - Broken ancestry for all Notification Msg descendants (temporary deprecated ancestor to be removed in major version 3)
