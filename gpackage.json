@@ -10,7 +10,7 @@
 		"@cs/event-logger": "^0.7.1",
 		"@cs/listbox": "^1.0.1",
 		"@cs/lookup-table": "^0.1.0",
-		"@cs/transport": "^0.0.3",
+		"@cs/transport": "^0.0.4",
 		"@cs/variant": "^1.0.1"
 	},
 	"description": "An Actor-based Separation-of-Concerns framework (MVVM) for very cool LabVIEW developers",
