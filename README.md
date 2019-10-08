@@ -2,12 +2,12 @@
 
 # What is the MVA Framework? #
 
-The MVA Framework is a separation of concerns framework (Model-View-ViewModel) that extends NI Actor Framework shipping with LabVIEW.
-(See https://blogs.msdn.microsoft.com/dphill/2009/01/31/the-viewmodel-pattern/)
-There is nothing domain or application-specific about this framework; it's just a way to separate business logic from presentation logic (models from views).
+The MVA Framework is a separation of concerns framework (Model-View-ViewModel) that extends NI's Actor Framework shipping with LabVIEW. There is nothing domain or application-specific about this framework; it's just a way to separate business logic from presentation logic (models from views).
+
+For a quick description of MVVM, see https://blogs.msdn.microsoft.com/dphill/2009/01/31/the-viewmodel-pattern/
 
 ### Important Features: ###
-
+s
 * Mediated data bus with *implicit* type safety (Subscribers request data by type)
 * Viewable class that provides nesting, launching, and event handling semantics
 * API for publish and subscribe to transport data with low coupling between models and views
@@ -26,7 +26,9 @@ There is nothing domain or application-specific about this framework; it's just 
 * Some older getting started examples are just waiting in their old bitbucket repo to be ported to GPM. (So bug me about it if you care)
 
 #### Dependencies
-All dependencies will be automatically installed by GPM
+We have had trouble recently with the LabVIEW linker getting tied up with the relative path change that occurs when installing multi-level package dependencies. We (and others) are working on solutions to this problem. In the meantime, if you install the framework and it is broken, try running *gpm relink* or *gpm recompile* on your project directory from a command window. (*relink* operates only on the gpm_packages folder, *recompile* operates on your whole project in a more intelligent way than a mass compile.)
+
+Dependencies that will be automatically installed by GPM:
 * @cs/actor-framework-messages (used to implement framework messages)
 * @cs/event-logger (for framework debug event logging)
 * @cs/listbox (used by mediator bus monitor UI)
