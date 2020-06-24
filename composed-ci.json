@@ -1,0 +1,14 @@
+{
+	"Build  Specifications": [],
+	"BuildSpec.Name of target (My Computer)": "My Computer",
+	"Local Base Path": "C:\\Git\\mva-framework",
+	"Package Directory": "gpm_packages",
+	"Project to Build": "MediatedViewableActors.lvproj",
+	"Test blacklist": [],
+	"Test whitelist": [],
+	"VI Analyzer Configuration": [
+		"Test\\VIAnalyzer.cfg"
+	],
+	"VI Tester Directory": "Test\\Automated",
+	"VIA.Configuration File Password": ""
+}

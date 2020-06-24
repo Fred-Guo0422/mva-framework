@@ -10,7 +10,6 @@
 		<Item Name="MCListboxActor.lvclass" Type="LVClass" URL="../MCListboxActor/MCListboxActor.lvclass"/>
 		<Item Name="TestEventFilter.lvclass" Type="LVClass" URL="../TestEventFilter/TestEventFilter.lvclass"/>
 	</Item>
-	<Item Name="BasicAutoRegistrationView.lvclass" Type="LVClass" URL="../BasicAutoRegistrationView/BasicAutoRegistrationView.lvclass"/>
 	<Item Name="BasicChartBinding.lvclass" Type="LVClass" URL="../BasicChartBinding/BasicChartBinding.lvclass"/>
 	<Item Name="BasicTerminalBinding.lvclass" Type="LVClass" URL="../BasicTerminalBinding/BasicTerminalBinding.lvclass"/>
 	<Item Name="EventHandlingActor.lvclass" Type="LVClass" URL="../ActorAutoRegistrationView/EventHandlingActor.lvclass"/>

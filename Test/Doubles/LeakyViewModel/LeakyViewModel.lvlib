@@ -5,7 +5,7 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="Messages" Type="Folder">
-		<Item Name="GiveMeYourMediatorQueue Msg.lvclass" Type="LVClass" URL="../../../Unit Test/LeakyViewModel Messages/GiveMeYourMediatorQueue Msg/GiveMeYourMediatorQueue Msg.lvclass"/>
+		<Item Name="GiveMeYourMediatorQueue Msg.lvclass" Type="LVClass" URL="../../../Automated/LeakyViewModel Messages/GiveMeYourMediatorQueue Msg/GiveMeYourMediatorQueue Msg.lvclass"/>
 	</Item>
 	<Item Name="LeakyViewModel.lvclass" Type="LVClass" URL="../LeakyViewModel.lvclass"/>
 </Library>

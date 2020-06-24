@@ -1,6 +1,6 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="17008000">
-	<Property Name="CCSymbols" Type="Str">ENABLE_FRAMEWORK_LOG,False;</Property>
+	<Property Name="CCSymbols" Type="Str"></Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Item Name="My Computer" Type="My Computer">
@@ -14,37 +14,24 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Framework" Type="Folder">
-			<Item Name="AbstractMessages.lvlib" Type="Library" URL="../Source/Framework/AbstractMessages/AbstractMessages.lvlib"/>
-			<Item Name="IObserver.lvlib" Type="Library" URL="../Source/Framework/IObserver/IObserver.lvlib"/>
-			<Item Name="IModel.lvlib" Type="Library" URL="../Source/Framework/IModel/IModel.lvlib"/>
-			<Item Name="IViewable.lvlib" Type="Library" URL="../Source/Framework/IViewable/IViewable.lvlib"/>
-			<Item Name="IViewManager.lvlib" Type="Library" URL="../Source/Framework/IViewManager/IViewManager.lvlib"/>
-			<Item Name="IViewModel.lvlib" Type="Library" URL="../Source/Framework/IViewModel/IViewModel.lvlib"/>
-			<Item Name="IMediator.lvlib" Type="Library" URL="../Source/Framework/IMediator/IMediator.lvlib"/>
-			<Item Name="IDialogBox.lvlib" Type="Library" URL="../Source/Framework/IDialogBox/IDialogBox.lvlib"/>
-			<Item Name="AutoRegistration.lvlib" Type="Library" URL="../Source/Framework/ActorEvents/AutoRegistration.lvlib"/>
-			<Item Name="ActorEvents.lvlib" Type="Library" URL="../Source/Framework/ActorEvents/ActorEvents.lvlib"/>
-		</Item>
 		<Item Name="Test" Type="Folder">
-			<Item Name="Test Doubles" Type="Folder">
+			<Item Name="Doubles" Type="Folder">
 				<Item Name="Test Doubles Readme.txt" Type="Document" URL="../Test/Doubles/Test Doubles Readme.txt"/>
 				<Item Name="TestModels.lvlib" Type="Library" URL="../Test/Doubles/TestModels.lvlib"/>
 				<Item Name="LeakyViewModel.lvlib" Type="Library" URL="../Test/Doubles/LeakyViewModel/LeakyViewModel.lvlib"/>
 				<Item Name="ViewableDoubles.lvlib" Type="Library" URL="../Test/Doubles/ViewableDoubles/ViewableDoubles.lvlib"/>
 			</Item>
-			<Item Name="Unit Test" Type="Folder">
+			<Item Name="Automated" Type="Folder">
 				<Property Name="NI.SortType" Type="Int">0</Property>
-				<Item Name="TestActorEvents.lvlib" Type="Library" URL="../Test/Unit Test/TestActorEvents/TestActorEvents.lvlib"/>
-				<Item Name="TestAutoRegistration.lvclass" Type="LVClass" URL="../Test/Unit Test/TestAutoRegistration/TestAutoRegistration/TestAutoRegistration.lvclass"/>
-				<Item Name="TestIViewModel.lvclass" Type="LVClass" URL="../Test/Unit Test/TestIViewModel/TestIViewModel/TestIViewModel.lvclass"/>
-				<Item Name="TestMediationSemantics.lvclass" Type="LVClass" URL="../Test/Unit Test/TestMediationSemantics/TestMediationSemantics.lvclass"/>
-				<Item Name="TestObservableDataTypes.lvclass" Type="LVClass" URL="../Test/Unit Test/TestObservableDataTypes/TestObservableDataTypes.lvclass"/>
-				<Item Name="TestProtectedSubpanel.lvclass" Type="LVClass" URL="../Test/Unit Test/TestProtectedSubpanel/TestProtectedSubpanel.lvclass"/>
-				<Item Name="TestPublicationPolicy.lvclass" Type="LVClass" URL="../Test/Unit Test/TestPublicationPolicy/TestPublicationPolicy.lvclass"/>
-				<Item Name="TestPubSubRouting.lvlib" Type="Library" URL="../Test/Unit Test/TestPubSubRouting/TestPubSubRouting.lvlib"/>
-				<Item Name="TestSubscriptionPolicy.lvclass" Type="LVClass" URL="../Test/Unit Test/TestSubscriptionPolicy/TestSubscriptionPolicy.lvclass"/>
-				<Item Name="TestTopicLookupTable.lvclass" Type="LVClass" URL="../Test/Unit Test/TestTopicLookupTable/TestTopicLookupTable/TestTopicLookupTable.lvclass"/>
+				<Item Name="TestActorEvents.lvlib" Type="Library" URL="../Test/Automated/TestActorEvents/TestActorEvents.lvlib"/>
+				<Item Name="TestIViewModel.lvclass" Type="LVClass" URL="../Test/Automated/TestIViewModel/TestIViewModel/TestIViewModel.lvclass"/>
+				<Item Name="TestMediationSemantics.lvclass" Type="LVClass" URL="../Test/Automated/TestMediationSemantics/TestMediationSemantics.lvclass"/>
+				<Item Name="TestObservableDataTypes.lvclass" Type="LVClass" URL="../Test/Automated/TestObservableDataTypes/TestObservableDataTypes.lvclass"/>
+				<Item Name="TestProtectedSubpanel.lvclass" Type="LVClass" URL="../Test/Automated/TestProtectedSubpanel/TestProtectedSubpanel.lvclass"/>
+				<Item Name="TestPublicationPolicy.lvclass" Type="LVClass" URL="../Test/Automated/TestPublicationPolicy/TestPublicationPolicy.lvclass"/>
+				<Item Name="TestPubSubRouting.lvlib" Type="Library" URL="../Test/Automated/TestPubSubRouting/TestPubSubRouting.lvlib"/>
+				<Item Name="TestSubscriptionPolicy.lvclass" Type="LVClass" URL="../Test/Automated/TestSubscriptionPolicy/TestSubscriptionPolicy.lvclass"/>
+				<Item Name="TestTopicLookupTable.lvclass" Type="LVClass" URL="../Test/Automated/TestTopicLookupTable/TestTopicLookupTable/TestTopicLookupTable.lvclass"/>
 			</Item>
 			<Item Name="Integration Test" Type="Folder">
 				<Item Name="Integration Test Readme.txt" Type="Document" URL="../Test/Integration Test/Integration Test Readme.txt"/>
@@ -58,9 +45,6 @@
 				<Item Name="Performance Test Readme.txt" Type="Document" URL="../Test/Performance Test/Performance Test Readme.txt"/>
 				<Item Name="TestPublishRate.lvclass" Type="LVClass" URL="../Test/Performance Test/TestPublishRate/TestPublishRate.lvclass"/>
 				<Item Name="TestManyPublications.lvclass" Type="LVClass" URL="../Test/Performance Test/TestManyPublications/TestManyPublications.lvclass"/>
-			</Item>
-			<Item Name="User Interface Test" Type="Folder">
-				<Item Name="UITestAutoRegistration.lvclass" Type="LVClass" URL="../Test/User Interface Test/UITestAutoRegistration/UITestAutoRegistration.lvclass"/>
 			</Item>
 		</Item>
 		<Item Name="Examples" Type="Folder">
@@ -84,10 +68,10 @@
 				<Item Name="TwoButtonDialogBox.lvlib" Type="Library" URL="../Source/DialogBox/TwoButtonDialogBox/TwoButtonDialogBox.lvlib"/>
 				<Item Name="KeypadDialogBox.lvlib" Type="Library" URL="../Source/DialogBox/KeypadDialogBox/KeypadDialogBox.lvlib"/>
 			</Item>
-			<Item Name="Mediator.lvlib" Type="Library" URL="../Source/Framework/Mediator/Mediator.lvlib"/>
-			<Item Name="PublicationPolicy.lvlib" Type="Library" URL="../Source/Framework/PublicationPolicy/PublicationPolicy.lvlib"/>
-			<Item Name="SubscriptionPolicy.lvlib" Type="Library" URL="../Source/Framework/SubscriptionPolicy/SubscriptionPolicy.lvlib"/>
-			<Item Name="EventSinkConfigurations.lvlib" Type="Library" URL="../Source/EventSinkConfigurations/EventSinkConfigurations.lvlib"/>
+			<Item Name="Mediator.lvlib" Type="Library" URL="../gpm_packages/@cs/mva-core/Source/Mediator/Mediator.lvlib"/>
+			<Item Name="PublicationPolicy.lvlib" Type="Library" URL="../gpm_packages/@cs/mva-core/Source/PublicationPolicy/PublicationPolicy.lvlib"/>
+			<Item Name="SubscriptionPolicy.lvlib" Type="Library" URL="../gpm_packages/@cs/mva-core/Source/SubscriptionPolicy/SubscriptionPolicy.lvlib"/>
+			<Item Name="IDialogBox.lvlib" Type="Library" URL="../Source/IDialogBox/IDialogBox.lvlib"/>
 		</Item>
 		<Item Name="GPM Packages" Type="Folder">
 			<Property Name="GPM" Type="Bool">true</Property>
@@ -265,12 +249,222 @@
 					<Item Name="LICENSE" Type="Document" URL="../gpm_packages/@cs/transport/LICENSE"/>
 					<Item Name="README.md" Type="Document" URL="../gpm_packages/@cs/transport/README.md"/>
 				</Item>
+				<Item Name="mva-core" Type="Folder">
+					<Item Name="Source" Type="Folder">
+						<Item Name="IMediator" Type="Folder">
+							<Item Name="IMediator" Type="Folder"/>
+							<Item Name="IMediator Messages" Type="Folder">
+								<Item Name="Lock Publication Msg" Type="Folder"/>
+								<Item Name="Publish Msg" Type="Folder"/>
+								<Item Name="Subscribe Msg" Type="Folder"/>
+								<Item Name="Unlock Publication Msg" Type="Folder"/>
+								<Item Name="Unsubscribe Msg" Type="Folder"/>
+							</Item>
+							<Item Name="IPublicationPolicy" Type="Folder"/>
+							<Item Name="ISubscriptionPolicy" Type="Folder"/>
+							<Item Name="MutexedPublishRequest" Type="Folder"/>
+							<Item Name="PublishRequest" Type="Folder"/>
+							<Item Name="SubscriptionRequest" Type="Folder"/>
+							<Item Name="IMediator.lvlib" Type="Library" URL="../gpm_packages/@cs/mva-core/Source/IMediator/IMediator.lvlib"/>
+						</Item>
+						<Item Name="IModel" Type="Folder">
+							<Item Name="IModel" Type="Folder"/>
+							<Item Name="IModel Messages" Type="Folder">
+								<Item Name="Auto-Launch Models Msg" Type="Folder"/>
+							</Item>
+							<Item Name="IModel.lvlib" Type="Library" URL="../gpm_packages/@cs/mva-core/Source/IModel/IModel.lvlib"/>
+						</Item>
+						<Item Name="IObserver" Type="Folder">
+							<Item Name="ActorDataBinding" Type="Folder"/>
+							<Item Name="IObserver" Type="Folder"/>
+							<Item Name="IObserver Messages" Type="Folder">
+								<Item Name="Observe Data Msg" Type="Folder"/>
+								<Item Name="Subscribe Msg" Type="Folder"/>
+								<Item Name="Unsubscribe Msg" Type="Folder"/>
+							</Item>
+							<Item Name="IObserver.lvlib" Type="Library" URL="../gpm_packages/@cs/mva-core/Source/IObserver/IObserver.lvlib"/>
+						</Item>
+						<Item Name="Mediator" Type="Folder">
+							<Item Name="Mediator" Type="Folder"/>
+							<Item Name="Topic" Type="Folder"/>
+							<Item Name="Topic Messages" Type="Folder">
+								<Item Name="Add Topic Subscriber Msg" Type="Folder"/>
+								<Item Name="Lock Topic Msg" Type="Folder"/>
+								<Item Name="Notify Subscribers Msg" Type="Folder"/>
+								<Item Name="Remove Topic Subscriber Msg" Type="Folder"/>
+								<Item Name="Unlock Topic Msg" Type="Folder"/>
+							</Item>
+							<Item Name="TopicLookupTable" Type="Folder"/>
+						</Item>
+						<Item Name="MonitoredMediator" Type="Folder">
+							<Item Name="IBusMonitor" Type="Folder"/>
+							<Item Name="MonitoredMediator" Type="Folder"/>
+							<Item Name="MonitoredMediator Messages" Type="Folder">
+								<Item Name="Attach Bus Monitor Msg" Type="Folder"/>
+								<Item Name="Close All Bus Monitors Msg" Type="Folder"/>
+								<Item Name="Detach Bus Monitor Msg" Type="Folder"/>
+							</Item>
+							<Item Name="MonitoredMediator.lvlib" Type="Library" URL="../gpm_packages/@cs/mva-core/Source/MonitoredMediator/MonitoredMediator.lvlib"/>
+						</Item>
+						<Item Name="PublicationPolicy" Type="Folder">
+							<Item Name="IncrementValuePublication" Type="Folder"/>
+							<Item Name="MergeErrorsPublication" Type="Folder"/>
+						</Item>
+						<Item Name="RootModel" Type="Folder">
+							<Item Name="RootModel" Type="Folder"/>
+							<Item Name="RootModel Messages" Type="Folder">
+								<Item Name="Run Headless Msg" Type="Folder"/>
+							</Item>
+							<Item Name="RootModel.lvlib" Type="Library" URL="../gpm_packages/@cs/mva-core/Source/RootModel/RootModel.lvlib"/>
+						</Item>
+						<Item Name="SubscriptionPolicy" Type="Folder">
+							<Item Name="BasicSubscription" Type="Folder"/>
+							<Item Name="OneShotSubscription" Type="Folder"/>
+							<Item Name="TriggeredSubscription" Type="Folder"/>
+							<Item Name="ValueChangeSubscription" Type="Folder"/>
+							<Item Name="WriteWhenVisibleSubscription" Type="Folder"/>
+						</Item>
+					</Item>
+					<Item Name="CHANGELOG.md" Type="Document" URL="../gpm_packages/@cs/mva-core/CHANGELOG.md"/>
+					<Item Name="gpackage.json" Type="Document" URL="../gpm_packages/@cs/mva-core/gpackage.json"/>
+					<Item Name="LICENSE" Type="Document" URL="../gpm_packages/@cs/mva-core/LICENSE"/>
+					<Item Name="README.md" Type="Document" URL="../gpm_packages/@cs/mva-core/README.md"/>
+				</Item>
+				<Item Name="mva-viewable" Type="Folder">
+					<Item Name="Source" Type="Folder">
+						<Item Name="ActorEvents" Type="Folder">
+							<Item Name="EventHandler" Type="Folder">
+								<Item Name="ApplicationEventHandler" Type="Folder"/>
+								<Item Name="ControlEventHandler" Type="Folder"/>
+								<Item Name="ListboxEventHandler" Type="Folder"/>
+								<Item Name="MulticolumnListboxEventHandler" Type="Folder"/>
+								<Item Name="PaneEventHandler" Type="Folder"/>
+								<Item Name="TreeControlEventHandler" Type="Folder"/>
+								<Item Name="VIEventHandler" Type="Folder"/>
+							</Item>
+							<Item Name="IEventAggregator" Type="Folder"/>
+							<Item Name="IEventAggregator Messages" Type="Folder">
+								<Item Name="ControlDragEndedMsg" Type="Folder">
+									<Item Name="Accessors" Type="Folder"/>
+								</Item>
+								<Item Name="ControlDragOverMsg" Type="Folder">
+									<Item Name="Accessors" Type="Folder"/>
+								</Item>
+								<Item Name="ControlDragSourceUpdateMsg" Type="Folder">
+									<Item Name="Accessors" Type="Folder"/>
+								</Item>
+								<Item Name="ControlDragStartingMsg" Type="Folder">
+									<Item Name="Accessors" Type="Folder"/>
+								</Item>
+								<Item Name="ControlDropMsg" Type="Folder">
+									<Item Name="Accessors" Type="Folder"/>
+								</Item>
+								<Item Name="ControlKeyDownMsg" Type="Folder">
+									<Item Name="Accessors" Type="Folder"/>
+								</Item>
+								<Item Name="ControlKeyUpMsg" Type="Folder">
+									<Item Name="Accessors" Type="Folder"/>
+								</Item>
+								<Item Name="ControlMouseDownMsg" Type="Folder">
+									<Item Name="Accessors" Type="Folder"/>
+								</Item>
+								<Item Name="ControlMouseEnterMsg" Type="Folder">
+									<Item Name="Accessors" Type="Folder"/>
+								</Item>
+								<Item Name="ControlMouseLeaveMsg" Type="Folder">
+									<Item Name="Accessors" Type="Folder"/>
+								</Item>
+								<Item Name="ControlMouseUpMsg" Type="Folder">
+									<Item Name="Accessors" Type="Folder"/>
+								</Item>
+								<Item Name="EventDataMessage" Type="Folder"/>
+								<Item Name="Launch Event Handlers Msg" Type="Folder"/>
+								<Item Name="ListboxDoubleClickMsg" Type="Folder">
+									<Item Name="Accessors" Type="Folder"/>
+								</Item>
+								<Item Name="ListboxEditCellMsg" Type="Folder">
+									<Item Name="Accessors" Type="Folder"/>
+								</Item>
+								<Item Name="MenuSelectionMsg" Type="Folder">
+									<Item Name="Accessors" Type="Folder"/>
+								</Item>
+								<Item Name="PanelCloseMsg" Type="Folder">
+									<Item Name="Accessors" Type="Folder"/>
+								</Item>
+								<Item Name="ShortcutMenuActivationMsg" Type="Folder">
+									<Item Name="Accessors" Type="Folder"/>
+								</Item>
+								<Item Name="ShortcutMenuSelectionMsg" Type="Folder">
+									<Item Name="Accessors" Type="Folder"/>
+								</Item>
+								<Item Name="TreeDoubleClickMsg" Type="Folder">
+									<Item Name="Accessors" Type="Folder"/>
+								</Item>
+								<Item Name="TreeEditCellMsg" Type="Folder">
+									<Item Name="Accessors" Type="Folder"/>
+								</Item>
+								<Item Name="TreeItemCloseMsg" Type="Folder">
+									<Item Name="Accessors" Type="Folder"/>
+								</Item>
+								<Item Name="TreeItemOpenMsg" Type="Folder">
+									<Item Name="Accessors" Type="Folder"/>
+								</Item>
+								<Item Name="ValueChangeMsg" Type="Folder">
+									<Item Name="Accessors" Type="Folder"/>
+								</Item>
+							</Item>
+							<Item Name="IEventFilter" Type="Folder"/>
+							<Item Name="IEventHandler" Type="Folder">
+								<Item Name="Accessors" Type="Folder"/>
+							</Item>
+							<Item Name="ActorEvents.lvlib" Type="Library" URL="../gpm_packages/@cs/mva-viewable/Source/ActorEvents/ActorEvents.lvlib"/>
+						</Item>
+						<Item Name="IViewable" Type="Folder">
+							<Item Name="ApplicationStyleReference" Type="Folder"/>
+							<Item Name="IApplicationStyle" Type="Folder"/>
+							<Item Name="IViewable" Type="Folder"/>
+							<Item Name="IViewable Messages" Type="Folder">
+								<Item Name="Catch Nested Value Change Msg" Type="Folder">
+									<Item Name="Accessors" Type="Folder"/>
+								</Item>
+								<Item Name="Close Front Panel Msg" Type="Folder"/>
+								<Item Name="Defer Panel Updates Msg" Type="Folder"/>
+								<Item Name="Initialize Front Panel Msg" Type="Folder"/>
+								<Item Name="Insert Front Panel Msg" Type="Folder"/>
+								<Item Name="Open Front Panel Msg" Type="Folder"/>
+								<Item Name="Removed From Subpanel Msg" Type="Folder"/>
+								<Item Name="Resize Panel to Pane Msg" Type="Folder"/>
+								<Item Name="Resume Panel Updates Msg" Type="Folder"/>
+								<Item Name="Set Cursor Busy Msg" Type="Folder"/>
+								<Item Name="Set Cursor Unbusy Msg" Type="Folder"/>
+								<Item Name="Set Minimum Panel Size Msg" Type="Folder"/>
+								<Item Name="Set Panes to Origins Msg" Type="Folder"/>
+							</Item>
+							<Item Name="ProtectedSubpanel" Type="Folder"/>
+							<Item Name="IViewable.lvlib" Type="Library" URL="../gpm_packages/@cs/mva-viewable/Source/IViewable/IViewable.lvlib"/>
+						</Item>
+						<Item Name="IViewManager" Type="Folder">
+							<Item Name="IViewManager" Type="Folder"/>
+							<Item Name="IViewManager Messages" Type="Folder">
+								<Item Name="Launch Nested Views Msg" Type="Folder"/>
+							</Item>
+							<Item Name="IViewManager.lvlib" Type="Library" URL="../gpm_packages/@cs/mva-viewable/Source/IViewManager/IViewManager.lvlib"/>
+						</Item>
+						<Item Name="IViewModel" Type="Folder">
+							<Item Name="IViewModel" Type="Folder"/>
+							<Item Name="IViewModel Messages" Type="Folder">
+								<Item Name="Launch Root Model Msg" Type="Folder"/>
+							</Item>
+							<Item Name="IViewModel.lvlib" Type="Library" URL="../gpm_packages/@cs/mva-viewable/Source/IViewModel/IViewModel.lvlib"/>
+						</Item>
+					</Item>
+					<Item Name="CHANGELOG.md" Type="Document" URL="../gpm_packages/@cs/mva-viewable/CHANGELOG.md"/>
+					<Item Name="gpackage.json" Type="Document" URL="../gpm_packages/@cs/mva-viewable/gpackage.json"/>
+					<Item Name="LICENSE" Type="Document" URL="../gpm_packages/@cs/mva-viewable/LICENSE"/>
+					<Item Name="README.md" Type="Document" URL="../gpm_packages/@cs/mva-viewable/README.md"/>
+				</Item>
 			</Item>
 		</Item>
-		<Item Name="Deprecated" Type="Folder">
-			<Item Name="Transport.lvlib" Type="Library" URL="../Source/Framework/Deprecated/Transport/Transport.lvlib"/>
-		</Item>
-		<Item Name="MVA Error List.txt" Type="Document" URL="../Source/MVA Error List.txt"/>
 		<Item Name="Abstract MVA Application Template.vi" Type="VI" URL="../Source/Template/Abstract MVA Application Template.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
