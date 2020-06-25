@@ -15,26 +15,7 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Test" Type="Folder">
-			<Item Name="Doubles" Type="Folder">
-				<Item Name="Test Doubles Readme.txt" Type="Document" URL="../Test/Doubles/Test Doubles Readme.txt"/>
-				<Item Name="TestModels.lvlib" Type="Library" URL="../Test/Doubles/TestModels.lvlib"/>
-				<Item Name="LeakyViewModel.lvlib" Type="Library" URL="../Test/Doubles/LeakyViewModel/LeakyViewModel.lvlib"/>
-				<Item Name="ViewableDoubles.lvlib" Type="Library" URL="../Test/Doubles/ViewableDoubles/ViewableDoubles.lvlib"/>
-			</Item>
-			<Item Name="Automated" Type="Folder">
-				<Property Name="NI.SortType" Type="Int">0</Property>
-				<Item Name="TestActorEvents.lvlib" Type="Library" URL="../Test/Automated/TestActorEvents/TestActorEvents.lvlib"/>
-				<Item Name="TestIViewModel.lvclass" Type="LVClass" URL="../Test/Automated/TestIViewModel/TestIViewModel/TestIViewModel.lvclass"/>
-				<Item Name="TestMediationSemantics.lvclass" Type="LVClass" URL="../Test/Automated/TestMediationSemantics/TestMediationSemantics.lvclass"/>
-				<Item Name="TestObservableDataTypes.lvclass" Type="LVClass" URL="../Test/Automated/TestObservableDataTypes/TestObservableDataTypes.lvclass"/>
-				<Item Name="TestProtectedSubpanel.lvclass" Type="LVClass" URL="../Test/Automated/TestProtectedSubpanel/TestProtectedSubpanel.lvclass"/>
-				<Item Name="TestPublicationPolicy.lvclass" Type="LVClass" URL="../Test/Automated/TestPublicationPolicy/TestPublicationPolicy.lvclass"/>
-				<Item Name="TestPubSubRouting.lvlib" Type="Library" URL="../Test/Automated/TestPubSubRouting/TestPubSubRouting.lvlib"/>
-				<Item Name="TestSubscriptionPolicy.lvclass" Type="LVClass" URL="../Test/Automated/TestSubscriptionPolicy/TestSubscriptionPolicy.lvclass"/>
-				<Item Name="TestTopicLookupTable.lvclass" Type="LVClass" URL="../Test/Automated/TestTopicLookupTable/TestTopicLookupTable/TestTopicLookupTable.lvclass"/>
-			</Item>
 			<Item Name="Integration Test" Type="Folder">
-				<Item Name="Integration Test Readme.txt" Type="Document" URL="../Test/Integration Test/Integration Test Readme.txt"/>
 				<Item Name="TestViewables.lvlib" Type="Library" URL="../Test/Integration Test/TestViewables.lvlib"/>
 				<Item Name="TopLevelApplication.lvlib" Type="Library" URL="../Test/Integration Test/TopLevelApplication.lvlib"/>
 				<Item Name="TestApplicationStyle.lvclass" Type="LVClass" URL="../Test/Integration Test/TestApplicationStyle/TestApplicationStyle.lvclass"/>
@@ -42,7 +23,6 @@
 				<Item Name="Write Error.vi" Type="VI" URL="../Test/Integration Test/Write Error.vi"/>
 			</Item>
 			<Item Name="Performance Test" Type="Folder">
-				<Item Name="Performance Test Readme.txt" Type="Document" URL="../Test/Performance Test/Performance Test Readme.txt"/>
 				<Item Name="TestPublishRate.lvclass" Type="LVClass" URL="../Test/Performance Test/TestPublishRate/TestPublishRate.lvclass"/>
 				<Item Name="TestManyPublications.lvclass" Type="LVClass" URL="../Test/Performance Test/TestManyPublications/TestManyPublications.lvclass"/>
 			</Item>
@@ -55,23 +35,6 @@
 		</Item>
 		<Item Name="Tools" Type="Folder">
 			<Item Name="Clear Class Mutation History.vi" Type="VI" URL="../Tools/Clear Class Mutation History.vi"/>
-		</Item>
-		<Item Name="Concrete" Type="Folder">
-			<Item Name="View Managers" Type="Folder">
-				<Item Name="LeftListboxViewManager.lvlib" Type="Library" URL="../Source/ViewManager/LeftListboxViewManager/LeftListboxViewManager.lvlib"/>
-				<Item Name="QuadViewManager.lvlib" Type="Library" URL="../Source/ViewManager/QuadViewManager/QuadViewManager.lvlib"/>
-				<Item Name="TabbedViewManager.lvlib" Type="Library" URL="../Source/ViewManager/TabbedViewManager/TabbedViewManager.lvlib"/>
-				<Item Name="BoundViewManager.lvlib" Type="Library" URL="../Source/ViewManager/BoundViewManager/BoundViewManager.lvlib"/>
-			</Item>
-			<Item Name="Dialog Boxes" Type="Folder">
-				<Item Name="OneButtonDialogBox.lvlib" Type="Library" URL="../Source/DialogBox/OneButtonDialogBox/OneButtonDialogBox.lvlib"/>
-				<Item Name="TwoButtonDialogBox.lvlib" Type="Library" URL="../Source/DialogBox/TwoButtonDialogBox/TwoButtonDialogBox.lvlib"/>
-				<Item Name="KeypadDialogBox.lvlib" Type="Library" URL="../Source/DialogBox/KeypadDialogBox/KeypadDialogBox.lvlib"/>
-			</Item>
-			<Item Name="Mediator.lvlib" Type="Library" URL="../gpm_packages/@cs/mva-core/Source/Mediator/Mediator.lvlib"/>
-			<Item Name="PublicationPolicy.lvlib" Type="Library" URL="../gpm_packages/@cs/mva-core/Source/PublicationPolicy/PublicationPolicy.lvlib"/>
-			<Item Name="SubscriptionPolicy.lvlib" Type="Library" URL="../gpm_packages/@cs/mva-core/Source/SubscriptionPolicy/SubscriptionPolicy.lvlib"/>
-			<Item Name="IDialogBox.lvlib" Type="Library" URL="../Source/IDialogBox/IDialogBox.lvlib"/>
 		</Item>
 		<Item Name="GPM Packages" Type="Folder">
 			<Property Name="GPM" Type="Bool">true</Property>
@@ -465,7 +428,22 @@
 				</Item>
 			</Item>
 		</Item>
+		<Item Name="View Managers" Type="Folder">
+			<Item Name="LeftListboxViewManager.lvlib" Type="Library" URL="../Source/ViewManager/LeftListboxViewManager/LeftListboxViewManager.lvlib"/>
+			<Item Name="QuadViewManager.lvlib" Type="Library" URL="../Source/ViewManager/QuadViewManager/QuadViewManager.lvlib"/>
+			<Item Name="TabbedViewManager.lvlib" Type="Library" URL="../Source/ViewManager/TabbedViewManager/TabbedViewManager.lvlib"/>
+			<Item Name="BoundViewManager.lvlib" Type="Library" URL="../Source/ViewManager/BoundViewManager/BoundViewManager.lvlib"/>
+		</Item>
+		<Item Name="Dialog Boxes" Type="Folder">
+			<Item Name="OneButtonDialogBox.lvlib" Type="Library" URL="../Source/DialogBox/OneButtonDialogBox/OneButtonDialogBox.lvlib"/>
+			<Item Name="TwoButtonDialogBox.lvlib" Type="Library" URL="../Source/DialogBox/TwoButtonDialogBox/TwoButtonDialogBox.lvlib"/>
+			<Item Name="KeypadDialogBox.lvlib" Type="Library" URL="../Source/DialogBox/KeypadDialogBox/KeypadDialogBox.lvlib"/>
+		</Item>
 		<Item Name="Abstract MVA Application Template.vi" Type="VI" URL="../Source/Template/Abstract MVA Application Template.vi"/>
+		<Item Name="Mediator.lvlib" Type="Library" URL="../gpm_packages/@cs/mva-core/Source/Mediator/Mediator.lvlib"/>
+		<Item Name="PublicationPolicy.lvlib" Type="Library" URL="../gpm_packages/@cs/mva-core/Source/PublicationPolicy/PublicationPolicy.lvlib"/>
+		<Item Name="SubscriptionPolicy.lvlib" Type="Library" URL="../gpm_packages/@cs/mva-core/Source/SubscriptionPolicy/SubscriptionPolicy.lvlib"/>
+		<Item Name="IDialogBox.lvlib" Type="Library" URL="../Source/IDialogBox/IDialogBox.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Actor Framework.lvlib" Type="Library" URL="/&lt;vilib&gt;/ActorFramework/Actor Framework.lvlib"/>
@@ -751,7 +729,6 @@
 				<Item Name="Build Path - File Names Array - path__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Build Path - File Names Array - path__ogtk__jki_vi_tester.vi"/>
 				<Item Name="Build Path - File Names and Paths Arrays - path__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Build Path - File Names and Paths Arrays - path__ogtk__jki_vi_tester.vi"/>
 				<Item Name="Get LV Class Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Path.vi"/>
-				<Item Name="High Resolution Relative Seconds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/High Resolution Relative Seconds.vi"/>
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 				<Item Name="LVRowAndColumnUnsignedTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRowAndColumnUnsignedTypeDef.ctl"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
@@ -824,6 +801,8 @@
 			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Format Type String.vi" Type="VI" URL="../gpm_packages/@cs/mva-core/gpm_packages/@cs/variant/Source/Format Type String.vi"/>
+			<Item Name="TestModels.lvlib" Type="Library" URL="../Test/Doubles/TestModels.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
