@@ -43,6 +43,9 @@
 						<Item Name="RoundTripMessage" Type="Folder">
 							<Item Name="RoundTripMessage.lvclass" Type="LVClass" URL="../gpm_packages/@cs/actor-framework-messages/Source/RoundTripMessage/RoundTripMessage.lvclass"/>
 						</Item>
+						<Item Name="PriorityStopMessage" Type="Folder">
+							<Item Name="PriorityStopMessage.lvclass" Type="LVClass" URL="../gpm_packages/@cs/actor-framework-messages/Source/PriorityStopMessage/PriorityStopMessage.lvclass"/>
+						</Item>
 					</Item>
 					<Item Name="CHANGELOG.md" Type="Document" URL="../gpm_packages/@cs/actor-framework-messages/CHANGELOG.md"/>
 					<Item Name="gpackage.json" Type="Document" URL="../gpm_packages/@cs/actor-framework-messages/gpackage.json"/>
@@ -426,6 +429,13 @@
 					<Item Name="README.md" Type="Document" URL="../gpm_packages/@cs/mva-viewable/README.md"/>
 				</Item>
 			</Item>
+		</Item>
+		<Item Name="Concrete BusMonitors" Type="Folder">
+			<Item Name="Messages to ListboxBusMonitorPanel" Type="Folder">
+				<Item Name="Update Monitored Datum Msg.lvclass" Type="LVClass" URL="../Source/BusMonitor/ListboxBusMonitor/ListboxBusMonitorPanel Messages/Update Monitored Datum Msg/Update Monitored Datum Msg.lvclass"/>
+				<Item Name="Refresh Listbox Msg.lvclass" Type="LVClass" URL="../Source/BusMonitor/ListboxBusMonitor/ListboxBusMonitorPanel Messages/Refresh Listbox Msg/Refresh Listbox Msg.lvclass"/>
+			</Item>
+			<Item Name="ListboxBusMonitor.lvlib" Type="Library" URL="../Source/BusMonitor/ListboxBusMonitor/ListboxBusMonitor.lvlib"/>
 		</Item>
 		<Item Name="Concrete ViewManagers" Type="Folder">
 			<Item Name="LeftListboxViewManager.lvlib" Type="Library" URL="../Source/ViewManager/LeftListboxViewManager/LeftListboxViewManager.lvlib"/>

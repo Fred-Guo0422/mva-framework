@@ -8,7 +8,7 @@
 	"dependencies": {
 		"@cs/listbox": "^1.0.1",
 		"@cs/lookup-table": "^0.1.0",
-		"@cs/mva-viewable": "^0.1.3"
+		"@cs/mva-viewable": "^0.1.4"
 	},
 	"description": "An Actor-based Separation-of-Concerns framework (MVVM) for very cool LabVIEW developers",
 	"files": [
