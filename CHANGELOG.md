@@ -12,6 +12,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 ### Security
 
+## [3.0.0-alpha.0] - 2020-06-29
+#### * MAJOR UPDATE PRE-RELEASE *
+### Changed
+- Refactored framework to depend on dependency-inverted *mva-core* and *mva-viewable* packages. (*mva-framework* extends with concrete ViewManagers, concrete ListboxBusMonitor, IDialogBox, and dialog box implementations.)
+- MonitoredMediator decorates Mediator to allow monitoring. Use MonitoredMediator and inject a concrete bus monitor (e.g. ListboxBusMonitor) to monitor the data bus.
+- No public message API for showing bus monitor. (i.e. It is no longer the ViewModel's job to manage this.) Bus monitor constructor binds to published datum. ('Construct Listbox Bus Monitor.vi' establishes the binding.)
+- Viewable actors do not limit to launching one dialog box at a time (it is now the developer's option to enforce this rule if/when desired).
+
+### Added
+- Multiple bus monitors may be injected at application launch. (e.g. one that monitors data values and another that tracks publishers and subscriber counts.)
+- Bus monitors may now track number of subscribers to data (implementation in ListboxBusMonitor does not yet exist).
+
 ## [2.2.3] - 2019-09-12
 ### Fixed
 - Updated Transport dependency to fix returning unnecessary error when Observers request formatted strings with no format specifier

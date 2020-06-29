@@ -2,7 +2,7 @@
 	"author": {
 		"email": "ethan.stern@composed.io",
 		"name": "Ethan Stern",
-		"url": "www.composed.io"
+		"url": "https://www.composed.io"
 	},
 	"bugs": "https://bitbucket.org/composedsystems/mva-framework/issues/",
 	"dependencies": {
@@ -14,6 +14,7 @@
 	"files": [
 		"Source"
 	],
+	"homepage": "https://www.composed.io",
 	"keywords": [
 		"actor framework",
 		"mvvm",
@@ -29,5 +30,5 @@
 	"lvversion": ">=17",
 	"name": "@cs/mva-framework",
 	"repository": "https://bitbucket.org/composedsystems/mva-framework/src/",
-	"version": "2.2.3"
+	"version": "3.0.0-alpha.0"
 }
