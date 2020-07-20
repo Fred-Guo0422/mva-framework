@@ -6,5 +6,5 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="FlatEditButton.ctl" Type="VI" URL="../FlatEditButton.ctl"/>
 	<Item Name="FlatKeypadButton.ctl" Type="VI" URL="../FlatKeypadButton.ctl"/>
-	<Item Name="KeypadDialogBox.lvclass" Type="LVClass" URL="../KeypadDialogBox.lvclass"/>
+	<Item Name="NumericKeypadDialogBox.lvclass" Type="LVClass" URL="../NumericKeypadDialogBox.lvclass"/>
 </Library>

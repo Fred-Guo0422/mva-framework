@@ -4,7 +4,7 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">385908736</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
-	<Item Name="Messages to IDialogBox" Type="Folder">
+	<Item Name="IDialogBox Message Adapter" Type="Folder">
 		<Item Name="Dialog Return Msg.lvclass" Type="LVClass" URL="../IDialogBox Messages/Dialog Return Msg/Dialog Return Msg.lvclass"/>
 	</Item>
 	<Item Name="IDialogBox.lvclass" Type="LVClass" URL="../IDialogBox/IDialogBox.lvclass"/>

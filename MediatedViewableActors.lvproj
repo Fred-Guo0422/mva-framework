@@ -446,7 +446,7 @@
 		<Item Name="Dialog Box" Type="Folder">
 			<Item Name="OneButtonDialogBox.lvlib" Type="Library" URL="../Source/DialogBox/OneButtonDialogBox/OneButtonDialogBox.lvlib"/>
 			<Item Name="TwoButtonDialogBox.lvlib" Type="Library" URL="../Source/DialogBox/TwoButtonDialogBox/TwoButtonDialogBox.lvlib"/>
-			<Item Name="KeypadDialogBox.lvlib" Type="Library" URL="../Source/DialogBox/KeypadDialogBox/KeypadDialogBox.lvlib"/>
+			<Item Name="NumericKeypadDialogBox.lvlib" Type="Library" URL="../Source/DialogBox/NumericKeypadDialogBox/NumericKeypadDialogBox.lvlib"/>
 			<Item Name="IDialogBox.lvlib" Type="Library" URL="../Source/IDialogBox/IDialogBox.lvlib"/>
 		</Item>
 		<Item Name="Abstract MVA Application Template.vi" Type="VI" URL="../Source/Template/Abstract MVA Application Template.vi"/>
