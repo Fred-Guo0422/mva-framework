@@ -12,6 +12,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 ### Security
 
+## [3.0.0-alpha.1] - 2020-07-21
+### Added
+- Launch Dialog Box method for launching custom dialogs
+### Changed
+- Renamed KeypadDialogBox to NumericKeypadDialogBox
+
 ## [3.0.0-alpha.0] - 2020-06-29
 #### * MAJOR UPDATE PRE-RELEASE *
 ### Changed

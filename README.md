@@ -7,12 +7,11 @@ The MVA Framework is a separation of concerns framework (Model-View-ViewModel) t
 For a quick description of MVVM, see https://blogs.msdn.microsoft.com/dphill/2009/01/31/the-viewmodel-pattern/
 
 ### Important Features: ###
-s
 * Mediated data bus with *implicit* type safety (Subscribers request data by type)
 * Viewable class that provides nesting, launching, and event handling semantics
 * API for publish and subscribe to transport data with low coupling between models and views
 * Transport abstraction supports many subscription types and non-AF-actors (i.e. actors that are not built on the LabVIEW Actor Framework)
-* Policy-based subscriptions and publications to abstract behaviors of publishers and subscribers ("I want 'x' data of type DBL with these conditions...")
+* Policy-based subscriptions and publications to abstract behaviors of publishers and subscribers
 * Publication locks for exclusive publication
 * Verbose framework event logging via "ENABLE_FRAMEWORK_LOG" conditional flag when all other hope is lost.
 
@@ -29,6 +28,8 @@ s
 We have had trouble recently with the LabVIEW linker getting tied up with the relative path change that occurs when installing multi-level package dependencies. We (and others) are working on solutions to this problem. In the meantime, if you install the framework and it is broken, try running *gpm relink* or *gpm recompile* on your project directory from a command window. (*relink* operates only on the gpm_packages folder, *recompile* operates on your whole project in a more intelligent way than a mass compile.)
 
 Dependencies that will be automatically installed by GPM:
+* @cs/mva-core (core framework components for meditation and observation)
+* @cs/mva-viewable (extends core with views and view-model)
 * @cs/actor-framework-messages (used to implement framework messages)
 * @cs/event-logger (for framework debug event logging)
 * @cs/listbox (used by mediator bus monitor UI)
