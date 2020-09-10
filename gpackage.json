@@ -8,6 +8,7 @@
 	"dependencies": {
 		"@cs/listbox": "^1.0.1",
 		"@cs/lookup-table": "^0.1.0",
+		"@cs/mva-core": "^0.5.0",
 		"@cs/mva-viewable": "^0.1.4"
 	},
 	"description": "An Actor-based Separation-of-Concerns framework (MVVM) for very cool LabVIEW developers",
@@ -30,5 +31,5 @@
 	"lvversion": ">=17",
 	"name": "@cs/mva-framework",
 	"repository": "https://bitbucket.org/composedsystems/mva-framework/src/",
-	"version": "3.0.0-alpha.1"
+	"version": "3.0.0-alpha.2"
 }

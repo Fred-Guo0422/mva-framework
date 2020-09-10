@@ -12,6 +12,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 ### Security
 
+## [3.0.0-alpha.2] - 2020-09-10
+### Fixed
+- Launch Dialog Box now launches all dialogs with valid Observer message set (so they can subscribe)
+### Changed
+- Reworked error shutdown semantics for consistency with Actor Framework (mva-core version updated to 0.5.0)
+
 ## [3.0.0-alpha.1] - 2020-07-21
 ### Added
 - Launch Dialog Box method for launching custom dialogs
