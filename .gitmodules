@@ -1,0 +1,24 @@
+[submodule "modules/composed-af-messages"]
+	path = modules/composed-af-messages
+	url = https://bitbucket.org/composedsystems/composed-af-messages
+[submodule "modules/composed-event-logger"]
+	path = modules/composed-event-logger
+	url = https://bitbucket.org/composedsystems/composed-event-logger
+[submodule "modules/composed-lookup-table"]
+	path = modules/composed-lookup-table
+	url = https://bitbucket.org/composedsystems/composed-lookup-table
+[submodule "modules/composed-transport"]
+	path = modules/composed-transport
+	url = https://bitbucket.org/composedsystems/composed-transport
+[submodule "modules/listbox-extensions"]
+	path = modules/listbox-extensions
+	url = https://bitbucket.org/composedsystems/listbox-extensions
+[submodule "modules/mva-core"]
+	path = modules/mva-core
+	url = https://bitbucket.org/composedsystems/mva-core
+[submodule "modules/mva-viewable"]
+	path = modules/mva-viewable
+	url = https://bitbucket.org/composedsystems/mva-viewable
+[submodule "modules/variant-extensions"]
+	path = modules/variant-extensions
+	url = https://bitbucket.org/composedsystems/variant-extensions
