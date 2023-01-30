@@ -18,24 +18,25 @@ For a quick description of MVVM, see https://blogs.msdn.microsoft.com/dphill/200
 ### How do I get set up? ###
 
 #### Framework
-* Install the framework and its dependencies using G Package Manager (https://gpackage.io)
+* Install the framework and its dependencies as Git submodules.
+From the cmd line: <at app root dir> git submodule init --checkout
 
 #### Examples
-* The best example is currently available as an add-on G Package. Search GPM for "@cs/carwash".
-* Some older getting started examples are just waiting in their old bitbucket repo to be ported to GPM. (So bug me about it if you care)
+* The bitbucket mva-carwash example is out of date as of this writing (2023-01-30) because it depends on 2.0 (or earlier). Ask us to fix it, if you think it would be helpful.
+* Some simpler getting started examples are at https://bitbucket.org/composedsystems/mva-framework-examples/
 
 #### Dependencies
-We have had trouble recently with the LabVIEW linker getting tied up with the relative path change that occurs when installing multi-level package dependencies. We (and others) are working on solutions to this problem. In the meantime, if you install the framework and it is broken, try running *gpm relink* or *gpm recompile* on your project directory from a command window. (*relink* operates only on the gpm_packages folder, *recompile* operates on your whole project in a more intelligent way than a mass compile.)
+We have had trouble recently with the LabVIEW linker getting tied up with the relative path change that occurs when installing multi-level package dependencies. We (and others) are working on solutions to this problem. In the meantime, you can try mass compiling or manually resolving dependencies. If you get stuck on this, ask for help and we will try to provide it.
 
-Dependencies that will be automatically installed by GPM:
-* @cs/mva-core (core framework components for meditation and observation)
-* @cs/mva-viewable (extends core with views and view-model)
-* @cs/actor-framework-messages (used to implement framework messages)
-* @cs/event-logger (for framework debug event logging)
-* @cs/listbox (used by mediator bus monitor UI)
-* @cs/lookup-table (used multiple places)
-* @cs/transport (data transport abstraction used in mediation)
-* @cs/variant (used in mediation to format unique and human-readable data types)
+Git submodule dependencies:
+* mva-core (core framework components for meditation and observation)
+* mva-viewable (extends core with views and view-model)
+* composed-af-messages (used to implement framework messages)
+* composed-event-logger (for framework debug event logging)
+* listbox-extensions (used by mediator bus monitor UI)
+* composed-lookup-table (used multiple places)
+* composed-transport (data transport abstraction used in mediation)
+* variant-extensions (used in mediation to format unique and human-readable data types)
 
 ### Contribution guidelines ###
 * Please report issues, bugs, and suggestions using the linked issue tracker.

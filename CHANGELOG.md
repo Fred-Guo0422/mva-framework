@@ -12,6 +12,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 ### Security
 
+## [3.0.0] - 2023-01-30
+### Changed
+- Framework now declares its dependencies in the Git way, as submodules (see https://git-scm.com/docs/git-submodule)
+- Moved application template out of 'Source' folder to prevent nasty business when snapshotting into a new project (scripted or otherwise).
+
 ## [3.0.0-alpha.2] - 2020-09-10
 ### Fixed
 - Launch Dialog Box now launches all dialogs with valid Observer message set (so they can subscribe)
